@@ -8,8 +8,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-10",
+   "self_type" : "type-10",
    "size" : 1
   },
   {
@@ -18,8 +18,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-77",
-   "self_type" : "type-77",
+   "referenced_type" : "type-81",
+   "self_type" : "type-81",
    "size" : 1
   },
   {
@@ -28,24 +28,24 @@
    "is_unsigned" : true,
    "linker_set_key" : "char16_t",
    "name" : "char16_t",
-   "referenced_type" : "type-46",
-   "self_type" : "type-46",
+   "referenced_type" : "type-4",
+   "self_type" : "type-4",
    "size" : 2
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-36",
-   "self_type" : "type-36",
+   "referenced_type" : "type-45",
+   "self_type" : "type-45",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-29",
-   "self_type" : "type-29",
+   "referenced_type" : "type-37",
+   "self_type" : "type-37",
    "size" : 4
   },
   {
@@ -53,8 +53,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-13",
+   "self_type" : "type-13",
    "size" : 4
   },
   {
@@ -62,8 +62,8 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-19",
-   "self_type" : "type-19",
+   "referenced_type" : "type-25",
+   "self_type" : "type-25",
    "size" : 8
   },
   {
@@ -71,8 +71,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-51",
-   "self_type" : "type-51",
+   "referenced_type" : "type-7",
+   "self_type" : "type-7",
    "size" : 1
   },
   {
@@ -81,8 +81,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned int",
    "name" : "unsigned int",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
+   "referenced_type" : "type-20",
+   "self_type" : "type-20",
    "size" : 4
   },
   {
@@ -91,15 +91,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-24",
-   "self_type" : "type-24",
+   "referenced_type" : "type-30",
+   "self_type" : "type-30",
    "size" : 8
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6"
+   "referenced_type" : "type-12",
+   "self_type" : "type-12"
   }
  ],
  "elf_functions" :
@@ -228,6 +228,9 @@
    "name" : "AParcel_readParcelFileDescriptor"
   },
   {
+   "name" : "AParcel_readParcelableArray"
+  },
+  {
    "name" : "AParcel_readStatusHeader"
   },
   {
@@ -300,6 +303,9 @@
    "name" : "AParcel_writeParcelFileDescriptor"
   },
   {
+   "name" : "AParcel_writeParcelableArray"
+  },
+  {
    "name" : "AParcel_writeStatusHeader"
   },
   {
@@ -366,23 +372,44 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "const char *(const void *, unsigned long, unsigned long *)",
-   "name" : "const char *(const void *, unsigned long, unsigned long *)",
+   "linker_set_key" : "bool (void *, int, char **)",
+   "name" : "bool (void *, int, char **)",
    "parameters" :
    [
     {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-13"
+    },
+    {
      "referenced_type" : "type-101"
-    },
-    {
-     "referenced_type" : "type-24"
-    },
-    {
-     "referenced_type" : "type-23"
     }
    ],
-   "referenced_type" : "type-102",
-   "return_type" : "type-81",
-   "self_type" : "type-102",
+   "referenced_type" : "type-100",
+   "return_type" : "type-10",
+   "self_type" : "type-100",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const char *(const void *, unsigned long, int *)",
+   "name" : "const char *(const void *, unsigned long, int *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-105"
+    },
+    {
+     "referenced_type" : "type-30"
+    },
+    {
+     "referenced_type" : "type-15"
+    }
+   ],
+   "referenced_type" : "type-106",
+   "return_type" : "type-85",
+   "self_type" : "type-106",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -392,15 +419,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "referenced_type" : "type-107",
-   "return_type" : "type-4",
-   "self_type" : "type-107",
+   "referenced_type" : "type-111",
+   "return_type" : "type-10",
+   "self_type" : "type-111",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -410,42 +437,63 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-30"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-97"
+     "referenced_type" : "type-101"
     }
    ],
-   "referenced_type" : "type-109",
-   "return_type" : "type-4",
-   "self_type" : "type-109",
+   "referenced_type" : "type-113",
+   "return_type" : "type-10",
+   "self_type" : "type-113",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "bool (void *, int, unsigned int **)",
-   "name" : "bool (void *, int, unsigned int **)",
+   "linker_set_key" : "int (AParcel *, const void *, unsigned long)",
+   "name" : "int (AParcel *, const void *, unsigned long)",
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-105"
     },
     {
-     "referenced_type" : "type-12"
+     "referenced_type" : "type-30"
     }
    ],
-   "referenced_type" : "type-11",
-   "return_type" : "type-4",
-   "self_type" : "type-11",
+   "referenced_type" : "type-115",
+   "return_type" : "type-13",
+   "self_type" : "type-115",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "int (const AParcel *, void *, unsigned long)",
+   "name" : "int (const AParcel *, void *, unsigned long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-118"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-30"
+    }
+   ],
+   "referenced_type" : "type-117",
+   "return_type" : "type-13",
+   "self_type" : "type-117",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -455,15 +503,36 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-101"
+     "referenced_type" : "type-105"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-30"
     }
    ],
-   "referenced_type" : "type-127",
-   "return_type" : "type-4",
-   "self_type" : "type-127",
+   "referenced_type" : "type-135",
+   "return_type" : "type-10",
+   "self_type" : "type-135",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "bool (void *, int, unsigned int **)",
+   "name" : "bool (void *, int, unsigned int **)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-13"
+    },
+    {
+     "referenced_type" : "type-18"
+    }
+   ],
+   "referenced_type" : "type-17",
+   "return_type" : "type-10",
+   "self_type" : "type-17",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -473,18 +542,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-23"
     }
    ],
-   "referenced_type" : "type-16",
-   "return_type" : "type-4",
-   "self_type" : "type-16",
+   "referenced_type" : "type-22",
+   "return_type" : "type-10",
+   "self_type" : "type-22",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -494,18 +563,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-28"
     }
    ],
-   "referenced_type" : "type-21",
-   "return_type" : "type-4",
-   "self_type" : "type-21",
+   "referenced_type" : "type-27",
+   "return_type" : "type-10",
+   "self_type" : "type-27",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -515,39 +584,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "type-35"
     }
    ],
-   "referenced_type" : "type-26",
-   "return_type" : "type-4",
-   "self_type" : "type-26",
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (void *, int, int **)",
-   "name" : "bool (void *, int, int **)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-5"
-    },
-    {
-     "referenced_type" : "type-7"
-    },
-    {
-     "referenced_type" : "type-8"
-    }
-   ],
-   "referenced_type" : "type-3",
-   "return_type" : "type-4",
-   "self_type" : "type-3",
+   "referenced_type" : "type-34",
+   "return_type" : "type-10",
+   "self_type" : "type-34",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -557,18 +605,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-43"
     }
    ],
-   "referenced_type" : "type-33",
-   "return_type" : "type-4",
-   "self_type" : "type-33",
+   "referenced_type" : "type-42",
+   "return_type" : "type-10",
+   "self_type" : "type-42",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -578,18 +626,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-30"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "type-10"
     }
    ],
-   "referenced_type" : "type-41",
-   "return_type" : "type-6",
-   "self_type" : "type-41",
+   "referenced_type" : "type-47",
+   "return_type" : "type-12",
+   "self_type" : "type-47",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -599,18 +647,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-44"
+     "referenced_type" : "type-51"
     }
    ],
-   "referenced_type" : "type-43",
-   "return_type" : "type-4",
-   "self_type" : "type-43",
+   "referenced_type" : "type-50",
+   "return_type" : "type-10",
+   "self_type" : "type-50",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -620,18 +668,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-49"
+     "referenced_type" : "type-55"
     }
    ],
-   "referenced_type" : "type-48",
-   "return_type" : "type-4",
-   "self_type" : "type-48",
+   "referenced_type" : "type-54",
+   "return_type" : "type-10",
+   "self_type" : "type-54",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -641,21 +689,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-20"
     },
     {
      "referenced_type" : "type-38"
     },
     {
-     "referenced_type" : "type-61"
+     "referenced_type" : "type-65"
     }
    ],
-   "referenced_type" : "type-64",
-   "return_type" : "type-7",
-   "self_type" : "type-64",
+   "referenced_type" : "type-68",
+   "return_type" : "type-13",
+   "self_type" : "type-68",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -665,12 +713,12 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-78",
-   "return_type" : "type-6",
-   "self_type" : "type-78",
+   "referenced_type" : "type-82",
+   "return_type" : "type-12",
+   "self_type" : "type-82",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -680,33 +728,33 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-82",
-   "return_type" : "type-5",
-   "self_type" : "type-82",
+   "referenced_type" : "type-86",
+   "return_type" : "type-11",
+   "self_type" : "type-86",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "bool (void *, int, char **)",
-   "name" : "bool (void *, int, char **)",
+   "linker_set_key" : "bool (void *, int, int **)",
+   "name" : "bool (void *, int, int **)",
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-97"
+     "referenced_type" : "type-14"
     }
    ],
-   "referenced_type" : "type-96",
-   "return_type" : "type-4",
-   "self_type" : "type-96",
+   "referenced_type" : "type-9",
+   "return_type" : "type-10",
+   "self_type" : "type-9",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   }
  ],
@@ -718,16 +766,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-85"
     },
     {
-     "referenced_type" : "type-83"
+     "referenced_type" : "type-87"
     },
     {
-     "referenced_type" : "type-103"
+     "referenced_type" : "type-108"
     },
     {
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-67"
     }
    ],
    "return_type" : "type-1",
@@ -739,10 +787,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-77"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -751,10 +799,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-103"
+     "referenced_type" : "type-108"
     }
    ],
-   "return_type" : "type-73",
+   "return_type" : "type-77",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -763,10 +811,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -775,10 +823,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-79",
+   "return_type" : "type-83",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -787,10 +835,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     }
    ],
-   "return_type" : "type-65",
+   "return_type" : "type-69",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -799,13 +847,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-69"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "type-10",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -814,10 +862,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -826,10 +874,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -838,25 +886,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-86"
+     "referenced_type" : "type-90"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-92"
     }
    ],
-   "return_type" : "type-84",
+   "return_type" : "type-88",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
   },
   {
    "function_name" : "AIBinder_getCallingPid",
    "linker_set_key" : "AIBinder_getCallingPid",
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "function_name" : "AIBinder_getCallingUid",
    "linker_set_key" : "AIBinder_getCallingUid",
-   "return_type" : "type-14",
+   "return_type" : "type-20",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -865,10 +913,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-69",
+   "return_type" : "type-73",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -877,10 +925,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "type-11",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -889,10 +937,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -901,10 +949,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-72"
+     "referenced_type" : "type-76"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "type-10",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -913,10 +961,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-72"
+     "referenced_type" : "type-76"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "type-10",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -925,16 +973,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-77"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -943,13 +991,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-69"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-65",
+   "return_type" : "type-69",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -958,10 +1006,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -970,13 +1018,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-79"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -985,13 +1033,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-86"
+     "referenced_type" : "type-90"
     },
     {
-     "referenced_type" : "type-84"
+     "referenced_type" : "type-88"
     }
    ],
-   "return_type" : "type-88",
+   "return_type" : "type-92",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
   },
   {
@@ -1000,22 +1048,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-20"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-79"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-79"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-20"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -1024,16 +1072,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-77"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -1042,10 +1090,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1054,10 +1102,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1066,13 +1114,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-111"
+     "referenced_type" : "type-122"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1081,19 +1129,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-112"
     },
     {
-     "referenced_type" : "type-42"
+     "referenced_type" : "type-48"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1102,13 +1150,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-56"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1117,16 +1165,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-57"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1135,13 +1183,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-52"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1150,16 +1198,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-53"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1168,13 +1216,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-44"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1183,16 +1231,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-46"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1201,13 +1249,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-36"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1216,16 +1264,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-30"
+     "referenced_type" : "type-41"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1234,13 +1282,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-15"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1249,16 +1297,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-16"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1267,13 +1315,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-24"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1282,16 +1330,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-20"
+     "referenced_type" : "type-26"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1300,13 +1348,34 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-15"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_readParcelableArray",
+   "linker_set_key" : "AParcel_readParcelableArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-118"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-112"
+    },
+    {
+     "referenced_type" : "type-121"
+    }
+   ],
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1315,13 +1384,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-95"
+     "referenced_type" : "type-99"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1330,16 +1399,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-99"
+     "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1348,19 +1417,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-112"
     },
     {
-     "referenced_type" : "type-110"
+     "referenced_type" : "type-114"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1369,13 +1438,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-49"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1384,13 +1453,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-19"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1399,16 +1468,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-21"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1417,13 +1486,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-29"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1432,16 +1501,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-25"
+     "referenced_type" : "type-33"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1450,13 +1519,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1465,13 +1534,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1480,19 +1549,19 @@
    "parameters" :
    [
     {
+     "referenced_type" : "type-109"
+    },
+    {
      "referenced_type" : "type-105"
     },
     {
-     "referenced_type" : "type-101"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-7"
-    },
-    {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-136"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1501,13 +1570,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-7"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1516,16 +1585,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-132"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1534,13 +1603,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-4"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1549,16 +1618,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-130"
+     "referenced_type" : "type-5"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1567,13 +1636,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1582,16 +1651,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-125"
+     "referenced_type" : "type-134"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1600,13 +1669,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-29"
+     "referenced_type" : "type-37"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1615,16 +1684,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-123"
+     "referenced_type" : "type-132"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1633,13 +1702,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1648,16 +1717,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-113"
+     "referenced_type" : "type-124"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1666,13 +1735,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1681,16 +1750,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-119"
+     "referenced_type" : "type-128"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1699,13 +1768,34 @@
    "parameters" :
    [
     {
+     "referenced_type" : "type-109"
+    },
+    {
+     "referenced_type" : "type-13"
+    }
+   ],
+   "return_type" : "type-13",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_writeParcelableArray",
+   "linker_set_key" : "AParcel_writeParcelableArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-109"
+    },
+    {
      "referenced_type" : "type-105"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
+    },
+    {
+     "referenced_type" : "type-116"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1714,13 +1804,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-92"
+     "referenced_type" : "type-96"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1729,16 +1819,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-85"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1747,19 +1837,19 @@
    "parameters" :
    [
     {
+     "referenced_type" : "type-109"
+    },
+    {
      "referenced_type" : "type-105"
     },
     {
-     "referenced_type" : "type-101"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-7"
-    },
-    {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-107"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1768,13 +1858,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
      "referenced_type" : "type-31"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1783,13 +1873,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-20"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1798,16 +1888,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-126"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1816,13 +1906,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-30"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1831,16 +1921,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-109"
     },
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-130"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -1849,10 +1939,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-58"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1861,10 +1951,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1873,13 +1963,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-85"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1888,10 +1978,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1900,13 +1990,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-85"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1915,10 +2005,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1927,10 +2017,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-62"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1939,10 +2029,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-62"
     }
    ],
-   "return_type" : "type-81",
+   "return_type" : "type-85",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1951,10 +2041,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-62"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1963,10 +2053,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-62"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-13",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
@@ -1975,16 +2065,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-62"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "type-10",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
    "function_name" : "AStatus_newOk",
    "linker_set_key" : "AStatus_newOk",
-   "return_type" : "type-54",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   }
  ],
@@ -1994,19 +2084,46 @@
  [
   {
    "alignment" : 8,
-   "linker_set_key" : "const void *",
-   "name" : "const void *",
+   "linker_set_key" : "bool *",
+   "name" : "bool *",
+   "referenced_type" : "type-10",
+   "self_type" : "type-122",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "bool (*)(void *, int, char **)",
+   "name" : "bool (*)(void *, int, char **)",
    "referenced_type" : "type-100",
+   "self_type" : "type-103",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "char **",
+   "name" : "char **",
+   "referenced_type" : "type-102",
    "self_type" : "type-101",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const char *(*)(const void *, unsigned long, unsigned long *)",
-   "name" : "const char *(*)(const void *, unsigned long, unsigned long *)",
-   "referenced_type" : "type-102",
-   "self_type" : "type-104",
+   "linker_set_key" : "const void *",
+   "name" : "const void *",
+   "referenced_type" : "type-104",
+   "self_type" : "type-105",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const char *(*)(const void *, unsigned long, int *)",
+   "name" : "const char *(*)(const void *, unsigned long, int *)",
+   "referenced_type" : "type-106",
+   "self_type" : "type-107",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2014,8 +2131,8 @@
    "alignment" : 8,
    "linker_set_key" : "AParcel *",
    "name" : "AParcel *",
-   "referenced_type" : "type-106",
-   "self_type" : "type-105",
+   "referenced_type" : "type-110",
+   "self_type" : "type-109",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2023,8 +2140,8 @@
    "alignment" : 8,
    "linker_set_key" : "bool (*)(void *, int)",
    "name" : "bool (*)(void *, int)",
-   "referenced_type" : "type-107",
-   "self_type" : "type-108",
+   "referenced_type" : "type-111",
+   "self_type" : "type-112",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2032,26 +2149,26 @@
    "alignment" : 8,
    "linker_set_key" : "bool (*)(void *, unsigned long, int, char **)",
    "name" : "bool (*)(void *, unsigned long, int, char **)",
-   "referenced_type" : "type-109",
-   "self_type" : "type-110",
+   "referenced_type" : "type-113",
+   "self_type" : "type-114",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, unsigned int **)",
-   "name" : "bool (*)(void *, int, unsigned int **)",
-   "referenced_type" : "type-11",
-   "self_type" : "type-15",
+   "linker_set_key" : "int (*)(AParcel *, const void *, unsigned long)",
+   "name" : "int (*)(AParcel *, const void *, unsigned long)",
+   "referenced_type" : "type-115",
+   "self_type" : "type-116",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const int *",
-   "name" : "const int *",
-   "referenced_type" : "type-112",
-   "self_type" : "type-113",
+   "linker_set_key" : "int (*)(const AParcel *, void *, unsigned long)",
+   "name" : "int (*)(const AParcel *, void *, unsigned long)",
+   "referenced_type" : "type-117",
+   "self_type" : "type-121",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2059,8 +2176,26 @@
    "alignment" : 8,
    "linker_set_key" : "const AParcel *",
    "name" : "const AParcel *",
-   "referenced_type" : "type-114",
-   "self_type" : "type-126",
+   "referenced_type" : "type-119",
+   "self_type" : "type-118",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "void *",
+   "name" : "void *",
+   "referenced_type" : "type-12",
+   "self_type" : "type-11",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const int *",
+   "name" : "const int *",
+   "referenced_type" : "type-123",
+   "self_type" : "type-124",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2068,8 +2203,8 @@
    "alignment" : 8,
    "linker_set_key" : "const unsigned int *",
    "name" : "const unsigned int *",
-   "referenced_type" : "type-116",
-   "self_type" : "type-117",
+   "referenced_type" : "type-125",
+   "self_type" : "type-126",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2077,42 +2212,6 @@
    "alignment" : 8,
    "linker_set_key" : "const long *",
    "name" : "const long *",
-   "referenced_type" : "type-118",
-   "self_type" : "type-119",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const unsigned long *",
-   "name" : "const unsigned long *",
-   "referenced_type" : "type-120",
-   "self_type" : "type-121",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const float *",
-   "name" : "const float *",
-   "referenced_type" : "type-122",
-   "self_type" : "type-123",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const double *",
-   "name" : "const double *",
-   "referenced_type" : "type-124",
-   "self_type" : "type-125",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "bool (*)(const void *, unsigned long)",
-   "name" : "bool (*)(const void *, unsigned long)",
    "referenced_type" : "type-127",
    "self_type" : "type-128",
    "size" : 8,
@@ -2120,8 +2219,8 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const char16_t *",
-   "name" : "const char16_t *",
+   "linker_set_key" : "const unsigned long *",
+   "name" : "const unsigned long *",
    "referenced_type" : "type-129",
    "self_type" : "type-130",
    "size" : 8,
@@ -2129,17 +2228,17 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "unsigned int **",
-   "name" : "unsigned int **",
+   "linker_set_key" : "int *",
+   "name" : "int *",
    "referenced_type" : "type-13",
-   "self_type" : "type-12",
+   "self_type" : "type-15",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const signed char *",
-   "name" : "const signed char *",
+   "linker_set_key" : "const float *",
+   "name" : "const float *",
    "referenced_type" : "type-131",
    "self_type" : "type-132",
    "size" : 8,
@@ -2147,35 +2246,44 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "unsigned int *",
-   "name" : "unsigned int *",
-   "referenced_type" : "type-14",
-   "self_type" : "type-13",
+   "linker_set_key" : "const double *",
+   "name" : "const double *",
+   "referenced_type" : "type-133",
+   "self_type" : "type-134",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, long **)",
-   "name" : "bool (*)(void *, int, long **)",
-   "referenced_type" : "type-16",
-   "self_type" : "type-20",
+   "linker_set_key" : "bool (*)(const void *, unsigned long)",
+   "name" : "bool (*)(const void *, unsigned long)",
+   "referenced_type" : "type-135",
+   "self_type" : "type-136",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "long **",
-   "name" : "long **",
-   "referenced_type" : "type-18",
-   "self_type" : "type-17",
+   "linker_set_key" : "int **",
+   "name" : "int **",
+   "referenced_type" : "type-15",
+   "self_type" : "type-14",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "long *",
-   "name" : "long *",
+   "linker_set_key" : "bool (*)(void *, int, unsigned int **)",
+   "name" : "bool (*)(void *, int, unsigned int **)",
+   "referenced_type" : "type-17",
+   "self_type" : "type-21",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "unsigned int **",
+   "name" : "unsigned int **",
    "referenced_type" : "type-19",
    "self_type" : "type-18",
    "size" : 8,
@@ -2192,26 +2300,26 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, unsigned long **)",
-   "name" : "bool (*)(void *, int, unsigned long **)",
-   "referenced_type" : "type-21",
-   "self_type" : "type-25",
+   "linker_set_key" : "unsigned int *",
+   "name" : "unsigned int *",
+   "referenced_type" : "type-20",
+   "self_type" : "type-19",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "unsigned long **",
-   "name" : "unsigned long **",
-   "referenced_type" : "type-23",
-   "self_type" : "type-22",
+   "linker_set_key" : "bool (*)(void *, int, long **)",
+   "name" : "bool (*)(void *, int, long **)",
+   "referenced_type" : "type-22",
+   "self_type" : "type-26",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "unsigned long *",
-   "name" : "unsigned long *",
+   "linker_set_key" : "long **",
+   "name" : "long **",
    "referenced_type" : "type-24",
    "self_type" : "type-23",
    "size" : 8,
@@ -2219,26 +2327,26 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, float **)",
-   "name" : "bool (*)(void *, int, float **)",
-   "referenced_type" : "type-26",
-   "self_type" : "type-30",
+   "linker_set_key" : "long *",
+   "name" : "long *",
+   "referenced_type" : "type-25",
+   "self_type" : "type-24",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "float **",
-   "name" : "float **",
-   "referenced_type" : "type-28",
-   "self_type" : "type-27",
+   "linker_set_key" : "bool (*)(void *, int, unsigned long **)",
+   "name" : "bool (*)(void *, int, unsigned long **)",
+   "referenced_type" : "type-27",
+   "self_type" : "type-33",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "float *",
-   "name" : "float *",
+   "linker_set_key" : "unsigned long **",
+   "name" : "unsigned long **",
    "referenced_type" : "type-29",
    "self_type" : "type-28",
    "size" : 8,
@@ -2246,10 +2354,19 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, int **)",
-   "name" : "bool (*)(void *, int, int **)",
+   "linker_set_key" : "const char16_t *",
+   "name" : "const char16_t *",
    "referenced_type" : "type-3",
-   "self_type" : "type-10",
+   "self_type" : "type-5",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "unsigned long *",
+   "name" : "unsigned long *",
+   "referenced_type" : "type-30",
+   "self_type" : "type-29",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2258,7 +2375,7 @@
    "linker_set_key" : "AIBinder **",
    "name" : "AIBinder **",
    "referenced_type" : "type-31",
-   "self_type" : "type-52",
+   "self_type" : "type-49",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2273,28 +2390,28 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, double **)",
-   "name" : "bool (*)(void *, int, double **)",
-   "referenced_type" : "type-33",
-   "self_type" : "type-37",
+   "linker_set_key" : "bool (*)(void *, int, float **)",
+   "name" : "bool (*)(void *, int, float **)",
+   "referenced_type" : "type-34",
+   "self_type" : "type-41",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "double **",
-   "name" : "double **",
-   "referenced_type" : "type-35",
-   "self_type" : "type-34",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "double *",
-   "name" : "double *",
+   "linker_set_key" : "float **",
+   "name" : "float **",
    "referenced_type" : "type-36",
    "self_type" : "type-35",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "float *",
+   "name" : "float *",
+   "referenced_type" : "type-37",
+   "self_type" : "type-36",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2309,35 +2426,35 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool *",
-   "name" : "bool *",
+   "linker_set_key" : "char16_t *",
+   "name" : "char16_t *",
    "referenced_type" : "type-4",
-   "self_type" : "type-111",
+   "self_type" : "type-52",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "void (*)(void *, unsigned long, bool)",
-   "name" : "void (*)(void *, unsigned long, bool)",
-   "referenced_type" : "type-41",
-   "self_type" : "type-42",
+   "linker_set_key" : "bool (*)(void *, int, double **)",
+   "name" : "bool (*)(void *, int, double **)",
+   "referenced_type" : "type-42",
+   "self_type" : "type-46",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, char16_t **)",
-   "name" : "bool (*)(void *, int, char16_t **)",
-   "referenced_type" : "type-43",
-   "self_type" : "type-47",
+   "linker_set_key" : "double **",
+   "name" : "double **",
+   "referenced_type" : "type-44",
+   "self_type" : "type-43",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "char16_t **",
-   "name" : "char16_t **",
+   "linker_set_key" : "double *",
+   "name" : "double *",
    "referenced_type" : "type-45",
    "self_type" : "type-44",
    "size" : 8,
@@ -2345,10 +2462,28 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "char16_t *",
-   "name" : "char16_t *",
-   "referenced_type" : "type-46",
-   "self_type" : "type-45",
+   "linker_set_key" : "void (*)(void *, unsigned long, bool)",
+   "name" : "void (*)(void *, unsigned long, bool)",
+   "referenced_type" : "type-47",
+   "self_type" : "type-48",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "bool (*)(void *, int, char16_t **)",
+   "name" : "bool (*)(void *, int, char16_t **)",
+   "referenced_type" : "type-50",
+   "self_type" : "type-53",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "char16_t **",
+   "name" : "char16_t **",
+   "referenced_type" : "type-52",
+   "self_type" : "type-51",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2356,8 +2491,8 @@
    "alignment" : 8,
    "linker_set_key" : "bool (*)(void *, int, signed char **)",
    "name" : "bool (*)(void *, int, signed char **)",
-   "referenced_type" : "type-48",
-   "self_type" : "type-53",
+   "referenced_type" : "type-54",
+   "self_type" : "type-57",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2365,17 +2500,8 @@
    "alignment" : 8,
    "linker_set_key" : "signed char **",
    "name" : "signed char **",
-   "referenced_type" : "type-50",
-   "self_type" : "type-49",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "signed char *",
-   "name" : "signed char *",
-   "referenced_type" : "type-51",
-   "self_type" : "type-50",
+   "referenced_type" : "type-56",
+   "self_type" : "type-55",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2383,187 +2509,16 @@
    "alignment" : 8,
    "linker_set_key" : "AStatus *",
    "name" : "AStatus *",
-   "referenced_type" : "type-55",
-   "self_type" : "type-54",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const AStatus *",
-   "name" : "const AStatus *",
-   "referenced_type" : "type-56",
+   "referenced_type" : "type-59",
    "self_type" : "type-58",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "void *",
-   "name" : "void *",
+   "linker_set_key" : "const signed char *",
+   "name" : "const signed char *",
    "referenced_type" : "type-6",
-   "self_type" : "type-5",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AIBinder *",
-   "name" : "AIBinder *",
-   "referenced_type" : "type-60",
-   "self_type" : "type-59",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_apex/android/binder_manager.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AParcel **",
-   "name" : "AParcel **",
-   "referenced_type" : "type-61",
-   "self_type" : "type-75",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AParcel *",
-   "name" : "AParcel *",
-   "referenced_type" : "type-62",
-   "self_type" : "type-61",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "int (*)(AIBinder *, unsigned int, const AParcel *, AParcel *)",
-   "name" : "int (*)(AIBinder *, unsigned int, const AParcel *, AParcel *)",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AIBinder *",
-   "name" : "AIBinder *",
-   "referenced_type" : "type-66",
-   "self_type" : "type-65",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const AIBinder_Class *",
-   "name" : "const AIBinder_Class *",
-   "referenced_type" : "type-67",
-   "self_type" : "type-69",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "int *",
-   "name" : "int *",
-   "referenced_type" : "type-7",
-   "self_type" : "type-9",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const AIBinder *",
-   "name" : "const AIBinder *",
-   "referenced_type" : "type-70",
-   "self_type" : "type-72",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AIBinder_DeathRecipient *",
-   "name" : "AIBinder_DeathRecipient *",
-   "referenced_type" : "type-74",
-   "self_type" : "type-73",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const char *",
-   "name" : "const char *",
-   "referenced_type" : "type-76",
-   "self_type" : "type-81",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "char *",
-   "name" : "char *",
-   "referenced_type" : "type-77",
-   "self_type" : "type-98",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "void (*)(void *)",
-   "name" : "void (*)(void *)",
-   "referenced_type" : "type-78",
-   "self_type" : "type-103",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AIBinder_Weak *",
-   "name" : "AIBinder_Weak *",
-   "referenced_type" : "type-80",
-   "self_type" : "type-79",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "void *(*)(void *)",
-   "name" : "void *(*)(void *)",
-   "referenced_type" : "type-82",
-   "self_type" : "type-83",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "AIBinder *",
-   "name" : "AIBinder *",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_JNIEnv *",
-   "name" : "_JNIEnv *",
-   "referenced_type" : "type-87",
-   "self_type" : "type-86",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_jobject *",
-   "name" : "_jobject *",
-   "referenced_type" : "type-89",
-   "self_type" : "type-88",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "int **",
-   "name" : "int **",
-   "referenced_type" : "type-9",
    "self_type" : "type-8",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
@@ -2572,8 +2527,179 @@
    "alignment" : 8,
    "linker_set_key" : "const AStatus *",
    "name" : "const AStatus *",
-   "referenced_type" : "type-90",
+   "referenced_type" : "type-60",
+   "self_type" : "type-62",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AIBinder *",
+   "name" : "AIBinder *",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_apex/android/binder_manager.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AParcel **",
+   "name" : "AParcel **",
+   "referenced_type" : "type-65",
+   "self_type" : "type-79",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AParcel *",
+   "name" : "AParcel *",
+   "referenced_type" : "type-66",
+   "self_type" : "type-65",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "int (*)(AIBinder *, unsigned int, const AParcel *, AParcel *)",
+   "name" : "int (*)(AIBinder *, unsigned int, const AParcel *, AParcel *)",
+   "referenced_type" : "type-68",
+   "self_type" : "type-67",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "signed char *",
+   "name" : "signed char *",
+   "referenced_type" : "type-7",
+   "self_type" : "type-56",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AIBinder *",
+   "name" : "AIBinder *",
+   "referenced_type" : "type-70",
+   "self_type" : "type-69",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AIBinder_Class *",
+   "name" : "const AIBinder_Class *",
+   "referenced_type" : "type-71",
+   "self_type" : "type-73",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AIBinder *",
+   "name" : "const AIBinder *",
+   "referenced_type" : "type-74",
+   "self_type" : "type-76",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AIBinder_DeathRecipient *",
+   "name" : "AIBinder_DeathRecipient *",
+   "referenced_type" : "type-78",
+   "self_type" : "type-77",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const char *",
+   "name" : "const char *",
+   "referenced_type" : "type-80",
+   "self_type" : "type-85",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "char *",
+   "name" : "char *",
+   "referenced_type" : "type-81",
+   "self_type" : "type-102",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "void (*)(void *)",
+   "name" : "void (*)(void *)",
+   "referenced_type" : "type-82",
+   "self_type" : "type-108",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AIBinder_Weak *",
+   "name" : "AIBinder_Weak *",
+   "referenced_type" : "type-84",
+   "self_type" : "type-83",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "void *(*)(void *)",
+   "name" : "void *(*)(void *)",
+   "referenced_type" : "type-86",
+   "self_type" : "type-87",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "AIBinder *",
+   "name" : "AIBinder *",
+   "referenced_type" : "type-89",
+   "self_type" : "type-88",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "bool (*)(void *, int, int **)",
+   "name" : "bool (*)(void *, int, int **)",
+   "referenced_type" : "type-9",
+   "self_type" : "type-16",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_JNIEnv *",
+   "name" : "_JNIEnv *",
+   "referenced_type" : "type-91",
+   "self_type" : "type-90",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_jobject *",
+   "name" : "_jobject *",
+   "referenced_type" : "type-93",
    "self_type" : "type-92",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder_jni.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AStatus *",
+   "name" : "const AStatus *",
+   "referenced_type" : "type-94",
+   "self_type" : "type-96",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2581,8 +2707,8 @@
    "alignment" : 8,
    "linker_set_key" : "AStatus **",
    "name" : "AStatus **",
-   "referenced_type" : "type-93",
-   "self_type" : "type-95",
+   "referenced_type" : "type-97",
+   "self_type" : "type-99",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2590,24 +2716,6 @@
    "alignment" : 8,
    "linker_set_key" : "AStatus *",
    "name" : "AStatus *",
-   "referenced_type" : "type-94",
-   "self_type" : "type-93",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "bool (*)(void *, int, char **)",
-   "name" : "bool (*)(void *, int, char **)",
-   "referenced_type" : "type-96",
-   "self_type" : "type-99",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "char **",
-   "name" : "char **",
    "referenced_type" : "type-98",
    "self_type" : "type-97",
    "size" : 8,
@@ -2621,9 +2729,27 @@
    "is_const" : true,
    "linker_set_key" : "const AParcel",
    "name" : "const AParcel",
-   "referenced_type" : "type-115",
-   "self_type" : "type-114",
+   "referenced_type" : "type-120",
+   "self_type" : "type-119",
    "size" : 24,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const void",
+   "name" : "const void",
+   "referenced_type" : "type-12",
+   "self_type" : "type-104",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const int",
+   "name" : "const int",
+   "referenced_type" : "type-13",
+   "self_type" : "type-123",
+   "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -2631,8 +2757,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned int",
    "name" : "const unsigned int",
-   "referenced_type" : "type-14",
-   "self_type" : "type-116",
+   "referenced_type" : "type-20",
+   "self_type" : "type-125",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2641,8 +2767,8 @@
    "is_const" : true,
    "linker_set_key" : "const long",
    "name" : "const long",
-   "referenced_type" : "type-19",
-   "self_type" : "type-118",
+   "referenced_type" : "type-25",
+   "self_type" : "type-127",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2651,8 +2777,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned long",
    "name" : "const unsigned long",
-   "referenced_type" : "type-24",
-   "self_type" : "type-120",
+   "referenced_type" : "type-30",
+   "self_type" : "type-129",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -2661,19 +2787,9 @@
    "is_const" : true,
    "linker_set_key" : "const float",
    "name" : "const float",
-   "referenced_type" : "type-29",
-   "self_type" : "type-122",
+   "referenced_type" : "type-37",
+   "self_type" : "type-131",
    "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const double",
-   "name" : "const double",
-   "referenced_type" : "type-36",
-   "self_type" : "type-124",
-   "size" : 8,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -2687,23 +2803,23 @@
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const double",
+   "name" : "const double",
+   "referenced_type" : "type-45",
+   "self_type" : "type-133",
+   "size" : 8,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
    "alignment" : 2,
    "is_const" : true,
    "linker_set_key" : "const char16_t",
    "name" : "const char16_t",
-   "referenced_type" : "type-46",
-   "self_type" : "type-129",
+   "referenced_type" : "type-4",
+   "self_type" : "type-3",
    "size" : 2,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
-  },
-  {
-   "alignment" : 1,
-   "is_const" : true,
-   "linker_set_key" : "const signed char",
-   "name" : "const signed char",
-   "referenced_type" : "type-51",
-   "self_type" : "type-131",
-   "size" : 1,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
@@ -2711,8 +2827,8 @@
    "is_const" : true,
    "linker_set_key" : "const AStatus",
    "name" : "const AStatus",
-   "referenced_type" : "type-57",
-   "self_type" : "type-56",
+   "referenced_type" : "type-61",
+   "self_type" : "type-60",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
@@ -2721,56 +2837,48 @@
    "is_const" : true,
    "linker_set_key" : "const AIBinder_Class",
    "name" : "const AIBinder_Class",
-   "referenced_type" : "type-68",
-   "self_type" : "type-67",
+   "referenced_type" : "type-72",
+   "self_type" : "type-71",
    "size" : 32,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const void",
-   "name" : "const void",
-   "referenced_type" : "type-6",
-   "self_type" : "type-100",
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const AIBinder",
    "name" : "const AIBinder",
-   "referenced_type" : "type-71",
-   "self_type" : "type-70",
+   "referenced_type" : "type-75",
+   "self_type" : "type-74",
    "size" : 32,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
-   "name" : "const char",
-   "referenced_type" : "type-77",
-   "self_type" : "type-76",
+   "linker_set_key" : "const signed char",
+   "name" : "const signed char",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
    "size" : 1,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const int",
-   "name" : "const int",
-   "referenced_type" : "type-7",
-   "self_type" : "type-112",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+   "linker_set_key" : "const char",
+   "name" : "const char",
+   "referenced_type" : "type-81",
+   "self_type" : "type-80",
+   "size" : 1,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const AStatus",
    "name" : "const AStatus",
-   "referenced_type" : "type-91",
-   "self_type" : "type-90",
+   "referenced_type" : "type-95",
+   "self_type" : "type-94",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   }
