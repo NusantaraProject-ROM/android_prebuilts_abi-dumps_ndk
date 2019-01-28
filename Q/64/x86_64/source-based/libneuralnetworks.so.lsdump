@@ -6,16 +6,8 @@
    "alignment" : 2,
    "linker_set_key" : "_Float16",
    "name" : "_Float16",
-   "referenced_type" : "type-74",
-   "self_type" : "type-74",
-   "size" : 2
-  },
-  {
-   "alignment" : 2,
-   "linker_set_key" : "__fp16",
-   "name" : "__fp16",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-95",
+   "self_type" : "type-95",
    "size" : 2
   },
   {
@@ -23,8 +15,8 @@
    "is_integral" : true,
    "linker_set_key" : "__int128",
    "name" : "__int128",
-   "referenced_type" : "type-71",
-   "self_type" : "type-71",
+   "referenced_type" : "type-16",
+   "self_type" : "type-16",
    "size" : 16
   },
   {
@@ -33,8 +25,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-30",
-   "self_type" : "type-30",
+   "referenced_type" : "type-53",
+   "self_type" : "type-53",
    "size" : 1
   },
   {
@@ -42,8 +34,8 @@
    "is_integral" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21",
+   "referenced_type" : "type-39",
+   "self_type" : "type-39",
    "size" : 1
   },
   {
@@ -52,8 +44,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char16_t",
    "name" : "char16_t",
-   "referenced_type" : "type-66",
-   "self_type" : "type-66",
+   "referenced_type" : "type-11",
+   "self_type" : "type-11",
    "size" : 2
   },
   {
@@ -62,24 +54,24 @@
    "is_unsigned" : true,
    "linker_set_key" : "char32_t",
    "name" : "char32_t",
-   "referenced_type" : "type-67",
-   "self_type" : "type-67",
+   "referenced_type" : "type-12",
+   "self_type" : "type-12",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-77",
-   "self_type" : "type-77",
+   "referenced_type" : "type-19",
+   "self_type" : "type-19",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-11",
-   "self_type" : "type-11",
+   "referenced_type" : "type-29",
+   "self_type" : "type-29",
    "size" : 4
   },
   {
@@ -87,8 +79,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-40",
-   "self_type" : "type-40",
+   "referenced_type" : "type-42",
+   "self_type" : "type-42",
    "size" : 4
   },
   {
@@ -96,16 +88,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-23",
-   "self_type" : "type-23",
+   "referenced_type" : "type-43",
+   "self_type" : "type-43",
    "size" : 8
   },
   {
    "alignment" : 16,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-75",
-   "self_type" : "type-75",
+   "referenced_type" : "type-18",
+   "self_type" : "type-18",
    "size" : 16
   },
   {
@@ -113,16 +105,16 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-69",
-   "self_type" : "type-69",
+   "referenced_type" : "type-14",
+   "self_type" : "type-14",
    "size" : 8
   },
   {
    "alignment" : 8,
    "linker_set_key" : "nullptr_t",
    "name" : "nullptr_t",
-   "referenced_type" : "type-63",
-   "self_type" : "type-63",
+   "referenced_type" : "type-7",
+   "self_type" : "type-7",
    "size" : 8
   },
   {
@@ -130,8 +122,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-78",
-   "self_type" : "type-78",
+   "referenced_type" : "type-20",
+   "self_type" : "type-20",
    "size" : 2
   },
   {
@@ -139,8 +131,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-64",
-   "self_type" : "type-64",
+   "referenced_type" : "type-8",
+   "self_type" : "type-8",
    "size" : 1
   },
   {
@@ -149,8 +141,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned __int128",
    "name" : "unsigned __int128",
-   "referenced_type" : "type-72",
-   "self_type" : "type-72",
+   "referenced_type" : "type-17",
+   "self_type" : "type-17",
    "size" : 16
   },
   {
@@ -159,8 +151,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-76",
-   "self_type" : "type-76",
+   "referenced_type" : "type-61",
+   "self_type" : "type-61",
    "size" : 1
   },
   {
@@ -179,8 +171,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-43",
-   "self_type" : "type-43",
+   "referenced_type" : "type-78",
+   "self_type" : "type-78",
    "size" : 8
   },
   {
@@ -189,8 +181,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-70",
-   "self_type" : "type-70",
+   "referenced_type" : "type-15",
+   "self_type" : "type-15",
    "size" : 8
   },
   {
@@ -199,28 +191,34 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-68",
-   "self_type" : "type-68",
+   "referenced_type" : "type-13",
+   "self_type" : "type-13",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-47",
-   "self_type" : "type-47"
+   "referenced_type" : "type-68",
+   "self_type" : "type-68"
   },
   {
    "alignment" : 4,
    "is_integral" : true,
    "linker_set_key" : "wchar_t",
    "name" : "wchar_t",
-   "referenced_type" : "type-65",
-   "self_type" : "type-65",
+   "referenced_type" : "type-9",
+   "self_type" : "type-9",
    "size" : 4
   }
  ],
  "elf_functions" :
  [
+  {
+   "name" : "ANeuralNetworksBurst_create"
+  },
+  {
+   "name" : "ANeuralNetworksBurst_free"
+  },
   {
    "name" : "ANeuralNetworksCompilation_create"
   },
@@ -234,6 +232,9 @@
    "name" : "ANeuralNetworksCompilation_free"
   },
   {
+   "name" : "ANeuralNetworksCompilation_setCaching"
+  },
+  {
    "name" : "ANeuralNetworksCompilation_setPreference"
   },
   {
@@ -241,6 +242,9 @@
   },
   {
    "name" : "ANeuralNetworksDevice_getName"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_getType"
   },
   {
    "name" : "ANeuralNetworksDevice_getVersion"
@@ -252,6 +256,9 @@
    "name" : "ANeuralNetworksEvent_wait"
   },
   {
+   "name" : "ANeuralNetworksExecution_burstCompute"
+  },
+  {
    "name" : "ANeuralNetworksExecution_compute"
   },
   {
@@ -261,10 +268,22 @@
    "name" : "ANeuralNetworksExecution_free"
   },
   {
+   "name" : "ANeuralNetworksExecution_getDuration"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_getOutputOperandDimensions"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_getOutputOperandRank"
+  },
+  {
    "name" : "ANeuralNetworksExecution_setInput"
   },
   {
    "name" : "ANeuralNetworksExecution_setInputFromMemory"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setMeasureTiming"
   },
   {
    "name" : "ANeuralNetworksExecution_setOutput"
@@ -274,6 +293,9 @@
   },
   {
    "name" : "ANeuralNetworksExecution_startCompute"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_createFromAHardwareBuffer"
   },
   {
    "name" : "ANeuralNetworksMemory_createFromFd"
@@ -375,6 +397,14 @@
     {
      "enum_field_value" : 11,
      "name" : "ANEURALNETWORKS_TENSOR_QUANT8_SYMM_PER_CHANNEL"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT16_ASYMM"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT8_SYMM"
     }
    ],
    "linker_set_key" : "OperandCode",
@@ -544,15 +574,15 @@
     },
     {
      "enum_field_value" : 38,
-     "name" : "ANEURALNETWORKS_ARGMAX"
+     "name" : "ANEURALNETWORKS_ABS"
     },
     {
      "enum_field_value" : 39,
-     "name" : "ANEURALNETWORKS_ARGMIN"
+     "name" : "ANEURALNETWORKS_ARGMAX"
     },
     {
      "enum_field_value" : 40,
-     "name" : "ANEURALNETWORKS_PAD_V2"
+     "name" : "ANEURALNETWORKS_ARGMIN"
     },
     {
      "enum_field_value" : 41,
@@ -580,11 +610,11 @@
     },
     {
      "enum_field_value" : 47,
-     "name" : "ANEURALNETWORKS_DETECTION_OUTPUT"
+     "name" : "ANEURALNETWORKS_DETECTION_POSTPROCESS"
     },
     {
      "enum_field_value" : 48,
-     "name" : "ANEURALNETWORKS_EMBEDDING_LOOKUP_SPARSE"
+     "name" : "ANEURALNETWORKS_EQUAL"
     },
     {
      "enum_field_value" : 49,
@@ -620,173 +650,157 @@
     },
     {
      "enum_field_value" : 57,
-     "name" : "ANEURALNETWORKS_LESS"
+     "name" : "ANEURALNETWORKS_INSTANCE_NORMALIZATION"
     },
     {
      "enum_field_value" : 58,
-     "name" : "ANEURALNETWORKS_LESS_EQUAL"
+     "name" : "ANEURALNETWORKS_LESS"
     },
     {
      "enum_field_value" : 59,
-     "name" : "ANEURALNETWORKS_LOG"
+     "name" : "ANEURALNETWORKS_LESS_EQUAL"
     },
     {
      "enum_field_value" : 60,
-     "name" : "ANEURALNETWORKS_LOGICAL_AND"
+     "name" : "ANEURALNETWORKS_LOG"
     },
     {
      "enum_field_value" : 61,
-     "name" : "ANEURALNETWORKS_LOGICAL_NOT"
+     "name" : "ANEURALNETWORKS_LOGICAL_AND"
     },
     {
      "enum_field_value" : 62,
-     "name" : "ANEURALNETWORKS_LOGICAL_OR"
+     "name" : "ANEURALNETWORKS_LOGICAL_NOT"
     },
     {
      "enum_field_value" : 63,
-     "name" : "ANEURALNETWORKS_LOG_SOFTMAX"
+     "name" : "ANEURALNETWORKS_LOGICAL_OR"
     },
     {
      "enum_field_value" : 64,
-     "name" : "ANEURALNETWORKS_MAXIMUM"
+     "name" : "ANEURALNETWORKS_LOG_SOFTMAX"
     },
     {
      "enum_field_value" : 65,
-     "name" : "ANEURALNETWORKS_MINIMUM"
+     "name" : "ANEURALNETWORKS_MAXIMUM"
     },
     {
      "enum_field_value" : 66,
-     "name" : "ANEURALNETWORKS_NEG"
+     "name" : "ANEURALNETWORKS_MINIMUM"
     },
     {
      "enum_field_value" : 67,
-     "name" : "ANEURALNETWORKS_POW"
+     "name" : "ANEURALNETWORKS_NEG"
     },
     {
      "enum_field_value" : 68,
-     "name" : "ANEURALNETWORKS_PRELU"
-    },
-    {
-     "enum_field_value" : 69,
-     "name" : "ANEURALNETWORKS_PRIOR_BOX"
-    },
-    {
-     "enum_field_value" : 70,
-     "name" : "ANEURALNETWORKS_QUANTIZE"
-    },
-    {
-     "enum_field_value" : 71,
-     "name" : "ANEURALNETWORKS_QUANTIZED_16BIT_LSTM"
-    },
-    {
-     "enum_field_value" : 72,
-     "name" : "ANEURALNETWORKS_RANDOM_MULTINOMIAL"
-    },
-    {
-     "enum_field_value" : 73,
-     "name" : "ANEURALNETWORKS_REDUCE_PROD"
-    },
-    {
-     "enum_field_value" : 74,
-     "name" : "ANEURALNETWORKS_ROI_ALIGN"
-    },
-    {
-     "enum_field_value" : 75,
-     "name" : "ANEURALNETWORKS_RSQRT"
-    },
-    {
-     "enum_field_value" : 76,
-     "name" : "ANEURALNETWORKS_SELECT"
-    },
-    {
-     "enum_field_value" : 77,
-     "name" : "ANEURALNETWORKS_SIN"
-    },
-    {
-     "enum_field_value" : 78,
-     "name" : "ANEURALNETWORKS_SLICE"
-    },
-    {
-     "enum_field_value" : 79,
-     "name" : "ANEURALNETWORKS_SPARSE_TO_DENSE"
-    },
-    {
-     "enum_field_value" : 80,
-     "name" : "ANEURALNETWORKS_SPLIT"
-    },
-    {
-     "enum_field_value" : 81,
-     "name" : "ANEURALNETWORKS_SQRT"
-    },
-    {
-     "enum_field_value" : 82,
-     "name" : "ANEURALNETWORKS_TILE"
-    },
-    {
-     "enum_field_value" : 83,
-     "name" : "ANEURALNETWORKS_TOPK_V2"
-    },
-    {
-     "enum_field_value" : 84,
-     "name" : "ANEURALNETWORKS_TRANSPOSE_CONV_2D"
-    },
-    {
-     "enum_field_value" : 85,
-     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_LSTM"
-    },
-    {
-     "enum_field_value" : 86,
-     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_RNN"
-    },
-    {
-     "enum_field_value" : 87,
-     "name" : "ANEURALNETWORKS_ROTATED_BBOX_TRANSFORM"
-    },
-    {
-     "enum_field_value" : 88,
-     "name" : "ANEURALNETWORKS_ABS"
-    },
-    {
-     "enum_field_value" : 89,
-     "name" : "ANEURALNETWORKS_ROI_POOLING"
-    },
-    {
-     "enum_field_value" : 90,
-     "name" : "ANEURALNETWORKS_EQUAL"
-    },
-    {
-     "enum_field_value" : 91,
      "name" : "ANEURALNETWORKS_NOT_EQUAL"
     },
     {
-     "enum_field_value" : 92,
-     "name" : "ANEURALNETWORKS_REDUCE_SUM"
+     "enum_field_value" : 69,
+     "name" : "ANEURALNETWORKS_PAD_V2"
     },
     {
-     "enum_field_value" : 93,
-     "name" : "ANEURALNETWORKS_REDUCE_MAX"
+     "enum_field_value" : 70,
+     "name" : "ANEURALNETWORKS_POW"
     },
     {
-     "enum_field_value" : 94,
-     "name" : "ANEURALNETWORKS_REDUCE_MIN"
+     "enum_field_value" : 71,
+     "name" : "ANEURALNETWORKS_PRELU"
     },
     {
-     "enum_field_value" : 95,
-     "name" : "ANEURALNETWORKS_REDUCE_ANY"
+     "enum_field_value" : 72,
+     "name" : "ANEURALNETWORKS_QUANTIZE"
     },
     {
-     "enum_field_value" : 96,
+     "enum_field_value" : 73,
+     "name" : "ANEURALNETWORKS_QUANTIZED_16BIT_LSTM"
+    },
+    {
+     "enum_field_value" : 74,
+     "name" : "ANEURALNETWORKS_RANDOM_MULTINOMIAL"
+    },
+    {
+     "enum_field_value" : 75,
      "name" : "ANEURALNETWORKS_REDUCE_ALL"
     },
     {
-     "enum_field_value" : 97,
-     "name" : "ANEURALNETWORKS_INSTANCE_NORMALIZATION"
+     "enum_field_value" : 76,
+     "name" : "ANEURALNETWORKS_REDUCE_ANY"
+    },
+    {
+     "enum_field_value" : 77,
+     "name" : "ANEURALNETWORKS_REDUCE_MAX"
+    },
+    {
+     "enum_field_value" : 78,
+     "name" : "ANEURALNETWORKS_REDUCE_MIN"
+    },
+    {
+     "enum_field_value" : 79,
+     "name" : "ANEURALNETWORKS_REDUCE_PROD"
+    },
+    {
+     "enum_field_value" : 80,
+     "name" : "ANEURALNETWORKS_REDUCE_SUM"
+    },
+    {
+     "enum_field_value" : 81,
+     "name" : "ANEURALNETWORKS_ROI_ALIGN"
+    },
+    {
+     "enum_field_value" : 82,
+     "name" : "ANEURALNETWORKS_ROI_POOLING"
+    },
+    {
+     "enum_field_value" : 83,
+     "name" : "ANEURALNETWORKS_RSQRT"
+    },
+    {
+     "enum_field_value" : 84,
+     "name" : "ANEURALNETWORKS_SELECT"
+    },
+    {
+     "enum_field_value" : 85,
+     "name" : "ANEURALNETWORKS_SIN"
+    },
+    {
+     "enum_field_value" : 86,
+     "name" : "ANEURALNETWORKS_SLICE"
+    },
+    {
+     "enum_field_value" : 87,
+     "name" : "ANEURALNETWORKS_SPLIT"
+    },
+    {
+     "enum_field_value" : 88,
+     "name" : "ANEURALNETWORKS_SQRT"
+    },
+    {
+     "enum_field_value" : 89,
+     "name" : "ANEURALNETWORKS_TILE"
+    },
+    {
+     "enum_field_value" : 90,
+     "name" : "ANEURALNETWORKS_TOPK_V2"
+    },
+    {
+     "enum_field_value" : 91,
+     "name" : "ANEURALNETWORKS_TRANSPOSE_CONV_2D"
+    },
+    {
+     "enum_field_value" : 92,
+     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_LSTM"
+    },
+    {
+     "enum_field_value" : 93,
+     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_RNN"
     }
    ],
    "linker_set_key" : "OperationCode",
    "name" : "OperationCode",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3",
+   "referenced_type" : "type-10",
+   "self_type" : "type-10",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "underlying_type" : "type-2",
@@ -815,8 +829,8 @@
    ],
    "linker_set_key" : "FuseCode",
    "name" : "FuseCode",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-21",
+   "self_type" : "type-21",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "underlying_type" : "type-2",
@@ -837,8 +851,8 @@
    ],
    "linker_set_key" : "PaddingCode",
    "name" : "PaddingCode",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "type-22",
+   "self_type" : "type-22",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "underlying_type" : "type-2",
@@ -863,12 +877,46 @@
    ],
    "linker_set_key" : "PreferenceCode",
    "name" : "PreferenceCode",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
+   "referenced_type" : "type-23",
+   "self_type" : "type-23",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "underlying_type" : "type-2",
    "unique_id" : "PreferenceCode"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_DEVICE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_DEVICE_OTHER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_DEVICE_CPU"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_DEVICE_GPU"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANEURALNETWORKS_DEVICE_ACCELERATOR"
+    }
+   ],
+   "linker_set_key" : "DeviceTypeCode",
+   "name" : "DeviceTypeCode",
+   "referenced_type" : "type-24",
+   "self_type" : "type-24",
+   "size" : 4,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
+   "underlying_type" : "type-2",
+   "unique_id" : "DeviceTypeCode"
   },
   {
    "alignment" : 4,
@@ -905,34 +953,91 @@
     {
      "enum_field_value" : 7,
      "name" : "ANEURALNETWORKS_UNMAPPABLE"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANEURALNETWORKS_OUTPUT_INSUFFICIENT_SIZE"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ANEURALNETWORKS_UNAVAILABLE_DEVICE"
     }
    ],
    "linker_set_key" : "ResultCode",
    "name" : "ResultCode",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-25",
+   "self_type" : "type-25",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "underlying_type" : "type-2",
    "unique_id" : "ResultCode"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_DURATION_ON_HARDWARE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_DURATION_IN_DRIVER"
+    }
+   ],
+   "linker_set_key" : "DurationCode",
+   "name" : "DurationCode",
+   "referenced_type" : "type-3",
+   "self_type" : "type-3",
+   "size" : 4,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
+   "underlying_type" : "type-2",
+   "unique_id" : "DurationCode"
   }
  ],
  "function_types" : [],
  "functions" :
  [
   {
+   "function_name" : "ANeuralNetworksBurst_create",
+   "linker_set_key" : "ANeuralNetworksBurst_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-57"
+    },
+    {
+     "referenced_type" : "type-67"
+    }
+   ],
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksBurst_free",
+   "linker_set_key" : "ANeuralNetworksBurst_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    }
+   ],
+   "return_type" : "type-68",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
    "function_name" : "ANeuralNetworksCompilation_create",
    "linker_set_key" : "ANeuralNetworksCompilation_create",
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-59"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -941,19 +1046,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-29"
+     "referenced_type" : "type-52"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-59"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -962,10 +1067,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-57"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -974,10 +1079,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-57"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-68",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksCompilation_setCaching",
+   "linker_set_key" : "ANeuralNetworksCompilation_setCaching",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-57"
+    },
+    {
+     "referenced_type" : "type-37"
+    },
+    {
+     "referenced_type" : "type-62"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -986,13 +1109,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-57"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1001,13 +1124,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-36"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-44"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1016,13 +1139,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-36"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-40"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksDevice_getType",
+   "linker_set_key" : "ANeuralNetworksDevice_getType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-36"
+    },
+    {
+     "referenced_type" : "type-41"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1031,13 +1169,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-36"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-40"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1046,10 +1184,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-4"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-68",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1058,10 +1196,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-4"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksExecution_burstCompute",
+   "linker_set_key" : "ANeuralNetworksExecution_burstCompute",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-63"
+    },
+    {
+     "referenced_type" : "type-65"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1070,10 +1223,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1082,13 +1235,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-57"
     },
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-90"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1097,10 +1250,64 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-68",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksExecution_getDuration",
+   "linker_set_key" : "ANeuralNetworksExecution_getDuration",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    },
+    {
+     "referenced_type" : "type-42"
+    },
+    {
+     "referenced_type" : "type-79"
+    }
+   ],
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksExecution_getOutputOperandDimensions",
+   "linker_set_key" : "ANeuralNetworksExecution_getOutputOperandDimensions",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-63"
+    },
+    {
+     "referenced_type" : "type-42"
+    },
+    {
+     "referenced_type" : "type-30"
+    }
+   ],
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksExecution_getOutputOperandRank",
+   "linker_set_key" : "ANeuralNetworksExecution_getOutputOperandRank",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-63"
+    },
+    {
+     "referenced_type" : "type-42"
+    },
+    {
+     "referenced_type" : "type-30"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1109,22 +1316,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-82"
     },
     {
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-84"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1133,25 +1340,40 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-82"
     },
     {
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-89"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksExecution_setMeasureTiming",
+   "linker_set_key" : "ANeuralNetworksExecution_setMeasureTiming",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-63"
+    },
+    {
+     "referenced_type" : "type-53"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1160,22 +1382,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-82"
     },
     {
-     "referenced_type" : "type-59"
+     "referenced_type" : "type-91"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1184,25 +1406,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-82"
     },
     {
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-89"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1211,13 +1433,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-62"
+     "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "function_name" : "ANeuralNetworksMemory_createFromAHardwareBuffer",
+   "linker_set_key" : "ANeuralNetworksMemory_createFromAHardwareBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-71"
+    },
+    {
+     "referenced_type" : "type-74"
+    }
+   ],
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1226,22 +1463,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     },
     {
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-74"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1250,10 +1487,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-44"
+     "referenced_type" : "type-72"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-68",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1262,13 +1499,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-82"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1277,25 +1514,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-40"
-    },
-    {
-     "referenced_type" : "type-2"
-    },
-    {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-42"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-50"
+    },
+    {
+     "referenced_type" : "type-2"
+    },
+    {
+     "referenced_type" : "type-50"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1304,10 +1541,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-80"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1316,10 +1553,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1328,10 +1565,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-68",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1340,19 +1577,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "type-47"
     },
     {
-     "referenced_type" : "type-29"
+     "referenced_type" : "type-52"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-31"
+     "referenced_type" : "type-54"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1361,22 +1598,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-50"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-50"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1385,13 +1622,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-30"
+     "referenced_type" : "type-53"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1400,16 +1637,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-86"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1418,19 +1655,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-84"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1439,22 +1676,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-89"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1466,10 +1703,10 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-33"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -1478,10 +1715,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-12"
+     "referenced_type" : "type-30"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-42",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   }
  ],
@@ -1491,10 +1728,64 @@
  [
   {
    "alignment" : 8,
-   "linker_set_key" : "const float *",
-   "name" : "const float *",
-   "referenced_type" : "type-10",
-   "self_type" : "type-9",
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-101",
+   "self_type" : "type-103",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-109",
+   "self_type" : "type-111",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *const *",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "type-112",
+   "self_type" : "type-113",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel **",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "type-115",
+   "self_type" : "type-138",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel *",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "type-116",
+   "self_type" : "type-115",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation **",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "type-117",
+   "self_type" : "type-119",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation *",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-118",
+   "self_type" : "type-117",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1502,8 +1793,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-101",
-   "self_type" : "type-116",
+   "referenced_type" : "type-122",
+   "self_type" : "type-148",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1511,60 +1802,15 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-102",
-   "self_type" : "type-101",
+   "referenced_type" : "type-123",
+   "self_type" : "type-122",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-103",
-   "self_type" : "type-105",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-104",
-   "self_type" : "type-103",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-113",
-   "self_type" : "type-115",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-118",
-   "self_type" : "type-121",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-119",
-   "self_type" : "type-118",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
    "referenced_type" : "type-124",
    "self_type" : "type-126",
    "size" : 8,
@@ -1572,8 +1818,8 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
    "referenced_type" : "type-125",
    "self_type" : "type-124",
    "size" : 8,
@@ -1581,8 +1827,8 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
    "referenced_type" : "type-127",
    "self_type" : "type-129",
    "size" : 8,
@@ -1590,100 +1836,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-13",
-   "self_type" : "type-15",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-133",
-   "self_type" : "type-135",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *const *",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-136",
-   "self_type" : "type-137",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel **",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-139",
-   "self_type" : "type-149",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-14",
-   "self_type" : "type-13",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel *",
-   "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-140",
-   "self_type" : "type-139",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation **",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-141",
-   "self_type" : "type-143",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation *",
-   "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-142",
-   "self_type" : "type-141",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution **",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-144",
-   "self_type" : "type-159",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution *",
-   "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-145",
-   "self_type" : "type-144",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory **",
    "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-146",
-   "self_type" : "type-148",
+   "referenced_type" : "type-131",
+   "self_type" : "type-133",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1691,8 +1847,17 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory *",
    "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-147",
-   "self_type" : "type-146",
+   "referenced_type" : "type-132",
+   "self_type" : "type-131",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-134",
+   "self_type" : "type-136",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1700,17 +1865,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksMemory *",
    "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-156",
-   "self_type" : "type-158",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-16",
-   "self_type" : "type-18",
+   "referenced_type" : "type-145",
+   "self_type" : "type-147",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1718,8 +1874,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksEvent **",
    "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-161",
-   "self_type" : "type-164",
+   "referenced_type" : "type-150",
+   "self_type" : "type-152",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1727,8 +1883,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksEvent *",
    "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-162",
-   "self_type" : "type-161",
+   "referenced_type" : "type-151",
+   "self_type" : "type-150",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1736,8 +1892,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice **",
    "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-167",
-   "self_type" : "type-169",
+   "referenced_type" : "type-155",
+   "self_type" : "type-157",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1745,8 +1901,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice *",
    "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-168",
-   "self_type" : "type-167",
+   "referenced_type" : "type-156",
+   "self_type" : "type-155",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1754,8 +1910,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *",
    "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-170",
-   "self_type" : "type-172",
+   "referenced_type" : "type-158",
+   "self_type" : "type-160",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1763,8 +1919,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksModel *",
    "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-176",
-   "self_type" : "type-178",
+   "referenced_type" : "type-166",
+   "self_type" : "type-168",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1772,8 +1928,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *const *",
    "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-179",
-   "self_type" : "type-180",
+   "referenced_type" : "type-169",
+   "self_type" : "type-170",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1781,8 +1937,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel **",
    "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-182",
-   "self_type" : "type-192",
+   "referenced_type" : "type-172",
+   "self_type" : "type-195",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1790,8 +1946,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel *",
    "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-183",
-   "self_type" : "type-182",
+   "referenced_type" : "type-173",
+   "self_type" : "type-172",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1799,8 +1955,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation **",
    "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-184",
-   "self_type" : "type-186",
+   "referenced_type" : "type-174",
+   "self_type" : "type-176",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1808,8 +1964,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation *",
    "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-185",
-   "self_type" : "type-184",
+   "referenced_type" : "type-175",
+   "self_type" : "type-174",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1817,8 +1973,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-187",
-   "self_type" : "type-202",
+   "referenced_type" : "type-179",
+   "self_type" : "type-205",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1826,8 +1982,35 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-188",
-   "self_type" : "type-187",
+   "referenced_type" : "type-180",
+   "self_type" : "type-179",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-181",
+   "self_type" : "type-183",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-182",
+   "self_type" : "type-181",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-184",
+   "self_type" : "type-186",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1835,17 +2018,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory **",
    "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-189",
-   "self_type" : "type-191",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const char **",
-   "name" : "const char **",
-   "referenced_type" : "type-19",
-   "self_type" : "type-22",
+   "referenced_type" : "type-188",
+   "self_type" : "type-190",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1853,17 +2027,17 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory *",
    "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-190",
-   "self_type" : "type-189",
+   "referenced_type" : "type-189",
+   "self_type" : "type-188",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-199",
-   "self_type" : "type-201",
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-191",
+   "self_type" : "type-193",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1872,61 +2046,61 @@
    "linker_set_key" : "unsigned int *",
    "name" : "unsigned int *",
    "referenced_type" : "type-2",
-   "self_type" : "type-12",
+   "self_type" : "type-30",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const char *",
-   "name" : "const char *",
-   "referenced_type" : "type-20",
-   "self_type" : "type-19",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-204",
-   "self_type" : "type-207",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-205",
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-202",
    "self_type" : "type-204",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-207",
+   "self_type" : "type-209",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-208",
+   "self_type" : "type-207",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice **",
    "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-210",
+   "referenced_type" : "type-212",
+   "self_type" : "type-214",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-213",
    "self_type" : "type-212",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-211",
-   "self_type" : "type-210",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *",
    "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-213",
-   "self_type" : "type-215",
+   "referenced_type" : "type-215",
+   "self_type" : "type-217",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -1934,179 +2108,17 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksModel *",
    "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-219",
-   "self_type" : "type-221",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *const *",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-222",
-   "self_type" : "type-223",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel **",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-225",
-   "self_type" : "type-235",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel *",
-   "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-226",
+   "referenced_type" : "type-223",
    "self_type" : "type-225",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation **",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-227",
-   "self_type" : "type-229",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation *",
-   "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-228",
-   "self_type" : "type-227",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "long *",
-   "name" : "long *",
-   "referenced_type" : "type-23",
-   "self_type" : "type-24",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution **",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-230",
-   "self_type" : "type-245",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution *",
-   "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-231",
-   "self_type" : "type-230",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-232",
-   "self_type" : "type-234",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-233",
-   "self_type" : "type-232",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-242",
-   "self_type" : "type-244",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-247",
-   "self_type" : "type-250",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-248",
-   "self_type" : "type-247",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-25",
-   "self_type" : "type-27",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-253",
-   "self_type" : "type-255",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-254",
-   "self_type" : "type-253",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-256",
-   "self_type" : "type-258",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-262",
-   "self_type" : "type-264",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *const *",
    "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-265",
-   "self_type" : "type-266",
+   "referenced_type" : "type-226",
+   "self_type" : "type-227",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2114,8 +2126,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel **",
    "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-268",
-   "self_type" : "type-278",
+   "referenced_type" : "type-229",
+   "self_type" : "type-252",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2123,8 +2135,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel *",
    "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-269",
-   "self_type" : "type-268",
+   "referenced_type" : "type-230",
+   "self_type" : "type-229",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2132,8 +2144,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation **",
    "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-270",
-   "self_type" : "type-272",
+   "referenced_type" : "type-231",
+   "self_type" : "type-233",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2141,8 +2153,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation *",
    "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-271",
-   "self_type" : "type-270",
+   "referenced_type" : "type-232",
+   "self_type" : "type-231",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2150,8 +2162,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-273",
-   "self_type" : "type-288",
+   "referenced_type" : "type-236",
+   "self_type" : "type-262",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2159,8 +2171,35 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-274",
-   "self_type" : "type-273",
+   "referenced_type" : "type-237",
+   "self_type" : "type-236",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-238",
+   "self_type" : "type-240",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-239",
+   "self_type" : "type-238",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-241",
+   "self_type" : "type-243",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2168,8 +2207,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory **",
    "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-275",
-   "self_type" : "type-277",
+   "referenced_type" : "type-245",
+   "self_type" : "type-247",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2177,17 +2216,17 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory *",
    "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-276",
-   "self_type" : "type-275",
+   "referenced_type" : "type-246",
+   "self_type" : "type-245",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *const *",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-28",
-   "self_type" : "type-29",
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-248",
+   "self_type" : "type-250",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2195,8 +2234,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksMemory *",
    "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-285",
-   "self_type" : "type-287",
+   "referenced_type" : "type-259",
+   "self_type" : "type-261",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2204,8 +2243,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksEvent **",
    "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-290",
-   "self_type" : "type-293",
+   "referenced_type" : "type-264",
+   "self_type" : "type-266",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2213,8 +2252,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksEvent *",
    "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-291",
-   "self_type" : "type-290",
+   "referenced_type" : "type-265",
+   "self_type" : "type-264",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2222,8 +2261,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice **",
    "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-296",
-   "self_type" : "type-298",
+   "referenced_type" : "type-269",
+   "self_type" : "type-271",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2231,8 +2270,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice *",
    "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-297",
-   "self_type" : "type-296",
+   "referenced_type" : "type-270",
+   "self_type" : "type-269",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2240,17 +2279,17 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *",
    "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-299",
-   "self_type" : "type-301",
+   "referenced_type" : "type-272",
+   "self_type" : "type-274",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "bool *",
-   "name" : "bool *",
-   "referenced_type" : "type-30",
-   "self_type" : "type-31",
+   "linker_set_key" : "const float *",
+   "name" : "const float *",
+   "referenced_type" : "type-28",
+   "self_type" : "type-27",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2258,6 +2297,123 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksModel *",
    "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-280",
+   "self_type" : "type-282",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *const *",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "type-283",
+   "self_type" : "type-284",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel **",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "type-286",
+   "self_type" : "type-309",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel *",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "type-287",
+   "self_type" : "type-286",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation **",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "type-288",
+   "self_type" : "type-290",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation *",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-289",
+   "self_type" : "type-288",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution **",
+   "name" : "ANeuralNetworksExecution **",
+   "referenced_type" : "type-293",
+   "self_type" : "type-319",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution *",
+   "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "type-294",
+   "self_type" : "type-293",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-295",
+   "self_type" : "type-297",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-296",
+   "self_type" : "type-295",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-298",
+   "self_type" : "type-300",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-302",
+   "self_type" : "type-304",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "type-303",
+   "self_type" : "type-302",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
    "referenced_type" : "type-305",
    "self_type" : "type-307",
    "size" : 8,
@@ -2265,91 +2421,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *const *",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-308",
-   "self_type" : "type-309",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel **",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-311",
-   "self_type" : "type-321",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel *",
-   "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-312",
-   "self_type" : "type-311",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation **",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-313",
-   "self_type" : "type-315",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation *",
-   "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-314",
-   "self_type" : "type-313",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution **",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-316",
-   "self_type" : "type-331",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution *",
-   "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-317",
-   "self_type" : "type-316",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-318",
-   "self_type" : "type-320",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-319",
-   "self_type" : "type-318",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel **",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-32",
-   "self_type" : "type-48",
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-31",
+   "self_type" : "type-33",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2357,53 +2432,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksMemory *",
    "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-328",
-   "self_type" : "type-330",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel *",
-   "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-33",
-   "self_type" : "type-32",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-333",
-   "self_type" : "type-336",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-334",
-   "self_type" : "type-333",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-339",
-   "self_type" : "type-341",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation **",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-34",
-   "self_type" : "type-36",
+   "referenced_type" : "type-316",
+   "self_type" : "type-318",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2411,7 +2441,61 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksDevice *",
    "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-340",
+   "referenced_type" : "type-32",
+   "self_type" : "type-31",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-321",
+   "self_type" : "type-323",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-322",
+   "self_type" : "type-321",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-326",
+   "self_type" : "type-328",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-327",
+   "self_type" : "type-326",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-329",
+   "self_type" : "type-331",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-337",
    "self_type" : "type-339",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
@@ -2420,26 +2504,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *",
    "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-342",
-   "self_type" : "type-344",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-348",
-   "self_type" : "type-350",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation *",
-   "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-35",
-   "self_type" : "type-34",
+   "referenced_type" : "type-34",
+   "self_type" : "type-36",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2447,8 +2513,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *const *",
    "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-351",
-   "self_type" : "type-352",
+   "referenced_type" : "type-340",
+   "self_type" : "type-341",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2456,8 +2522,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel **",
    "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-354",
-   "self_type" : "type-364",
+   "referenced_type" : "type-343",
+   "self_type" : "type-366",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2465,8 +2531,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel *",
    "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-355",
-   "self_type" : "type-354",
+   "referenced_type" : "type-344",
+   "self_type" : "type-343",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2474,8 +2540,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation **",
    "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-356",
-   "self_type" : "type-358",
+   "referenced_type" : "type-345",
+   "self_type" : "type-347",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2483,8 +2549,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation *",
    "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-357",
-   "self_type" : "type-356",
+   "referenced_type" : "type-346",
+   "self_type" : "type-345",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2492,70 +2558,7 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-359",
-   "self_type" : "type-374",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution *",
-   "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-360",
-   "self_type" : "type-359",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-361",
-   "self_type" : "type-363",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-362",
-   "self_type" : "type-361",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksExecution **",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-37",
-   "self_type" : "type-58",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-371",
-   "self_type" : "type-373",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-376",
-   "self_type" : "type-379",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-377",
+   "referenced_type" : "type-350",
    "self_type" : "type-376",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
@@ -2564,6 +2567,96 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "type-351",
+   "self_type" : "type-350",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-352",
+   "self_type" : "type-354",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-353",
+   "self_type" : "type-352",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-355",
+   "self_type" : "type-357",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-359",
+   "self_type" : "type-361",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "type-360",
+   "self_type" : "type-359",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-362",
+   "self_type" : "type-364",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const char **",
+   "name" : "const char **",
+   "referenced_type" : "type-37",
+   "self_type" : "type-40",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-373",
+   "self_type" : "type-375",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-378",
+   "self_type" : "type-380",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const char *",
+   "name" : "const char *",
    "referenced_type" : "type-38",
    "self_type" : "type-37",
    "size" : 8,
@@ -2571,46 +2664,28 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-381",
+   "self_type" : "type-383",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
    "referenced_type" : "type-382",
-   "self_type" : "type-384",
+   "self_type" : "type-381",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-383",
-   "self_type" : "type-382",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-385",
-   "self_type" : "type-387",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-391",
-   "self_type" : "type-393",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *const *",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-394",
-   "self_type" : "type-395",
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-384",
+   "self_type" : "type-386",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2618,8 +2693,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel **",
    "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-397",
-   "self_type" : "type-407",
+   "referenced_type" : "type-389",
+   "self_type" : "type-388",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2627,26 +2702,26 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel *",
    "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-398",
-   "self_type" : "type-397",
+   "referenced_type" : "type-390",
+   "self_type" : "type-389",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation **",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-399",
-   "self_type" : "type-401",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksCompilation *",
-   "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-400",
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-397",
    "self_type" : "type-399",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-4",
+   "self_type" : "type-6",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2654,8 +2729,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-402",
-   "self_type" : "type-417",
+   "referenced_type" : "type-401",
+   "self_type" : "type-400",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2663,15 +2738,15 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-403",
-   "self_type" : "type-402",
+   "referenced_type" : "type-402",
+   "self_type" : "type-401",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
    "referenced_type" : "type-404",
    "self_type" : "type-406",
    "size" : 8,
@@ -2679,8 +2754,8 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
    "referenced_type" : "type-405",
    "self_type" : "type-404",
    "size" : 8,
@@ -2688,26 +2763,35 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-414",
-   "self_type" : "type-416",
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-410",
+   "self_type" : "type-412",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-419",
-   "self_type" : "type-422",
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-411",
+   "self_type" : "type-410",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const unsigned int *",
-   "name" : "const unsigned int *",
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-413",
+   "self_type" : "type-415",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "int *",
+   "name" : "int *",
    "referenced_type" : "type-42",
    "self_type" : "type-41",
    "size" : 8,
@@ -2715,46 +2799,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-420",
-   "self_type" : "type-419",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-425",
-   "self_type" : "type-427",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-426",
-   "self_type" : "type-425",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-428",
-   "self_type" : "type-430",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksModel *",
    "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-434",
-   "self_type" : "type-436",
+   "referenced_type" : "type-421",
+   "self_type" : "type-423",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2762,35 +2810,8 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *const *",
    "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-437",
-   "self_type" : "type-438",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory **",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-44",
-   "self_type" : "type-46",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel **",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-440",
-   "self_type" : "type-451",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksModel *",
-   "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-441",
-   "self_type" : "type-440",
+   "referenced_type" : "type-424",
+   "self_type" : "type-425",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2798,8 +2819,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation **",
    "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-442",
-   "self_type" : "type-444",
+   "referenced_type" : "type-427",
+   "self_type" : "type-429",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2807,8 +2828,143 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation *",
    "name" : "ANeuralNetworksCompilation *",
-   "referenced_type" : "type-443",
-   "self_type" : "type-442",
+   "referenced_type" : "type-428",
+   "self_type" : "type-427",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "long *",
+   "name" : "long *",
+   "referenced_type" : "type-43",
+   "self_type" : "type-44",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-432",
+   "self_type" : "type-434",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-433",
+   "self_type" : "type-432",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-436",
+   "self_type" : "type-438",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-437",
+   "self_type" : "type-436",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-441",
+   "self_type" : "type-443",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-442",
+   "self_type" : "type-441",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-444",
+   "self_type" : "type-446",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-45",
+   "self_type" : "type-47",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-452",
+   "self_type" : "type-454",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *const *",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "type-455",
+   "self_type" : "type-456",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel **",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "type-458",
+   "self_type" : "type-481",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel *",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "type-459",
+   "self_type" : "type-458",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation **",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "type-460",
+   "self_type" : "type-462",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation *",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-461",
+   "self_type" : "type-460",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2816,8 +2972,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution **",
    "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "type-445",
-   "self_type" : "type-461",
+   "referenced_type" : "type-465",
+   "self_type" : "type-491",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2825,8 +2981,35 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksExecution *",
    "name" : "ANeuralNetworksExecution *",
-   "referenced_type" : "type-446",
-   "self_type" : "type-445",
+   "referenced_type" : "type-466",
+   "self_type" : "type-465",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-467",
+   "self_type" : "type-469",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-468",
+   "self_type" : "type-467",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-470",
+   "self_type" : "type-472",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2834,8 +3017,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory **",
    "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "type-448",
-   "self_type" : "type-450",
+   "referenced_type" : "type-474",
+   "self_type" : "type-476",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2843,143 +3026,17 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksMemory *",
    "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-449",
-   "self_type" : "type-448",
+   "referenced_type" : "type-475",
+   "self_type" : "type-474",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksMemory *",
-   "name" : "ANeuralNetworksMemory *",
-   "referenced_type" : "type-45",
-   "self_type" : "type-44",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-458",
-   "self_type" : "type-460",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-463",
-   "self_type" : "type-465",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-464",
-   "self_type" : "type-463",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "void *",
-   "name" : "void *",
-   "referenced_type" : "type-47",
-   "self_type" : "type-59",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksOperandType *",
-   "name" : "const ANeuralNetworksOperandType *",
-   "referenced_type" : "type-49",
-   "self_type" : "type-50",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const void *",
-   "name" : "const void *",
-   "referenced_type" : "type-51",
-   "self_type" : "type-52",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksSymmPerChannelQuantParams *",
-   "name" : "const ANeuralNetworksSymmPerChannelQuantParams *",
-   "referenced_type" : "type-53",
-   "self_type" : "type-54",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksMemory *",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "type-55",
-   "self_type" : "type-57",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent **",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "type-60",
-   "self_type" : "type-62",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksEvent *",
-   "name" : "ANeuralNetworksEvent *",
-   "referenced_type" : "type-61",
-   "self_type" : "type-60",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice **",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "type-81",
-   "self_type" : "type-83",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "ANeuralNetworksDevice *",
-   "name" : "ANeuralNetworksDevice *",
-   "referenced_type" : "type-82",
-   "self_type" : "type-81",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksDevice *",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "type-84",
-   "self_type" : "type-86",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const ANeuralNetworksModel *",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "type-90",
-   "self_type" : "type-92",
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-477",
+   "self_type" : "type-479",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2987,8 +3044,98 @@
    "alignment" : 8,
    "linker_set_key" : "const ANeuralNetworksDevice *const *",
    "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "type-93",
-   "self_type" : "type-94",
+   "referenced_type" : "type-48",
+   "self_type" : "type-52",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-488",
+   "self_type" : "type-490",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-493",
+   "self_type" : "type-495",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-494",
+   "self_type" : "type-493",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-498",
+   "self_type" : "type-500",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-499",
+   "self_type" : "type-498",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-5",
+   "self_type" : "type-4",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-501",
+   "self_type" : "type-503",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-509",
+   "self_type" : "type-511",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const unsigned int *",
+   "name" : "const unsigned int *",
+   "referenced_type" : "type-51",
+   "self_type" : "type-50",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *const *",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "type-512",
+   "self_type" : "type-513",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2996,8 +3143,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel **",
    "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "type-96",
-   "self_type" : "type-106",
+   "referenced_type" : "type-515",
+   "self_type" : "type-538",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3005,8 +3152,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksModel *",
    "name" : "ANeuralNetworksModel *",
-   "referenced_type" : "type-97",
-   "self_type" : "type-96",
+   "referenced_type" : "type-516",
+   "self_type" : "type-515",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3014,8 +3161,8 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation **",
    "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "type-98",
-   "self_type" : "type-100",
+   "referenced_type" : "type-517",
+   "self_type" : "type-519",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3023,6 +3170,483 @@
    "alignment" : 8,
    "linker_set_key" : "ANeuralNetworksCompilation *",
    "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-518",
+   "self_type" : "type-517",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution **",
+   "name" : "ANeuralNetworksExecution **",
+   "referenced_type" : "type-522",
+   "self_type" : "type-548",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution *",
+   "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "type-523",
+   "self_type" : "type-522",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-524",
+   "self_type" : "type-526",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-525",
+   "self_type" : "type-524",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-527",
+   "self_type" : "type-529",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "bool *",
+   "name" : "bool *",
+   "referenced_type" : "type-53",
+   "self_type" : "type-54",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-531",
+   "self_type" : "type-533",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "type-532",
+   "self_type" : "type-531",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-534",
+   "self_type" : "type-536",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-545",
+   "self_type" : "type-547",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel **",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "type-55",
+   "self_type" : "type-80",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-550",
+   "self_type" : "type-552",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-551",
+   "self_type" : "type-550",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-555",
+   "self_type" : "type-557",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "type-556",
+   "self_type" : "type-555",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "type-558",
+   "self_type" : "type-560",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel *",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "type-56",
+   "self_type" : "type-55",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksModel *",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "type-566",
+   "self_type" : "type-568",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksDevice *const *",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "type-569",
+   "self_type" : "type-570",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation **",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "type-57",
+   "self_type" : "type-59",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel **",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "type-572",
+   "self_type" : "type-595",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksModel *",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "type-573",
+   "self_type" : "type-572",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation **",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "type-574",
+   "self_type" : "type-576",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation *",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-575",
+   "self_type" : "type-574",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution **",
+   "name" : "ANeuralNetworksExecution **",
+   "referenced_type" : "type-579",
+   "self_type" : "type-605",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksCompilation *",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "type-58",
+   "self_type" : "type-57",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution *",
+   "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "type-580",
+   "self_type" : "type-579",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-581",
+   "self_type" : "type-583",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-582",
+   "self_type" : "type-581",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-584",
+   "self_type" : "type-586",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-588",
+   "self_type" : "type-590",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "type-589",
+   "self_type" : "type-588",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-591",
+   "self_type" : "type-593",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const unsigned char *",
+   "name" : "const unsigned char *",
+   "referenced_type" : "type-60",
+   "self_type" : "type-62",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-602",
+   "self_type" : "type-604",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution **",
+   "name" : "ANeuralNetworksExecution **",
+   "referenced_type" : "type-63",
+   "self_type" : "type-90",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksExecution *",
+   "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst **",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "type-65",
+   "self_type" : "type-67",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksBurst *",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "type-66",
+   "self_type" : "type-65",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "void *",
+   "name" : "void *",
+   "referenced_type" : "type-68",
+   "self_type" : "type-91",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-69",
+   "self_type" : "type-71",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory **",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "type-72",
+   "self_type" : "type-74",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksMemory *",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "type-73",
+   "self_type" : "type-72",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksExecution *",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "type-75",
+   "self_type" : "type-77",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "unsigned long *",
+   "name" : "unsigned long *",
+   "referenced_type" : "type-78",
+   "self_type" : "type-79",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksOperandType *",
+   "name" : "const ANeuralNetworksOperandType *",
+   "referenced_type" : "type-81",
+   "self_type" : "type-82",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const void *",
+   "name" : "const void *",
+   "referenced_type" : "type-83",
+   "self_type" : "type-84",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksSymmPerChannelQuantParams *",
+   "name" : "const ANeuralNetworksSymmPerChannelQuantParams *",
+   "referenced_type" : "type-85",
+   "self_type" : "type-86",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const ANeuralNetworksMemory *",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "type-87",
+   "self_type" : "type-89",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent **",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "type-92",
+   "self_type" : "type-94",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksEvent *",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "type-93",
+   "self_type" : "type-92",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice **",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "type-98",
+   "self_type" : "type-100",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "ANeuralNetworksDevice *",
+   "name" : "ANeuralNetworksDevice *",
    "referenced_type" : "type-99",
    "self_type" : "type-98",
    "size" : 8,
@@ -3033,10 +3657,196 @@
  [
   {
    "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-102",
+   "self_type" : "type-101",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-103",
+   "self_type" : "type-112",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-110",
+   "self_type" : "type-109",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-128",
+   "self_type" : "type-127",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-135",
+   "self_type" : "type-134",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksMemory",
    "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-114",
-   "self_type" : "type-113",
+   "referenced_type" : "type-146",
+   "self_type" : "type-145",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-159",
+   "self_type" : "type-158",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-160",
+   "self_type" : "type-169",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-167",
+   "self_type" : "type-166",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-185",
+   "self_type" : "type-184",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-192",
+   "self_type" : "type-191",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "type-203",
+   "self_type" : "type-202",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-216",
+   "self_type" : "type-215",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-217",
+   "self_type" : "type-226",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-224",
+   "self_type" : "type-223",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-242",
+   "self_type" : "type-241",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-249",
+   "self_type" : "type-248",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "type-260",
+   "self_type" : "type-259",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksSymmPerChannelQuantParams",
+   "name" : "const ANeuralNetworksSymmPerChannelQuantParams",
+   "referenced_type" : "type-26",
+   "self_type" : "type-85",
+   "size" : 16,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-273",
+   "self_type" : "type-272",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-274",
+   "self_type" : "type-283",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-281",
+   "self_type" : "type-280",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-299",
+   "self_type" : "type-298",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3044,181 +3854,9 @@
    "is_const" : true,
    "linker_set_key" : "const float",
    "name" : "const float",
-   "referenced_type" : "type-11",
-   "self_type" : "type-10",
-   "size" : 4,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-128",
-   "self_type" : "type-127",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-129",
-   "self_type" : "type-136",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-134",
-   "self_type" : "type-133",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-157",
-   "self_type" : "type-156",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-171",
-   "self_type" : "type-170",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-172",
-   "self_type" : "type-179",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-177",
-   "self_type" : "type-176",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-17",
-   "self_type" : "type-16",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-18",
+   "referenced_type" : "type-29",
    "self_type" : "type-28",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-200",
-   "self_type" : "type-199",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-214",
-   "self_type" : "type-213",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-215",
-   "self_type" : "type-222",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 1,
-   "is_const" : true,
-   "linker_set_key" : "const char",
-   "name" : "const char",
-   "referenced_type" : "type-21",
-   "self_type" : "type-20",
-   "size" : 1,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-220",
-   "self_type" : "type-219",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-243",
-   "self_type" : "type-242",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-257",
-   "self_type" : "type-256",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-258",
-   "self_type" : "type-265",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-263",
-   "self_type" : "type-262",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-26",
-   "self_type" : "type-25",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-286",
-   "self_type" : "type-285",
+   "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3227,32 +3865,14 @@
    "linker_set_key" : "const unsigned int",
    "name" : "const unsigned int",
    "referenced_type" : "type-2",
-   "self_type" : "type-42",
+   "self_type" : "type-51",
    "size" : 4,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-300",
-   "self_type" : "type-299",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-301",
-   "self_type" : "type-308",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
    "referenced_type" : "type-306",
    "self_type" : "type-305",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
@@ -3261,16 +3881,16 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksMemory",
    "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-329",
-   "self_type" : "type-328",
+   "referenced_type" : "type-317",
+   "self_type" : "type-316",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice",
    "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-343",
-   "self_type" : "type-342",
+   "referenced_type" : "type-330",
+   "self_type" : "type-329",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3278,8 +3898,8 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice *const",
    "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-344",
-   "self_type" : "type-351",
+   "referenced_type" : "type-331",
+   "self_type" : "type-340",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3287,24 +3907,92 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksModel",
    "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-349",
-   "self_type" : "type-348",
+   "referenced_type" : "type-338",
+   "self_type" : "type-337",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-356",
+   "self_type" : "type-355",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-35",
+   "self_type" : "type-34",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-363",
+   "self_type" : "type-362",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-36",
+   "self_type" : "type-48",
+   "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksMemory",
    "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-372",
-   "self_type" : "type-371",
+   "referenced_type" : "type-374",
+   "self_type" : "type-373",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-379",
+   "self_type" : "type-378",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-385",
+   "self_type" : "type-384",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "type-398",
+   "self_type" : "type-397",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "const char",
+   "name" : "const char",
+   "referenced_type" : "type-39",
+   "self_type" : "type-38",
+   "size" : 1,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice",
    "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-386",
-   "self_type" : "type-385",
+   "referenced_type" : "type-414",
+   "self_type" : "type-413",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3312,8 +4000,8 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice *const",
    "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-387",
-   "self_type" : "type-394",
+   "referenced_type" : "type-415",
+   "self_type" : "type-424",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3321,8 +4009,66 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksModel",
    "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-392",
-   "self_type" : "type-391",
+   "referenced_type" : "type-422",
+   "self_type" : "type-421",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-445",
+   "self_type" : "type-444",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-446",
+   "self_type" : "type-455",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-453",
+   "self_type" : "type-452",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-46",
+   "self_type" : "type-45",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-471",
+   "self_type" : "type-470",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-478",
+   "self_type" : "type-477",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "type-489",
+   "self_type" : "type-488",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3330,25 +4076,17 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksOperandType",
    "name" : "const ANeuralNetworksOperandType",
-   "referenced_type" : "type-39",
-   "self_type" : "type-49",
+   "referenced_type" : "type-49",
+   "self_type" : "type-81",
    "size" : 24,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-415",
-   "self_type" : "type-414",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice",
    "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-429",
-   "self_type" : "type-428",
+   "referenced_type" : "type-502",
+   "self_type" : "type-501",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
@@ -3356,8 +4094,8 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksDevice *const",
    "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-430",
-   "self_type" : "type-437",
+   "referenced_type" : "type-503",
+   "self_type" : "type-512",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3365,110 +4103,129 @@
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksModel",
    "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-435",
-   "self_type" : "type-434",
+   "referenced_type" : "type-510",
+   "self_type" : "type-509",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-528",
+   "self_type" : "type-527",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-535",
+   "self_type" : "type-534",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksMemory",
    "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-459",
-   "self_type" : "type-458",
+   "referenced_type" : "type-546",
+   "self_type" : "type-545",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "type-559",
+   "self_type" : "type-558",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksDevice *const",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "type-560",
+   "self_type" : "type-569",
+   "size" : 8,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "type-567",
+   "self_type" : "type-566",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-585",
+   "self_type" : "type-584",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-592",
+   "self_type" : "type-591",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "type-603",
+   "self_type" : "type-602",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "const unsigned char",
+   "name" : "const unsigned char",
+   "referenced_type" : "type-61",
+   "self_type" : "type-60",
+   "size" : 1,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const void",
    "name" : "const void",
-   "referenced_type" : "type-47",
-   "self_type" : "type-51",
+   "referenced_type" : "type-68",
+   "self_type" : "type-83",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "type-70",
+   "self_type" : "type-69",
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "type-76",
+   "self_type" : "type-75",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const ANeuralNetworksMemory",
    "name" : "const ANeuralNetworksMemory",
-   "referenced_type" : "type-56",
-   "self_type" : "type-55",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksDevice *const",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "type-86",
-   "self_type" : "type-93",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksSymmPerChannelQuantParams",
-   "name" : "const ANeuralNetworksSymmPerChannelQuantParams",
-   "referenced_type" : "type-8",
-   "self_type" : "type-53",
-   "size" : 16,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "is_const" : true,
-   "linker_set_key" : "const ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel",
-   "referenced_type" : "type-91",
-   "self_type" : "type-90",
+   "referenced_type" : "type-88",
+   "self_type" : "type-87",
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   }
  ],
  "record_types" :
  [
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "type",
-     "referenced_type" : "type-40"
-    },
-    {
-     "field_name" : "dimensionCount",
-     "field_offset" : 32,
-     "referenced_type" : "type-2"
-    },
-    {
-     "field_name" : "dimensions",
-     "field_offset" : 64,
-     "referenced_type" : "type-41"
-    },
-    {
-     "field_name" : "scale",
-     "field_offset" : 128,
-     "referenced_type" : "type-11"
-    },
-    {
-     "field_name" : "zeroPoint",
-     "field_offset" : 160,
-     "referenced_type" : "type-40"
-    }
-   ],
-   "linker_set_key" : "ANeuralNetworksOperandType",
-   "name" : "ANeuralNetworksOperandType",
-   "referenced_type" : "type-39",
-   "self_type" : "type-39",
-   "size" : 24,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
-   "unique_id" : "ANeuralNetworksOperandType"
-  },
   {
    "alignment" : 8,
    "fields" :
@@ -3485,16 +4242,53 @@
     {
      "field_name" : "scales",
      "field_offset" : 64,
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-27"
     }
    ],
    "linker_set_key" : "ANeuralNetworksSymmPerChannelQuantParams",
    "name" : "ANeuralNetworksSymmPerChannelQuantParams",
-   "referenced_type" : "type-8",
-   "self_type" : "type-8",
+   "referenced_type" : "type-26",
+   "self_type" : "type-26",
    "size" : 16,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
    "unique_id" : "ANeuralNetworksSymmPerChannelQuantParams"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "type-42"
+    },
+    {
+     "field_name" : "dimensionCount",
+     "field_offset" : 32,
+     "referenced_type" : "type-2"
+    },
+    {
+     "field_name" : "dimensions",
+     "field_offset" : 64,
+     "referenced_type" : "type-50"
+    },
+    {
+     "field_name" : "scale",
+     "field_offset" : 128,
+     "referenced_type" : "type-29"
+    },
+    {
+     "field_name" : "zeroPoint",
+     "field_offset" : 160,
+     "referenced_type" : "type-42"
+    }
+   ],
+   "linker_set_key" : "ANeuralNetworksOperandType",
+   "name" : "ANeuralNetworksOperandType",
+   "referenced_type" : "type-49",
+   "self_type" : "type-49",
+   "size" : 24,
+   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h",
+   "unique_id" : "ANeuralNetworksOperandType"
   }
  ],
  "rvalue_reference_types" : []
