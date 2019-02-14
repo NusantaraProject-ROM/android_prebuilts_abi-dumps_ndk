@@ -3,29 +3,13 @@
  "builtin_types" :
  [
   {
-   "alignment" : 2,
-   "linker_set_key" : "_Float16",
-   "name" : "_Float16",
-   "referenced_type" : "type-25",
-   "self_type" : "type-25",
-   "size" : 2
-  },
-  {
-   "alignment" : 2,
-   "linker_set_key" : "__fp16",
-   "name" : "__fp16",
-   "referenced_type" : "type-24",
-   "self_type" : "type-24",
-   "size" : 2
-  },
-  {
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9",
+   "referenced_type" : "type-7",
+   "self_type" : "type-7",
    "size" : 1
   },
   {
@@ -34,8 +18,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-20",
-   "self_type" : "type-20",
+   "referenced_type" : "type-19",
+   "self_type" : "type-19",
    "size" : 1
   },
   {
@@ -44,8 +28,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char16_t",
    "name" : "char16_t",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
+   "referenced_type" : "type-14",
+   "self_type" : "type-14",
    "size" : 2
   },
   {
@@ -54,31 +38,22 @@
    "is_unsigned" : true,
    "linker_set_key" : "char32_t",
    "name" : "char32_t",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
+   "referenced_type" : "type-15",
+   "self_type" : "type-15",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-23",
+   "self_type" : "type-23",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "int",
-   "name" : "int",
    "referenced_type" : "type-22",
    "self_type" : "type-22",
    "size" : 4
@@ -86,18 +61,27 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "int",
+   "name" : "int",
+   "referenced_type" : "type-1",
+   "self_type" : "type-1",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-8",
-   "self_type" : "type-8",
+   "referenced_type" : "type-5",
+   "self_type" : "type-5",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-4",
+   "self_type" : "type-4",
    "size" : 8
   },
   {
@@ -105,16 +89,16 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "type-2",
+   "self_type" : "type-2",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "nullptr_t",
    "name" : "nullptr_t",
-   "referenced_type" : "type-11",
-   "self_type" : "type-11",
+   "referenced_type" : "type-8",
+   "self_type" : "type-8",
    "size" : 4
   },
   {
@@ -122,8 +106,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
+   "referenced_type" : "type-16",
+   "self_type" : "type-16",
    "size" : 2
   },
   {
@@ -131,8 +115,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-12",
-   "self_type" : "type-12",
+   "referenced_type" : "type-9",
+   "self_type" : "type-9",
    "size" : 1
   },
   {
@@ -141,8 +125,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-13",
-   "self_type" : "type-13",
+   "referenced_type" : "type-10",
+   "self_type" : "type-10",
    "size" : 1
   },
   {
@@ -151,8 +135,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned int",
    "name" : "unsigned int",
-   "referenced_type" : "type-23",
-   "self_type" : "type-23",
+   "referenced_type" : "type-21",
+   "self_type" : "type-21",
    "size" : 4
   },
   {
@@ -161,8 +145,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
+   "referenced_type" : "type-3",
+   "self_type" : "type-3",
    "size" : 4
   },
   {
@@ -171,8 +155,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-10",
-   "self_type" : "type-10",
+   "referenced_type" : "type-6",
+   "self_type" : "type-6",
    "size" : 8
   },
   {
@@ -181,15 +165,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-18",
-   "self_type" : "type-18",
+   "referenced_type" : "type-17",
+   "self_type" : "type-17",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-2",
-   "self_type" : "type-2"
+   "referenced_type" : "type-13",
+   "self_type" : "type-13"
   },
   {
    "alignment" : 4,
@@ -197,13 +181,16 @@
    "is_unsigned" : true,
    "linker_set_key" : "wchar_t",
    "name" : "wchar_t",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
+   "referenced_type" : "type-11",
+   "self_type" : "type-11",
    "size" : 4
   }
  ],
  "elf_functions" :
  [
+  {
+   "name" : "android_is_in_vendor_process"
+  },
   {
    "name" : "android_load_sphal_library"
   },
@@ -217,18 +204,24 @@
  "functions" :
  [
   {
+   "function_name" : "android_is_in_vendor_process",
+   "linker_set_key" : "android_is_in_vendor_process",
+   "return_type" : "type-1",
+   "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
+  },
+  {
    "function_name" : "android_load_sphal_library",
    "linker_set_key" : "android_load_sphal_library",
    "parameters" :
    [
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-20"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-1"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "type-12",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
   {
@@ -237,10 +230,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "type-12"
     }
    ],
-   "return_type" : "type-22",
+   "return_type" : "type-1",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
  ],
@@ -250,19 +243,19 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "const char *",
-   "name" : "const char *",
-   "referenced_type" : "type-19",
-   "self_type" : "type-21",
+   "linker_set_key" : "void *",
+   "name" : "void *",
+   "referenced_type" : "type-13",
+   "self_type" : "type-12",
    "size" : 4,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *",
-   "name" : "void *",
-   "referenced_type" : "type-2",
-   "self_type" : "type-1",
+   "linker_set_key" : "const char *",
+   "name" : "const char *",
+   "referenced_type" : "type-18",
+   "self_type" : "type-20",
    "size" : 4,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
@@ -274,8 +267,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-20",
-   "self_type" : "type-19",
+   "referenced_type" : "type-19",
+   "self_type" : "type-18",
    "size" : 1,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }

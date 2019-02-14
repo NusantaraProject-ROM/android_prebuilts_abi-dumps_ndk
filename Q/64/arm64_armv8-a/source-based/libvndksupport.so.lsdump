@@ -8,8 +8,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-5",
+   "self_type" : "type-5",
    "size" : 1
   },
   {
@@ -17,19 +17,22 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
+   "referenced_type" : "type-1",
+   "self_type" : "type-1",
    "size" : 4
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-2",
-   "self_type" : "type-2"
+   "referenced_type" : "type-3",
+   "self_type" : "type-3"
   }
  ],
  "elf_functions" :
  [
+  {
+   "name" : "android_is_in_vendor_process"
+  },
   {
    "name" : "android_load_sphal_library"
   },
@@ -43,18 +46,24 @@
  "functions" :
  [
   {
+   "function_name" : "android_is_in_vendor_process",
+   "linker_set_key" : "android_is_in_vendor_process",
+   "return_type" : "type-1",
+   "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
+  },
+  {
    "function_name" : "android_load_sphal_library",
    "linker_set_key" : "android_load_sphal_library",
    "parameters" :
    [
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-1"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "type-2",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
   {
@@ -63,10 +72,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-1",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
  ],
@@ -78,8 +87,8 @@
    "alignment" : 8,
    "linker_set_key" : "void *",
    "name" : "void *",
-   "referenced_type" : "type-2",
-   "self_type" : "type-1",
+   "referenced_type" : "type-3",
+   "self_type" : "type-2",
    "size" : 8,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
@@ -87,8 +96,8 @@
    "alignment" : 8,
    "linker_set_key" : "const char *",
    "name" : "const char *",
-   "referenced_type" : "type-3",
-   "self_type" : "type-5",
+   "referenced_type" : "type-4",
+   "self_type" : "type-6",
    "size" : 8,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
@@ -100,8 +109,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-4",
-   "self_type" : "type-3",
+   "referenced_type" : "type-5",
+   "self_type" : "type-4",
    "size" : 1,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
