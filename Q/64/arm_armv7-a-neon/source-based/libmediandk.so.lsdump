@@ -5,16 +5,16 @@
    "alignment" : 4,
    "linker_set_key" : "PsshEntry [0]",
    "name" : "PsshEntry [0]",
-   "referenced_type" : "type-156",
-   "self_type" : "type-159",
+   "referenced_type" : "type-162",
+   "self_type" : "type-165",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "alignment" : 1,
    "linker_set_key" : "unsigned char [16]",
    "name" : "unsigned char [16]",
-   "referenced_type" : "type-41",
-   "self_type" : "type-157",
+   "referenced_type" : "type-39",
+   "self_type" : "type-163",
    "size" : 16,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   }
@@ -22,29 +22,13 @@
  "builtin_types" :
  [
   {
-   "alignment" : 2,
-   "linker_set_key" : "_Float16",
-   "name" : "_Float16",
-   "referenced_type" : "type-98",
-   "self_type" : "type-98",
-   "size" : 2
-  },
-  {
-   "alignment" : 2,
-   "linker_set_key" : "__fp16",
-   "name" : "__fp16",
-   "referenced_type" : "type-97",
-   "self_type" : "type-97",
-   "size" : 2
-  },
-  {
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-122",
-   "self_type" : "type-122",
+   "referenced_type" : "type-56",
+   "self_type" : "type-56",
    "size" : 1
   },
   {
@@ -63,8 +47,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char16_t",
    "name" : "char16_t",
-   "referenced_type" : "type-104",
-   "self_type" : "type-104",
+   "referenced_type" : "type-111",
+   "self_type" : "type-111",
    "size" : 2
   },
   {
@@ -73,8 +57,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char32_t",
    "name" : "char32_t",
-   "referenced_type" : "type-105",
-   "self_type" : "type-105",
+   "referenced_type" : "type-112",
+   "self_type" : "type-112",
    "size" : 4
   },
   {
@@ -107,16 +91,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-118",
-   "self_type" : "type-118",
+   "referenced_type" : "type-125",
+   "self_type" : "type-125",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-100",
-   "self_type" : "type-100",
+   "referenced_type" : "type-107",
+   "self_type" : "type-107",
    "size" : 8
   },
   {
@@ -132,8 +116,8 @@
    "alignment" : 4,
    "linker_set_key" : "nullptr_t",
    "name" : "nullptr_t",
-   "referenced_type" : "type-101",
-   "self_type" : "type-101",
+   "referenced_type" : "type-108",
+   "self_type" : "type-108",
    "size" : 4
   },
   {
@@ -141,8 +125,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-106",
-   "self_type" : "type-106",
+   "referenced_type" : "type-113",
+   "self_type" : "type-113",
    "size" : 2
   },
   {
@@ -150,8 +134,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-102",
-   "self_type" : "type-102",
+   "referenced_type" : "type-109",
+   "self_type" : "type-109",
    "size" : 1
   },
   {
@@ -160,8 +144,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-41",
-   "self_type" : "type-41",
+   "referenced_type" : "type-39",
+   "self_type" : "type-39",
    "size" : 1
   },
   {
@@ -180,8 +164,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-99",
-   "self_type" : "type-99",
+   "referenced_type" : "type-106",
+   "self_type" : "type-106",
    "size" : 4
   },
   {
@@ -190,8 +174,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-119",
-   "self_type" : "type-119",
+   "referenced_type" : "type-126",
+   "self_type" : "type-126",
    "size" : 8
   },
   {
@@ -200,8 +184,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-107",
-   "self_type" : "type-107",
+   "referenced_type" : "type-114",
+   "self_type" : "type-114",
    "size" : 2
   },
   {
@@ -216,8 +200,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "wchar_t",
    "name" : "wchar_t",
-   "referenced_type" : "type-103",
-   "self_type" : "type-103",
+   "referenced_type" : "type-110",
+   "self_type" : "type-110",
    "size" : 4
   }
  ],
@@ -509,6 +493,12 @@
    "name" : "AMediaDrm_setOnEventListener"
   },
   {
+   "name" : "AMediaDrm_setOnExpirationUpdateListener"
+  },
+  {
+   "name" : "AMediaDrm_setOnKeysChangeListener"
+  },
+  {
    "name" : "AMediaDrm_setPropertyByteArray"
   },
   {
@@ -525,9 +515,6 @@
   },
   {
    "name" : "AMediaExtractor_delete"
-  },
-  {
-   "name" : "AMediaExtractor_disconnect"
   },
   {
    "name" : "AMediaExtractor_getCachedDuration"
@@ -1020,8 +1007,8 @@
    ],
    "linker_set_key" : "cryptoinfo_mode_t",
    "name" : "cryptoinfo_mode_t",
-   "referenced_type" : "type-126",
-   "self_type" : "type-126",
+   "referenced_type" : "type-132",
+   "self_type" : "type-132",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
    "underlying_type" : "type-6",
@@ -1046,8 +1033,8 @@
    ],
    "linker_set_key" : "SeekMode",
    "name" : "SeekMode",
-   "referenced_type" : "type-155",
-   "self_type" : "type-155",
+   "referenced_type" : "type-161",
+   "self_type" : "type-161",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h",
    "underlying_type" : "type-6",
@@ -1080,6 +1067,40 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "KEY_STATUS_TYPE_USABLE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "KEY_STATUS_TYPE_EXPIRED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "KEY_STATUS_TYPE_OUTPUTNOTALLOWED"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "KEY_STATUS_TYPE_STATUSPENDING"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "KEY_STATUS_TYPE_INTERNALERROR"
+    }
+   ],
+   "linker_set_key" : "AMediaKeyStatusType",
+   "name" : "AMediaKeyStatusType",
+   "referenced_type" : "type-34",
+   "self_type" : "type-34",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "underlying_type" : "type-6",
+   "unique_id" : "AMediaKeyStatusType"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "EVENT_PROVISION_REQUIRED"
     },
@@ -1094,12 +1115,16 @@
     {
      "enum_field_value" : 4,
      "name" : "EVENT_VENDOR_DEFINED"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "EVENT_SESSION_RECLAIMED"
     }
    ],
    "linker_set_key" : "AMediaDrmEventType",
    "name" : "AMediaDrmEventType",
-   "referenced_type" : "type-42",
-   "self_type" : "type-42",
+   "referenced_type" : "type-49",
+   "self_type" : "type-49",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
    "underlying_type" : "type-6",
@@ -1124,8 +1149,8 @@
    ],
    "linker_set_key" : "AMediaDrmKeyType",
    "name" : "AMediaDrmKeyType",
-   "referenced_type" : "type-49",
-   "self_type" : "type-49",
+   "referenced_type" : "type-66",
+   "self_type" : "type-66",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
    "underlying_type" : "type-6",
@@ -1194,8 +1219,8 @@
    ],
    "linker_set_key" : "AIMAGE_FORMATS",
    "name" : "AIMAGE_FORMATS",
-   "referenced_type" : "type-76",
-   "self_type" : "type-76",
+   "referenced_type" : "type-86",
+   "self_type" : "type-86",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h",
    "underlying_type" : "type-6",
@@ -1211,7 +1236,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-10"
@@ -1220,9 +1245,9 @@
      "referenced_type" : "type-2"
     }
    ],
-   "referenced_type" : "type-116",
+   "referenced_type" : "type-123",
    "return_type" : "type-11",
-   "self_type" : "type-116",
+   "self_type" : "type-123",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1235,9 +1260,9 @@
      "referenced_type" : "type-10"
     }
    ],
-   "referenced_type" : "type-139",
+   "referenced_type" : "type-145",
    "return_type" : "type-2",
-   "self_type" : "type-139",
+   "self_type" : "type-145",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
@@ -1250,9 +1275,9 @@
      "referenced_type" : "type-10"
     }
    ],
-   "referenced_type" : "type-141",
+   "referenced_type" : "type-147",
    "return_type" : "type-11",
-   "self_type" : "type-141",
+   "self_type" : "type-147",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
@@ -1274,40 +1299,10 @@
      "referenced_type" : "type-6"
     }
    ],
-   "referenced_type" : "type-145",
+   "referenced_type" : "type-151",
    "return_type" : "type-2",
-   "self_type" : "type-145",
+   "self_type" : "type-151",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "void (AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
-   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-33"
-    },
-    {
-     "referenced_type" : "type-36"
-    },
-    {
-     "referenced_type" : "type-42"
-    },
-    {
-     "referenced_type" : "type-2"
-    },
-    {
-     "referenced_type" : "type-39"
-    },
-    {
-     "referenced_type" : "type-6"
-    }
-   ],
-   "referenced_type" : "type-35",
-   "return_type" : "type-11",
-   "self_type" : "type-35",
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
@@ -1316,7 +1311,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-10"
@@ -1328,10 +1323,88 @@
      "referenced_type" : "type-3"
     }
    ],
-   "referenced_type" : "type-44",
+   "referenced_type" : "type-43",
    "return_type" : "type-11",
-   "self_type" : "type-44",
+   "self_type" : "type-43",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "void (AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-40"
+    },
+    {
+     "referenced_type" : "type-47"
+    },
+    {
+     "referenced_type" : "type-49"
+    },
+    {
+     "referenced_type" : "type-2"
+    },
+    {
+     "referenced_type" : "type-37"
+    },
+    {
+     "referenced_type" : "type-6"
+    }
+   ],
+   "referenced_type" : "type-46",
+   "return_type" : "type-11",
+   "self_type" : "type-46",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "void (AMediaDrm *, const AMediaDrmByteArray *, long long)",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, long long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-40"
+    },
+    {
+     "referenced_type" : "type-47"
+    },
+    {
+     "referenced_type" : "type-5"
+    }
+   ],
+   "referenced_type" : "type-51",
+   "return_type" : "type-11",
+   "self_type" : "type-51",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "void (AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned int, bool)",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned int, bool)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-40"
+    },
+    {
+     "referenced_type" : "type-47"
+    },
+    {
+     "referenced_type" : "type-54"
+    },
+    {
+     "referenced_type" : "type-6"
+    },
+    {
+     "referenced_type" : "type-56"
+    }
+   ],
+   "referenced_type" : "type-53",
+   "return_type" : "type-11",
+   "self_type" : "type-53",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
@@ -1340,18 +1413,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "type-58"
     }
    ],
-   "referenced_type" : "type-54",
+   "referenced_type" : "type-57",
    "return_type" : "type-11",
-   "self_type" : "type-54",
+   "self_type" : "type-57",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1364,12 +1437,12 @@
      "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-71"
+     "referenced_type" : "type-80"
     }
    ],
-   "referenced_type" : "type-70",
+   "referenced_type" : "type-79",
    "return_type" : "type-11",
-   "self_type" : "type-70",
+   "self_type" : "type-79",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
@@ -1382,15 +1455,15 @@
      "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-71"
+     "referenced_type" : "type-80"
     },
     {
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-74"
     }
    ],
-   "referenced_type" : "type-75",
+   "referenced_type" : "type-84",
    "return_type" : "type-11",
-   "self_type" : "type-75",
+   "self_type" : "type-84",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
@@ -1400,7 +1473,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-10"
@@ -1415,9 +1488,9 @@
      "referenced_type" : "type-13"
     }
    ],
-   "referenced_type" : "type-90",
+   "referenced_type" : "type-95",
    "return_type" : "type-11",
-   "self_type" : "type-90",
+   "self_type" : "type-95",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   }
  ],
@@ -1429,10 +1502,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     }
    ],
    "return_type" : "type-1",
@@ -1444,10 +1517,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     },
     {
      "referenced_type" : "type-20"
@@ -1462,10 +1535,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     }
    ],
    "return_type" : "type-1",
@@ -1477,10 +1550,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     },
     {
      "referenced_type" : "type-20"
@@ -1495,7 +1568,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     }
    ],
    "return_type" : "type-11",
@@ -1507,7 +1580,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-85"
+     "referenced_type" : "type-94"
     },
     {
      "referenced_type" : "type-20"
@@ -1522,7 +1595,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-85"
+     "referenced_type" : "type-94"
     },
     {
      "referenced_type" : "type-20"
@@ -1537,7 +1610,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-85"
+     "referenced_type" : "type-94"
     },
     {
      "referenced_type" : "type-20"
@@ -1552,7 +1625,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-85"
+     "referenced_type" : "type-94"
     },
     {
      "referenced_type" : "type-20"
@@ -1567,10 +1640,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-91"
     }
    ],
    "return_type" : "type-1",
@@ -1594,7 +1667,7 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-96"
+     "referenced_type" : "type-105"
     }
    ],
    "return_type" : "type-1",
@@ -1615,13 +1688,13 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-119"
+     "referenced_type" : "type-126"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-96"
+     "referenced_type" : "type-105"
     }
    ],
    "return_type" : "type-1",
@@ -1633,10 +1706,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-93"
+     "referenced_type" : "type-102"
     }
    ],
    "return_type" : "type-1",
@@ -1648,10 +1721,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-94"
+     "referenced_type" : "type-103"
     },
     {
-     "referenced_type" : "type-89"
+     "referenced_type" : "type-99"
     }
    ],
    "return_type" : "type-1",
@@ -1663,7 +1736,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-77"
+     "referenced_type" : "type-87"
     }
    ],
    "return_type" : "type-11",
@@ -1675,7 +1748,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-77"
+     "referenced_type" : "type-87"
     },
     {
      "referenced_type" : "type-2"
@@ -1690,10 +1763,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-61"
+     "referenced_type" : "type-70"
     }
    ],
    "return_type" : "type-1",
@@ -1705,7 +1778,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-20"
@@ -1720,10 +1793,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-67"
+     "referenced_type" : "type-76"
     }
    ],
    "return_type" : "type-1",
@@ -1735,7 +1808,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-20"
@@ -1750,7 +1823,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-20"
@@ -1765,13 +1838,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-72"
     },
     {
      "referenced_type" : "type-20"
@@ -1786,7 +1859,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-2"
@@ -1804,7 +1877,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-2"
@@ -1822,10 +1895,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-163"
+     "referenced_type" : "type-169"
     }
    ],
    "return_type" : "type-1",
@@ -1837,7 +1910,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-67"
     },
     {
      "referenced_type" : "type-20"
@@ -1855,7 +1928,7 @@
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1867,7 +1940,7 @@
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1876,7 +1949,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     }
    ],
    "return_type" : "type-1",
@@ -1888,10 +1961,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -1903,10 +1976,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -1918,10 +1991,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     }
    ],
    "return_type" : "type-1",
@@ -1933,10 +2006,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     }
    ],
    "return_type" : "type-1",
@@ -1948,10 +2021,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     }
    ],
-   "return_type" : "type-126",
+   "return_type" : "type-132",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1960,7 +2033,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     }
    ],
    "return_type" : "type-6",
@@ -1975,22 +2048,22 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-132"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
-   "return_type" : "type-120",
+   "return_type" : "type-127",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -1999,10 +2072,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-134"
     }
    ],
    "return_type" : "type-11",
@@ -2014,16 +2087,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-111"
+     "referenced_type" : "type-118"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-119"
     },
     {
-     "referenced_type" : "type-114"
+     "referenced_type" : "type-121"
     },
     {
      "referenced_type" : "type-6"
@@ -2041,7 +2114,7 @@
      "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-45",
+   "return_type" : "type-44",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2053,7 +2126,7 @@
      "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-45",
+   "return_type" : "type-44",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2065,7 +2138,7 @@
      "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-45",
+   "return_type" : "type-44",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2074,10 +2147,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-123"
+     "referenced_type" : "type-129"
     }
    ],
    "return_type" : "type-1",
@@ -2089,7 +2162,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-123"
+     "referenced_type" : "type-129"
     }
    ],
    "return_type" : "type-1",
@@ -2101,7 +2174,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2113,7 +2186,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-5"
@@ -2128,7 +2201,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-3"
@@ -2146,7 +2219,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2158,13 +2231,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-55",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2173,16 +2246,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
-   "return_type" : "type-64",
+   "return_type" : "type-73",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2191,10 +2264,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
-   "return_type" : "type-55",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2203,10 +2276,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-125"
+     "referenced_type" : "type-131"
     }
    ],
    "return_type" : "type-1",
@@ -2218,16 +2291,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
-   "return_type" : "type-64",
+   "return_type" : "type-73",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2236,10 +2309,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
-   "return_type" : "type-55",
+   "return_type" : "type-58",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -2248,19 +2321,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-118"
+     "referenced_type" : "type-125"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-119"
+     "referenced_type" : "type-126"
     },
     {
      "referenced_type" : "type-6"
@@ -2275,19 +2348,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-118"
+     "referenced_type" : "type-125"
     },
     {
-     "referenced_type" : "type-120"
+     "referenced_type" : "type-127"
     },
     {
-     "referenced_type" : "type-119"
+     "referenced_type" : "type-126"
     },
     {
      "referenced_type" : "type-6"
@@ -2302,7 +2375,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2314,10 +2387,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-124"
+     "referenced_type" : "type-130"
     }
    ],
    "return_type" : "type-11",
@@ -2329,13 +2402,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-122"
+     "referenced_type" : "type-56"
     }
    ],
    "return_type" : "type-1",
@@ -2347,7 +2420,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
      "referenced_type" : "type-6"
@@ -2365,10 +2438,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-129"
+     "referenced_type" : "type-135"
     },
     {
      "referenced_type" : "type-10"
@@ -2383,10 +2456,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-119"
     }
    ],
    "return_type" : "type-1",
@@ -2398,10 +2471,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-119"
     }
    ],
    "return_type" : "type-1",
@@ -2413,10 +2486,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-111"
+     "referenced_type" : "type-118"
     }
    ],
    "return_type" : "type-1",
@@ -2428,7 +2501,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2440,7 +2513,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2452,7 +2525,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-44"
     }
    ],
    "return_type" : "type-1",
@@ -2464,7 +2537,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-137"
+     "referenced_type" : "type-143"
     }
    ],
    "return_type" : "type-11",
@@ -2476,10 +2549,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
@@ -2488,16 +2561,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
-     "referenced_type" : "type-132"
+     "referenced_type" : "type-138"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-137",
+   "return_type" : "type-143",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
@@ -2509,7 +2582,7 @@
      "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
@@ -2518,7 +2591,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "type-149"
     }
    ],
    "return_type" : "type-11",
@@ -2527,7 +2600,7 @@
   {
    "function_name" : "AMediaDataSource_new",
    "linker_set_key" : "AMediaDataSource_new",
-   "return_type" : "type-143",
+   "return_type" : "type-149",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
@@ -2536,10 +2609,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "type-149"
     },
     {
-     "referenced_type" : "type-142"
+     "referenced_type" : "type-148"
     }
    ],
    "return_type" : "type-11",
@@ -2551,10 +2624,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "type-149"
     },
     {
-     "referenced_type" : "type-140"
+     "referenced_type" : "type-146"
     }
    ],
    "return_type" : "type-11",
@@ -2566,10 +2639,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "type-149"
     },
     {
-     "referenced_type" : "type-146"
+     "referenced_type" : "type-152"
     }
    ],
    "return_type" : "type-11",
@@ -2581,7 +2654,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "type-149"
     },
     {
      "referenced_type" : "type-10"
@@ -2596,10 +2669,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     }
    ],
    "return_type" : "type-1",
@@ -2611,10 +2684,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     }
    ],
-   "return_type" : "type-33",
+   "return_type" : "type-40",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
@@ -2623,25 +2696,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-6"
@@ -2656,25 +2729,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-6"
@@ -2689,13 +2762,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
@@ -2704,19 +2777,19 @@
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-49"
+     "referenced_type" : "type-66"
     },
     {
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-63"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-64"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -2728,13 +2801,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-61"
     }
    ],
    "return_type" : "type-1",
@@ -2746,7 +2819,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
      "referenced_type" : "type-13"
@@ -2764,13 +2837,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-64"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-12"
@@ -2785,13 +2858,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-61"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -2803,13 +2876,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
@@ -2818,10 +2891,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-61"
     }
    ],
    "return_type" : "type-1",
@@ -2833,19 +2906,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-61"
     }
    ],
    "return_type" : "type-1",
@@ -2857,10 +2930,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
@@ -2875,16 +2948,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-65"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -2896,7 +2969,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     }
    ],
    "return_type" : "type-11",
@@ -2908,10 +2981,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     }
    ],
    "return_type" : "type-1",
@@ -2923,10 +2996,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     }
    ],
    "return_type" : "type-1",
@@ -2938,13 +3011,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     }
    ],
    "return_type" : "type-1",
@@ -2956,10 +3029,40 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-50"
+    }
+   ],
+   "return_type" : "type-1",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setOnExpirationUpdateListener",
+   "linker_set_key" : "AMediaDrm_setOnExpirationUpdateListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-40"
+    },
+    {
+     "referenced_type" : "type-52"
+    }
+   ],
+   "return_type" : "type-1",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setOnKeysChangeListener",
+   "linker_set_key" : "AMediaDrm_setOnKeysChangeListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-40"
+    },
+    {
+     "referenced_type" : "type-60"
     }
    ],
    "return_type" : "type-1",
@@ -2971,13 +3074,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
@@ -2992,7 +3095,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
      "referenced_type" : "type-13"
@@ -3010,28 +3113,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -3043,25 +3146,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-40"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-47"
     },
     {
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-6"
@@ -3076,10 +3179,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -3088,7 +3191,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -3100,7 +3203,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-5",
@@ -3112,10 +3215,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
-   "return_type" : "type-149",
+   "return_type" : "type-155",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -3124,10 +3227,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
-   "return_type" : "type-160",
+   "return_type" : "type-166",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -3136,10 +3239,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
-   "return_type" : "type-161",
+   "return_type" : "type-167",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -3148,7 +3251,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-6",
@@ -3160,10 +3263,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-149"
+     "referenced_type" : "type-155"
     }
    ],
    "return_type" : "type-1",
@@ -3175,7 +3278,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-2",
@@ -3187,7 +3290,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-5",
@@ -3199,7 +3302,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-2",
@@ -3211,7 +3314,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-6",
@@ -3223,19 +3326,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-149",
+   "return_type" : "type-155",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "function_name" : "AMediaExtractor_new",
    "linker_set_key" : "AMediaExtractor_new",
-   "return_type" : "type-151",
+   "return_type" : "type-157",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -3244,10 +3347,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-6"
@@ -3262,13 +3365,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-5"
     },
     {
-     "referenced_type" : "type-155"
+     "referenced_type" : "type-161"
     }
    ],
    "return_type" : "type-1",
@@ -3280,7 +3383,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-6"
@@ -3295,7 +3398,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-13"
@@ -3310,10 +3413,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-153"
+     "referenced_type" : "type-159"
     }
    ],
    "return_type" : "type-1",
@@ -3325,7 +3428,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-2"
@@ -3346,7 +3449,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-6"
@@ -3382,10 +3485,10 @@
      "referenced_type" : "type-9"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3403,7 +3506,7 @@
      "referenced_type" : "type-17"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3421,7 +3524,7 @@
      "referenced_type" : "type-7"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3439,7 +3542,7 @@
      "referenced_type" : "type-20"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3454,10 +3557,10 @@
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-163"
+     "referenced_type" : "type-169"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3484,7 +3587,7 @@
      "referenced_type" : "type-20"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3499,10 +3602,10 @@
      "referenced_type" : "type-13"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-124"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3520,7 +3623,7 @@
      "referenced_type" : "type-12"
     }
    ],
-   "return_type" : "type-122",
+   "return_type" : "type-56",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -3808,7 +3911,7 @@
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "referenced_type" : "type-32"
@@ -4231,12 +4334,30 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const AMediaFormat *",
-   "name" : "const AMediaFormat *",
-   "referenced_type" : "type-109",
-   "self_type" : "type-111",
+   "linker_set_key" : "AHardwareBuffer *",
+   "name" : "AHardwareBuffer *",
+   "referenced_type" : "type-101",
+   "self_type" : "type-100",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImageReader **",
+   "name" : "AImageReader **",
+   "referenced_type" : "type-103",
+   "self_type" : "type-105",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImageReader *",
+   "name" : "AImageReader *",
+   "referenced_type" : "type-104",
+   "self_type" : "type-103",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
@@ -4249,10 +4370,19 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "const AMediaFormat *",
+   "name" : "const AMediaFormat *",
+   "referenced_type" : "type-116",
+   "self_type" : "type-118",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "ANativeWindow **",
    "name" : "ANativeWindow **",
-   "referenced_type" : "type-112",
-   "self_type" : "type-123",
+   "referenced_type" : "type-119",
+   "self_type" : "type-129",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4260,8 +4390,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow *",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-113",
-   "self_type" : "type-112",
+   "referenced_type" : "type-120",
+   "self_type" : "type-119",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4269,8 +4399,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCrypto *",
    "name" : "AMediaCrypto *",
-   "referenced_type" : "type-115",
-   "self_type" : "type-114",
+   "referenced_type" : "type-122",
+   "self_type" : "type-121",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4278,8 +4408,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(AMediaCodec *, void *, int)",
    "name" : "void (*)(AMediaCodec *, void *, int)",
-   "referenced_type" : "type-116",
-   "self_type" : "type-130",
+   "referenced_type" : "type-123",
+   "self_type" : "type-136",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4287,26 +4417,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCodecCryptoInfo *",
    "name" : "AMediaCodecCryptoInfo *",
-   "referenced_type" : "type-121",
-   "self_type" : "type-120",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "char **",
-   "name" : "char **",
-   "referenced_type" : "type-124",
-   "self_type" : "type-125",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "cryptoinfo_pattern_t *",
-   "name" : "cryptoinfo_pattern_t *",
-   "referenced_type" : "type-127",
-   "self_type" : "type-128",
+   "referenced_type" : "type-128",
+   "self_type" : "type-127",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4321,48 +4433,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "char **",
+   "name" : "char **",
+   "referenced_type" : "type-130",
+   "self_type" : "type-131",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "cryptoinfo_pattern_t *",
+   "name" : "cryptoinfo_pattern_t *",
+   "referenced_type" : "type-133",
+   "self_type" : "type-134",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "const void *",
    "name" : "const void *",
-   "referenced_type" : "type-131",
-   "self_type" : "type-132",
+   "referenced_type" : "type-137",
+   "self_type" : "type-138",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
-   "referenced_type" : "type-134",
-   "self_type" : "type-133",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-136",
-   "self_type" : "type-135",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCrypto *",
-   "name" : "AMediaCrypto *",
-   "referenced_type" : "type-138",
-   "self_type" : "type-137",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "int (*)(void *)",
-   "name" : "int (*)(void *)",
-   "referenced_type" : "type-139",
-   "self_type" : "type-140",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
    "alignment" : 4,
@@ -4375,46 +4469,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void (*)(void *)",
-   "name" : "void (*)(void *)",
-   "referenced_type" : "type-141",
-   "self_type" : "type-142",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaDataSource *",
-   "name" : "AMediaDataSource *",
-   "referenced_type" : "type-144",
-   "self_type" : "type-143",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "int (*)(void *, long long, void *, unsigned int)",
-   "name" : "int (*)(void *, long long, void *, unsigned int)",
-   "referenced_type" : "type-145",
-   "self_type" : "type-146",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "AMediaCodec *",
    "name" : "AMediaCodec *",
-   "referenced_type" : "type-148",
-   "self_type" : "type-147",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "char *",
-   "name" : "char *",
-   "referenced_type" : "type-15",
-   "self_type" : "type-124",
+   "referenced_type" : "type-140",
+   "self_type" : "type-139",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4422,8 +4480,80 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
+   "referenced_type" : "type-142",
+   "self_type" : "type-141",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaCrypto *",
+   "name" : "AMediaCrypto *",
+   "referenced_type" : "type-144",
+   "self_type" : "type-143",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "int (*)(void *)",
+   "name" : "int (*)(void *)",
+   "referenced_type" : "type-145",
+   "self_type" : "type-146",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "void (*)(void *)",
+   "name" : "void (*)(void *)",
+   "referenced_type" : "type-147",
+   "self_type" : "type-148",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "char *",
+   "name" : "char *",
+   "referenced_type" : "type-15",
+   "self_type" : "type-130",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaDataSource *",
+   "name" : "AMediaDataSource *",
    "referenced_type" : "type-150",
    "self_type" : "type-149",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "int (*)(void *, long long, void *, unsigned int)",
+   "name" : "int (*)(void *, long long, void *, unsigned int)",
+   "referenced_type" : "type-151",
+   "self_type" : "type-152",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
+   "referenced_type" : "type-154",
+   "self_type" : "type-153",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
+   "referenced_type" : "type-156",
+   "self_type" : "type-155",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4431,26 +4561,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaExtractor *",
    "name" : "AMediaExtractor *",
-   "referenced_type" : "type-152",
-   "self_type" : "type-151",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaDataSource *",
-   "name" : "AMediaDataSource *",
-   "referenced_type" : "type-154",
-   "self_type" : "type-153",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "PsshInfo *",
-   "name" : "PsshInfo *",
    "referenced_type" : "type-158",
-   "self_type" : "type-160",
+   "self_type" : "type-157",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
@@ -4465,10 +4577,28 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "AMediaDataSource *",
+   "name" : "AMediaDataSource *",
+   "referenced_type" : "type-160",
+   "self_type" : "type-159",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "PsshInfo *",
+   "name" : "PsshInfo *",
+   "referenced_type" : "type-164",
+   "self_type" : "type-166",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "AMediaCodecCryptoInfo *",
    "name" : "AMediaCodecCryptoInfo *",
-   "referenced_type" : "type-162",
-   "self_type" : "type-161",
+   "referenced_type" : "type-168",
+   "self_type" : "type-167",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
@@ -4476,8 +4606,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-170",
-   "self_type" : "type-169",
+   "referenced_type" : "type-176",
+   "self_type" : "type-175",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
@@ -4485,8 +4615,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCodec *",
    "name" : "AMediaCodec *",
-   "referenced_type" : "type-173",
-   "self_type" : "type-172",
+   "referenced_type" : "type-179",
+   "self_type" : "type-178",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4494,8 +4624,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-175",
-   "self_type" : "type-174",
+   "referenced_type" : "type-181",
+   "self_type" : "type-180",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4503,8 +4633,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaMuxer *",
    "name" : "AMediaMuxer *",
-   "referenced_type" : "type-177",
-   "self_type" : "type-176",
+   "referenced_type" : "type-183",
+   "self_type" : "type-182",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
   },
@@ -4512,19 +4642,10 @@
    "alignment" : 4,
    "linker_set_key" : "const AMediaFormat *",
    "name" : "const AMediaFormat *",
-   "referenced_type" : "type-178",
-   "self_type" : "type-180",
+   "referenced_type" : "type-184",
+   "self_type" : "type-186",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaDrm *",
-   "name" : "AMediaDrm *",
-   "referenced_type" : "type-184",
-   "self_type" : "type-183",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
@@ -4537,39 +4658,12 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
-   "referenced_type" : "type-194",
-   "self_type" : "type-193",
+   "linker_set_key" : "AMediaDrm *",
+   "name" : "AMediaDrm *",
+   "referenced_type" : "type-190",
+   "self_type" : "type-189",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-196",
-   "self_type" : "type-195",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-198",
-   "self_type" : "type-197",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AMediaFormat *",
-   "name" : "const AMediaFormat *",
-   "referenced_type" : "type-199",
-   "self_type" : "type-201",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
@@ -4582,17 +4676,8 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "ANativeWindow **",
-   "name" : "ANativeWindow **",
-   "referenced_type" : "type-202",
-   "self_type" : "type-208",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "ANativeWindow *",
-   "name" : "ANativeWindow *",
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
    "referenced_type" : "type-203",
    "self_type" : "type-202",
    "size" : 4,
@@ -4600,8 +4685,8 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCrypto *",
-   "name" : "AMediaCrypto *",
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
    "referenced_type" : "type-205",
    "self_type" : "type-204",
    "size" : 4,
@@ -4609,8 +4694,8 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodecCryptoInfo *",
-   "name" : "AMediaCodecCryptoInfo *",
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
    "referenced_type" : "type-207",
    "self_type" : "type-206",
    "size" : 4,
@@ -4618,19 +4703,28 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
-   "referenced_type" : "type-211",
+   "linker_set_key" : "const AMediaFormat *",
+   "name" : "const AMediaFormat *",
+   "referenced_type" : "type-208",
    "self_type" : "type-210",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-213",
-   "self_type" : "type-212",
+   "linker_set_key" : "ANativeWindow **",
+   "name" : "ANativeWindow **",
+   "referenced_type" : "type-211",
+   "self_type" : "type-218",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "ANativeWindow *",
+   "name" : "ANativeWindow *",
+   "referenced_type" : "type-212",
+   "self_type" : "type-211",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4638,26 +4732,17 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCrypto *",
    "name" : "AMediaCrypto *",
-   "referenced_type" : "type-215",
-   "self_type" : "type-214",
+   "referenced_type" : "type-214",
+   "self_type" : "type-213",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaDataSource *",
-   "name" : "AMediaDataSource *",
+   "linker_set_key" : "AMediaCodecCryptoInfo *",
+   "name" : "AMediaCodecCryptoInfo *",
    "referenced_type" : "type-217",
    "self_type" : "type-216",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
-   "referenced_type" : "type-219",
-   "self_type" : "type-218",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4672,39 +4757,48 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-221",
-   "self_type" : "type-220",
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
+   "referenced_type" : "type-220",
+   "self_type" : "type-219",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaExtractor *",
-   "name" : "AMediaExtractor *",
-   "referenced_type" : "type-223",
-   "self_type" : "type-222",
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
+   "referenced_type" : "type-222",
+   "self_type" : "type-221",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaCrypto *",
+   "name" : "AMediaCrypto *",
+   "referenced_type" : "type-224",
+   "self_type" : "type-223",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "AMediaDataSource *",
    "name" : "AMediaDataSource *",
-   "referenced_type" : "type-225",
-   "self_type" : "type-224",
+   "referenced_type" : "type-226",
+   "self_type" : "type-225",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodecCryptoInfo *",
-   "name" : "AMediaCodecCryptoInfo *",
-   "referenced_type" : "type-227",
-   "self_type" : "type-226",
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
+   "referenced_type" : "type-228",
+   "self_type" : "type-227",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
@@ -4713,52 +4807,43 @@
    "referenced_type" : "type-230",
    "self_type" : "type-229",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
+   "linker_set_key" : "AMediaExtractor *",
+   "name" : "AMediaExtractor *",
    "referenced_type" : "type-232",
    "self_type" : "type-231",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaDataSource *",
+   "name" : "AMediaDataSource *",
+   "referenced_type" : "type-234",
+   "self_type" : "type-233",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaCodecCryptoInfo *",
+   "name" : "AMediaCodecCryptoInfo *",
+   "referenced_type" : "type-237",
+   "self_type" : "type-236",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "const AMediaFormat *",
    "name" : "const AMediaFormat *",
-   "referenced_type" : "type-233",
-   "self_type" : "type-244",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-236",
-   "self_type" : "type-235",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaMuxer *",
-   "name" : "AMediaMuxer *",
    "referenced_type" : "type-238",
-   "self_type" : "type-237",
+   "self_type" : "type-251",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AMediaFormat *",
-   "name" : "const AMediaFormat *",
-   "referenced_type" : "type-239",
-   "self_type" : "type-241",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
@@ -4771,10 +4856,55 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaDrm *",
-   "name" : "AMediaDrm *",
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
+   "referenced_type" : "type-241",
+   "self_type" : "type-240",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
    "referenced_type" : "type-243",
    "self_type" : "type-242",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
+   "referenced_type" : "type-245",
+   "self_type" : "type-244",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaMuxer *",
+   "name" : "AMediaMuxer *",
+   "referenced_type" : "type-247",
+   "self_type" : "type-246",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AMediaFormat *",
+   "name" : "const AMediaFormat *",
+   "referenced_type" : "type-248",
+   "self_type" : "type-250",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaDrm *",
+   "name" : "AMediaDrm *",
+   "referenced_type" : "type-253",
+   "self_type" : "type-252",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
@@ -4782,8 +4912,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow **",
    "name" : "ANativeWindow **",
-   "referenced_type" : "type-245",
-   "self_type" : "type-282",
+   "referenced_type" : "type-254",
+   "self_type" : "type-291",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4791,8 +4921,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow *",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-246",
-   "self_type" : "type-245",
+   "referenced_type" : "type-255",
+   "self_type" : "type-254",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4800,17 +4930,26 @@
    "alignment" : 4,
    "linker_set_key" : "const AImage *",
    "name" : "const AImage *",
-   "referenced_type" : "type-248",
-   "self_type" : "type-247",
+   "referenced_type" : "type-257",
+   "self_type" : "type-256",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "AMediaCrypto *",
+   "name" : "AMediaCrypto *",
+   "referenced_type" : "type-261",
+   "self_type" : "type-260",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer **",
    "name" : "AHardwareBuffer **",
-   "referenced_type" : "type-252",
-   "self_type" : "type-254",
+   "referenced_type" : "type-263",
+   "self_type" : "type-265",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -4818,8 +4957,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer *",
    "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-253",
-   "self_type" : "type-252",
+   "referenced_type" : "type-264",
+   "self_type" : "type-263",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -4827,62 +4966,8 @@
    "alignment" : 4,
    "linker_set_key" : "AImageReader *",
    "name" : "AImageReader *",
-   "referenced_type" : "type-257",
-   "self_type" : "type-256",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCrypto *",
-   "name" : "AMediaCrypto *",
-   "referenced_type" : "type-259",
-   "self_type" : "type-258",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImage *",
-   "name" : "AImage *",
-   "referenced_type" : "type-262",
-   "self_type" : "type-261",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "ANativeWindow **",
-   "name" : "ANativeWindow **",
-   "referenced_type" : "type-263",
-   "self_type" : "type-265",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "ANativeWindow *",
-   "name" : "ANativeWindow *",
-   "referenced_type" : "type-264",
-   "self_type" : "type-263",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AImageReader *",
-   "name" : "const AImageReader *",
-   "referenced_type" : "type-266",
-   "self_type" : "type-268",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImage **",
-   "name" : "AImage **",
-   "referenced_type" : "type-269",
-   "self_type" : "type-271",
+   "referenced_type" : "type-268",
+   "self_type" : "type-267",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -4899,35 +4984,53 @@
    "alignment" : 4,
    "linker_set_key" : "AImage *",
    "name" : "AImage *",
-   "referenced_type" : "type-270",
-   "self_type" : "type-269",
+   "referenced_type" : "type-271",
+   "self_type" : "type-270",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "ANativeWindow **",
+   "name" : "ANativeWindow **",
+   "referenced_type" : "type-272",
+   "self_type" : "type-274",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AHardwareBuffer *",
-   "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-274",
-   "self_type" : "type-273",
+   "linker_set_key" : "ANativeWindow *",
+   "name" : "ANativeWindow *",
+   "referenced_type" : "type-273",
+   "self_type" : "type-272",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AImageReader **",
-   "name" : "AImageReader **",
-   "referenced_type" : "type-276",
+   "linker_set_key" : "const AImageReader *",
+   "name" : "const AImageReader *",
+   "referenced_type" : "type-275",
+   "self_type" : "type-277",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImage **",
+   "name" : "AImage **",
+   "referenced_type" : "type-278",
+   "self_type" : "type-280",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImage *",
+   "name" : "AImage *",
+   "referenced_type" : "type-279",
    "self_type" : "type-278",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImageReader *",
-   "name" : "AImageReader *",
-   "referenced_type" : "type-277",
-   "self_type" : "type-276",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -4942,10 +5045,37 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "AHardwareBuffer *",
+   "name" : "AHardwareBuffer *",
+   "referenced_type" : "type-283",
+   "self_type" : "type-282",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImageReader **",
+   "name" : "AImageReader **",
+   "referenced_type" : "type-285",
+   "self_type" : "type-287",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AImageReader *",
+   "name" : "AImageReader *",
+   "referenced_type" : "type-286",
+   "self_type" : "type-285",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "AMediaCodecCryptoInfo *",
    "name" : "AMediaCodecCryptoInfo *",
-   "referenced_type" : "type-281",
-   "self_type" : "type-280",
+   "referenced_type" : "type-290",
+   "self_type" : "type-289",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4953,8 +5083,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCodec *",
    "name" : "AMediaCodec *",
-   "referenced_type" : "type-289",
-   "self_type" : "type-288",
+   "referenced_type" : "type-298",
+   "self_type" : "type-297",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4962,8 +5092,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCodec *",
    "name" : "AMediaCodec *",
-   "referenced_type" : "type-291",
-   "self_type" : "type-290",
+   "referenced_type" : "type-300",
+   "self_type" : "type-299",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -4971,33 +5101,6 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-293",
-   "self_type" : "type-292",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCrypto *",
-   "name" : "AMediaCrypto *",
-   "referenced_type" : "type-295",
-   "self_type" : "type-294",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaDataSource *",
-   "name" : "AMediaDataSource *",
-   "referenced_type" : "type-299",
-   "self_type" : "type-298",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaCodec *",
-   "name" : "AMediaCodec *",
    "referenced_type" : "type-302",
    "self_type" : "type-301",
    "size" : 4,
@@ -5005,30 +5108,21 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaFormat *",
-   "name" : "AMediaFormat *",
-   "referenced_type" : "type-305",
-   "self_type" : "type-304",
+   "linker_set_key" : "AMediaCrypto *",
+   "name" : "AMediaCrypto *",
+   "referenced_type" : "type-304",
+   "self_type" : "type-303",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AMediaExtractor *",
-   "name" : "AMediaExtractor *",
-   "referenced_type" : "type-307",
-   "self_type" : "type-306",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "AMediaDataSource *",
    "name" : "AMediaDataSource *",
-   "referenced_type" : "type-309",
-   "self_type" : "type-308",
+   "referenced_type" : "type-308",
+   "self_type" : "type-307",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
   },
   {
    "alignment" : 4,
@@ -5041,37 +5135,55 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaCodecCryptoInfo *",
-   "name" : "AMediaCodecCryptoInfo *",
+   "linker_set_key" : "AMediaCodec *",
+   "name" : "AMediaCodec *",
+   "referenced_type" : "type-311",
+   "self_type" : "type-310",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaFormat *",
+   "name" : "AMediaFormat *",
    "referenced_type" : "type-314",
    "self_type" : "type-313",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AMediaExtractor *",
+   "name" : "AMediaExtractor *",
+   "referenced_type" : "type-316",
+   "self_type" : "type-315",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaDrm *",
-   "name" : "AMediaDrm *",
-   "referenced_type" : "type-34",
-   "self_type" : "type-33",
+   "linker_set_key" : "AMediaDataSource *",
+   "name" : "AMediaDataSource *",
+   "referenced_type" : "type-318",
+   "self_type" : "type-317",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
-   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
-   "referenced_type" : "type-35",
-   "self_type" : "type-47",
+   "linker_set_key" : "AMediaCodecCryptoInfo *",
+   "name" : "AMediaCodecCryptoInfo *",
+   "referenced_type" : "type-323",
+   "self_type" : "type-322",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const AMediaDrmByteArray *",
-   "name" : "const AMediaDrmByteArray *",
-   "referenced_type" : "type-37",
-   "self_type" : "type-36",
+   "linker_set_key" : "AMediaDrmKeyValuePair *",
+   "name" : "AMediaDrmKeyValuePair *",
+   "referenced_type" : "type-33",
+   "self_type" : "type-65",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
@@ -5079,8 +5191,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaDrmByteArray *",
    "name" : "AMediaDrmByteArray *",
-   "referenced_type" : "type-38",
-   "self_type" : "type-48",
+   "referenced_type" : "type-36",
+   "self_type" : "type-61",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
@@ -5088,10 +5200,28 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned char **",
    "name" : "const unsigned char **",
-   "referenced_type" : "type-39",
-   "self_type" : "type-53",
+   "referenced_type" : "type-37",
+   "self_type" : "type-64",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const unsigned char *",
+   "name" : "const unsigned char *",
+   "referenced_type" : "type-38",
+   "self_type" : "type-37",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "unsigned char *",
+   "name" : "unsigned char *",
+   "referenced_type" : "type-39",
+   "self_type" : "type-73",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
@@ -5104,28 +5234,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const unsigned char *",
-   "name" : "const unsigned char *",
-   "referenced_type" : "type-40",
-   "self_type" : "type-39",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "unsigned char *",
-   "name" : "unsigned char *",
+   "linker_set_key" : "AMediaDrm *",
+   "name" : "AMediaDrm *",
    "referenced_type" : "type-41",
-   "self_type" : "type-64",
+   "self_type" : "type-40",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "void (*)(AMediaCodec *, void *, int, AMediaCodecBufferInfo *)",
    "name" : "void (*)(AMediaCodec *, void *, int, AMediaCodecBufferInfo *)",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "type-43",
+   "self_type" : "type-42",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -5133,33 +5254,42 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaCodec *",
    "name" : "AMediaCodec *",
-   "referenced_type" : "type-46",
-   "self_type" : "type-45",
+   "referenced_type" : "type-45",
+   "self_type" : "type-44",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned int)",
+   "referenced_type" : "type-46",
+   "self_type" : "type-50",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AMediaDrmByteArray *",
+   "name" : "const AMediaDrmByteArray *",
+   "referenced_type" : "type-48",
+   "self_type" : "type-47",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "long long *",
    "name" : "long long *",
    "referenced_type" : "type-5",
-   "self_type" : "type-163",
+   "self_type" : "type-169",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AMediaDrmKeyValuePair *",
-   "name" : "AMediaDrmKeyValuePair *",
-   "referenced_type" : "type-50",
-   "self_type" : "type-57",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AMediaDrmKeyValuePair *",
-   "name" : "const AMediaDrmKeyValuePair *",
+   "linker_set_key" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, long long)",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, long long)",
    "referenced_type" : "type-51",
    "self_type" : "type-52",
    "size" : 4,
@@ -5167,10 +5297,28 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned int, bool)",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned int, bool)",
+   "referenced_type" : "type-53",
+   "self_type" : "type-60",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AMediaDrmKeyStatus *",
+   "name" : "const AMediaDrmKeyStatus *",
+   "referenced_type" : "type-55",
+   "self_type" : "type-54",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "void (*)(AMediaCodec *, void *, AMediaFormat *)",
    "name" : "void (*)(AMediaCodec *, void *, AMediaFormat *)",
-   "referenced_type" : "type-54",
-   "self_type" : "type-82",
+   "referenced_type" : "type-57",
+   "self_type" : "type-85",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
@@ -5178,35 +5326,44 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-56",
-   "self_type" : "type-55",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AImage *",
-   "name" : "const AImage *",
    "referenced_type" : "type-59",
    "self_type" : "type-58",
    "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "unsigned int *",
    "name" : "unsigned int *",
    "referenced_type" : "type-6",
-   "self_type" : "type-117",
+   "self_type" : "type-124",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "const AMediaDrmKeyValuePair *",
+   "name" : "const AMediaDrmKeyValuePair *",
+   "referenced_type" : "type-62",
+   "self_type" : "type-63",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AImage *",
+   "name" : "const AImage *",
+   "referenced_type" : "type-68",
+   "self_type" : "type-67",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "AImageCropRect *",
    "name" : "AImageCropRect *",
-   "referenced_type" : "type-62",
-   "self_type" : "type-61",
+   "referenced_type" : "type-71",
+   "self_type" : "type-70",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5214,8 +5371,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned char **",
    "name" : "unsigned char **",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
+   "referenced_type" : "type-73",
+   "self_type" : "type-72",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5223,8 +5380,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer **",
    "name" : "AHardwareBuffer **",
-   "referenced_type" : "type-65",
-   "self_type" : "type-67",
+   "referenced_type" : "type-74",
+   "self_type" : "type-76",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5232,8 +5389,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer *",
    "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-66",
-   "self_type" : "type-65",
+   "referenced_type" : "type-75",
+   "self_type" : "type-74",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5241,8 +5398,8 @@
    "alignment" : 4,
    "linker_set_key" : "AImageReader_ImageListener *",
    "name" : "AImageReader_ImageListener *",
-   "referenced_type" : "type-68",
-   "self_type" : "type-89",
+   "referenced_type" : "type-77",
+   "self_type" : "type-99",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -5250,53 +5407,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(void *, AImageReader *)",
    "name" : "void (*)(void *, AImageReader *)",
-   "referenced_type" : "type-70",
-   "self_type" : "type-69",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImageReader *",
-   "name" : "AImageReader *",
-   "referenced_type" : "type-72",
-   "self_type" : "type-71",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImageReader_BufferRemovedListener *",
-   "name" : "AImageReader_BufferRemovedListener *",
-   "referenced_type" : "type-73",
-   "self_type" : "type-93",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "void (*)(void *, AImageReader *, AHardwareBuffer *)",
-   "name" : "void (*)(void *, AImageReader *, AHardwareBuffer *)",
-   "referenced_type" : "type-75",
-   "self_type" : "type-74",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImage *",
-   "name" : "AImage *",
-   "referenced_type" : "type-78",
-   "self_type" : "type-77",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "ANativeWindow **",
-   "name" : "ANativeWindow **",
    "referenced_type" : "type-79",
-   "self_type" : "type-81",
+   "self_type" : "type-78",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -5311,28 +5423,28 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "ANativeWindow *",
-   "name" : "ANativeWindow *",
-   "referenced_type" : "type-80",
-   "self_type" : "type-79",
+   "linker_set_key" : "AImageReader *",
+   "name" : "AImageReader *",
+   "referenced_type" : "type-81",
+   "self_type" : "type-80",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const AImageReader *",
-   "name" : "const AImageReader *",
-   "referenced_type" : "type-83",
-   "self_type" : "type-85",
+   "linker_set_key" : "AImageReader_BufferRemovedListener *",
+   "name" : "AImageReader_BufferRemovedListener *",
+   "referenced_type" : "type-82",
+   "self_type" : "type-102",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AImage **",
-   "name" : "AImage **",
-   "referenced_type" : "type-86",
-   "self_type" : "type-88",
+   "linker_set_key" : "void (*)(void *, AImageReader *, AHardwareBuffer *)",
+   "name" : "void (*)(void *, AImageReader *, AHardwareBuffer *)",
+   "referenced_type" : "type-84",
+   "self_type" : "type-83",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -5340,8 +5452,35 @@
    "alignment" : 4,
    "linker_set_key" : "AImage *",
    "name" : "AImage *",
-   "referenced_type" : "type-87",
-   "self_type" : "type-86",
+   "referenced_type" : "type-88",
+   "self_type" : "type-87",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "ANativeWindow **",
+   "name" : "ANativeWindow **",
+   "referenced_type" : "type-89",
+   "self_type" : "type-91",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "ANativeWindow *",
+   "name" : "ANativeWindow *",
+   "referenced_type" : "type-90",
+   "self_type" : "type-89",
+   "size" : 4,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AImageReader *",
+   "name" : "const AImageReader *",
+   "referenced_type" : "type-92",
+   "self_type" : "type-94",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -5349,35 +5488,26 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(AMediaCodec *, void *, media_status_t, int, const char *)",
    "name" : "void (*)(AMediaCodec *, void *, media_status_t, int, const char *)",
-   "referenced_type" : "type-90",
-   "self_type" : "type-108",
+   "referenced_type" : "type-95",
+   "self_type" : "type-115",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AHardwareBuffer *",
-   "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-92",
-   "self_type" : "type-91",
+   "linker_set_key" : "AImage **",
+   "name" : "AImage **",
+   "referenced_type" : "type-96",
+   "self_type" : "type-98",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "AImageReader **",
-   "name" : "AImageReader **",
-   "referenced_type" : "type-94",
+   "linker_set_key" : "AImage *",
+   "name" : "AImage *",
+   "referenced_type" : "type-97",
    "self_type" : "type-96",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "AImageReader *",
-   "name" : "AImageReader *",
-   "referenced_type" : "type-95",
-   "self_type" : "type-94",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   }
@@ -5388,8 +5518,8 @@
    "is_const" : true,
    "linker_set_key" : "const AMediaFormat",
    "name" : "const AMediaFormat",
-   "referenced_type" : "type-110",
-   "self_type" : "type-109",
+   "referenced_type" : "type-117",
+   "self_type" : "type-116",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
@@ -5397,7 +5527,7 @@
    "linker_set_key" : "const void",
    "name" : "const void",
    "referenced_type" : "type-11",
-   "self_type" : "type-131",
+   "self_type" : "type-137",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
@@ -5414,32 +5544,32 @@
    "is_const" : true,
    "linker_set_key" : "const AMediaFormat",
    "name" : "const AMediaFormat",
-   "referenced_type" : "type-179",
-   "self_type" : "type-178",
+   "referenced_type" : "type-185",
+   "self_type" : "type-184",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const AMediaFormat",
    "name" : "const AMediaFormat",
-   "referenced_type" : "type-200",
-   "self_type" : "type-199",
+   "referenced_type" : "type-209",
+   "self_type" : "type-208",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const AMediaFormat",
    "name" : "const AMediaFormat",
-   "referenced_type" : "type-234",
-   "self_type" : "type-233",
+   "referenced_type" : "type-239",
+   "self_type" : "type-238",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const AMediaFormat",
    "name" : "const AMediaFormat",
-   "referenced_type" : "type-240",
-   "self_type" : "type-239",
+   "referenced_type" : "type-249",
+   "self_type" : "type-248",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
   },
   {
@@ -5447,8 +5577,8 @@
    "is_const" : true,
    "linker_set_key" : "const AImage",
    "name" : "const AImage",
-   "referenced_type" : "type-249",
-   "self_type" : "type-248",
+   "referenced_type" : "type-258",
+   "self_type" : "type-257",
    "size" : 64,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5457,8 +5587,8 @@
    "is_const" : true,
    "linker_set_key" : "const AImageReader",
    "name" : "const AImageReader",
-   "referenced_type" : "type-267",
-   "self_type" : "type-266",
+   "referenced_type" : "type-276",
+   "self_type" : "type-275",
    "size" : 112,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   },
@@ -5473,10 +5603,30 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "const AMediaDrmKeyValuePair",
+   "name" : "const AMediaDrmKeyValuePair",
+   "referenced_type" : "type-33",
+   "self_type" : "type-62",
+   "size" : 8,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const AMediaDrmKeyStatus",
+   "name" : "const AMediaDrmKeyStatus",
+   "referenced_type" : "type-35",
+   "self_type" : "type-55",
+   "size" : 12,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "const AMediaDrmByteArray",
    "name" : "const AMediaDrmByteArray",
-   "referenced_type" : "type-38",
-   "self_type" : "type-37",
+   "referenced_type" : "type-36",
+   "self_type" : "type-48",
    "size" : 8,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
   },
@@ -5485,8 +5635,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned char",
    "name" : "const unsigned char",
-   "referenced_type" : "type-41",
-   "self_type" : "type-40",
+   "referenced_type" : "type-39",
+   "self_type" : "type-38",
    "size" : 1,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
@@ -5501,22 +5651,12 @@
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
   },
   {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const AMediaDrmKeyValuePair",
-   "name" : "const AMediaDrmKeyValuePair",
-   "referenced_type" : "type-50",
-   "self_type" : "type-51",
-   "size" : 8,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
-  },
-  {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const AImage",
    "name" : "const AImage",
-   "referenced_type" : "type-60",
-   "self_type" : "type-59",
+   "referenced_type" : "type-69",
+   "self_type" : "type-68",
    "size" : 64,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h"
   },
@@ -5525,8 +5665,8 @@
    "is_const" : true,
    "linker_set_key" : "const AImageReader",
    "name" : "const AImageReader",
-   "referenced_type" : "type-84",
-   "self_type" : "type-83",
+   "referenced_type" : "type-93",
+   "self_type" : "type-92",
    "size" : 112,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
   }
@@ -5549,8 +5689,8 @@
    ],
    "linker_set_key" : "cryptoinfo_pattern_t",
    "name" : "cryptoinfo_pattern_t",
-   "referenced_type" : "type-127",
-   "self_type" : "type-127",
+   "referenced_type" : "type-133",
+   "self_type" : "type-133",
    "size" : 8,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
    "unique_id" : "cryptoinfo_pattern_t"
@@ -5561,28 +5701,28 @@
    [
     {
      "field_name" : "onAsyncInputAvailable",
-     "referenced_type" : "type-130"
+     "referenced_type" : "type-136"
     },
     {
      "field_name" : "onAsyncOutputAvailable",
      "field_offset" : 32,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-42"
     },
     {
      "field_name" : "onAsyncFormatChanged",
      "field_offset" : 64,
-     "referenced_type" : "type-82"
+     "referenced_type" : "type-85"
     },
     {
      "field_name" : "onAsyncError",
      "field_offset" : 96,
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-115"
     }
    ],
    "linker_set_key" : "AMediaCodecOnAsyncNotifyCallback",
    "name" : "AMediaCodecOnAsyncNotifyCallback",
-   "referenced_type" : "type-129",
-   "self_type" : "type-129",
+   "referenced_type" : "type-135",
+   "self_type" : "type-135",
    "size" : 16,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
    "unique_id" : "AMediaCodecOnAsyncNotifyCallback"
@@ -5593,7 +5733,7 @@
    [
     {
      "field_name" : "uuid",
-     "referenced_type" : "type-157"
+     "referenced_type" : "type-163"
     },
     {
      "field_name" : "datalen",
@@ -5608,8 +5748,8 @@
    ],
    "linker_set_key" : "PsshEntry",
    "name" : "PsshEntry",
-   "referenced_type" : "type-156",
-   "self_type" : "type-156",
+   "referenced_type" : "type-162",
+   "self_type" : "type-162",
    "size" : 24,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h",
    "unique_id" : "PsshEntry"
@@ -5625,13 +5765,13 @@
     {
      "field_name" : "entries",
      "field_offset" : 32,
-     "referenced_type" : "type-159"
+     "referenced_type" : "type-165"
     }
    ],
    "linker_set_key" : "PsshInfo",
    "name" : "PsshInfo",
-   "referenced_type" : "type-158",
-   "self_type" : "type-158",
+   "referenced_type" : "type-164",
+   "self_type" : "type-164",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h",
    "unique_id" : "PsshInfo"
@@ -5641,8 +5781,52 @@
    "fields" :
    [
     {
+     "field_name" : "mKey",
+     "referenced_type" : "type-13"
+    },
+    {
+     "field_name" : "mValue",
+     "field_offset" : 32,
+     "referenced_type" : "type-13"
+    }
+   ],
+   "linker_set_key" : "AMediaDrmKeyValuePair",
+   "name" : "AMediaDrmKeyValuePair",
+   "referenced_type" : "type-33",
+   "self_type" : "type-33",
+   "size" : 8,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "unique_id" : "AMediaDrmKeyValuePair"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "keyId",
+     "referenced_type" : "type-36"
+    },
+    {
+     "field_name" : "keyType",
+     "field_offset" : 64,
+     "referenced_type" : "type-34"
+    }
+   ],
+   "linker_set_key" : "AMediaDrmKeyStatus",
+   "name" : "AMediaDrmKeyStatus",
+   "referenced_type" : "type-35",
+   "self_type" : "type-35",
+   "size" : 12,
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "unique_id" : "AMediaDrmKeyStatus"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "ptr",
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-37"
     },
     {
      "field_name" : "length",
@@ -5652,8 +5836,8 @@
    ],
    "linker_set_key" : "AMediaDrmByteArray",
    "name" : "AMediaDrmByteArray",
-   "referenced_type" : "type-38",
-   "self_type" : "type-38",
+   "referenced_type" : "type-36",
+   "self_type" : "type-36",
    "size" : 8,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
    "unique_id" : "AMediaDrmByteArray"
@@ -5695,28 +5879,6 @@
    "fields" :
    [
     {
-     "field_name" : "mKey",
-     "referenced_type" : "type-13"
-    },
-    {
-     "field_name" : "mValue",
-     "field_offset" : 32,
-     "referenced_type" : "type-13"
-    }
-   ],
-   "linker_set_key" : "AMediaDrmKeyValuePair",
-   "name" : "AMediaDrmKeyValuePair",
-   "referenced_type" : "type-50",
-   "self_type" : "type-50",
-   "size" : 8,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
-   "unique_id" : "AMediaDrmKeyValuePair"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "left",
      "referenced_type" : "type-2"
     },
@@ -5738,8 +5900,8 @@
    ],
    "linker_set_key" : "AImageCropRect",
    "name" : "AImageCropRect",
-   "referenced_type" : "type-62",
-   "self_type" : "type-62",
+   "referenced_type" : "type-71",
+   "self_type" : "type-71",
    "size" : 16,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImage.h",
    "unique_id" : "AImageCropRect"
@@ -5755,13 +5917,13 @@
     {
      "field_name" : "onImageAvailable",
      "field_offset" : 32,
-     "referenced_type" : "type-69"
+     "referenced_type" : "type-78"
     }
    ],
    "linker_set_key" : "AImageReader_ImageListener",
    "name" : "AImageReader_ImageListener",
-   "referenced_type" : "type-68",
-   "self_type" : "type-68",
+   "referenced_type" : "type-77",
+   "self_type" : "type-77",
    "size" : 8,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h",
    "unique_id" : "AImageReader_ImageListener"
@@ -5777,13 +5939,13 @@
     {
      "field_name" : "onBufferRemoved",
      "field_offset" : 32,
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-83"
     }
    ],
    "linker_set_key" : "AImageReader_BufferRemovedListener",
    "name" : "AImageReader_BufferRemovedListener",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-82",
+   "self_type" : "type-82",
    "size" : 8,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h",
    "unique_id" : "AImageReader_BufferRemovedListener"
