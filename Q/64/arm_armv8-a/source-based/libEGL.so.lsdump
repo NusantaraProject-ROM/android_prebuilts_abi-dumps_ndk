@@ -5,8 +5,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char *[15]",
    "name" : "const char *[15]",
-   "referenced_type" : "type-28",
-   "self_type" : "type-69",
+   "referenced_type" : "type-14",
+   "self_type" : "type-52",
    "size" : 60,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   }
@@ -19,8 +19,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-33",
-   "self_type" : "type-33",
+   "referenced_type" : "type-39",
+   "self_type" : "type-39",
    "size" : 1
   },
   {
@@ -29,16 +29,16 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-30",
-   "self_type" : "type-30",
+   "referenced_type" : "type-16",
+   "self_type" : "type-16",
    "size" : 1
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-42",
-   "self_type" : "type-42",
+   "referenced_type" : "type-11",
+   "self_type" : "type-11",
    "size" : 8
   },
   {
@@ -46,8 +46,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-19",
-   "self_type" : "type-19",
+   "referenced_type" : "type-25",
+   "self_type" : "type-25",
    "size" : 4
   },
   {
@@ -55,16 +55,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-71",
-   "self_type" : "type-71",
+   "referenced_type" : "type-54",
+   "self_type" : "type-54",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-75",
-   "self_type" : "type-75",
+   "referenced_type" : "type-58",
+   "self_type" : "type-58",
    "size" : 8
   },
   {
@@ -72,8 +72,8 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-12",
-   "self_type" : "type-12",
+   "referenced_type" : "type-66",
+   "self_type" : "type-66",
    "size" : 8
   },
   {
@@ -81,8 +81,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-74",
-   "self_type" : "type-74",
+   "referenced_type" : "type-57",
+   "self_type" : "type-57",
    "size" : 2
   },
   {
@@ -91,8 +91,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-26",
-   "self_type" : "type-26",
+   "referenced_type" : "type-21",
+   "self_type" : "type-21",
    "size" : 1
   },
   {
@@ -111,8 +111,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-56",
+   "self_type" : "type-56",
    "size" : 4
   },
   {
@@ -121,8 +121,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-10",
-   "self_type" : "type-10",
+   "referenced_type" : "type-24",
+   "self_type" : "type-24",
    "size" : 8
   },
   {
@@ -131,15 +131,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-72",
-   "self_type" : "type-72",
+   "referenced_type" : "type-55",
+   "self_type" : "type-55",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9"
+   "referenced_type" : "type-5",
+   "self_type" : "type-5"
   }
  ],
  "elf_functions" :
@@ -576,15 +576,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     }
    ],
-   "referenced_type" : "type-49",
-   "return_type" : "type-24",
-   "self_type" : "type-49",
+   "referenced_type" : "type-18",
+   "return_type" : "type-19",
+   "self_type" : "type-18",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -594,12 +594,12 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     }
    ],
-   "referenced_type" : "type-41",
-   "return_type" : "type-42",
-   "self_type" : "type-41",
+   "referenced_type" : "type-10",
+   "return_type" : "type-11",
+   "self_type" : "type-10",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -609,22 +609,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-30"
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-19"
+    },
+    {
+     "referenced_type" : "type-14"
     },
     {
      "referenced_type" : "type-24"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-42"
+     "referenced_type" : "type-26"
     },
     {
      "referenced_type" : "type-19"
@@ -633,27 +639,21 @@
      "referenced_type" : "type-27"
     },
     {
-     "referenced_type" : "type-24"
-    },
-    {
-     "referenced_type" : "type-32"
-    },
-    {
-     "referenced_type" : "type-26"
+     "referenced_type" : "type-21"
     }
    ],
-   "referenced_type" : "type-51",
-   "return_type" : "type-10",
-   "self_type" : "type-51",
+   "referenced_type" : "type-23",
+   "return_type" : "type-24",
+   "self_type" : "type-23",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "void ()",
    "name" : "void ()",
-   "referenced_type" : "type-8",
-   "return_type" : "type-9",
-   "self_type" : "type-8",
+   "referenced_type" : "type-64",
+   "return_type" : "type-5",
+   "self_type" : "type-64",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -663,15 +663,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-49"
     }
    ],
-   "referenced_type" : "type-65",
-   "return_type" : "type-9",
-   "self_type" : "type-65",
+   "referenced_type" : "type-4",
+   "return_type" : "type-5",
+   "self_type" : "type-4",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -681,15 +681,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-42"
     }
    ],
-   "referenced_type" : "type-63",
-   "return_type" : "type-9",
-   "self_type" : "type-63",
+   "referenced_type" : "type-41",
+   "return_type" : "type-5",
+   "self_type" : "type-41",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -699,15 +699,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     }
    ],
-   "referenced_type" : "type-47",
-   "return_type" : "type-9",
-   "self_type" : "type-47",
+   "referenced_type" : "type-13",
+   "return_type" : "type-5",
+   "self_type" : "type-13",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -717,18 +717,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     },
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-39"
     }
    ],
-   "referenced_type" : "type-61",
-   "return_type" : "type-9",
-   "self_type" : "type-61",
+   "referenced_type" : "type-38",
+   "return_type" : "type-5",
+   "self_type" : "type-38",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -738,18 +738,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "referenced_type" : "type-59",
-   "return_type" : "type-9",
-   "self_type" : "type-59",
+   "referenced_type" : "type-36",
+   "return_type" : "type-5",
+   "self_type" : "type-36",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -759,21 +759,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "referenced_type" : "type-57",
-   "return_type" : "type-9",
-   "self_type" : "type-57",
+   "referenced_type" : "type-34",
+   "return_type" : "type-5",
+   "self_type" : "type-34",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -783,27 +783,27 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "referenced_type" : "type-55",
-   "return_type" : "type-9",
-   "self_type" : "type-55",
+   "referenced_type" : "type-32",
+   "return_type" : "type-5",
+   "self_type" : "type-32",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -813,21 +813,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-46"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-19"
     }
    ],
-   "referenced_type" : "type-67",
-   "return_type" : "type-9",
-   "self_type" : "type-67",
+   "referenced_type" : "type-45",
+   "return_type" : "type-5",
+   "self_type" : "type-45",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -837,21 +837,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-6"
+    },
+    {
+     "referenced_type" : "type-19"
+    },
+    {
+     "referenced_type" : "type-14"
     },
     {
      "referenced_type" : "type-24"
-    },
-    {
-     "referenced_type" : "type-28"
-    },
-    {
-     "referenced_type" : "type-10"
     }
    ],
-   "referenced_type" : "type-53",
-   "return_type" : "type-9",
-   "self_type" : "type-53",
+   "referenced_type" : "type-30",
+   "return_type" : "type-5",
+   "self_type" : "type-30",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   }
  ],
@@ -863,10 +863,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/libs/EGL/include/private/EGL/display.h"
   },
   {
@@ -875,10 +875,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-9",
+   "return_type" : "type-5",
    "source_file" : "/frameworks/native/opengl/libs/EGL/include/private/EGL/cache.h"
   },
   {
@@ -899,13 +899,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -917,19 +917,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-74"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -941,19 +941,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-24"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -962,19 +962,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-24"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -983,13 +983,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-3"
+     "referenced_type" : "type-59"
     }
    ],
    "return_type" : "type-2",
@@ -1001,19 +1001,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1022,22 +1022,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1046,22 +1046,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1070,22 +1070,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1094,16 +1094,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1112,19 +1112,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-3"
+     "referenced_type" : "type-59"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1133,19 +1133,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1154,19 +1154,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1175,13 +1175,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1190,13 +1190,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1205,19 +1205,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1226,16 +1226,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1244,16 +1244,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1262,19 +1262,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-61"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1283,10 +1283,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1298,10 +1298,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1313,10 +1313,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1328,10 +1328,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1343,10 +1343,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1358,10 +1358,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1373,10 +1373,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1388,13 +1388,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1403,19 +1403,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-67"
     }
    ],
    "return_type" : "type-2",
@@ -1427,13 +1427,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -1445,16 +1445,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1466,16 +1466,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-74"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1484,13 +1484,13 @@
   {
    "function_name" : "eglGetCurrentContext",
    "linker_set_key" : "eglGetCurrentContext",
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
    "function_name" : "eglGetCurrentDisplay",
    "linker_set_key" : "eglGetCurrentDisplay",
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1499,10 +1499,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1511,16 +1511,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
    "function_name" : "eglGetError",
    "linker_set_key" : "eglGetError",
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1529,13 +1529,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -1547,22 +1547,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-24"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-67"
     }
    ],
    "return_type" : "type-2",
@@ -1574,10 +1574,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-16"
+     "referenced_type" : "type-70"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1586,13 +1586,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-65"
     }
    ],
    "return_type" : "type-2",
@@ -1607,13 +1607,13 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-8",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1622,10 +1622,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-63",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1634,13 +1634,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1649,16 +1649,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1670,16 +1670,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1688,13 +1688,13 @@
   {
    "function_name" : "eglGetSystemTimeFrequencyNV",
    "linker_set_key" : "eglGetSystemTimeFrequencyNV",
-   "return_type" : "type-10",
+   "return_type" : "type-24",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
    "function_name" : "eglGetSystemTimeNV",
    "linker_set_key" : "eglGetSystemTimeNV",
-   "return_type" : "type-10",
+   "return_type" : "type-24",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -1703,13 +1703,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1721,13 +1721,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-73"
     }
    ],
    "return_type" : "type-2",
@@ -1739,16 +1739,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -1760,13 +1760,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-12"
+     "referenced_type" : "type-66"
     }
    ],
    "return_type" : "type-2",
@@ -1784,16 +1784,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1805,16 +1805,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1826,16 +1826,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-65"
     }
    ],
    "return_type" : "type-2",
@@ -1847,16 +1847,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-65"
     }
    ],
    "return_type" : "type-2",
@@ -1868,13 +1868,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-28",
+   "return_type" : "type-14",
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
   {
@@ -1883,16 +1883,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     }
    ],
    "return_type" : "type-2",
@@ -1904,13 +1904,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -1928,16 +1928,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -1949,10 +1949,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
@@ -1967,16 +1967,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -1988,10 +1988,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2003,10 +2003,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2018,10 +2018,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2033,16 +2033,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -2054,10 +2054,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2069,16 +2069,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-75"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -2090,10 +2090,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -2105,7 +2105,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2117,10 +2117,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     }
    ],
    "return_type" : "type-2",
@@ -2144,7 +2144,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -2156,13 +2156,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "return_type" : "type-2",
@@ -2174,16 +2174,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-19",
+   "return_type" : "type-25",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   }
  ],
@@ -2194,8 +2194,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::array<unsigned char, 20> &",
    "name" : "const std::array<unsigned char, 20> &",
-   "referenced_type" : "type-110",
-   "self_type" : "type-112",
+   "referenced_type" : "type-105",
+   "self_type" : "type-107",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2203,8 +2203,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::array<unsigned char, 20> &",
    "name" : "const std::array<unsigned char, 20> &",
-   "referenced_type" : "type-38",
-   "self_type" : "type-40",
+   "referenced_type" : "type-47",
+   "self_type" : "type-46",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   }
@@ -2215,8 +2215,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow *",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-6",
-   "self_type" : "type-5",
+   "referenced_type" : "type-62",
+   "self_type" : "type-61",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2224,8 +2224,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow *",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-84",
-   "self_type" : "type-83",
+   "referenced_type" : "type-79",
+   "self_type" : "type-78",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2233,8 +2233,8 @@
    "alignment" : 4,
    "linker_set_key" : "ANativeWindow *",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-98",
-   "self_type" : "type-97",
+   "referenced_type" : "type-86",
+   "self_type" : "type-85",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2242,8 +2242,8 @@
    "alignment" : 4,
    "linker_set_key" : "angle::FeaturesVk *",
    "name" : "angle::FeaturesVk *",
-   "referenced_type" : "type-109",
-   "self_type" : "type-108",
+   "referenced_type" : "type-104",
+   "self_type" : "type-103",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2251,8 +2251,8 @@
    "alignment" : 4,
    "linker_set_key" : "angle::FeaturesVk *",
    "name" : "angle::FeaturesVk *",
-   "referenced_type" : "type-37",
-   "self_type" : "type-36",
+   "referenced_type" : "type-50",
+   "self_type" : "type-49",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2260,8 +2260,8 @@
    "alignment" : 4,
    "linker_set_key" : "angle::PlatformMethods *",
    "name" : "angle::PlatformMethods *",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2269,44 +2269,44 @@
    "alignment" : 4,
    "linker_set_key" : "angle::WorkaroundsD3D *",
    "name" : "angle::WorkaroundsD3D *",
-   "referenced_type" : "type-107",
-   "self_type" : "type-106",
-   "size" : 4,
-   "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "angle::WorkaroundsD3D *",
-   "name" : "angle::WorkaroundsD3D *",
-   "referenced_type" : "type-35",
-   "self_type" : "type-34",
-   "size" : 4,
-   "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AHardwareBuffer *",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "type-14",
-   "self_type" : "type-16",
-   "size" : 4,
-   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AHardwareBuffer *",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "type-88",
-   "self_type" : "type-90",
-   "size" : 4,
-   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const AHardwareBuffer *",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "type-99",
+   "referenced_type" : "type-102",
    "self_type" : "type-101",
+   "size" : 4,
+   "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "angle::WorkaroundsD3D *",
+   "name" : "angle::WorkaroundsD3D *",
+   "referenced_type" : "type-43",
+   "self_type" : "type-42",
+   "size" : 4,
+   "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-68",
+   "self_type" : "type-70",
+   "size" : 4,
+   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-80",
+   "self_type" : "type-82",
+   "size" : 4,
+   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const AHardwareBuffer *",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "type-90",
+   "self_type" : "type-92",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
@@ -2314,8 +2314,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char *",
    "name" : "const char *",
-   "referenced_type" : "type-29",
-   "self_type" : "type-28",
+   "referenced_type" : "type-15",
+   "self_type" : "type-14",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/libs/EGL/include/private/EGL/cache.h"
   },
@@ -2323,8 +2323,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char **",
    "name" : "const char **",
-   "referenced_type" : "type-28",
-   "self_type" : "type-27",
+   "referenced_type" : "type-14",
+   "self_type" : "type-26",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2332,8 +2332,8 @@
    "alignment" : 4,
    "linker_set_key" : "const int *",
    "name" : "const int *",
-   "referenced_type" : "type-20",
-   "self_type" : "type-21",
+   "referenced_type" : "type-72",
+   "self_type" : "type-73",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2341,8 +2341,8 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned char *",
    "name" : "const unsigned char *",
-   "referenced_type" : "type-25",
-   "self_type" : "type-24",
+   "referenced_type" : "type-20",
+   "self_type" : "type-19",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2350,8 +2350,8 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned char *(*)(angle::PlatformMethods *, const char *)",
    "name" : "const unsigned char *(*)(angle::PlatformMethods *, const char *)",
-   "referenced_type" : "type-49",
-   "self_type" : "type-48",
+   "referenced_type" : "type-18",
+   "self_type" : "type-17",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2359,8 +2359,8 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned long long *",
    "name" : "const unsigned long long *",
-   "referenced_type" : "type-31",
-   "self_type" : "type-32",
+   "referenced_type" : "type-28",
+   "self_type" : "type-27",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2368,8 +2368,8 @@
    "alignment" : 4,
    "linker_set_key" : "double (*)(angle::PlatformMethods *)",
    "name" : "double (*)(angle::PlatformMethods *)",
-   "referenced_type" : "type-41",
-   "self_type" : "type-45",
+   "referenced_type" : "type-10",
+   "self_type" : "type-9",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2377,8 +2377,8 @@
    "alignment" : 4,
    "linker_set_key" : "egl_native_pixmap_t *",
    "name" : "egl_native_pixmap_t *",
-   "referenced_type" : "type-4",
-   "self_type" : "type-3",
+   "referenced_type" : "type-60",
+   "self_type" : "type-59",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2386,8 +2386,8 @@
    "alignment" : 4,
    "linker_set_key" : "egl_native_pixmap_t *",
    "name" : "egl_native_pixmap_t *",
-   "referenced_type" : "type-82",
-   "self_type" : "type-81",
+   "referenced_type" : "type-77",
+   "self_type" : "type-76",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2395,8 +2395,8 @@
    "alignment" : 4,
    "linker_set_key" : "egl_native_pixmap_t *",
    "name" : "egl_native_pixmap_t *",
-   "referenced_type" : "type-96",
-   "self_type" : "type-95",
+   "referenced_type" : "type-84",
+   "self_type" : "type-83",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2404,8 +2404,8 @@
    "alignment" : 4,
    "linker_set_key" : "int *",
    "name" : "int *",
-   "referenced_type" : "type-19",
-   "self_type" : "type-23",
+   "referenced_type" : "type-25",
+   "self_type" : "type-75",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2413,8 +2413,8 @@
    "alignment" : 4,
    "linker_set_key" : "long long *",
    "name" : "long long *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-13",
+   "referenced_type" : "type-66",
+   "self_type" : "type-67",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
@@ -2422,8 +2422,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned long long (*)(angle::PlatformMethods *, char, const unsigned char *, const char *, unsigned long long, double, int, const char **, const unsigned char *, const unsigned long long *, unsigned char)",
    "name" : "unsigned long long (*)(angle::PlatformMethods *, char, const unsigned char *, const char *, unsigned long long, double, int, const char **, const unsigned char *, const unsigned long long *, unsigned char)",
-   "referenced_type" : "type-51",
-   "self_type" : "type-50",
+   "referenced_type" : "type-23",
+   "self_type" : "type-22",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2431,8 +2431,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned long long *",
    "name" : "unsigned long long *",
-   "referenced_type" : "type-10",
-   "self_type" : "type-11",
+   "referenced_type" : "type-24",
+   "self_type" : "type-65",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
@@ -2440,8 +2440,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)()",
    "name" : "void (*)()",
-   "referenced_type" : "type-8",
-   "self_type" : "type-7",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2449,8 +2449,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, angle::FeaturesVk *)",
    "name" : "void (*)(angle::PlatformMethods *, angle::FeaturesVk *)",
-   "referenced_type" : "type-65",
-   "self_type" : "type-64",
+   "referenced_type" : "type-4",
+   "self_type" : "type-3",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2458,8 +2458,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, angle::WorkaroundsD3D *)",
    "name" : "void (*)(angle::PlatformMethods *, angle::WorkaroundsD3D *)",
-   "referenced_type" : "type-63",
-   "self_type" : "type-62",
+   "referenced_type" : "type-41",
+   "self_type" : "type-40",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2467,8 +2467,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const char *)",
    "name" : "void (*)(angle::PlatformMethods *, const char *)",
-   "referenced_type" : "type-47",
-   "self_type" : "type-46",
+   "referenced_type" : "type-13",
+   "self_type" : "type-12",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2476,8 +2476,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const char *, bool)",
    "name" : "void (*)(angle::PlatformMethods *, const char *, bool)",
-   "referenced_type" : "type-61",
-   "self_type" : "type-60",
+   "referenced_type" : "type-38",
+   "self_type" : "type-37",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2485,8 +2485,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const char *, int)",
    "name" : "void (*)(angle::PlatformMethods *, const char *, int)",
-   "referenced_type" : "type-59",
-   "self_type" : "type-58",
+   "referenced_type" : "type-36",
+   "self_type" : "type-35",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2494,8 +2494,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const char *, int, int)",
    "name" : "void (*)(angle::PlatformMethods *, const char *, int, int)",
-   "referenced_type" : "type-57",
-   "self_type" : "type-56",
+   "referenced_type" : "type-34",
+   "self_type" : "type-33",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2503,8 +2503,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const char *, int, int, int, int)",
    "name" : "void (*)(angle::PlatformMethods *, const char *, int, int, int, int)",
-   "referenced_type" : "type-55",
-   "self_type" : "type-54",
+   "referenced_type" : "type-32",
+   "self_type" : "type-31",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2512,8 +2512,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const std::__1::array<unsigned char, 20> &, unsigned int, const unsigned char *)",
    "name" : "void (*)(angle::PlatformMethods *, const std::__1::array<unsigned char, 20> &, unsigned int, const unsigned char *)",
-   "referenced_type" : "type-67",
-   "self_type" : "type-66",
+   "referenced_type" : "type-45",
+   "self_type" : "type-44",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2521,8 +2521,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(angle::PlatformMethods *, const unsigned char *, const char *, unsigned long long)",
    "name" : "void (*)(angle::PlatformMethods *, const unsigned char *, const char *, unsigned long long)",
-   "referenced_type" : "type-53",
-   "self_type" : "type-52",
+   "referenced_type" : "type-30",
+   "self_type" : "type-29",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2530,8 +2530,8 @@
    "alignment" : 4,
    "linker_set_key" : "void *",
    "name" : "void *",
-   "referenced_type" : "type-9",
-   "self_type" : "type-18",
+   "referenced_type" : "type-5",
+   "self_type" : "type-8",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
@@ -2539,8 +2539,8 @@
    "alignment" : 4,
    "linker_set_key" : "void **",
    "name" : "void **",
-   "referenced_type" : "type-18",
-   "self_type" : "type-22",
+   "referenced_type" : "type-8",
+   "self_type" : "type-74",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   }
@@ -2551,24 +2551,24 @@
    "is_const" : true,
    "linker_set_key" : "const AHardwareBuffer",
    "name" : "const AHardwareBuffer",
-   "referenced_type" : "type-100",
-   "self_type" : "type-99",
+   "referenced_type" : "type-69",
+   "self_type" : "type-68",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const AHardwareBuffer",
    "name" : "const AHardwareBuffer",
-   "referenced_type" : "type-15",
-   "self_type" : "type-14",
+   "referenced_type" : "type-81",
+   "self_type" : "type-80",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const AHardwareBuffer",
    "name" : "const AHardwareBuffer",
-   "referenced_type" : "type-89",
-   "self_type" : "type-88",
+   "referenced_type" : "type-91",
+   "self_type" : "type-90",
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
   },
   {
@@ -2576,8 +2576,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-30",
-   "self_type" : "type-29",
+   "referenced_type" : "type-16",
+   "self_type" : "type-15",
    "size" : 1,
    "source_file" : "/frameworks/native/opengl/libs/EGL/include/private/EGL/cache.h"
   },
@@ -2586,8 +2586,8 @@
    "is_const" : true,
    "linker_set_key" : "const char *const[15]",
    "name" : "const char *const[15]",
-   "referenced_type" : "type-69",
-   "self_type" : "type-70",
+   "referenced_type" : "type-52",
+   "self_type" : "type-53",
    "size" : 60,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2596,8 +2596,8 @@
    "is_const" : true,
    "linker_set_key" : "const int",
    "name" : "const int",
-   "referenced_type" : "type-19",
-   "self_type" : "type-20",
+   "referenced_type" : "type-25",
+   "self_type" : "type-72",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/egl.h"
   },
@@ -2605,16 +2605,16 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<unsigned char, 20>",
    "name" : "const std::array<unsigned char, 20>",
-   "referenced_type" : "type-111",
-   "self_type" : "type-110",
+   "referenced_type" : "type-106",
+   "self_type" : "type-105",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
    "is_const" : true,
    "linker_set_key" : "const std::array<unsigned char, 20>",
    "name" : "const std::array<unsigned char, 20>",
-   "referenced_type" : "type-39",
-   "self_type" : "type-38",
+   "referenced_type" : "type-48",
+   "self_type" : "type-47",
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
   {
@@ -2622,8 +2622,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned char",
    "name" : "const unsigned char",
-   "referenced_type" : "type-26",
-   "self_type" : "type-25",
+   "referenced_type" : "type-21",
+   "self_type" : "type-20",
    "size" : 1,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2633,7 +2633,7 @@
    "linker_set_key" : "const unsigned int",
    "name" : "const unsigned int",
    "referenced_type" : "type-2",
-   "self_type" : "type-68",
+   "self_type" : "type-51",
    "size" : 4,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   },
@@ -2642,8 +2642,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned long long",
    "name" : "const unsigned long long",
-   "referenced_type" : "type-10",
-   "self_type" : "type-31",
+   "referenced_type" : "type-24",
+   "self_type" : "type-28",
    "size" : 8,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h"
   }
@@ -2656,28 +2656,28 @@
    [
     {
      "field_name" : "pData",
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "field_name" : "iWidth",
      "field_offset" : 32,
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
      "field_name" : "iHeight",
      "field_offset" : 64,
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     },
     {
      "field_name" : "iStride",
      "field_offset" : 96,
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-25"
     }
    ],
    "linker_set_key" : "EGLClientPixmapHI",
    "name" : "EGLClientPixmapHI",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
+   "referenced_type" : "type-71",
+   "self_type" : "type-71",
    "size" : 16,
    "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h",
    "unique_id" : "EGLClientPixmapHI"
@@ -2688,88 +2688,88 @@
    [
     {
      "field_name" : "context",
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
     },
     {
      "field_name" : "currentTime",
      "field_offset" : 32,
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-9"
     },
     {
      "field_name" : "monotonicallyIncreasingTime",
      "field_offset" : 64,
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-9"
     },
     {
      "field_name" : "logError",
      "field_offset" : 96,
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-12"
     },
     {
      "field_name" : "logWarning",
      "field_offset" : 128,
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-12"
     },
     {
      "field_name" : "logInfo",
      "field_offset" : 160,
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-12"
     },
     {
      "field_name" : "getTraceCategoryEnabledFlag",
      "field_offset" : 192,
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-17"
     },
     {
      "field_name" : "addTraceEvent",
      "field_offset" : 224,
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-22"
     },
     {
      "field_name" : "updateTraceEventDuration",
      "field_offset" : 256,
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-29"
     },
     {
      "field_name" : "histogramCustomCounts",
      "field_offset" : 288,
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-31"
     },
     {
      "field_name" : "histogramEnumeration",
      "field_offset" : 320,
-     "referenced_type" : "type-56"
+     "referenced_type" : "type-33"
     },
     {
      "field_name" : "histogramSparse",
      "field_offset" : 352,
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "histogramBoolean",
      "field_offset" : 384,
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-37"
     },
     {
      "field_name" : "overrideWorkaroundsD3D",
      "field_offset" : 416,
-     "referenced_type" : "type-62"
+     "referenced_type" : "type-40"
     },
     {
      "field_name" : "overrideFeaturesVk",
      "field_offset" : 448,
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-3"
     },
     {
      "field_name" : "cacheProgram",
      "field_offset" : 480,
-     "referenced_type" : "type-66"
+     "referenced_type" : "type-44"
     }
    ],
    "linker_set_key" : "angle::PlatformMethods",
    "name" : "angle::PlatformMethods",
-   "referenced_type" : "type-44",
-   "self_type" : "type-44",
+   "referenced_type" : "type-7",
+   "self_type" : "type-7",
    "size" : 64,
    "source_file" : "/frameworks/native/opengl/include/EGL/Platform.h",
    "unique_id" : "_ZTSN5angle15PlatformMethodsE"
