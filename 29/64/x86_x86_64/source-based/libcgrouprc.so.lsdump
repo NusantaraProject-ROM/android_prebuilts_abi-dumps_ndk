@@ -31,9 +31,6 @@
  "elf_functions" :
  [
   {
-   "name" : "ACgroupController_getFlags"
-  },
-  {
    "name" : "ACgroupController_getName"
   },
   {
@@ -57,18 +54,6 @@
  "function_types" : [],
  "functions" :
  [
-  {
-   "function_name" : "ACgroupController_getFlags",
-   "linker_set_key" : "ACgroupController_getFlags",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-5"
-    }
-   ],
-   "return_type" : "type-1",
-   "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
-  },
   {
    "function_name" : "ACgroupController_getName",
    "linker_set_key" : "ACgroupController_getName",
