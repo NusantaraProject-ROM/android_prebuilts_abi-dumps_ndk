@@ -1544,10 +1544,19 @@
    "name" : "_ZNK6aaudio21IsochronousClockModel21convertTimeToPositionEx"
   },
   {
+   "name" : "_ZNK6aaudio21IsochronousClockModel22getLateTimeOffsetNanosEv"
+  },
+  {
    "name" : "_ZNK6aaudio21IsochronousClockModel26convertDeltaPositionToTimeEx"
   },
   {
    "name" : "_ZNK6aaudio21IsochronousClockModel26convertDeltaTimeToPositionEx"
+  },
+  {
+   "name" : "_ZNK6aaudio21IsochronousClockModel27convertLatestTimeToPositionEx"
+  },
+  {
+   "name" : "_ZNK6aaudio21IsochronousClockModel27convertPositionToLatestTimeEx"
   },
   {
    "name" : "_ZNK6aaudio21IsochronousClockModel4dumpEv"
@@ -9061,6 +9070,20 @@
    "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h"
   },
   {
+   "access" : "private",
+   "function_name" : "aaudio::IsochronousClockModel::getLateTimeOffsetNanos",
+   "linker_set_key" : "_ZNK6aaudio21IsochronousClockModel22getLateTimeOffsetNanosEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-193"
+    }
+   ],
+   "return_type" : "type-4",
+   "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h"
+  },
+  {
    "function_name" : "aaudio::IsochronousClockModel::convertDeltaPositionToTime",
    "linker_set_key" : "_ZNK6aaudio21IsochronousClockModel26convertDeltaPositionToTimeEx",
    "parameters" :
@@ -9079,6 +9102,38 @@
   {
    "function_name" : "aaudio::IsochronousClockModel::convertDeltaTimeToPosition",
    "linker_set_key" : "_ZNK6aaudio21IsochronousClockModel26convertDeltaTimeToPositionEx",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-193"
+    },
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "return_type" : "type-8",
+   "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h"
+  },
+  {
+   "function_name" : "aaudio::IsochronousClockModel::convertLatestTimeToPosition",
+   "linker_set_key" : "_ZNK6aaudio21IsochronousClockModel27convertLatestTimeToPositionEx",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-193"
+    },
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "return_type" : "type-8",
+   "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h"
+  },
+  {
+   "function_name" : "aaudio::IsochronousClockModel::convertPositionToLatestTime",
+   "linker_set_key" : "_ZNK6aaudio21IsochronousClockModel27convertPositionToLatestTimeEx",
    "parameters" :
    [
     {
@@ -9704,7 +9759,7 @@
    "linker_set_key" : "const android::Parcel &",
    "name" : "const android::Parcel &",
    "referenced_type" : "type-1187",
-   "self_type" : "type-1189",
+   "self_type" : "type-1190",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/IAAudioClient.h"
   },
@@ -9758,7 +9813,7 @@
    "linker_set_key" : "const android::String16 &",
    "name" : "const android::String16 &",
    "referenced_type" : "type-1173",
-   "self_type" : "type-1178",
+   "self_type" : "type-1179",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/IAAudioClient.h"
   },
@@ -9865,7 +9920,7 @@
    "alignment" : 4,
    "linker_set_key" : "const android::sp<android::IAAudioClient> &",
    "name" : "const android::sp<android::IAAudioClient> &",
-   "referenced_type" : "type-1059",
+   "referenced_type" : "type-1061",
    "self_type" : "type-1063",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/AAudioBinderClient.h"
@@ -9955,7 +10010,7 @@
    "alignment" : 4,
    "linker_set_key" : "const android::sp<android::IAAudioClient> &",
    "name" : "const android::sp<android::IAAudioClient> &",
-   "referenced_type" : "type-754",
+   "referenced_type" : "type-756",
    "self_type" : "type-758",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/AAudioBinderClient.h"
@@ -10327,8 +10382,8 @@
    "alignment" : 4,
    "linker_set_key" : "AAudioStreamStruct *",
    "name" : "AAudioStreamStruct *",
-   "referenced_type" : "type-1062",
-   "self_type" : "type-1061",
+   "referenced_type" : "type-1060",
+   "self_type" : "type-1059",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/core/AudioStream.h"
   },
@@ -10678,8 +10733,8 @@
    "alignment" : 4,
    "linker_set_key" : "AAudioStreamStruct *",
    "name" : "AAudioStreamStruct *",
-   "referenced_type" : "type-757",
-   "self_type" : "type-756",
+   "referenced_type" : "type-755",
+   "self_type" : "type-754",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/core/AudioStream.h"
   },
@@ -12328,7 +12383,7 @@
    "name" : "const aaudio::AudioStreamInternal",
    "referenced_type" : "type-6",
    "self_type" : "type-65",
-   "size" : 1184,
+   "size" : 1192,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternal.h"
   },
   {
@@ -12338,7 +12393,7 @@
    "name" : "const aaudio::AudioStreamInternalCapture",
    "referenced_type" : "type-69",
    "self_type" : "type-70",
-   "size" : 1192,
+   "size" : 1200,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternalCapture.h"
   },
   {
@@ -12348,7 +12403,7 @@
    "name" : "const aaudio::AudioStreamInternalPlay",
    "referenced_type" : "type-113",
    "self_type" : "type-114",
-   "size" : 1216,
+   "size" : 1224,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternalPlay.h"
   },
   {
@@ -12388,7 +12443,7 @@
    "name" : "const aaudio::IsochronousClockModel",
    "referenced_type" : "type-7",
    "self_type" : "type-192",
-   "size" : 36,
+   "size" : 44,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h"
   },
   {
@@ -14016,8 +14071,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::sp<android::IAAudioClient>",
    "name" : "const android::sp<android::IAAudioClient>",
-   "referenced_type" : "type-1060",
-   "self_type" : "type-1059",
+   "referenced_type" : "type-1062",
+   "self_type" : "type-1061",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/AAudioBinderClient.h"
   },
@@ -14106,8 +14161,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::sp<android::IAAudioClient>",
    "name" : "const android::sp<android::IAAudioClient>",
-   "referenced_type" : "type-755",
-   "self_type" : "type-754",
+   "referenced_type" : "type-757",
+   "self_type" : "type-756",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/AAudioBinderClient.h"
   },
@@ -14134,8 +14189,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::sp<android::IAAudioService>",
    "name" : "const android::sp<android::IAAudioService>",
-   "referenced_type" : "type-1146",
-   "self_type" : "type-1145",
+   "referenced_type" : "type-1147",
+   "self_type" : "type-1146",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libaaudio/src/binding/AAudioBinderClient.h"
   },
@@ -16385,109 +16440,109 @@
     {
      "access" : "protected",
      "field_name" : "mAudioEndpoint",
-     "field_offset" : 1376,
+     "field_offset" : 1440,
      "referenced_type" : "type-10"
     },
     {
      "access" : "protected",
      "field_name" : "mServiceStreamHandle",
-     "field_offset" : 1632,
-     "referenced_type" : "type-4"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mFramesPerBurst",
-     "field_offset" : 1664,
-     "referenced_type" : "type-4"
-    },
-    {
-     "access" : "protected",
-     "field_name" : "mXRunCount",
      "field_offset" : 1696,
      "referenced_type" : "type-4"
     },
     {
      "access" : "protected",
-     "field_name" : "mFramesOffsetFromService",
+     "field_name" : "mFramesPerBurst",
      "field_offset" : 1728,
+     "referenced_type" : "type-4"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mXRunCount",
+     "field_offset" : 1760,
+     "referenced_type" : "type-4"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mFramesOffsetFromService",
+     "field_offset" : 1792,
      "referenced_type" : "type-8"
     },
     {
      "access" : "protected",
      "field_name" : "mCallbackBuffer",
-     "field_offset" : 1792,
+     "field_offset" : 1856,
      "referenced_type" : "type-14"
     },
     {
      "access" : "protected",
      "field_name" : "mCallbackFrames",
-     "field_offset" : 1824,
+     "field_offset" : 1888,
      "referenced_type" : "type-4"
     },
     {
      "access" : "protected",
      "field_name" : "mInService",
-     "field_offset" : 1856,
+     "field_offset" : 1920,
      "referenced_type" : "type-16"
     },
     {
      "access" : "protected",
      "field_name" : "mServiceInterface",
-     "field_offset" : 1888,
+     "field_offset" : 1952,
      "referenced_type" : "type-18"
     },
     {
      "access" : "protected",
      "field_name" : "mAtomicInternalTimestamp",
-     "field_offset" : 1920,
+     "field_offset" : 1984,
      "referenced_type" : "type-20"
     },
     {
      "access" : "protected",
      "field_name" : "mNeedCatchUp",
-     "field_offset" : 2208,
+     "field_offset" : 2272,
      "referenced_type" : "type-24"
     },
     {
      "access" : "protected",
      "field_name" : "mStreamVolume",
-     "field_offset" : 2272,
+     "field_offset" : 2336,
      "referenced_type" : "type-27"
     },
     {
      "access" : "private",
      "field_name" : "mWakeupDelayNanos",
-     "field_offset" : 2304,
+     "field_offset" : 2368,
      "referenced_type" : "type-13"
     },
     {
      "access" : "private",
      "field_name" : "mMinimumSleepNanos",
-     "field_offset" : 2336,
+     "field_offset" : 2400,
      "referenced_type" : "type-13"
     },
     {
      "access" : "private",
      "field_name" : "mEndPointParcelable",
-     "field_offset" : 2368,
+     "field_offset" : 2432,
      "referenced_type" : "type-28"
     },
     {
      "access" : "private",
      "field_name" : "mEndpointDescriptor",
-     "field_offset" : 8704,
+     "field_offset" : 8768,
      "referenced_type" : "type-39"
     },
     {
      "access" : "private",
      "field_name" : "mServiceLatencyNanos",
-     "field_offset" : 9376,
+     "field_offset" : 9440,
      "referenced_type" : "type-8"
     },
     {
      "access" : "private",
      "field_name" : "mDeviceChannelCount",
-     "field_offset" : 9440,
+     "field_offset" : 9504,
      "referenced_type" : "type-4"
     }
    ],
@@ -16496,7 +16551,7 @@
    "record_kind" : "class",
    "referenced_type" : "type-6",
    "self_type" : "type-6",
-   "size" : 1184,
+   "size" : 1192,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternal.h",
    "unique_id" : "_ZTSN6aaudio19AudioStreamInternalE",
    "vtable_components" :
@@ -16633,7 +16688,7 @@
     {
      "access" : "private",
      "field_name" : "mLastFramesWritten",
-     "field_offset" : 9472,
+     "field_offset" : 9536,
      "referenced_type" : "type-8"
     }
    ],
@@ -16642,7 +16697,7 @@
    "record_kind" : "class",
    "referenced_type" : "type-69",
    "self_type" : "type-69",
-   "size" : 1192,
+   "size" : 1200,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternalCapture.h",
    "unique_id" : "_ZTSN6aaudio26AudioStreamInternalCaptureE",
    "vtable_components" :
@@ -16773,13 +16828,13 @@
     {
      "access" : "private",
      "field_name" : "mLastFramesRead",
-     "field_offset" : 9472,
+     "field_offset" : 9536,
      "referenced_type" : "type-8"
     },
     {
      "access" : "private",
      "field_name" : "mFlowGraph",
-     "field_offset" : 9536,
+     "field_offset" : 9600,
      "referenced_type" : "type-106"
     }
    ],
@@ -16788,7 +16843,7 @@
    "record_kind" : "class",
    "referenced_type" : "type-113",
    "self_type" : "type-113",
-   "size" : 1216,
+   "size" : 1224,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/AudioStreamInternalPlay.h",
    "unique_id" : "_ZTSN6aaudio23AudioStreamInternalPlayE",
    "vtable_components" :
@@ -17585,15 +17640,27 @@
     },
     {
      "access" : "private",
-     "field_name" : "mMaxLatenessInNanos",
+     "field_name" : "mBurstPeriodNanos",
      "field_offset" : 224,
      "referenced_type" : "type-4"
     },
     {
      "access" : "private",
-     "field_name" : "mState",
+     "field_name" : "mMaxMeasuredLatenessNanos",
      "field_offset" : 256,
+     "referenced_type" : "type-4"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mState",
+     "field_offset" : 288,
      "referenced_type" : "type-9"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mTimestampCount",
+     "field_offset" : 320,
+     "referenced_type" : "type-4"
     }
    ],
    "linker_set_key" : "aaudio::IsochronousClockModel",
@@ -17601,7 +17668,7 @@
    "record_kind" : "class",
    "referenced_type" : "type-7",
    "self_type" : "type-7",
-   "size" : 36,
+   "size" : 44,
    "source_file" : "/frameworks/av/media/libaaudio/src/client/IsochronousClockModel.h",
    "unique_id" : "_ZTSN6aaudio21IsochronousClockModelE",
    "vtable_components" :
