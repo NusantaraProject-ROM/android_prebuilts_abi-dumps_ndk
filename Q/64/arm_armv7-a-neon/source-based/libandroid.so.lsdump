@@ -64,8 +64,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-100",
-   "self_type" : "type-100",
+   "referenced_type" : "type-95",
+   "self_type" : "type-95",
    "size" : 1
   },
   {
@@ -74,16 +74,16 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-95",
-   "self_type" : "type-95",
+   "referenced_type" : "type-90",
+   "self_type" : "type-90",
    "size" : 1
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-91",
-   "self_type" : "type-91",
+   "referenced_type" : "type-87",
+   "self_type" : "type-87",
    "size" : 8
   },
   {
@@ -108,16 +108,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-99",
-   "self_type" : "type-99",
+   "referenced_type" : "type-94",
+   "self_type" : "type-94",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-98",
-   "self_type" : "type-98",
+   "referenced_type" : "type-93",
+   "self_type" : "type-93",
    "size" : 8
   },
   {
@@ -134,8 +134,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-97",
-   "self_type" : "type-97",
+   "referenced_type" : "type-92",
+   "self_type" : "type-92",
    "size" : 2
   },
   {
@@ -144,8 +144,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-92",
-   "self_type" : "type-92",
+   "referenced_type" : "type-88",
+   "self_type" : "type-88",
    "size" : 1
   },
   {
@@ -164,8 +164,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-96",
-   "self_type" : "type-96",
+   "referenced_type" : "type-91",
+   "self_type" : "type-91",
    "size" : 4
   },
   {
@@ -184,8 +184,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-94",
-   "self_type" : "type-94",
+   "referenced_type" : "type-89",
+   "self_type" : "type-89",
    "size" : 2
   },
   {
@@ -1322,8 +1322,8 @@
    ],
    "linker_set_key" : "AHdrMetadataType",
    "name" : "AHdrMetadataType",
-   "referenced_type" : "type-83",
-   "self_type" : "type-83",
+   "referenced_type" : "type-76",
+   "self_type" : "type-76",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h",
    "underlying_type" : "type-7",
@@ -1627,7 +1627,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     }
    ],
    "return_type" : "type-5",
@@ -1639,10 +1639,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-103"
+     "referenced_type" : "type-143"
     },
     {
-     "referenced_type" : "type-106"
+     "referenced_type" : "type-146"
     }
    ],
    "return_type" : "type-2",
@@ -1654,10 +1654,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-109"
+     "referenced_type" : "type-149"
     },
     {
-     "referenced_type" : "type-110"
+     "referenced_type" : "type-150"
     }
    ],
    "return_type" : "type-5",
@@ -1669,10 +1669,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-109"
+     "referenced_type" : "type-149"
     }
    ],
-   "return_type" : "type-116",
+   "return_type" : "type-156",
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
@@ -1681,7 +1681,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-103"
+     "referenced_type" : "type-143"
     }
    ],
    "return_type" : "type-2",
@@ -1693,7 +1693,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     },
     {
      "referenced_type" : "type-21"
@@ -1702,10 +1702,10 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-152"
     },
     {
-     "referenced_type" : "type-114"
+     "referenced_type" : "type-154"
     }
    ],
    "return_type" : "type-2",
@@ -1717,7 +1717,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     },
     {
      "referenced_type" : "type-21"
@@ -1726,10 +1726,10 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-152"
     },
     {
-     "referenced_type" : "type-114"
+     "referenced_type" : "type-154"
     },
     {
      "referenced_type" : "type-55"
@@ -1747,7 +1747,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     },
     {
      "referenced_type" : "type-21"
@@ -1756,10 +1756,10 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-152"
     },
     {
-     "referenced_type" : "type-115"
+     "referenced_type" : "type-155"
     }
    ],
    "return_type" : "type-2",
@@ -1774,7 +1774,7 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-106"
+     "referenced_type" : "type-146"
     }
    ],
    "return_type" : "type-2",
@@ -1786,7 +1786,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     }
    ],
    "return_type" : "type-5",
@@ -1798,7 +1798,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-109"
+     "referenced_type" : "type-149"
     },
     {
      "referenced_type" : "type-2"
@@ -1813,7 +1813,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-144"
     },
     {
      "referenced_type" : "type-55"
@@ -1879,10 +1879,10 @@
      "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-129"
+     "referenced_type" : "type-169"
     },
     {
-     "referenced_type" : "type-130"
+     "referenced_type" : "type-170"
     }
    ],
    "return_type" : "type-2",
@@ -1942,8 +1942,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer *",
    "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-105",
-   "self_type" : "type-104",
+   "referenced_type" : "type-145",
+   "self_type" : "type-144",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -1951,8 +1951,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer *",
    "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-132",
-   "self_type" : "type-131",
+   "referenced_type" : "type-172",
+   "self_type" : "type-171",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/window.h"
   },
@@ -1960,8 +1960,8 @@
    "alignment" : 4,
    "linker_set_key" : "AHardwareBuffer **",
    "name" : "AHardwareBuffer **",
-   "referenced_type" : "type-104",
-   "self_type" : "type-106",
+   "referenced_type" : "type-144",
+   "self_type" : "type-146",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -1970,7 +1970,7 @@
    "linker_set_key" : "AHardwareBuffer_Desc *",
    "name" : "AHardwareBuffer_Desc *",
    "referenced_type" : "type-66",
-   "self_type" : "type-110",
+   "self_type" : "type-150",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -1979,7 +1979,7 @@
    "linker_set_key" : "AHardwareBuffer_Planes *",
    "name" : "AHardwareBuffer_Planes *",
    "referenced_type" : "type-62",
-   "self_type" : "type-115",
+   "self_type" : "type-155",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2015,7 +2015,7 @@
    "linker_set_key" : "ANativeWindow_Buffer *",
    "name" : "ANativeWindow_Buffer *",
    "referenced_type" : "type-32",
-   "self_type" : "type-129",
+   "self_type" : "type-169",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -2024,7 +2024,7 @@
    "linker_set_key" : "ARect *",
    "name" : "ARect *",
    "referenced_type" : "type-1",
-   "self_type" : "type-130",
+   "self_type" : "type-170",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -2032,8 +2032,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::GraphicBuffer *",
    "name" : "android::GraphicBuffer *",
-   "referenced_type" : "type-124",
-   "self_type" : "type-123",
+   "referenced_type" : "type-164",
+   "self_type" : "type-163",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
@@ -2050,8 +2050,8 @@
    "alignment" : 4,
    "linker_set_key" : "const AHardwareBuffer *",
    "name" : "const AHardwareBuffer *",
-   "referenced_type" : "type-107",
-   "self_type" : "type-109",
+   "referenced_type" : "type-147",
+   "self_type" : "type-149",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2059,8 +2059,8 @@
    "alignment" : 4,
    "linker_set_key" : "const AHardwareBuffer_Desc *",
    "name" : "const AHardwareBuffer_Desc *",
-   "referenced_type" : "type-101",
-   "self_type" : "type-103",
+   "referenced_type" : "type-141",
+   "self_type" : "type-143",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2086,8 +2086,8 @@
    "alignment" : 4,
    "linker_set_key" : "const ARect *",
    "name" : "const ARect *",
-   "referenced_type" : "type-111",
-   "self_type" : "type-112",
+   "referenced_type" : "type-151",
+   "self_type" : "type-152",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2095,19 +2095,10 @@
    "alignment" : 4,
    "linker_set_key" : "const android::GraphicBuffer *",
    "name" : "const android::GraphicBuffer *",
-   "referenced_type" : "type-121",
-   "self_type" : "type-120",
+   "referenced_type" : "type-161",
+   "self_type" : "type-160",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const native_handle *",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-117",
-   "self_type" : "type-116",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 4,
@@ -2122,8 +2113,8 @@
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
-   "referenced_type" : "type-126",
-   "self_type" : "type-128",
+   "referenced_type" : "type-120",
+   "self_type" : "type-122",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2131,8 +2122,35 @@
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
-   "referenced_type" : "type-152",
-   "self_type" : "type-154",
+   "referenced_type" : "type-125",
+   "self_type" : "type-127",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const native_handle *",
+   "name" : "const native_handle *",
+   "referenced_type" : "type-129",
+   "self_type" : "type-131",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const native_handle *",
+   "name" : "const native_handle *",
+   "referenced_type" : "type-134",
+   "self_type" : "type-133",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const native_handle *",
+   "name" : "const native_handle *",
+   "referenced_type" : "type-136",
+   "self_type" : "type-138",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2141,25 +2159,16 @@
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
    "referenced_type" : "type-157",
-   "self_type" : "type-159",
+   "self_type" : "type-156",
    "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const native_handle *",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-161",
-   "self_type" : "type-163",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
    "referenced_type" : "type-166",
-   "self_type" : "type-165",
+   "self_type" : "type-168",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2203,8 +2212,8 @@
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
-   "referenced_type" : "type-76",
-   "self_type" : "type-78",
+   "referenced_type" : "type-80",
+   "self_type" : "type-82",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2212,17 +2221,8 @@
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
-   "referenced_type" : "type-81",
-   "self_type" : "type-80",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const native_handle *",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-87",
-   "self_type" : "type-89",
+   "referenced_type" : "type-85",
+   "self_type" : "type-84",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2240,7 +2240,7 @@
    "linker_set_key" : "float *",
    "name" : "float *",
    "referenced_type" : "type-41",
-   "self_type" : "type-133",
+   "self_type" : "type-173",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/window.h"
   },
@@ -2339,7 +2339,7 @@
    "linker_set_key" : "void **",
    "name" : "void **",
    "referenced_type" : "type-4",
-   "self_type" : "type-114",
+   "self_type" : "type-154",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   }
@@ -2350,8 +2350,8 @@
    "is_const" : true,
    "linker_set_key" : "const AHardwareBuffer",
    "name" : "const AHardwareBuffer",
-   "referenced_type" : "type-108",
-   "self_type" : "type-107",
+   "referenced_type" : "type-148",
+   "self_type" : "type-147",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -2360,7 +2360,7 @@
    "linker_set_key" : "const AHardwareBuffer_Desc",
    "name" : "const AHardwareBuffer_Desc",
    "referenced_type" : "type-66",
-   "self_type" : "type-101",
+   "self_type" : "type-141",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2390,7 +2390,7 @@
    "linker_set_key" : "const ARect",
    "name" : "const ARect",
    "referenced_type" : "type-1",
-   "self_type" : "type-111",
+   "self_type" : "type-151",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2399,8 +2399,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::GraphicBuffer",
    "name" : "const android::GraphicBuffer",
-   "referenced_type" : "type-122",
-   "self_type" : "type-121",
+   "referenced_type" : "type-162",
+   "self_type" : "type-161",
    "size" : 160,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
@@ -2439,18 +2439,48 @@
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-118",
-   "self_type" : "type-117",
+   "referenced_type" : "type-121",
+   "self_type" : "type-120",
    "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
   {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-127",
-   "self_type" : "type-126",
+   "referenced_type" : "type-126",
+   "self_type" : "type-125",
+   "size" : 12,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const native_handle",
+   "name" : "const native_handle",
+   "referenced_type" : "type-130",
+   "self_type" : "type-129",
+   "size" : 12,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const native_handle",
+   "name" : "const native_handle",
+   "referenced_type" : "type-135",
+   "self_type" : "type-134",
+   "size" : 12,
+   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const native_handle",
+   "name" : "const native_handle",
+   "referenced_type" : "type-137",
+   "self_type" : "type-136",
    "size" : 12,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2469,30 +2499,10 @@
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-153",
-   "self_type" : "type-152",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const native_handle",
-   "name" : "const native_handle",
    "referenced_type" : "type-158",
    "self_type" : "type-157",
    "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-162",
-   "self_type" : "type-161",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
+   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
    "alignment" : 4,
@@ -2549,8 +2559,8 @@
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-77",
-   "self_type" : "type-76",
+   "referenced_type" : "type-81",
+   "self_type" : "type-80",
    "size" : 12,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2559,18 +2569,8 @@
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-82",
-   "self_type" : "type-81",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-88",
-   "self_type" : "type-87",
+   "referenced_type" : "type-86",
+   "self_type" : "type-85",
    "size" : 12,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2611,8 +2611,8 @@
    ],
    "linker_set_key" : "AColor_xy",
    "name" : "AColor_xy",
-   "referenced_type" : "type-84",
-   "self_type" : "type-84",
+   "referenced_type" : "type-77",
+   "self_type" : "type-77",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h",
    "unique_id" : "AColor_xy"
@@ -2734,8 +2734,8 @@
    ],
    "linker_set_key" : "AHdrMetadata_cta861_3",
    "name" : "AHdrMetadata_cta861_3",
-   "referenced_type" : "type-86",
-   "self_type" : "type-86",
+   "referenced_type" : "type-79",
+   "self_type" : "type-79",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h",
    "unique_id" : "AHdrMetadata_cta861_3"
@@ -2746,22 +2746,22 @@
    [
     {
      "field_name" : "displayPrimaryRed",
-     "referenced_type" : "type-84"
+     "referenced_type" : "type-77"
     },
     {
      "field_name" : "displayPrimaryGreen",
      "field_offset" : 64,
-     "referenced_type" : "type-84"
+     "referenced_type" : "type-77"
     },
     {
      "field_name" : "displayPrimaryBlue",
      "field_offset" : 128,
-     "referenced_type" : "type-84"
+     "referenced_type" : "type-77"
     },
     {
      "field_name" : "whitePoint",
      "field_offset" : 192,
-     "referenced_type" : "type-84"
+     "referenced_type" : "type-77"
     },
     {
      "field_name" : "maxLuminance",
@@ -2776,8 +2776,8 @@
    ],
    "linker_set_key" : "AHdrMetadata_smpte2086",
    "name" : "AHdrMetadata_smpte2086",
-   "referenced_type" : "type-85",
-   "self_type" : "type-85",
+   "referenced_type" : "type-78",
+   "self_type" : "type-78",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h",
    "unique_id" : "AHdrMetadata_smpte2086"

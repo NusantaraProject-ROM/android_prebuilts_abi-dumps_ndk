@@ -40889,6 +40889,10 @@
     },
     {
      "is_pure" : true,
+     "mangled_component_name" : "_ZN7android19IAudioPolicyService15moveEffectsToIoERKNSt3__16vectorIiNS1_9allocatorIiEEEEi"
+    },
+    {
+     "is_pure" : true,
      "mangled_component_name" : "_ZNK7android19IAudioPolicyService14isStreamActiveE19audio_stream_type_tj"
     },
     {
@@ -42620,6 +42624,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android19IAudioPolicyService16setEffectEnabledEib"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android19IAudioPolicyService15moveEffectsToIoERKNSt3__16vectorIiNS1_9allocatorIiEEEEi"
     },
     {
      "is_pure" : true,
@@ -48514,6 +48522,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android19IAudioPolicyService16setEffectEnabledEib"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android19IAudioPolicyService15moveEffectsToIoERKNSt3__16vectorIiNS1_9allocatorIiEEEEi"
     },
     {
      "is_pure" : true,

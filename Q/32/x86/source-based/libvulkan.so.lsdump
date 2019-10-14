@@ -26917,13 +26917,13 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:66:5) at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:66:5",
-   "name" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:66:5) at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:66:5",
+   "linker_set_key" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:76:5) at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:76:5",
+   "name" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:76:5) at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:76:5",
    "referenced_type" : "type-1021",
    "self_type" : "type-1021",
    "size" : 16,
    "source_file" : "/frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h",
-   "unique_id" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:66:5)"
+   "unique_id" : "VkNativeBufferANDROID::(anonymous struct at frameworks/native/vulkan/include/vulkan/vk_android_native_buffer.h:76:5)"
   },
   {
    "alignment" : 4,
