@@ -148,6 +148,9 @@
    "name" : "AHardwareBuffer_lockAndGetInfo"
   },
   {
+   "name" : "AHardwareBuffer_lockPlanes"
+  },
+  {
    "name" : "AHardwareBuffer_recvHandleFromUnixSocket"
   },
   {
@@ -976,6 +979,30 @@
     },
     {
      "referenced_type" : "type-28"
+    }
+   ],
+   "return_type" : "type-2",
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  },
+  {
+   "function_name" : "AHardwareBuffer_lockPlanes",
+   "linker_set_key" : "AHardwareBuffer_lockPlanes",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-12"
+    },
+    {
+     "referenced_type" : "type-5"
+    },
+    {
+     "referenced_type" : "type-2"
+    },
+    {
+     "referenced_type" : "type-20"
+    },
+    {
+     "referenced_type" : "type-24"
     }
    ],
    "return_type" : "type-2",
