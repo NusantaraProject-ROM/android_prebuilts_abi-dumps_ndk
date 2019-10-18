@@ -4,16 +4,16 @@
   {
    "linker_set_key" : "char []",
    "name" : "char []",
-   "referenced_type" : "type-9",
-   "self_type" : "type-8",
+   "referenced_type" : "type-25",
+   "self_type" : "type-24",
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 1,
    "linker_set_key" : "unsigned char [5121]",
    "name" : "unsigned char [5121]",
-   "referenced_type" : "type-73",
-   "self_type" : "type-72",
+   "referenced_type" : "type-83",
+   "self_type" : "type-82",
    "size" : 5121,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   }
@@ -35,16 +35,16 @@
    "is_integral" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9",
+   "referenced_type" : "type-25",
+   "self_type" : "type-25",
    "size" : 1
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-206",
-   "self_type" : "type-206",
+   "referenced_type" : "type-126",
+   "self_type" : "type-126",
    "size" : 4
   },
   {
@@ -52,8 +52,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
+   "referenced_type" : "type-35",
+   "self_type" : "type-35",
    "size" : 4
   },
   {
@@ -61,8 +61,8 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-39",
-   "self_type" : "type-39",
+   "referenced_type" : "type-14",
+   "self_type" : "type-14",
    "size" : 4
   },
   {
@@ -70,8 +70,8 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-205",
-   "self_type" : "type-205",
+   "referenced_type" : "type-125",
+   "self_type" : "type-125",
    "size" : 8
   },
   {
@@ -79,8 +79,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-206",
+   "self_type" : "type-206",
    "size" : 1
   },
   {
@@ -89,8 +89,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-83",
+   "self_type" : "type-83",
    "size" : 1
   },
   {
@@ -109,8 +109,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-40",
-   "self_type" : "type-40",
+   "referenced_type" : "type-15",
+   "self_type" : "type-15",
    "size" : 4
   },
   {
@@ -119,8 +119,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-30",
-   "self_type" : "type-30",
+   "referenced_type" : "type-16",
+   "self_type" : "type-16",
    "size" : 8
   },
   {
@@ -129,15 +129,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-35",
-   "self_type" : "type-35",
+   "referenced_type" : "type-34",
+   "self_type" : "type-34",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-104",
-   "self_type" : "type-104"
+   "referenced_type" : "type-29",
+   "self_type" : "type-29"
   }
  ],
  "elf_functions" :
@@ -209,9 +209,6 @@
    "name" : "android_log_id_to_name"
   },
   {
-   "name" : "android_log_parser_reset"
-  },
-  {
    "name" : "android_log_processBinaryLogBuffer"
   },
   {
@@ -251,27 +248,6 @@
    "name" : "android_log_write_string8_len"
   },
   {
-   "name" : "android_logger_clear"
-  },
-  {
-   "name" : "android_logger_get_id"
-  },
-  {
-   "name" : "android_logger_get_log_readable_size"
-  },
-  {
-   "name" : "android_logger_get_log_size"
-  },
-  {
-   "name" : "android_logger_get_log_version"
-  },
-  {
-   "name" : "android_logger_get_prune_list"
-  },
-  {
-   "name" : "android_logger_get_statistics"
-  },
-  {
    "name" : "android_logger_list_alloc"
   },
   {
@@ -288,12 +264,6 @@
   },
   {
    "name" : "android_logger_open"
-  },
-  {
-   "name" : "android_logger_set_log_size"
-  },
-  {
-   "name" : "android_logger_set_prune_list"
   },
   {
    "name" : "android_lookupEventTagNum"
@@ -349,8 +319,8 @@
    ],
    "linker_set_key" : "AndroidEventLogType",
    "name" : "AndroidEventLogType",
-   "referenced_type" : "type-112",
-   "self_type" : "type-112",
+   "referenced_type" : "type-122",
+   "self_type" : "type-122",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log.h",
    "underlying_type" : "type-2",
@@ -439,8 +409,8 @@
    ],
    "linker_set_key" : "AndroidLogPrintFormat",
    "name" : "AndroidLogPrintFormat",
-   "referenced_type" : "type-117",
-   "self_type" : "type-117",
+   "referenced_type" : "type-43",
+   "self_type" : "type-43",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h",
    "underlying_type" : "type-2",
@@ -543,8 +513,8 @@
    ],
    "linker_set_key" : "log_id",
    "name" : "log_id",
-   "referenced_type" : "type-32",
-   "self_type" : "type-32",
+   "referenced_type" : "type-10",
+   "self_type" : "type-10",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_id.h",
    "underlying_type" : "type-2",
@@ -597,8 +567,8 @@
    ],
    "linker_set_key" : "log_id",
    "name" : "log_id",
-   "referenced_type" : "type-88",
-   "self_type" : "type-88",
+   "referenced_type" : "type-98",
+   "self_type" : "type-98",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/android/log.h",
    "underlying_type" : "type-2",
@@ -614,27 +584,27 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-174"
+     "referenced_type" : "type-186"
     }
    ],
-   "referenced_type" : "type-173",
-   "return_type" : "type-6",
-   "self_type" : "type-173",
+   "referenced_type" : "type-185",
+   "return_type" : "type-35",
+   "self_type" : "type-185",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   }
  ],
@@ -646,16 +616,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-104",
+   "return_type" : "type-29",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
@@ -664,13 +634,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log.h"
   },
   {
@@ -679,19 +649,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-30"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log.h"
   },
   {
@@ -700,19 +670,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
@@ -721,19 +691,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
@@ -742,22 +712,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-105"
+     "referenced_type" : "type-30"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log.h"
   },
   {
    "function_name" : "__android_log_close",
    "linker_set_key" : "__android_log_close",
-   "return_type" : "type-104",
+   "return_type" : "type-29",
    "source_file" : "/system/core/liblog/include/log/log.h"
   },
   {
@@ -766,28 +736,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_safetynet.h"
   },
   {
    "function_name" : "__android_log_is_debuggable",
    "linker_set_key" : "__android_log_is_debuggable",
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_properties.h"
   },
   {
@@ -796,16 +766,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_main.h"
   },
   {
@@ -814,19 +784,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_main.h"
   },
   {
@@ -835,22 +805,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-175"
+     "referenced_type" : "type-187"
     },
     {
-     "referenced_type" : "type-174"
+     "referenced_type" : "type-186"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -859,22 +829,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     },
     {
-     "referenced_type" : "type-9"
+     "referenced_type" : "type-25"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -883,22 +853,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_security",
    "linker_set_key" : "__android_log_security",
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -907,13 +877,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -922,19 +892,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-115"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
@@ -943,16 +913,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/android/log.h"
   },
   {
@@ -961,10 +931,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     }
    ],
-   "return_type" : "type-40",
+   "return_type" : "type-15",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -973,10 +943,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
    "return_type" : "type-3",
@@ -988,10 +958,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-209"
+     "referenced_type" : "type-155"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1000,29 +970,11 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     }
    ],
-   "return_type" : "type-11",
+   "return_type" : "type-45",
    "source_file" : "/system/core/liblog/include/log/log_id.h"
-  },
-  {
-   "function_name" : "android_log_parser_reset",
-   "linker_set_key" : "android_log_parser_reset",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-207"
-    },
-    {
-     "referenced_type" : "type-11"
-    },
-    {
-     "referenced_type" : "type-2"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_processBinaryLogBuffer",
@@ -1030,22 +982,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-49"
     },
     {
-     "referenced_type" : "type-122"
+     "referenced_type" : "type-50"
     },
     {
-     "referenced_type" : "type-125"
+     "referenced_type" : "type-55"
     },
     {
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-115"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
@@ -1054,13 +1006,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-49"
     },
     {
-     "referenced_type" : "type-122"
+     "referenced_type" : "type-50"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
@@ -1069,10 +1021,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     }
    ],
-   "return_type" : "type-203",
+   "return_type" : "type-123",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1081,10 +1033,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1093,13 +1045,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-206"
+     "referenced_type" : "type-126"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1108,13 +1060,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1123,13 +1075,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-205"
+     "referenced_type" : "type-125"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1138,13 +1090,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-98"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1153,10 +1105,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1165,13 +1117,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-225"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
   {
@@ -1180,10 +1132,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1192,13 +1144,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1207,113 +1159,17 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "function_name" : "android_logger_clear",
-   "linker_set_key" : "android_logger_clear",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_id",
-   "linker_set_key" : "android_logger_get_id",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    }
-   ],
-   "return_type" : "type-32",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_log_readable_size",
-   "linker_set_key" : "android_logger_get_log_readable_size",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    }
-   ],
-   "return_type" : "type-39",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_log_size",
-   "linker_set_key" : "android_logger_get_log_size",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    }
-   ],
-   "return_type" : "type-39",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_log_version",
-   "linker_set_key" : "android_logger_get_log_version",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_prune_list",
-   "linker_set_key" : "android_logger_get_prune_list",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-41"
-    },
-    {
-     "referenced_type" : "type-108"
-    },
-    {
-     "referenced_type" : "type-2"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_get_statistics",
-   "linker_set_key" : "android_logger_get_statistics",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-41"
-    },
-    {
-     "referenced_type" : "type-108"
-    },
-    {
-     "referenced_type" : "type-2"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_alloc",
@@ -1321,16 +1177,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-41",
+   "return_type" : "type-17",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1339,16 +1195,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-5"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-41",
+   "return_type" : "type-17",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1357,10 +1213,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-17"
     }
    ],
-   "return_type" : "type-104",
+   "return_type" : "type-29",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1369,19 +1225,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-41",
+   "return_type" : "type-17",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1390,13 +1246,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-17"
     },
     {
-     "referenced_type" : "type-102"
+     "referenced_type" : "type-112"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1405,46 +1261,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-17"
     },
     {
-     "referenced_type" : "type-32"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-37",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_set_log_size",
-   "linker_set_key" : "android_logger_set_log_size",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-37"
-    },
-    {
-     "referenced_type" : "type-40"
-    }
-   ],
-   "return_type" : "type-6",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_logger_set_prune_list",
-   "linker_set_key" : "android_logger_set_prune_list",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-41"
-    },
-    {
-     "referenced_type" : "type-108"
-    },
-    {
-     "referenced_type" : "type-2"
-    }
-   ],
-   "return_type" : "type-6",
+   "return_type" : "type-12",
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
@@ -1453,19 +1276,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-136"
+     "referenced_type" : "type-137"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-6",
+   "return_type" : "type-35",
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
@@ -1474,10 +1297,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-88",
+   "return_type" : "type-98",
    "source_file" : "/system/core/liblog/include/log/log_id.h"
   },
   {
@@ -1486,10 +1309,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
-   "return_type" : "type-136",
+   "return_type" : "type-137",
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
@@ -1498,13 +1321,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-207",
+   "return_type" : "type-142",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
   {
@@ -1516,7 +1339,7 @@
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-207",
+   "return_type" : "type-142",
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   }
  ],
@@ -1527,8 +1350,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_event_list &",
    "name" : "android_log_event_list &",
-   "referenced_type" : "type-210",
-   "self_type" : "type-214",
+   "referenced_type" : "type-156",
+   "self_type" : "type-173",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1536,8 +1359,8 @@
    "alignment" : 4,
    "linker_set_key" : "const log_msg &",
    "name" : "const log_msg &",
-   "referenced_type" : "type-89",
-   "self_type" : "type-97",
+   "referenced_type" : "type-99",
+   "self_type" : "type-108",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -1545,8 +1368,8 @@
    "alignment" : 4,
    "linker_set_key" : "const log_time &",
    "name" : "const log_time &",
-   "referenced_type" : "type-16",
-   "self_type" : "type-27",
+   "referenced_type" : "type-4",
+   "self_type" : "type-11",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1554,8 +1377,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-109",
-   "self_type" : "type-111",
+   "referenced_type" : "type-116",
+   "self_type" : "type-118",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1563,8 +1386,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-143",
-   "self_type" : "type-145",
+   "referenced_type" : "type-134",
+   "self_type" : "type-136",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1572,8 +1395,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-154",
-   "self_type" : "type-156",
+   "referenced_type" : "type-146",
+   "self_type" : "type-148",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1581,8 +1404,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-162",
-   "self_type" : "type-164",
+   "referenced_type" : "type-160",
+   "self_type" : "type-162",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1599,16 +1422,7 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-181",
-   "self_type" : "type-183",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-189",
+   "referenced_type" : "type-180",
    "self_type" : "type-191",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
@@ -1617,8 +1431,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-20",
-   "self_type" : "type-22",
+   "referenced_type" : "type-182",
+   "self_type" : "type-184",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1626,8 +1440,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-200",
-   "self_type" : "type-202",
+   "referenced_type" : "type-195",
+   "self_type" : "type-197",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1635,8 +1449,17 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-215",
-   "self_type" : "type-217",
+   "referenced_type" : "type-207",
+   "self_type" : "type-209",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-216",
+   "self_type" : "type-219",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1653,8 +1476,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-259",
-   "self_type" : "type-261",
+   "referenced_type" : "type-260",
+   "self_type" : "type-262",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1662,8 +1485,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-286",
-   "self_type" : "type-288",
+   "referenced_type" : "type-278",
+   "self_type" : "type-280",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1671,8 +1494,17 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-301",
-   "self_type" : "type-303",
+   "referenced_type" : "type-288",
+   "self_type" : "type-290",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-299",
+   "self_type" : "type-301",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1681,7 +1513,7 @@
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "type-311",
-   "self_type" : "type-314",
+   "self_type" : "type-313",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1690,7 +1522,7 @@
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "type-321",
-   "self_type" : "type-324",
+   "self_type" : "type-323",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1698,8 +1530,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-341",
-   "self_type" : "type-343",
+   "referenced_type" : "type-334",
+   "self_type" : "type-336",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1707,8 +1539,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-64",
-   "self_type" : "type-66",
+   "referenced_type" : "type-342",
+   "self_type" : "type-344",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1716,8 +1548,62 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-76",
-   "self_type" : "type-78",
+   "referenced_type" : "type-350",
+   "self_type" : "type-354",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-361",
+   "self_type" : "type-363",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-37",
+   "self_type" : "type-39",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-371",
+   "self_type" : "type-373",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-61",
+   "self_type" : "type-63",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-72",
+   "self_type" : "type-76",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-86",
+   "self_type" : "type-88",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -1725,8 +1611,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-114",
-   "self_type" : "type-113",
+   "referenced_type" : "type-105",
+   "self_type" : "type-107",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1734,8 +1620,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-131",
-   "self_type" : "type-130",
+   "referenced_type" : "type-109",
+   "self_type" : "type-111",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1743,8 +1629,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-134",
-   "self_type" : "type-133",
+   "referenced_type" : "type-120",
+   "self_type" : "type-119",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1752,8 +1638,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-138",
-   "self_type" : "type-140",
+   "referenced_type" : "type-139",
+   "self_type" : "type-141",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1761,8 +1647,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-14",
-   "self_type" : "type-13",
+   "referenced_type" : "type-153",
+   "self_type" : "type-152",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1770,25 +1656,7 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-150",
-   "self_type" : "type-149",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const timespec &",
-   "name" : "const timespec &",
-   "referenced_type" : "type-157",
-   "self_type" : "type-159",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const timespec &",
-   "name" : "const timespec &",
-   "referenced_type" : "type-166",
+   "referenced_type" : "type-163",
    "self_type" : "type-165",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
@@ -1797,8 +1665,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-177",
-   "self_type" : "type-176",
+   "referenced_type" : "type-175",
+   "self_type" : "type-174",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1806,8 +1674,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-185",
-   "self_type" : "type-184",
+   "referenced_type" : "type-189",
+   "self_type" : "type-188",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1815,8 +1683,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-193",
-   "self_type" : "type-192",
+   "referenced_type" : "type-19",
+   "self_type" : "type-21",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1824,8 +1692,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-196",
-   "self_type" : "type-195",
+   "referenced_type" : "type-199",
+   "self_type" : "type-198",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1833,8 +1701,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-227",
-   "self_type" : "type-226",
+   "referenced_type" : "type-211",
+   "self_type" : "type-210",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1842,8 +1710,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-237",
-   "self_type" : "type-236",
+   "referenced_type" : "type-22",
+   "self_type" : "type-26",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1851,8 +1719,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-240",
-   "self_type" : "type-242",
+   "referenced_type" : "type-228",
+   "self_type" : "type-227",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1860,8 +1728,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-249",
-   "self_type" : "type-251",
+   "referenced_type" : "type-236",
+   "self_type" : "type-235",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1869,8 +1737,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-25",
-   "self_type" : "type-24",
+   "referenced_type" : "type-239",
+   "self_type" : "type-241",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1878,7 +1746,16 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-252",
+   "referenced_type" : "type-248",
+   "self_type" : "type-250",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const timespec &",
+   "name" : "const timespec &",
+   "referenced_type" : "type-251",
    "self_type" : "type-254",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
@@ -1887,8 +1764,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-263",
-   "self_type" : "type-262",
+   "referenced_type" : "type-264",
+   "self_type" : "type-263",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1896,8 +1773,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-276",
-   "self_type" : "type-275",
+   "referenced_type" : "type-283",
+   "self_type" : "type-285",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1905,8 +1782,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-28",
-   "self_type" : "type-31",
+   "referenced_type" : "type-295",
+   "self_type" : "type-294",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1914,8 +1791,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-280",
-   "self_type" : "type-282",
+   "referenced_type" : "type-302",
+   "self_type" : "type-304",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1923,8 +1800,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-292",
-   "self_type" : "type-291",
+   "referenced_type" : "type-307",
+   "self_type" : "type-306",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1932,8 +1809,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-296",
-   "self_type" : "type-295",
+   "referenced_type" : "type-315",
+   "self_type" : "type-314",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1941,8 +1818,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-304",
-   "self_type" : "type-307",
+   "referenced_type" : "type-328",
+   "self_type" : "type-327",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1950,8 +1827,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-316",
-   "self_type" : "type-315",
+   "referenced_type" : "type-338",
+   "self_type" : "type-337",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1959,8 +1836,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-329",
-   "self_type" : "type-328",
+   "referenced_type" : "type-346",
+   "self_type" : "type-345",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1968,8 +1845,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-332",
-   "self_type" : "type-331",
+   "referenced_type" : "type-367",
+   "self_type" : "type-366",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1977,8 +1854,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-43",
-   "self_type" : "type-45",
+   "referenced_type" : "type-375",
+   "self_type" : "type-374",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1986,8 +1863,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-47",
-   "self_type" : "type-46",
+   "referenced_type" : "type-41",
+   "self_type" : "type-40",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -1995,8 +1872,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-50",
-   "self_type" : "type-49",
+   "referenced_type" : "type-6",
+   "self_type" : "type-8",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2004,8 +1881,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-55",
-   "self_type" : "type-54",
+   "referenced_type" : "type-65",
+   "self_type" : "type-64",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2013,8 +1890,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-68",
-   "self_type" : "type-67",
+   "referenced_type" : "type-78",
+   "self_type" : "type-77",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2022,8 +1899,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-80",
-   "self_type" : "type-79",
+   "referenced_type" : "type-90",
+   "self_type" : "type-89",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2031,17 +1908,8 @@
    "alignment" : 4,
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
-   "referenced_type" : "type-83",
-   "self_type" : "type-82",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const timespec &",
-   "name" : "const timespec &",
-   "referenced_type" : "type-85",
-   "self_type" : "type-87",
+   "referenced_type" : "type-92",
+   "self_type" : "type-97",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2050,16 +1918,7 @@
    "linker_set_key" : "const timespec &",
    "name" : "const timespec &",
    "referenced_type" : "type-95",
-   "self_type" : "type-98",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const timespec &",
-   "name" : "const timespec &",
-   "referenced_type" : "type-99",
-   "self_type" : "type-101",
+   "self_type" : "type-94",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   }
@@ -2070,8 +1929,8 @@
    "alignment" : 4,
    "linker_set_key" : "AndroidLogEntry_t *",
    "name" : "AndroidLogEntry_t *",
-   "referenced_type" : "type-118",
-   "self_type" : "type-122",
+   "referenced_type" : "type-44",
+   "self_type" : "type-50",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2079,8 +1938,8 @@
    "alignment" : 4,
    "linker_set_key" : "AndroidLogFormat_t *",
    "name" : "AndroidLogFormat_t *",
-   "referenced_type" : "type-120",
-   "self_type" : "type-119",
+   "referenced_type" : "type-128",
+   "self_type" : "type-127",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2088,8 +1947,17 @@
    "alignment" : 4,
    "linker_set_key" : "AndroidLogFormat_t *",
    "name" : "AndroidLogFormat_t *",
-   "referenced_type" : "type-266",
-   "self_type" : "type-265",
+   "referenced_type" : "type-267",
+   "self_type" : "type-266",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/logprint.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "AndroidLogFormat_t *",
+   "name" : "AndroidLogFormat_t *",
+   "referenced_type" : "type-48",
+   "self_type" : "type-47",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2097,8 +1965,8 @@
    "alignment" : 4,
    "linker_set_key" : "EventTagMap *",
    "name" : "EventTagMap *",
-   "referenced_type" : "type-137",
-   "self_type" : "type-136",
+   "referenced_type" : "type-138",
+   "self_type" : "type-137",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
@@ -2106,8 +1974,8 @@
    "alignment" : 4,
    "linker_set_key" : "EventTagMap *",
    "name" : "EventTagMap *",
-   "referenced_type" : "type-279",
-   "self_type" : "type-278",
+   "referenced_type" : "type-282",
+   "self_type" : "type-281",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
@@ -2115,8 +1983,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-107",
-   "self_type" : "type-106",
+   "referenced_type" : "type-114",
+   "self_type" : "type-113",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2124,8 +1992,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-142",
-   "self_type" : "type-141",
+   "referenced_type" : "type-133",
+   "self_type" : "type-132",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2133,8 +2001,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-153",
-   "self_type" : "type-152",
+   "referenced_type" : "type-143",
+   "self_type" : "type-142",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2142,8 +2010,17 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-161",
-   "self_type" : "type-160",
+   "referenced_type" : "type-145",
+   "self_type" : "type-144",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-158",
+   "self_type" : "type-157",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2160,8 +2037,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-180",
-   "self_type" : "type-179",
+   "referenced_type" : "type-179",
+   "self_type" : "type-178",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2169,8 +2046,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-188",
-   "self_type" : "type-187",
+   "referenced_type" : "type-193",
+   "self_type" : "type-192",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2178,8 +2055,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-19",
-   "self_type" : "type-18",
+   "referenced_type" : "type-204",
+   "self_type" : "type-203",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2187,17 +2064,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-199",
-   "self_type" : "type-198",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "android_log_context_internal *",
-   "name" : "android_log_context_internal *",
-   "referenced_type" : "type-208",
-   "self_type" : "type-207",
+   "referenced_type" : "type-215",
+   "self_type" : "type-214",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2214,8 +2082,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-258",
-   "self_type" : "type-257",
+   "referenced_type" : "type-259",
+   "self_type" : "type-258",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2223,8 +2091,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-284",
-   "self_type" : "type-283",
+   "referenced_type" : "type-277",
+   "self_type" : "type-276",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2232,8 +2100,17 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-299",
-   "self_type" : "type-298",
+   "referenced_type" : "type-287",
+   "self_type" : "type-286",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-298",
+   "self_type" : "type-297",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2250,8 +2127,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-320",
-   "self_type" : "type-319",
+   "referenced_type" : "type-319",
+   "self_type" : "type-318",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2259,8 +2136,53 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-335",
-   "self_type" : "type-334",
+   "referenced_type" : "type-32",
+   "self_type" : "type-31",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-332",
+   "self_type" : "type-331",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-341",
+   "self_type" : "type-340",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-349",
+   "self_type" : "type-348",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-353",
+   "self_type" : "type-352",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-370",
+   "self_type" : "type-369",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2277,8 +2199,17 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal *",
    "name" : "android_log_context_internal *",
-   "referenced_type" : "type-75",
-   "self_type" : "type-74",
+   "referenced_type" : "type-70",
+   "self_type" : "type-69",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "android_log_context_internal *",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "type-85",
+   "self_type" : "type-84",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2286,8 +2217,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal **",
    "name" : "android_log_context_internal **",
-   "referenced_type" : "type-207",
-   "self_type" : "type-209",
+   "referenced_type" : "type-142",
+   "self_type" : "type-155",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2295,8 +2226,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal **",
    "name" : "android_log_context_internal **",
-   "referenced_type" : "type-334",
-   "self_type" : "type-336",
+   "referenced_type" : "type-352",
+   "self_type" : "type-355",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2304,8 +2235,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_context_internal **",
    "name" : "android_log_context_internal **",
-   "referenced_type" : "type-59",
-   "self_type" : "type-61",
+   "referenced_type" : "type-69",
+   "self_type" : "type-71",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2313,8 +2244,8 @@
    "alignment" : 4,
    "linker_set_key" : "android_log_event_list *",
    "name" : "android_log_event_list *",
-   "referenced_type" : "type-210",
-   "self_type" : "type-211",
+   "referenced_type" : "type-156",
+   "self_type" : "type-159",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2322,8 +2253,8 @@
    "alignment" : 4,
    "linker_set_key" : "char *",
    "name" : "char *",
-   "referenced_type" : "type-9",
-   "self_type" : "type-108",
+   "referenced_type" : "type-25",
+   "self_type" : "type-115",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2331,8 +2262,8 @@
    "alignment" : 4,
    "linker_set_key" : "const AndroidLogEntry_t *",
    "name" : "const AndroidLogEntry_t *",
-   "referenced_type" : "type-126",
-   "self_type" : "type-127",
+   "referenced_type" : "type-56",
+   "self_type" : "type-57",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2340,8 +2271,8 @@
    "alignment" : 4,
    "linker_set_key" : "const EventTagMap *",
    "name" : "const EventTagMap *",
-   "referenced_type" : "type-123",
-   "self_type" : "type-125",
+   "referenced_type" : "type-129",
+   "self_type" : "type-131",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2349,8 +2280,8 @@
    "alignment" : 4,
    "linker_set_key" : "const EventTagMap *",
    "name" : "const EventTagMap *",
-   "referenced_type" : "type-146",
-   "self_type" : "type-148",
+   "referenced_type" : "type-149",
+   "self_type" : "type-151",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
@@ -2358,8 +2289,8 @@
    "alignment" : 4,
    "linker_set_key" : "const EventTagMap *",
    "name" : "const EventTagMap *",
-   "referenced_type" : "type-269",
-   "self_type" : "type-271",
+   "referenced_type" : "type-270",
+   "self_type" : "type-272",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2367,17 +2298,26 @@
    "alignment" : 4,
    "linker_set_key" : "const EventTagMap *",
    "name" : "const EventTagMap *",
-   "referenced_type" : "type-289",
-   "self_type" : "type-294",
+   "referenced_type" : "type-291",
+   "self_type" : "type-293",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const EventTagMap *",
+   "name" : "const EventTagMap *",
+   "referenced_type" : "type-51",
+   "self_type" : "type-55",
+   "size" : 4,
+   "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "const android_log_event_list *",
    "name" : "const android_log_event_list *",
-   "referenced_type" : "type-212",
-   "self_type" : "type-213",
+   "referenced_type" : "type-166",
+   "self_type" : "type-167",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2385,8 +2325,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char *",
    "name" : "const char *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
+   "referenced_type" : "type-46",
+   "self_type" : "type-45",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2394,8 +2334,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char **",
    "name" : "const char **",
-   "referenced_type" : "type-11",
-   "self_type" : "type-10",
+   "referenced_type" : "type-45",
+   "self_type" : "type-225",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
@@ -2403,8 +2343,8 @@
    "alignment" : 4,
    "linker_set_key" : "const log_msg *",
    "name" : "const log_msg *",
-   "referenced_type" : "type-89",
-   "self_type" : "type-90",
+   "referenced_type" : "type-99",
+   "self_type" : "type-100",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2412,8 +2352,8 @@
    "alignment" : 4,
    "linker_set_key" : "const log_time *",
    "name" : "const log_time *",
-   "referenced_type" : "type-16",
-   "self_type" : "type-23",
+   "referenced_type" : "type-4",
+   "self_type" : "type-9",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2421,8 +2361,8 @@
    "alignment" : 4,
    "linker_set_key" : "const void *",
    "name" : "const void *",
-   "referenced_type" : "type-103",
-   "self_type" : "type-105",
+   "referenced_type" : "type-28",
+   "self_type" : "type-30",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log.h"
   },
@@ -2430,8 +2370,8 @@
    "alignment" : 4,
    "linker_set_key" : "int (*)(log_id, char, const char *, const char *, unsigned int, void *)",
    "name" : "int (*)(log_id, char, const char *, const char *, unsigned int, void *)",
-   "referenced_type" : "type-173",
-   "self_type" : "type-175",
+   "referenced_type" : "type-185",
+   "self_type" : "type-187",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   },
@@ -2439,8 +2379,8 @@
    "alignment" : 4,
    "linker_set_key" : "log_msg *",
    "name" : "log_msg *",
-   "referenced_type" : "type-70",
-   "self_type" : "type-102",
+   "referenced_type" : "type-80",
+   "self_type" : "type-112",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2448,8 +2388,8 @@
    "alignment" : 4,
    "linker_set_key" : "log_time *",
    "name" : "log_time *",
-   "referenced_type" : "type-17",
-   "self_type" : "type-129",
+   "referenced_type" : "type-5",
+   "self_type" : "type-226",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2457,8 +2397,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger *",
    "name" : "logger *",
-   "referenced_type" : "type-246",
-   "self_type" : "type-245",
+   "referenced_type" : "type-102",
+   "self_type" : "type-101",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2466,8 +2406,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger *",
    "name" : "logger *",
-   "referenced_type" : "type-38",
-   "self_type" : "type-37",
+   "referenced_type" : "type-13",
+   "self_type" : "type-12",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2475,8 +2415,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger *",
    "name" : "logger *",
-   "referenced_type" : "type-92",
-   "self_type" : "type-91",
+   "referenced_type" : "type-245",
+   "self_type" : "type-244",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2484,8 +2424,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger_entry *",
    "name" : "logger_entry *",
-   "referenced_type" : "type-34",
-   "self_type" : "type-121",
+   "referenced_type" : "type-33",
+   "self_type" : "type-49",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2493,8 +2433,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger_list *",
    "name" : "logger_list *",
-   "referenced_type" : "type-248",
-   "self_type" : "type-247",
+   "referenced_type" : "type-104",
+   "self_type" : "type-103",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2502,8 +2442,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger_list *",
    "name" : "logger_list *",
-   "referenced_type" : "type-42",
-   "self_type" : "type-41",
+   "referenced_type" : "type-18",
+   "self_type" : "type-17",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2511,8 +2451,8 @@
    "alignment" : 4,
    "linker_set_key" : "logger_list *",
    "name" : "logger_list *",
-   "referenced_type" : "type-94",
-   "self_type" : "type-93",
+   "referenced_type" : "type-247",
+   "self_type" : "type-246",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2521,7 +2461,7 @@
    "linker_set_key" : "unsigned int *",
    "name" : "unsigned int *",
    "referenced_type" : "type-2",
-   "self_type" : "type-128",
+   "self_type" : "type-58",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2529,8 +2469,8 @@
    "alignment" : 4,
    "linker_set_key" : "void *",
    "name" : "void *",
-   "referenced_type" : "type-104",
-   "self_type" : "type-174",
+   "referenced_type" : "type-29",
+   "self_type" : "type-186",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/private/android_logger.h"
   }
@@ -2541,8 +2481,8 @@
    "is_const" : true,
    "linker_set_key" : "char const[]",
    "name" : "char const[]",
-   "referenced_type" : "type-8",
-   "self_type" : "type-33",
+   "referenced_type" : "type-24",
+   "self_type" : "type-27",
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
@@ -2550,8 +2490,8 @@
    "is_const" : true,
    "linker_set_key" : "const AndroidLogEntry_t",
    "name" : "const AndroidLogEntry_t",
-   "referenced_type" : "type-118",
-   "self_type" : "type-126",
+   "referenced_type" : "type-44",
+   "self_type" : "type-56",
    "size" : 40,
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
@@ -2559,8 +2499,8 @@
    "is_const" : true,
    "linker_set_key" : "const EventTagMap",
    "name" : "const EventTagMap",
-   "referenced_type" : "type-124",
-   "self_type" : "type-123",
+   "referenced_type" : "type-130",
+   "self_type" : "type-129",
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
@@ -2568,8 +2508,8 @@
    "is_const" : true,
    "linker_set_key" : "const EventTagMap",
    "name" : "const EventTagMap",
-   "referenced_type" : "type-147",
-   "self_type" : "type-146",
+   "referenced_type" : "type-150",
+   "self_type" : "type-149",
    "size" : 116,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
@@ -2577,8 +2517,8 @@
    "is_const" : true,
    "linker_set_key" : "const EventTagMap",
    "name" : "const EventTagMap",
-   "referenced_type" : "type-270",
-   "self_type" : "type-269",
+   "referenced_type" : "type-271",
+   "self_type" : "type-270",
    "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
@@ -2586,18 +2526,26 @@
    "is_const" : true,
    "linker_set_key" : "const EventTagMap",
    "name" : "const EventTagMap",
-   "referenced_type" : "type-290",
-   "self_type" : "type-289",
+   "referenced_type" : "type-292",
+   "self_type" : "type-291",
    "size" : 116,
    "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "const EventTagMap",
+   "name" : "const EventTagMap",
+   "referenced_type" : "type-52",
+   "self_type" : "type-51",
+   "source_file" : "/system/core/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "const android_log_event_list",
    "name" : "const android_log_event_list",
-   "referenced_type" : "type-210",
-   "self_type" : "type-212",
+   "referenced_type" : "type-156",
+   "self_type" : "type-166",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2606,8 +2554,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-9",
-   "self_type" : "type-12",
+   "referenced_type" : "type-25",
+   "self_type" : "type-46",
    "size" : 1,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2616,8 +2564,8 @@
    "is_const" : true,
    "linker_set_key" : "const log_msg",
    "name" : "const log_msg",
-   "referenced_type" : "type-70",
-   "self_type" : "type-89",
+   "referenced_type" : "type-80",
+   "self_type" : "type-99",
    "size" : 5124,
    "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
@@ -2626,8 +2574,8 @@
    "is_const" : true,
    "linker_set_key" : "const log_time",
    "name" : "const log_time",
-   "referenced_type" : "type-17",
-   "self_type" : "type-16",
+   "referenced_type" : "type-5",
+   "self_type" : "type-4",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2636,8 +2584,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-110",
-   "self_type" : "type-109",
+   "referenced_type" : "type-117",
+   "self_type" : "type-116",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2646,8 +2594,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-144",
-   "self_type" : "type-143",
+   "referenced_type" : "type-135",
+   "self_type" : "type-134",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2656,8 +2604,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-155",
-   "self_type" : "type-154",
+   "referenced_type" : "type-147",
+   "self_type" : "type-146",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2666,8 +2614,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-163",
-   "self_type" : "type-162",
+   "referenced_type" : "type-161",
+   "self_type" : "type-160",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2686,8 +2634,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-182",
-   "self_type" : "type-181",
+   "referenced_type" : "type-181",
+   "self_type" : "type-180",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2696,8 +2644,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-190",
-   "self_type" : "type-189",
+   "referenced_type" : "type-183",
+   "self_type" : "type-182",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2706,8 +2654,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-201",
-   "self_type" : "type-200",
+   "referenced_type" : "type-196",
+   "self_type" : "type-195",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2716,8 +2664,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-216",
-   "self_type" : "type-215",
+   "referenced_type" : "type-208",
+   "self_type" : "type-207",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2726,8 +2674,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-21",
-   "self_type" : "type-20",
+   "referenced_type" : "type-217",
+   "self_type" : "type-216",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2746,8 +2694,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-260",
-   "self_type" : "type-259",
+   "referenced_type" : "type-261",
+   "self_type" : "type-260",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2756,8 +2704,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-287",
-   "self_type" : "type-286",
+   "referenced_type" : "type-279",
+   "self_type" : "type-278",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2766,8 +2714,18 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-302",
-   "self_type" : "type-301",
+   "referenced_type" : "type-289",
+   "self_type" : "type-288",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-300",
+   "self_type" : "type-299",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2796,8 +2754,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-342",
-   "self_type" : "type-341",
+   "referenced_type" : "type-335",
+   "self_type" : "type-334",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2806,8 +2764,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-65",
-   "self_type" : "type-64",
+   "referenced_type" : "type-343",
+   "self_type" : "type-342",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2816,8 +2774,68 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-77",
-   "self_type" : "type-76",
+   "referenced_type" : "type-351",
+   "self_type" : "type-350",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-362",
+   "self_type" : "type-361",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-372",
+   "self_type" : "type-371",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-38",
+   "self_type" : "type-37",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-62",
+   "self_type" : "type-61",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-73",
+   "self_type" : "type-72",
+   "size" : 12,
+   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-87",
+   "self_type" : "type-86",
    "size" : 12,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2826,8 +2844,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-100",
-   "self_type" : "type-99",
+   "referenced_type" : "type-106",
+   "self_type" : "type-105",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2836,8 +2854,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-115",
-   "self_type" : "type-114",
+   "referenced_type" : "type-110",
+   "self_type" : "type-109",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2846,8 +2864,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-132",
-   "self_type" : "type-131",
+   "referenced_type" : "type-121",
+   "self_type" : "type-120",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2856,8 +2874,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-135",
-   "self_type" : "type-134",
+   "referenced_type" : "type-140",
+   "self_type" : "type-139",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2866,8 +2884,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-139",
-   "self_type" : "type-138",
+   "referenced_type" : "type-154",
+   "self_type" : "type-153",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2876,8 +2894,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-151",
-   "self_type" : "type-150",
+   "referenced_type" : "type-164",
+   "self_type" : "type-163",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2886,8 +2904,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-158",
-   "self_type" : "type-157",
+   "referenced_type" : "type-176",
+   "self_type" : "type-175",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2896,8 +2914,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-15",
-   "self_type" : "type-14",
+   "referenced_type" : "type-190",
+   "self_type" : "type-189",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2906,8 +2924,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-167",
-   "self_type" : "type-166",
+   "referenced_type" : "type-200",
+   "self_type" : "type-199",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2916,8 +2934,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-178",
-   "self_type" : "type-177",
+   "referenced_type" : "type-20",
+   "self_type" : "type-19",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2926,8 +2944,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-186",
-   "self_type" : "type-185",
+   "referenced_type" : "type-212",
+   "self_type" : "type-211",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2936,8 +2954,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-194",
-   "self_type" : "type-193",
+   "referenced_type" : "type-229",
+   "self_type" : "type-228",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2946,8 +2964,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-197",
-   "self_type" : "type-196",
+   "referenced_type" : "type-237",
+   "self_type" : "type-236",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2956,8 +2974,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-228",
-   "self_type" : "type-227",
+   "referenced_type" : "type-23",
+   "self_type" : "type-22",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2966,8 +2984,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-238",
-   "self_type" : "type-237",
+   "referenced_type" : "type-240",
+   "self_type" : "type-239",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2976,8 +2994,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-241",
-   "self_type" : "type-240",
+   "referenced_type" : "type-249",
+   "self_type" : "type-248",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2986,8 +3004,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-250",
-   "self_type" : "type-249",
+   "referenced_type" : "type-252",
+   "self_type" : "type-251",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -2996,8 +3014,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-253",
-   "self_type" : "type-252",
+   "referenced_type" : "type-265",
+   "self_type" : "type-264",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3006,8 +3024,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-264",
-   "self_type" : "type-263",
+   "referenced_type" : "type-284",
+   "self_type" : "type-283",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3016,8 +3034,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-26",
-   "self_type" : "type-25",
+   "referenced_type" : "type-296",
+   "self_type" : "type-295",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3026,8 +3044,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-277",
-   "self_type" : "type-276",
+   "referenced_type" : "type-303",
+   "self_type" : "type-302",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3036,8 +3054,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-281",
-   "self_type" : "type-280",
+   "referenced_type" : "type-308",
+   "self_type" : "type-307",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3046,8 +3064,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-293",
-   "self_type" : "type-292",
+   "referenced_type" : "type-316",
+   "self_type" : "type-315",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3056,8 +3074,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-297",
-   "self_type" : "type-296",
+   "referenced_type" : "type-329",
+   "self_type" : "type-328",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3066,8 +3084,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-29",
-   "self_type" : "type-28",
+   "referenced_type" : "type-339",
+   "self_type" : "type-338",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3076,8 +3094,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-305",
-   "self_type" : "type-304",
+   "referenced_type" : "type-347",
+   "self_type" : "type-346",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3086,8 +3104,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-317",
-   "self_type" : "type-316",
+   "referenced_type" : "type-368",
+   "self_type" : "type-367",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3096,8 +3114,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-330",
-   "self_type" : "type-329",
+   "referenced_type" : "type-376",
+   "self_type" : "type-375",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3106,8 +3124,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-333",
-   "self_type" : "type-332",
+   "referenced_type" : "type-42",
+   "self_type" : "type-41",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3116,8 +3134,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "type-66",
+   "self_type" : "type-65",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3126,8 +3144,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-48",
-   "self_type" : "type-47",
+   "referenced_type" : "type-79",
+   "self_type" : "type-78",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3136,8 +3154,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-51",
-   "self_type" : "type-50",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3146,8 +3164,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-56",
-   "self_type" : "type-55",
+   "referenced_type" : "type-91",
+   "self_type" : "type-90",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3156,38 +3174,8 @@
    "is_const" : true,
    "linker_set_key" : "const timespec",
    "name" : "const timespec",
-   "referenced_type" : "type-69",
-   "self_type" : "type-68",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const timespec",
-   "name" : "const timespec",
-   "referenced_type" : "type-81",
-   "self_type" : "type-80",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const timespec",
-   "name" : "const timespec",
-   "referenced_type" : "type-84",
-   "self_type" : "type-83",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const timespec",
-   "name" : "const timespec",
-   "referenced_type" : "type-86",
-   "self_type" : "type-85",
+   "referenced_type" : "type-93",
+   "self_type" : "type-92",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3207,7 +3195,7 @@
    "linker_set_key" : "const unsigned int",
    "name" : "const unsigned int",
    "referenced_type" : "type-2",
-   "self_type" : "type-116",
+   "self_type" : "type-177",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
@@ -3215,8 +3203,8 @@
    "is_const" : true,
    "linker_set_key" : "const void",
    "name" : "const void",
-   "referenced_type" : "type-104",
-   "self_type" : "type-103",
+   "referenced_type" : "type-29",
+   "self_type" : "type-28",
    "source_file" : "/system/core/liblog/include/log/log.h"
   }
  ],
@@ -3228,12 +3216,12 @@
    [
     {
      "field_name" : "tv_sec",
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-14"
     },
     {
      "field_name" : "tv_nsec",
      "field_offset" : 32,
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-14"
     },
     {
      "field_name" : "priority",
@@ -3243,22 +3231,22 @@
     {
      "field_name" : "uid",
      "field_offset" : 96,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "pid",
      "field_offset" : 128,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tid",
      "field_offset" : 160,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tag",
      "field_offset" : 192,
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     },
     {
      "field_name" : "tagLen",
@@ -3273,13 +3261,13 @@
     {
      "field_name" : "message",
      "field_offset" : 288,
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-45"
     }
    ],
    "linker_set_key" : "AndroidLogEntry_t",
    "name" : "AndroidLogEntry_t",
-   "referenced_type" : "type-118",
-   "self_type" : "type-118",
+   "referenced_type" : "type-44",
+   "self_type" : "type-44",
    "size" : 40,
    "source_file" : "/system/core/liblog/include/log/logprint.h",
    "unique_id" : "AndroidLogEntry_t"
@@ -3289,14 +3277,36 @@
    "fields" :
    [
     {
+     "field_name" : "type",
+     "referenced_type" : "type-206"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 8,
+     "referenced_type" : "type-126"
+    }
+   ],
+   "linker_set_key" : "android_event_float_t",
+   "name" : "android_event_float_t",
+   "referenced_type" : "type-213",
+   "self_type" : "type-213",
+   "size" : 5,
+   "source_file" : "/system/core/liblog/include/private/android_logger.h",
+   "unique_id" : "android_event_float_t"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
      "field_name" : "tag",
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
    "linker_set_key" : "android_event_header_t",
    "name" : "android_event_header_t",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "type-202",
+   "self_type" : "type-202",
    "size" : 4,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_event_header_t"
@@ -3307,18 +3317,18 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-206"
     },
     {
      "field_name" : "data",
      "field_offset" : 8,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
    "linker_set_key" : "android_event_int_t",
    "name" : "android_event_int_t",
-   "referenced_type" : "type-220",
-   "self_type" : "type-220",
+   "referenced_type" : "type-218",
+   "self_type" : "type-218",
    "size" : 5,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_event_int_t"
@@ -3329,18 +3339,40 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-206"
+    },
+    {
+     "field_name" : "element_count",
+     "field_offset" : 8,
+     "referenced_type" : "type-206"
+    }
+   ],
+   "linker_set_key" : "android_event_list_t",
+   "name" : "android_event_list_t",
+   "referenced_type" : "type-205",
+   "self_type" : "type-205",
+   "size" : 2,
+   "source_file" : "/system/core/liblog/include/private/android_logger.h",
+   "unique_id" : "android_event_list_t"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "type-206"
     },
     {
      "field_name" : "data",
      "field_offset" : 8,
-     "referenced_type" : "type-205"
+     "referenced_type" : "type-125"
     }
    ],
    "linker_set_key" : "android_event_long_t",
    "name" : "android_event_long_t",
-   "referenced_type" : "type-222",
-   "self_type" : "type-222",
+   "referenced_type" : "type-221",
+   "self_type" : "type-221",
    "size" : 9,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_event_long_t"
@@ -3351,23 +3383,23 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-206"
     },
     {
      "field_name" : "length",
      "field_offset" : 8,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "data",
      "field_offset" : 40,
-     "referenced_type" : "type-8"
+     "referenced_type" : "type-24"
     }
    ],
    "linker_set_key" : "android_event_string_t",
    "name" : "android_event_string_t",
-   "referenced_type" : "type-224",
-   "self_type" : "type-224",
+   "referenced_type" : "type-223",
+   "self_type" : "type-223",
    "size" : 5,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_event_string_t"
@@ -3378,18 +3410,18 @@
    [
     {
      "field_name" : "header",
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-202"
     },
     {
      "field_name" : "payload",
      "field_offset" : 32,
-     "referenced_type" : "type-220"
+     "referenced_type" : "type-218"
     }
    ],
    "linker_set_key" : "android_log_event_int_t",
    "name" : "android_log_event_int_t",
-   "referenced_type" : "type-221",
-   "self_type" : "type-221",
+   "referenced_type" : "type-220",
+   "self_type" : "type-220",
    "size" : 9,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_log_event_int_t"
@@ -3401,20 +3433,20 @@
     {
      "access" : "private",
      "field_name" : "ctx",
-     "referenced_type" : "type-207"
+     "referenced_type" : "type-142"
     },
     {
      "access" : "private",
      "field_name" : "ret",
      "field_offset" : 32,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     }
    ],
    "linker_set_key" : "android_log_event_list",
    "name" : "android_log_event_list",
    "record_kind" : "class",
-   "referenced_type" : "type-210",
-   "self_type" : "type-210",
+   "referenced_type" : "type-156",
+   "self_type" : "type-156",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h",
    "unique_id" : "_ZTS22android_log_event_list"
@@ -3425,18 +3457,18 @@
    [
     {
      "field_name" : "header",
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-202"
     },
     {
      "field_name" : "payload",
      "field_offset" : 32,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-221"
     }
    ],
    "linker_set_key" : "android_log_event_long_t",
    "name" : "android_log_event_long_t",
-   "referenced_type" : "type-223",
-   "self_type" : "type-223",
+   "referenced_type" : "type-222",
+   "self_type" : "type-222",
    "size" : 13,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_log_event_long_t"
@@ -3447,28 +3479,28 @@
    [
     {
      "field_name" : "header",
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-202"
     },
     {
      "field_name" : "type",
      "field_offset" : 32,
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-206"
     },
     {
      "field_name" : "length",
      "field_offset" : 40,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "data",
      "field_offset" : 72,
-     "referenced_type" : "type-8"
+     "referenced_type" : "type-24"
     }
    ],
    "linker_set_key" : "android_log_event_string_t",
    "name" : "android_log_event_string_t",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-224",
+   "self_type" : "type-224",
    "size" : 9,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_log_event_string_t"
@@ -3479,23 +3511,23 @@
    [
     {
      "field_name" : "id",
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-83"
     },
     {
      "field_name" : "tid",
      "field_offset" : 8,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "realtime",
      "field_offset" : 24,
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-5"
     }
    ],
    "linker_set_key" : "android_log_header_t",
    "name" : "android_log_header_t",
-   "referenced_type" : "type-219",
-   "self_type" : "type-219",
+   "referenced_type" : "type-201",
+   "self_type" : "type-201",
    "size" : 11,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_log_header_t"
@@ -3506,28 +3538,28 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-122"
     },
     {
      "field_name" : "complete",
      "field_offset" : 32,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "len",
      "field_offset" : 48,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "data",
      "field_offset" : 64,
-     "referenced_type" : "type-204"
+     "referenced_type" : "type-124"
     }
    ],
    "linker_set_key" : "android_log_list_element",
    "name" : "android_log_list_element",
-   "referenced_type" : "type-203",
-   "self_type" : "type-203",
+   "referenced_type" : "type-123",
+   "self_type" : "type-123",
    "size" : 16,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h",
    "unique_id" : "android_log_list_element"
@@ -3538,30 +3570,30 @@
    [
     {
      "field_name" : "int32",
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "int64",
-     "referenced_type" : "type-205"
+     "referenced_type" : "type-125"
     },
     {
      "field_name" : "string",
-     "referenced_type" : "type-108"
+     "referenced_type" : "type-115"
     },
     {
      "field_name" : "float32",
-     "referenced_type" : "type-206"
+     "referenced_type" : "type-126"
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:53:3) at system/core/liblog/include/log/log_event_list.h:53:3",
-   "name" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:53:3) at system/core/liblog/include/log/log_event_list.h:53:3",
+   "linker_set_key" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:48:3) at system/core/liblog/include/log/log_event_list.h:48:3",
+   "name" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:48:3) at system/core/liblog/include/log/log_event_list.h:48:3",
    "record_kind" : "union",
-   "referenced_type" : "type-204",
-   "self_type" : "type-204",
+   "referenced_type" : "type-124",
+   "self_type" : "type-124",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h",
-   "unique_id" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:53:3)"
+   "unique_id" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:48:3)"
   },
   {
    "alignment" : 1,
@@ -3569,28 +3601,28 @@
    [
     {
      "field_name" : "magic",
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-83"
     },
     {
      "field_name" : "len",
      "field_offset" : 8,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "uid",
      "field_offset" : 24,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "pid",
      "field_offset" : 40,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     }
    ],
    "linker_set_key" : "android_pmsg_log_header_t",
    "name" : "android_pmsg_log_header_t",
-   "referenced_type" : "type-218",
-   "self_type" : "type-218",
+   "referenced_type" : "type-194",
+   "self_type" : "type-194",
    "size" : 7,
    "source_file" : "/system/core/liblog/include/private/android_logger.h",
    "unique_id" : "android_pmsg_log_header_t"
@@ -3600,13 +3632,13 @@
    "fields" :
    [
     {
-     "referenced_type" : "type-71"
+     "referenced_type" : "type-81"
     }
    ],
    "linker_set_key" : "log_msg",
    "name" : "log_msg",
-   "referenced_type" : "type-70",
-   "self_type" : "type-70",
+   "referenced_type" : "type-80",
+   "self_type" : "type-80",
    "size" : 5124,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "log_msg"
@@ -3617,38 +3649,38 @@
    [
     {
      "field_name" : "buf",
-     "referenced_type" : "type-72"
+     "referenced_type" : "type-82"
     },
     {
      "field_name" : "entry",
-     "referenced_type" : "type-62"
+     "referenced_type" : "type-74"
     },
     {
      "field_name" : "entry_v4",
-     "referenced_type" : "type-62"
+     "referenced_type" : "type-74"
     },
     {
      "field_name" : "entry_v3",
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-67"
     },
     {
      "field_name" : "entry_v2",
-     "referenced_type" : "type-52"
+     "referenced_type" : "type-53"
     },
     {
      "field_name" : "entry_v1",
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-33"
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
+   "linker_set_key" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:125:3) at system/core/liblog/include/log/log_read.h:125:3",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:125:3) at system/core/liblog/include/log/log_read.h:125:3",
    "record_kind" : "union",
-   "referenced_type" : "type-71",
-   "self_type" : "type-71",
+   "referenced_type" : "type-81",
+   "self_type" : "type-81",
    "size" : 5124,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
-   "unique_id" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3)"
+   "unique_id" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:125:3)"
   },
   {
    "alignment" : 1,
@@ -3666,8 +3698,8 @@
    ],
    "linker_set_key" : "log_time",
    "name" : "log_time",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
+   "referenced_type" : "type-5",
+   "self_type" : "type-5",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_time.h",
    "unique_id" : "log_time"
@@ -3678,32 +3710,32 @@
    [
     {
      "field_name" : "len",
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "__pad",
      "field_offset" : 16,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "pid",
      "field_offset" : 32,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tid",
      "field_offset" : 64,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "sec",
      "field_offset" : 96,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "nsec",
      "field_offset" : 128,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "msg",
@@ -3713,8 +3745,8 @@
    ],
    "linker_set_key" : "logger_entry",
    "name" : "logger_entry",
-   "referenced_type" : "type-34",
-   "self_type" : "type-34",
+   "referenced_type" : "type-33",
+   "self_type" : "type-33",
    "size" : 20,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry"
@@ -3725,32 +3757,32 @@
    [
     {
      "field_name" : "len",
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "hdr_size",
      "field_offset" : 16,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "pid",
      "field_offset" : 32,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tid",
      "field_offset" : 64,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "sec",
      "field_offset" : 96,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "nsec",
      "field_offset" : 128,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "euid",
@@ -3760,13 +3792,13 @@
     {
      "field_name" : "msg",
      "field_offset" : 192,
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-54"
     }
    ],
    "linker_set_key" : "logger_entry_v2",
    "name" : "logger_entry_v2",
-   "referenced_type" : "type-52",
-   "self_type" : "type-52",
+   "referenced_type" : "type-53",
+   "self_type" : "type-53",
    "size" : 24,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v2"
@@ -3777,32 +3809,32 @@
    [
     {
      "field_name" : "len",
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "hdr_size",
      "field_offset" : 16,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "pid",
      "field_offset" : 32,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tid",
      "field_offset" : 64,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "sec",
      "field_offset" : 96,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "nsec",
      "field_offset" : 128,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "lid",
@@ -3812,13 +3844,13 @@
     {
      "field_name" : "msg",
      "field_offset" : 192,
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-68"
     }
    ],
    "linker_set_key" : "logger_entry_v3",
    "name" : "logger_entry_v3",
-   "referenced_type" : "type-57",
-   "self_type" : "type-57",
+   "referenced_type" : "type-67",
+   "self_type" : "type-67",
    "size" : 24,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v3"
@@ -3829,17 +3861,17 @@
    [
     {
      "field_name" : "len",
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "hdr_size",
      "field_offset" : 16,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "pid",
      "field_offset" : 32,
-     "referenced_type" : "type-6"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "tid",
@@ -3869,13 +3901,13 @@
     {
      "field_name" : "msg",
      "field_offset" : 224,
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-75"
     }
    ],
    "linker_set_key" : "logger_entry_v4",
    "name" : "logger_entry_v4",
-   "referenced_type" : "type-62",
-   "self_type" : "type-62",
+   "referenced_type" : "type-74",
+   "self_type" : "type-74",
    "size" : 28,
    "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v4"
