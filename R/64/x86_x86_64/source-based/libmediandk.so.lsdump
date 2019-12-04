@@ -1509,6 +1509,10 @@
     {
      "enum_field_value" : 1,
      "name" : "AMEDIAMUXER_OUTPUT_FORMAT_WEBM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_THREE_GPP"
     }
    ],
    "linker_set_key" : "_ZTI12OutputFormat",
