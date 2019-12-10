@@ -1336,6 +1336,9 @@
    "name" : "AMEDIAFORMAT_KEY_LOOP"
   },
   {
+   "name" : "AMEDIAFORMAT_KEY_LOW_LATENCY"
+  },
+  {
    "name" : "AMEDIAFORMAT_KEY_LYRICIST"
   },
   {
@@ -11726,6 +11729,12 @@
   {
    "linker_set_key" : "AMEDIAFORMAT_KEY_LOOP",
    "name" : "AMEDIAFORMAT_KEY_LOOP",
+   "referenced_type" : "type-48",
+   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LOW_LATENCY",
+   "name" : "AMEDIAFORMAT_KEY_LOW_LATENCY",
    "referenced_type" : "type-48",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
