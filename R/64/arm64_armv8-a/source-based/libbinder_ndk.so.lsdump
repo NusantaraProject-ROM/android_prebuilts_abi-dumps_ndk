@@ -206,6 +206,7 @@
    "name" : "AIBinder_linkToDeath"
   },
   {
+   "binding" : "weak",
    "name" : "AIBinder_markSystemStability"
   },
   {
@@ -401,6 +402,9 @@
    "name" : "AStatus_delete"
   },
   {
+   "name" : "AStatus_deleteDescription"
+  },
+  {
    "name" : "AStatus_fromExceptionCode"
   },
   {
@@ -414,6 +418,9 @@
   },
   {
    "name" : "AStatus_fromStatus"
+  },
+  {
+   "name" : "AStatus_getDescription"
   },
   {
    "name" : "AStatus_getExceptionCode"
@@ -7130,6 +7137,18 @@
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
+   "function_name" : "AStatus_deleteDescription",
+   "linker_set_key" : "AStatus_deleteDescription",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-21"
+    }
+   ],
+   "return_type" : "type-13",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
+  },
+  {
    "function_name" : "AStatus_fromExceptionCode",
    "linker_set_key" : "AStatus_fromExceptionCode",
    "parameters" :
@@ -7193,6 +7212,18 @@
     }
    ],
    "return_type" : "type-687",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
+  },
+  {
+   "function_name" : "AStatus_getDescription",
+   "linker_set_key" : "AStatus_getDescription",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-691"
+    }
+   ],
+   "return_type" : "type-21",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
   },
   {
