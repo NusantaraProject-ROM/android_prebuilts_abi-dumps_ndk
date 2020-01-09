@@ -240,6 +240,9 @@
    "name" : "AParcel_delete"
   },
   {
+   "name" : "AParcel_fromJavaParcel"
+  },
+  {
    "name" : "AParcel_getDataPosition"
   },
   {
@@ -6247,6 +6250,21 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_fromJavaParcel",
+   "linker_set_key" : "AParcel_fromJavaParcel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    }
+   ],
+   "return_type" : "_ZTIP7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm64_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel_jni.sdump",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel_jni.h"
   },
   {
    "function_name" : "AParcel_getDataPosition",

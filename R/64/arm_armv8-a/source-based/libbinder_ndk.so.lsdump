@@ -267,6 +267,9 @@
    "name" : "AParcel_delete"
   },
   {
+   "name" : "AParcel_fromJavaParcel"
+  },
+  {
    "name" : "AParcel_getDataPosition"
   },
   {
@@ -6276,6 +6279,21 @@
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
   {
+   "function_name" : "AParcel_fromJavaParcel",
+   "linker_set_key" : "AParcel_fromJavaParcel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    }
+   ],
+   "return_type" : "_ZTIP7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel_jni.sdump",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel_jni.h"
+  },
+  {
    "function_name" : "AParcel_getDataPosition",
    "linker_set_key" : "AParcel_getDataPosition",
    "parameters" :
@@ -9695,8 +9713,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK14AIBinder_Class",
    "name" : "const AIBinder_Class *",
-   "referenced_type" : "_ZTIK14AIBinder_Class#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
-   "self_type" : "_ZTIPK14AIBinder_Class#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
+   "referenced_type" : "_ZTIK14AIBinder_Class#ODR:",
+   "self_type" : "_ZTIPK14AIBinder_Class#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
@@ -9749,8 +9767,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK7AParcel",
    "name" : "const AParcel *",
-   "referenced_type" : "_ZTIK7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
-   "self_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
+   "referenced_type" : "_ZTIK7AParcel#ODR:",
+   "self_type" : "_ZTIPK7AParcel#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
@@ -9776,8 +9794,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK7AStatus",
    "name" : "const AStatus *",
-   "referenced_type" : "_ZTIK7AStatus#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel.sdump",
-   "self_type" : "_ZTIPK7AStatus#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel.sdump",
+   "referenced_type" : "_ZTIK7AStatus#ODR:",
+   "self_type" : "_ZTIPK7AStatus#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -9803,8 +9821,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK8AIBinder",
    "name" : "const AIBinder *",
-   "referenced_type" : "_ZTIK8AIBinder#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
-   "self_type" : "_ZTIPK8AIBinder#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
+   "referenced_type" : "_ZTIK8AIBinder#ODR:",
+   "self_type" : "_ZTIPK8AIBinder#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
@@ -9938,8 +9956,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP7AParcel",
    "name" : "AParcel **",
-   "referenced_type" : "_ZTIP7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
-   "self_type" : "_ZTIPP7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
+   "referenced_type" : "_ZTIP7AParcel#ODR:",
+   "self_type" : "_ZTIPP7AParcel#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
@@ -9956,8 +9974,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP7AStatus",
    "name" : "AStatus **",
-   "referenced_type" : "_ZTIP7AStatus#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel.sdump",
-   "self_type" : "_ZTIPP7AStatus#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel.sdump",
+   "referenced_type" : "_ZTIP7AStatus#ODR:",
+   "self_type" : "_ZTIPP7AStatus#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
   },
@@ -9992,8 +10010,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP8AIBinder",
    "name" : "AIBinder **",
-   "referenced_type" : "_ZTIP8AIBinder#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
-   "self_type" : "_ZTIPP8AIBinder#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/ibinder.sdump",
+   "referenced_type" : "_ZTIP8AIBinder#ODR:",
+   "self_type" : "_ZTIPP8AIBinder#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
