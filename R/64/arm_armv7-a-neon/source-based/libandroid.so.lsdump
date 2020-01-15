@@ -5,8 +5,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA1_Pv",
    "name" : "void *[1]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-17",
+   "referenced_type" : "_ZTIPv",
+   "self_type" : "_ZTIA1_Pv",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -14,8 +14,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA4_21AHardwareBuffer_Plane",
    "name" : "AHardwareBuffer_Plane [4]",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
+   "referenced_type" : "_ZTI21AHardwareBuffer_Plane",
+   "self_type" : "_ZTIA4_21AHardwareBuffer_Plane",
    "size" : 48,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -23,8 +23,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA4_Pv",
    "name" : "void *[4]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-3",
+   "referenced_type" : "_ZTIPv",
+   "self_type" : "_ZTIA4_Pv",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -32,8 +32,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA4_i",
    "name" : "int [4]",
-   "referenced_type" : "type-2",
-   "self_type" : "type-42",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA4_i",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -41,8 +41,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA6_Pv",
    "name" : "void *[6]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-22",
+   "referenced_type" : "_ZTIPv",
+   "self_type" : "_ZTIA6_Pv",
    "size" : 24,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -50,8 +50,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA6_j",
    "name" : "unsigned int [6]",
-   "referenced_type" : "type-7",
-   "self_type" : "type-33",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA6_j",
    "size" : 24,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   }
@@ -64,8 +64,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIb",
    "name" : "bool",
-   "referenced_type" : "type-95",
-   "self_type" : "type-95",
+   "referenced_type" : "_ZTIb",
+   "self_type" : "_ZTIb",
    "size" : 1
   },
   {
@@ -74,32 +74,32 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "type-90",
-   "self_type" : "type-90",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTId",
    "name" : "double",
-   "referenced_type" : "type-87",
-   "self_type" : "type-87",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTId",
    "size" : 8
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIe",
    "name" : "long double",
-   "referenced_type" : "type-93",
-   "self_type" : "type-93",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIe",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
-   "referenced_type" : "type-41",
-   "self_type" : "type-41",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIf",
    "size" : 4
   },
   {
@@ -108,8 +108,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
-   "referenced_type" : "type-88",
-   "self_type" : "type-88",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIh",
    "size" : 1
   },
   {
@@ -117,8 +117,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "type-2",
-   "self_type" : "type-2",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -127,8 +127,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -136,8 +136,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIl",
    "name" : "long",
-   "referenced_type" : "type-94",
-   "self_type" : "type-94",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
    "size" : 4
   },
   {
@@ -146,8 +146,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "type-91",
-   "self_type" : "type-91",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
    "size" : 4
   },
   {
@@ -155,8 +155,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIs",
    "name" : "short",
-   "referenced_type" : "type-92",
-   "self_type" : "type-92",
+   "referenced_type" : "_ZTIs",
+   "self_type" : "_ZTIs",
    "size" : 2
   },
   {
@@ -165,23 +165,23 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
-   "referenced_type" : "type-89",
-   "self_type" : "type-89",
+   "referenced_type" : "_ZTIt",
+   "self_type" : "_ZTIt",
    "size" : 2
   },
   {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5"
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   },
   {
    "alignment" : 8,
    "is_integral" : true,
    "linker_set_key" : "_ZTIx",
    "name" : "long long",
-   "referenced_type" : "type-35",
-   "self_type" : "type-35",
+   "referenced_type" : "_ZTIx",
+   "self_type" : "_ZTIx",
    "size" : 8
   },
   {
@@ -190,8 +190,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIy",
    "name" : "unsigned long long",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIy",
    "size" : 8
   }
  ],
@@ -316,6 +316,9 @@
   },
   {
    "name" : "AConfiguration_getScreenLong"
+  },
+  {
+   "name" : "AConfiguration_getScreenRound"
   },
   {
    "name" : "AConfiguration_getScreenSize"
@@ -1060,11 +1063,11 @@
    ],
    "linker_set_key" : "_ZTI10ADataSpace",
    "name" : "ADataSpace",
-   "referenced_type" : "type-29",
-   "self_type" : "type-29",
+   "referenced_type" : "_ZTI10ADataSpace",
+   "self_type" : "_ZTI10ADataSpace",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/data_space.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -1085,11 +1088,11 @@
    ],
    "linker_set_key" : "_ZTI16AHdrMetadataType",
    "name" : "AHdrMetadataType",
-   "referenced_type" : "type-76",
-   "self_type" : "type-76",
+   "referenced_type" : "_ZTI16AHdrMetadataType",
+   "self_type" : "_ZTI16AHdrMetadataType",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -1134,11 +1137,11 @@
    ],
    "linker_set_key" : "_ZTI18ANativeWindowQuery",
    "name" : "ANativeWindowQuery",
-   "referenced_type" : "type-34",
-   "self_type" : "type-34",
+   "referenced_type" : "_ZTI18ANativeWindowQuery",
+   "self_type" : "_ZTI18ANativeWindowQuery",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/window.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -1203,11 +1206,11 @@
    ],
    "linker_set_key" : "_ZTI22AHardwareBuffer_Format",
    "name" : "AHardwareBuffer_Format",
-   "referenced_type" : "type-28",
-   "self_type" : "type-28",
+   "referenced_type" : "_ZTI22AHardwareBuffer_Format",
+   "self_type" : "_ZTI22AHardwareBuffer_Format",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -1240,11 +1243,11 @@
    ],
    "linker_set_key" : "_ZTI22ANativeWindowTransform",
    "name" : "ANativeWindowTransform",
-   "referenced_type" : "type-31",
-   "self_type" : "type-31",
+   "referenced_type" : "_ZTI22ANativeWindowTransform",
+   "self_type" : "_ZTI22ANativeWindowTransform",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -1261,11 +1264,11 @@
    ],
    "linker_set_key" : "_ZTI22CreateFromHandleMethod",
    "name" : "CreateFromHandleMethod",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
+   "referenced_type" : "_ZTI22CreateFromHandleMethod",
+   "self_type" : "_ZTI22CreateFromHandleMethod",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 8,
@@ -1426,11 +1429,11 @@
    ],
    "linker_set_key" : "_ZTI26AHardwareBuffer_UsageFlags",
    "name" : "AHardwareBuffer_UsageFlags",
-   "referenced_type" : "type-65",
-   "self_type" : "type-65",
+   "referenced_type" : "_ZTI26AHardwareBuffer_UsageFlags",
+   "self_type" : "_ZTI26AHardwareBuffer_UsageFlags",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
-   "underlying_type" : "type-21"
+   "underlying_type" : "_ZTIy"
   },
   {
    "alignment" : 4,
@@ -1451,11 +1454,11 @@
    ],
    "linker_set_key" : "_ZTI26ANativeWindow_LegacyFormat",
    "name" : "ANativeWindow_LegacyFormat",
-   "referenced_type" : "type-30",
-   "self_type" : "type-30",
+   "referenced_type" : "_ZTI26ANativeWindow_LegacyFormat",
+   "self_type" : "_ZTI26ANativeWindow_LegacyFormat",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
-   "underlying_type" : "type-7"
+   "underlying_type" : "_ZTIj"
   }
  ],
  "function_types" :
@@ -1467,15 +1470,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "_ZTIP19ANativeWindowBuffer"
     }
    ],
-   "referenced_type" : "type-50",
-   "return_type" : "type-2",
-   "self_type" : "type-50",
+   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1485,18 +1488,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "_ZTIP19ANativeWindowBuffer"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "type-61",
-   "return_type" : "type-2",
-   "self_type" : "type-61",
+   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1506,15 +1509,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "_ZTIPP19ANativeWindowBuffer"
     }
    ],
-   "referenced_type" : "type-47",
-   "return_type" : "type-2",
-   "self_type" : "type-47",
+   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1524,18 +1527,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "_ZTIPP19ANativeWindowBuffer"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "referenced_type" : "type-59",
-   "return_type" : "type-2",
-   "self_type" : "type-59",
+   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1545,15 +1548,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "type-44",
-   "return_type" : "type-2",
-   "self_type" : "type-44",
+   "referenced_type" : "_ZTIFiP13ANativeWindowiE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowiE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1563,15 +1566,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "referenced_type" : "type-57",
-   "return_type" : "type-2",
-   "self_type" : "type-57",
+   "referenced_type" : "_ZTIFiP13ANativeWindowizE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiP13ANativeWindowizE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1581,18 +1584,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "_ZTIPK13ANativeWindow"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "referenced_type" : "type-52",
-   "return_type" : "type-2",
-   "self_type" : "type-52",
+   "referenced_type" : "_ZTIFiPK13ANativeWindowiPiE",
+   "return_type" : "_ZTIi",
+   "self_type" : "_ZTIFiPK13ANativeWindowiPiE",
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
   {
@@ -1602,12 +1605,12 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIP21android_native_base_t"
     }
    ],
-   "referenced_type" : "type-9",
-   "return_type" : "type-5",
-   "self_type" : "type-9",
+   "referenced_type" : "_ZTIFvP21android_native_base_tE",
+   "return_type" : "_ZTIv",
+   "self_type" : "_ZTIFvP21android_native_base_tE",
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   }
  ],
@@ -1619,10 +1622,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1631,13 +1634,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "_ZTIPK20AHardwareBuffer_Desc"
     },
     {
-     "referenced_type" : "type-146"
+     "referenced_type" : "_ZTIPP15AHardwareBuffer"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1646,13 +1649,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-149"
+     "referenced_type" : "_ZTIPK15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-150"
+     "referenced_type" : "_ZTIP20AHardwareBuffer_Desc"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1661,10 +1664,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-149"
+     "referenced_type" : "_ZTIPK15AHardwareBuffer"
     }
    ],
-   "return_type" : "type-156",
+   "return_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_arm_armv7-a-neon_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
@@ -1673,10 +1676,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "_ZTIPK20AHardwareBuffer_Desc"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1685,22 +1688,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-152"
+     "referenced_type" : "_ZTIPK5ARect"
     },
     {
-     "referenced_type" : "type-154"
+     "referenced_type" : "_ZTIPPv"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1709,28 +1712,28 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-152"
+     "referenced_type" : "_ZTIPK5ARect"
     },
     {
-     "referenced_type" : "type-154"
+     "referenced_type" : "_ZTIPPv"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTIPi"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1739,22 +1742,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-152"
+     "referenced_type" : "_ZTIPK5ARect"
     },
     {
-     "referenced_type" : "type-155"
+     "referenced_type" : "_ZTIP22AHardwareBuffer_Planes"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1763,13 +1766,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-146"
+     "referenced_type" : "_ZTIPP15AHardwareBuffer"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1778,10 +1781,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1790,13 +1793,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-149"
+     "referenced_type" : "_ZTIPK15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1805,13 +1808,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
     },
     {
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -1820,10 +1823,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1832,10 +1835,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1844,10 +1847,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1856,10 +1859,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1868,16 +1871,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-169"
+     "referenced_type" : "_ZTIP20ANativeWindow_Buffer"
     },
     {
-     "referenced_type" : "type-170"
+     "referenced_type" : "_ZTIP5ARect"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1886,10 +1889,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-5",
+   "return_type" : "_ZTIv",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1898,19 +1901,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
@@ -1919,10 +1922,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-45"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   }
  ],
@@ -1934,8 +1937,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP13ANativeWindow",
    "name" : "ANativeWindow *",
-   "referenced_type" : "type-37",
-   "self_type" : "type-45",
+   "referenced_type" : "_ZTI13ANativeWindow",
+   "self_type" : "_ZTIP13ANativeWindow",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -1943,26 +1946,17 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP15AHardwareBuffer",
    "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-145",
-   "self_type" : "type-144",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "self_type" : "_ZTIP15AHardwareBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP15AHardwareBuffer",
-   "name" : "AHardwareBuffer *",
-   "referenced_type" : "type-172",
-   "self_type" : "type-171",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/window.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer *",
-   "referenced_type" : "type-16",
-   "self_type" : "type-23",
+   "referenced_type" : "_ZTI19ANativeWindowBuffer",
+   "self_type" : "_ZTIP19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -1970,8 +1964,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP20AHardwareBuffer_Desc",
    "name" : "AHardwareBuffer_Desc *",
-   "referenced_type" : "type-66",
-   "self_type" : "type-150",
+   "referenced_type" : "_ZTI20AHardwareBuffer_Desc",
+   "self_type" : "_ZTIP20AHardwareBuffer_Desc",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -1979,8 +1973,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP20ANativeWindow_Buffer",
    "name" : "ANativeWindow_Buffer *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-169",
+   "referenced_type" : "_ZTI20ANativeWindow_Buffer",
+   "self_type" : "_ZTIP20ANativeWindow_Buffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -1988,8 +1982,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP21android_native_base_t",
    "name" : "android_native_base_t *",
-   "referenced_type" : "type-11",
-   "self_type" : "type-10",
+   "referenced_type" : "_ZTI21android_native_base_t",
+   "self_type" : "_ZTIP21android_native_base_t",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -1997,8 +1991,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP22AHardwareBuffer_Planes",
    "name" : "AHardwareBuffer_Planes *",
-   "referenced_type" : "type-62",
-   "self_type" : "type-155",
+   "referenced_type" : "_ZTI22AHardwareBuffer_Planes",
+   "self_type" : "_ZTIP22AHardwareBuffer_Planes",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2006,8 +2000,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIP5ARect",
    "name" : "ARect *",
-   "referenced_type" : "type-1",
-   "self_type" : "type-170",
+   "referenced_type" : "_ZTI5ARect",
+   "self_type" : "_ZTIP5ARect",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -2015,8 +2009,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer *)",
-   "referenced_type" : "type-50",
-   "self_type" : "type-49",
+   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferE",
+   "self_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2024,8 +2018,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer *, int)",
-   "referenced_type" : "type-61",
-   "self_type" : "type-60",
+   "referenced_type" : "_ZTIFiP13ANativeWindowP19ANativeWindowBufferiE",
+   "self_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2033,8 +2027,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **)",
-   "referenced_type" : "type-47",
-   "self_type" : "type-46",
+   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferE",
+   "self_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2042,8 +2036,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "name" : "int (*)(ANativeWindow *, ANativeWindowBuffer **, int *)",
-   "referenced_type" : "type-59",
-   "self_type" : "type-58",
+   "referenced_type" : "_ZTIFiP13ANativeWindowPP19ANativeWindowBufferPiE",
+   "self_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2051,8 +2045,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowiE",
    "name" : "int (*)(ANativeWindow *, int)",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "_ZTIFiP13ANativeWindowiE",
+   "self_type" : "_ZTIPFiP13ANativeWindowiE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2060,8 +2054,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiP13ANativeWindowizE",
    "name" : "int (*)(ANativeWindow *, int, ...)",
-   "referenced_type" : "type-57",
-   "self_type" : "type-56",
+   "referenced_type" : "_ZTIFiP13ANativeWindowizE",
+   "self_type" : "_ZTIPFiP13ANativeWindowizE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2069,8 +2063,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFiPK13ANativeWindowiPiE",
    "name" : "int (*)(const ANativeWindow *, int, int *)",
-   "referenced_type" : "type-52",
-   "self_type" : "type-51",
+   "referenced_type" : "_ZTIFiPK13ANativeWindowiPiE",
+   "self_type" : "_ZTIPFiPK13ANativeWindowiPiE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2078,8 +2072,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPFvP21android_native_base_tE",
    "name" : "void (*)(android_native_base_t *)",
-   "referenced_type" : "type-9",
-   "self_type" : "type-8",
+   "referenced_type" : "_ZTIFvP21android_native_base_tE",
+   "self_type" : "_ZTIPFvP21android_native_base_tE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2087,8 +2081,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13ANativeWindow",
    "name" : "const ANativeWindow *",
-   "referenced_type" : "type-54",
-   "self_type" : "type-53",
+   "referenced_type" : "_ZTIK13ANativeWindow",
+   "self_type" : "_ZTIPK13ANativeWindow",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2096,8 +2090,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-14",
+   "referenced_type" : "_ZTIK13native_handle",
+   "self_type" : "_ZTIPK13native_handle",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2105,8 +2099,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-120",
-   "self_type" : "type-122",
+   "referenced_type" : "_ZTIK13native_handle#ODR:",
+   "self_type" : "_ZTIPK13native_handle#ODR:",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2114,8 +2108,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-125",
-   "self_type" : "type-127",
+   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/native_window_jni.sdump",
+   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/native_window_jni.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2123,8 +2117,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-129",
-   "self_type" : "type-131",
+   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/surface_control.sdump",
+   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/surface_control.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2132,8 +2126,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-134",
-   "self_type" : "type-133",
+   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/surface_texture.sdump",
+   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm_armv7-a-neon_shared/obj/frameworks/base/native/android/surface_texture.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2141,17 +2135,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-136",
-   "self_type" : "type-138",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-157",
-   "self_type" : "type-156",
+   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_arm_armv7-a-neon_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
+   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_arm_armv7-a-neon_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
@@ -2159,62 +2144,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
-   "referenced_type" : "type-166",
-   "self_type" : "type-168",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-19",
-   "self_type" : "type-18",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-192",
-   "self_type" : "type-194",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-67",
-   "self_type" : "type-69",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-72",
-   "self_type" : "type-74",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-80",
-   "self_type" : "type-82",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
+   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_arm_armv7-a-neon_static/obj/frameworks/native/libs/nativewindow/ANativeWindow.sdump",
+   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_arm_armv7-a-neon_static/obj/frameworks/native/libs/nativewindow/ANativeWindow.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2222,8 +2153,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK15AHardwareBuffer",
    "name" : "const AHardwareBuffer *",
-   "referenced_type" : "type-147",
-   "self_type" : "type-149",
+   "referenced_type" : "_ZTIK15AHardwareBuffer",
+   "self_type" : "_ZTIPK15AHardwareBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2231,8 +2162,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK19ANativeWindowBuffer",
    "name" : "const ANativeWindowBuffer *",
-   "referenced_type" : "type-24",
-   "self_type" : "type-25",
+   "referenced_type" : "_ZTIK19ANativeWindowBuffer",
+   "self_type" : "_ZTIPK19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2240,8 +2171,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK20AHardwareBuffer_Desc",
    "name" : "const AHardwareBuffer_Desc *",
-   "referenced_type" : "type-141",
-   "self_type" : "type-143",
+   "referenced_type" : "_ZTIK20AHardwareBuffer_Desc",
+   "self_type" : "_ZTIPK20AHardwareBuffer_Desc",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2249,8 +2180,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK5ARect",
    "name" : "const ARect *",
-   "referenced_type" : "type-151",
-   "self_type" : "type-152",
+   "referenced_type" : "_ZTIK5ARect",
+   "self_type" : "_ZTIPK5ARect",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2258,8 +2189,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android13GraphicBufferE",
    "name" : "const android::GraphicBuffer *",
-   "referenced_type" : "type-161",
-   "self_type" : "type-160",
+   "referenced_type" : "_ZTIKN7android13GraphicBufferE",
+   "self_type" : "_ZTIPKN7android13GraphicBufferE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
@@ -2267,8 +2198,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
-   "referenced_type" : "type-26",
-   "self_type" : "type-27",
+   "referenced_type" : "_ZTIKv",
+   "self_type" : "_ZTIPKv",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2276,8 +2207,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android13GraphicBufferE",
    "name" : "android::GraphicBuffer *",
-   "referenced_type" : "type-164",
-   "self_type" : "type-163",
+   "referenced_type" : "_ZTIN7android13GraphicBufferE",
+   "self_type" : "_ZTIPN7android13GraphicBufferE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
@@ -2285,8 +2216,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP15AHardwareBuffer",
    "name" : "AHardwareBuffer **",
-   "referenced_type" : "type-144",
-   "self_type" : "type-146",
+   "referenced_type" : "_ZTIP15AHardwareBuffer",
+   "self_type" : "_ZTIPP15AHardwareBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2294,8 +2225,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer **",
-   "referenced_type" : "type-23",
-   "self_type" : "type-48",
+   "referenced_type" : "_ZTIP19ANativeWindowBuffer",
+   "self_type" : "_ZTIPP19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2303,8 +2234,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
-   "referenced_type" : "type-4",
-   "self_type" : "type-154",
+   "referenced_type" : "_ZTIPv",
+   "self_type" : "_ZTIPPv",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2312,8 +2243,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
-   "referenced_type" : "type-41",
-   "self_type" : "type-173",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIPf",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/window.h"
   },
@@ -2321,8 +2252,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
-   "referenced_type" : "type-2",
-   "self_type" : "type-55",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIPi",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2330,8 +2261,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
-   "referenced_type" : "type-5",
-   "self_type" : "type-4",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIPv",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   }
@@ -2343,8 +2274,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK13ANativeWindow",
    "name" : "const ANativeWindow",
-   "referenced_type" : "type-37",
-   "self_type" : "type-54",
+   "referenced_type" : "_ZTI13ANativeWindow",
+   "self_type" : "_ZTIK13ANativeWindow",
    "size" : 108,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2353,138 +2284,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK13native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-121",
-   "self_type" : "type-120",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-126",
-   "self_type" : "type-125",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-130",
-   "self_type" : "type-129",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-135",
-   "self_type" : "type-134",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-137",
-   "self_type" : "type-136",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-13",
-   "self_type" : "type-12",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-158",
-   "self_type" : "type-157",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-167",
-   "self_type" : "type-166",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-193",
-   "self_type" : "type-192",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-20",
-   "self_type" : "type-19",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-68",
-   "self_type" : "type-67",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-73",
-   "self_type" : "type-72",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-81",
-   "self_type" : "type-80",
-   "size" : 12,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK13native_handle",
-   "name" : "const native_handle",
-   "referenced_type" : "type-86",
-   "self_type" : "type-85",
+   "referenced_type" : "_ZTI13native_handle",
+   "self_type" : "_ZTIK13native_handle",
    "size" : 12,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2492,8 +2293,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK15AHardwareBuffer",
    "name" : "const AHardwareBuffer",
-   "referenced_type" : "type-148",
-   "self_type" : "type-147",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "self_type" : "_ZTIK15AHardwareBuffer",
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
@@ -2501,8 +2302,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK19ANativeWindowBuffer",
    "name" : "const ANativeWindowBuffer",
-   "referenced_type" : "type-16",
-   "self_type" : "type-24",
+   "referenced_type" : "_ZTI19ANativeWindowBuffer",
+   "self_type" : "_ZTIK19ANativeWindowBuffer",
    "size" : 96,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2511,8 +2312,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK20AHardwareBuffer_Desc",
    "name" : "const AHardwareBuffer_Desc",
-   "referenced_type" : "type-66",
-   "self_type" : "type-141",
+   "referenced_type" : "_ZTI20AHardwareBuffer_Desc",
+   "self_type" : "_ZTIK20AHardwareBuffer_Desc",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2521,8 +2322,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK5ARect",
    "name" : "const ARect",
-   "referenced_type" : "type-1",
-   "self_type" : "type-151",
+   "referenced_type" : "_ZTI5ARect",
+   "self_type" : "_ZTIK5ARect",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2531,8 +2332,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android13GraphicBufferE",
    "name" : "const android::GraphicBuffer",
-   "referenced_type" : "type-162",
-   "self_type" : "type-161",
+   "referenced_type" : "_ZTIN7android13GraphicBufferE",
+   "self_type" : "_ZTIKN7android13GraphicBufferE",
    "size" : 160,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
@@ -2541,8 +2342,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKf",
    "name" : "const float",
-   "referenced_type" : "type-41",
-   "self_type" : "type-40",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIKf",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2551,8 +2352,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKi",
    "name" : "const int",
-   "referenced_type" : "type-2",
-   "self_type" : "type-39",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIKi",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2561,8 +2362,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKj",
    "name" : "const unsigned int",
-   "referenced_type" : "type-7",
-   "self_type" : "type-38",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIKj",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2570,8 +2371,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKv",
    "name" : "const void",
-   "referenced_type" : "type-5",
-   "self_type" : "type-26",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIKv",
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
   {
@@ -2579,8 +2380,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKx",
    "name" : "const long long",
-   "referenced_type" : "type-35",
-   "self_type" : "type-36",
+   "referenced_type" : "_ZTIx",
+   "self_type" : "_ZTIKx",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   }
@@ -2593,93 +2394,93 @@
    [
     {
      "field_name" : "common",
-     "referenced_type" : "type-11"
+     "referenced_type" : "_ZTI21android_native_base_t"
     },
     {
      "field_name" : "flags",
      "field_offset" : 256,
-     "referenced_type" : "type-38"
+     "referenced_type" : "_ZTIKj"
     },
     {
      "field_name" : "minSwapInterval",
      "field_offset" : 288,
-     "referenced_type" : "type-39"
+     "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "maxSwapInterval",
      "field_offset" : 320,
-     "referenced_type" : "type-39"
+     "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "xdpi",
      "field_offset" : 352,
-     "referenced_type" : "type-40"
+     "referenced_type" : "_ZTIKf"
     },
     {
      "field_name" : "ydpi",
      "field_offset" : 384,
-     "referenced_type" : "type-40"
+     "referenced_type" : "_ZTIKf"
     },
     {
      "field_name" : "oem",
      "field_offset" : 416,
-     "referenced_type" : "type-42"
+     "referenced_type" : "_ZTIA4_i"
     },
     {
      "field_name" : "setSwapInterval",
      "field_offset" : 544,
-     "referenced_type" : "type-43"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowiE"
     },
     {
      "field_name" : "dequeueBuffer_DEPRECATED",
      "field_offset" : 576,
-     "referenced_type" : "type-46"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferE"
     },
     {
      "field_name" : "lockBuffer_DEPRECATED",
      "field_offset" : 608,
-     "referenced_type" : "type-49"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE"
     },
     {
      "field_name" : "queueBuffer_DEPRECATED",
      "field_offset" : 640,
-     "referenced_type" : "type-49"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE"
     },
     {
      "field_name" : "query",
      "field_offset" : 672,
-     "referenced_type" : "type-51"
+     "referenced_type" : "_ZTIPFiPK13ANativeWindowiPiE"
     },
     {
      "field_name" : "perform",
      "field_offset" : 704,
-     "referenced_type" : "type-56"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowizE"
     },
     {
      "field_name" : "cancelBuffer_DEPRECATED",
      "field_offset" : 736,
-     "referenced_type" : "type-49"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferE"
     },
     {
      "field_name" : "dequeueBuffer",
      "field_offset" : 768,
-     "referenced_type" : "type-58"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowPP19ANativeWindowBufferPiE"
     },
     {
      "field_name" : "queueBuffer",
      "field_offset" : 800,
-     "referenced_type" : "type-60"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE"
     },
     {
      "field_name" : "cancelBuffer",
      "field_offset" : 832,
-     "referenced_type" : "type-60"
+     "referenced_type" : "_ZTIPFiP13ANativeWindowP19ANativeWindowBufferiE"
     }
    ],
    "linker_set_key" : "_ZTI13ANativeWindow",
    "name" : "ANativeWindow",
-   "referenced_type" : "type-37",
-   "self_type" : "type-37",
+   "referenced_type" : "_ZTI13ANativeWindow",
+   "self_type" : "_ZTI13ANativeWindow",
    "size" : 108,
    "source_file" : "/frameworks/native/libs/nativewindow/include/system/window.h"
   },
@@ -2689,63 +2490,63 @@
    [
     {
      "field_name" : "common",
-     "referenced_type" : "type-11"
+     "referenced_type" : "_ZTI21android_native_base_t"
     },
     {
      "field_name" : "width",
      "field_offset" : 256,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "height",
      "field_offset" : 288,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "stride",
      "field_offset" : 320,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "format",
      "field_offset" : 352,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "usage_deprecated",
      "field_offset" : 384,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "layerCount",
      "field_offset" : 416,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "reserved",
      "field_offset" : 448,
-     "referenced_type" : "type-17"
+     "referenced_type" : "_ZTIA1_Pv"
     },
     {
      "field_name" : "handle",
      "field_offset" : 480,
-     "referenced_type" : "type-18"
+     "referenced_type" : "_ZTIPK13native_handle"
     },
     {
      "field_name" : "usage",
      "field_offset" : 512,
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     },
     {
      "field_name" : "reserved_proc",
      "field_offset" : 576,
-     "referenced_type" : "type-22"
+     "referenced_type" : "_ZTIA6_Pv"
     }
    ],
    "linker_set_key" : "_ZTI19ANativeWindowBuffer",
    "name" : "ANativeWindowBuffer",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
+   "referenced_type" : "_ZTI19ANativeWindowBuffer",
+   "self_type" : "_ZTI19ANativeWindowBuffer",
    "size" : 96,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2755,48 +2556,48 @@
    [
     {
      "field_name" : "width",
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "height",
      "field_offset" : 32,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "layers",
      "field_offset" : 64,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "format",
      "field_offset" : 96,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "usage",
      "field_offset" : 128,
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     },
     {
      "field_name" : "stride",
      "field_offset" : 192,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "rfu0",
      "field_offset" : 224,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "rfu1",
      "field_offset" : 256,
-     "referenced_type" : "type-21"
+     "referenced_type" : "_ZTIy"
     }
    ],
    "linker_set_key" : "_ZTI20AHardwareBuffer_Desc",
    "name" : "AHardwareBuffer_Desc",
-   "referenced_type" : "type-66",
-   "self_type" : "type-66",
+   "referenced_type" : "_ZTI20AHardwareBuffer_Desc",
+   "self_type" : "_ZTI20AHardwareBuffer_Desc",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2806,38 +2607,38 @@
    [
     {
      "field_name" : "width",
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "height",
      "field_offset" : 32,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "stride",
      "field_offset" : 64,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "format",
      "field_offset" : 96,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "bits",
      "field_offset" : 128,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "reserved",
      "field_offset" : 160,
-     "referenced_type" : "type-33"
+     "referenced_type" : "_ZTIA6_j"
     }
    ],
    "linker_set_key" : "_ZTI20ANativeWindow_Buffer",
    "name" : "ANativeWindow_Buffer",
-   "referenced_type" : "type-32",
-   "self_type" : "type-32",
+   "referenced_type" : "_ZTI20ANativeWindow_Buffer",
+   "self_type" : "_ZTI20ANativeWindow_Buffer",
    "size" : 44,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
@@ -2847,23 +2648,23 @@
    [
     {
      "field_name" : "data",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "pixelStride",
      "field_offset" : 32,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "rowStride",
      "field_offset" : 64,
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "linker_set_key" : "_ZTI21AHardwareBuffer_Plane",
    "name" : "AHardwareBuffer_Plane",
-   "referenced_type" : "type-64",
-   "self_type" : "type-64",
+   "referenced_type" : "_ZTI21AHardwareBuffer_Plane",
+   "self_type" : "_ZTI21AHardwareBuffer_Plane",
    "size" : 12,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2873,18 +2674,18 @@
    [
     {
      "field_name" : "maxContentLightLevel",
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "maxFrameAverageLightLevel",
      "field_offset" : 32,
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     }
    ],
    "linker_set_key" : "_ZTI21AHdrMetadata_cta861_3",
    "name" : "AHdrMetadata_cta861_3",
-   "referenced_type" : "type-79",
-   "self_type" : "type-79",
+   "referenced_type" : "_ZTI21AHdrMetadata_cta861_3",
+   "self_type" : "_ZTI21AHdrMetadata_cta861_3",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h"
   },
@@ -2894,33 +2695,33 @@
    [
     {
      "field_name" : "magic",
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "version",
      "field_offset" : 32,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "reserved",
      "field_offset" : 64,
-     "referenced_type" : "type-3"
+     "referenced_type" : "_ZTIA4_Pv"
     },
     {
      "field_name" : "incRef",
      "field_offset" : 192,
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIPFvP21android_native_base_tE"
     },
     {
      "field_name" : "decRef",
      "field_offset" : 224,
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIPFvP21android_native_base_tE"
     }
    ],
    "linker_set_key" : "_ZTI21android_native_base_t",
    "name" : "android_native_base_t",
-   "referenced_type" : "type-11",
-   "self_type" : "type-11",
+   "referenced_type" : "_ZTI21android_native_base_t",
+   "self_type" : "_ZTI21android_native_base_t",
    "size" : 32,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2930,28 +2731,28 @@
    [
     {
      "field_name" : "left",
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "top",
      "field_offset" : 32,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "right",
      "field_offset" : 64,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "bottom",
      "field_offset" : 96,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
    "linker_set_key" : "_ZTI21android_native_rect_t",
    "name" : "android_native_rect_t",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
+   "referenced_type" : "_ZTI21android_native_rect_t",
+   "self_type" : "_ZTI21android_native_rect_t",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
   },
@@ -2961,18 +2762,18 @@
    [
     {
      "field_name" : "planeCount",
-     "referenced_type" : "type-7"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "planes",
      "field_offset" : 32,
-     "referenced_type" : "type-63"
+     "referenced_type" : "_ZTIA4_21AHardwareBuffer_Plane"
     }
    ],
    "linker_set_key" : "_ZTI22AHardwareBuffer_Planes",
    "name" : "AHardwareBuffer_Planes",
-   "referenced_type" : "type-62",
-   "self_type" : "type-62",
+   "referenced_type" : "_ZTI22AHardwareBuffer_Planes",
+   "self_type" : "_ZTI22AHardwareBuffer_Planes",
    "size" : 52,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
@@ -2982,38 +2783,38 @@
    [
     {
      "field_name" : "displayPrimaryRed",
-     "referenced_type" : "type-77"
+     "referenced_type" : "_ZTI9AColor_xy"
     },
     {
      "field_name" : "displayPrimaryGreen",
      "field_offset" : 64,
-     "referenced_type" : "type-77"
+     "referenced_type" : "_ZTI9AColor_xy"
     },
     {
      "field_name" : "displayPrimaryBlue",
      "field_offset" : 128,
-     "referenced_type" : "type-77"
+     "referenced_type" : "_ZTI9AColor_xy"
     },
     {
      "field_name" : "whitePoint",
      "field_offset" : 192,
-     "referenced_type" : "type-77"
+     "referenced_type" : "_ZTI9AColor_xy"
     },
     {
      "field_name" : "maxLuminance",
      "field_offset" : 256,
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "minLuminance",
      "field_offset" : 288,
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     }
    ],
    "linker_set_key" : "_ZTI22AHdrMetadata_smpte2086",
    "name" : "AHdrMetadata_smpte2086",
-   "referenced_type" : "type-78",
-   "self_type" : "type-78",
+   "referenced_type" : "_ZTI22AHdrMetadata_smpte2086",
+   "self_type" : "_ZTI22AHdrMetadata_smpte2086",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h"
   },
@@ -3023,28 +2824,28 @@
    [
     {
      "field_name" : "left",
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "top",
      "field_offset" : 32,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "right",
      "field_offset" : 64,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "bottom",
      "field_offset" : 96,
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIi"
     }
    ],
    "linker_set_key" : "_ZTI5ARect",
    "name" : "ARect",
-   "referenced_type" : "type-1",
-   "self_type" : "type-1",
+   "referenced_type" : "_ZTI5ARect",
+   "self_type" : "_ZTI5ARect",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/arect/include/android/rect.h"
   },
@@ -3054,18 +2855,18 @@
    [
     {
      "field_name" : "x",
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "y",
      "field_offset" : 32,
-     "referenced_type" : "type-41"
+     "referenced_type" : "_ZTIf"
     }
    ],
    "linker_set_key" : "_ZTI9AColor_xy",
    "name" : "AColor_xy",
-   "referenced_type" : "type-77",
-   "self_type" : "type-77",
+   "referenced_type" : "_ZTI9AColor_xy",
+   "self_type" : "_ZTI9AColor_xy",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/nativewindow/include/android/hdr_metadata.h"
   }

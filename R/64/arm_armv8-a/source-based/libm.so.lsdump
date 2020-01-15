@@ -5,8 +5,8 @@
    "alignment" : 1,
    "linker_set_key" : "_ZTIA10_c",
    "name" : "char [10]",
-   "referenced_type" : "type-255",
-   "self_type" : "type-256",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA10_c",
    "size" : 10,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_modf.c"
   },
@@ -14,8 +14,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA10_d",
    "name" : "double [10]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-664",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA10_d",
    "size" : 80,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -23,8 +23,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA10_i",
    "name" : "int [10]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-2",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA10_i",
    "size" : 40,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -32,26 +32,26 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA11_d",
    "name" : "double [11]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-128",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA11_d",
    "size" : 88,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA128_N12pow_log_dataUt_E",
-   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:402:3) [128]",
-   "referenced_type" : "type-671",
-   "self_type" : "type-670",
+   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:411:3) [128]",
+   "referenced_type" : "_ZTIN12pow_log_dataUt_E",
+   "self_type" : "_ZTIA128_N12pow_log_dataUt_E",
    "size" : 4096,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA128_N8log_dataUt_E",
-   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:373:3) [128]",
-   "referenced_type" : "type-658",
-   "self_type" : "type-657",
+   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:382:3) [128]",
+   "referenced_type" : "_ZTIN8log_dataUt_E",
+   "self_type" : "_ZTIA128_N8log_dataUt_E",
    "size" : 2048,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -59,35 +59,35 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA129_d",
    "name" : "double [129]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-41",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA129_d",
    "size" : 1032,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_log.c"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N10log2f_dataUt_E",
-   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:317:3) [16]",
-   "referenced_type" : "type-644",
-   "self_type" : "type-643",
+   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:326:3) [16]",
+   "referenced_type" : "_ZTIN10log2f_dataUt_E",
+   "self_type" : "_ZTIA16_N10log2f_dataUt_E",
    "size" : 256,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N14powf_log2_dataUt_E",
-   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:334:3) [16]",
-   "referenced_type" : "type-649",
-   "self_type" : "type-648",
+   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:343:3) [16]",
+   "referenced_type" : "_ZTIN14powf_log2_dataUt_E",
+   "self_type" : "_ZTIA16_N14powf_log2_dataUt_E",
    "size" : 256,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N9logf_dataUt_E",
-   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:305:3) [16]",
-   "referenced_type" : "type-637",
-   "self_type" : "type-638",
+   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:314:3) [16]",
+   "referenced_type" : "_ZTIN9logf_dataUt_E",
+   "self_type" : "_ZTIA16_N9logf_dataUt_E",
    "size" : 256,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -95,8 +95,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_d",
    "name" : "double [16]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-52",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA16_d",
    "size" : 128,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
   },
@@ -104,8 +104,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA1_i",
    "name" : "int [1]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-62",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA1_i",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -113,8 +113,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA24_j",
    "name" : "unsigned int [24]",
-   "referenced_type" : "type-12",
-   "self_type" : "type-906",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA24_j",
    "size" : 96,
    "source_file" : "/external/arm-optimized-routines/math/sincosf_data.c"
   },
@@ -122,8 +122,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA256_y",
    "name" : "unsigned long long [256]",
-   "referenced_type" : "type-14",
-   "self_type" : "type-653",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA256_y",
    "size" : 2048,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -131,8 +131,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA2_8sincos_t",
    "name" : "sincos_t [2]",
-   "referenced_type" : "type-673",
-   "self_type" : "type-674",
+   "referenced_type" : "_ZTI8sincos_t",
+   "self_type" : "_ZTIA2_8sincos_t",
    "size" : 224,
    "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
   },
@@ -140,8 +140,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA2_d",
    "name" : "double [2]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-19",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA2_d",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -149,8 +149,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA2_e",
    "name" : "long double [2]",
-   "referenced_type" : "type-10",
-   "self_type" : "type-60",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIA2_e",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -158,8 +158,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA2_f",
    "name" : "float [2]",
-   "referenced_type" : "type-8",
-   "self_type" : "type-23",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA2_f",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -167,8 +167,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA2_i",
    "name" : "int [2]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-6",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA2_i",
    "size" : 8,
    "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
@@ -176,8 +176,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA32_m",
    "name" : "unsigned long [32]",
-   "referenced_type" : "type-17",
-   "self_type" : "type-16",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIA32_m",
    "size" : 128,
    "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
   },
@@ -185,8 +185,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA32_y",
    "name" : "unsigned long long [32]",
-   "referenced_type" : "type-14",
-   "self_type" : "type-660",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA32_y",
    "size" : 256,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -194,8 +194,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA3_d",
    "name" : "double [3]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-641",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA3_d",
    "size" : 24,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -203,8 +203,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA4_d",
    "name" : "double [4]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-126",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA4_d",
    "size" : 32,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
@@ -212,8 +212,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA4_f",
    "name" : "float [4]",
-   "referenced_type" : "type-8",
-   "self_type" : "type-130",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA4_f",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
@@ -221,8 +221,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA4_i",
    "name" : "int [4]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-46",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA4_i",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -230,8 +230,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA5_d",
    "name" : "double [5]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-30",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA5_d",
    "size" : 40,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
@@ -239,17 +239,17 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA5_f",
    "name" : "float [5]",
-   "referenced_type" : "type-8",
-   "self_type" : "type-35",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA5_f",
    "size" : 20,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA64_N9log2_dataUt_E",
-   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:388:3) [64]",
-   "referenced_type" : "type-666",
-   "self_type" : "type-665",
+   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:397:3) [64]",
+   "referenced_type" : "_ZTIN9log2_dataUt_E",
+   "self_type" : "_ZTIA64_N9log2_dataUt_E",
    "size" : 1024,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -257,8 +257,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA66_i",
    "name" : "int [66]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-48",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA66_i",
    "size" : 264,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -266,8 +266,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA6_d",
    "name" : "double [6]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-28",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA6_d",
    "size" : 48,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
@@ -275,8 +275,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA6_f",
    "name" : "float [6]",
-   "referenced_type" : "type-8",
-   "self_type" : "type-33",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA6_f",
    "size" : 24,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
@@ -284,8 +284,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA7_d",
    "name" : "double [7]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-669",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA7_d",
    "size" : 56,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -293,8 +293,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIA8_d",
    "name" : "double [8]",
-   "referenced_type" : "type-4",
-   "self_type" : "type-50",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA8_d",
    "size" : 64,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -302,16 +302,16 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIA8_i",
    "name" : "int [8]",
-   "referenced_type" : "type-1",
-   "self_type" : "type-44",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIA8_i",
    "size" : 32,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
   {
    "linker_set_key" : "_ZTIA_j",
    "name" : "unsigned int []",
-   "referenced_type" : "type-12",
-   "self_type" : "type-676",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA_j",
    "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
   }
  ],
@@ -323,32 +323,32 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "type-255",
-   "self_type" : "type-255",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTId",
    "name" : "double",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTId",
    "size" : 8
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIe",
    "name" : "long double",
-   "referenced_type" : "type-10",
-   "self_type" : "type-10",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIe",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "_ZTIf",
    "name" : "float",
-   "referenced_type" : "type-8",
-   "self_type" : "type-8",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIf",
    "size" : 4
   },
   {
@@ -356,8 +356,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "type-1",
-   "self_type" : "type-1",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
@@ -366,8 +366,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "type-12",
-   "self_type" : "type-12",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -375,8 +375,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIl",
    "name" : "long",
-   "referenced_type" : "type-254",
-   "self_type" : "type-254",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
    "size" : 4
   },
   {
@@ -385,23 +385,23 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
    "size" : 4
   },
   {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21"
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   },
   {
    "alignment" : 8,
    "is_integral" : true,
    "linker_set_key" : "_ZTIx",
    "name" : "long long",
-   "referenced_type" : "type-253",
-   "self_type" : "type-253",
+   "referenced_type" : "_ZTIx",
+   "self_type" : "_ZTIx",
    "size" : 8
   },
   {
@@ -410,73 +410,13 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIy",
    "name" : "unsigned long long",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIy",
    "size" : 8
   }
  ],
  "elf_functions" :
  [
-  {
-   "name" : "_Unwind_Backtrace"
-  },
-  {
-   "name" : "_Unwind_Complete"
-  },
-  {
-   "name" : "_Unwind_DeleteException"
-  },
-  {
-   "name" : "_Unwind_ForcedUnwind"
-  },
-  {
-   "name" : "_Unwind_GetCFA"
-  },
-  {
-   "name" : "_Unwind_GetDataRelBase"
-  },
-  {
-   "name" : "_Unwind_GetLanguageSpecificData"
-  },
-  {
-   "name" : "_Unwind_GetRegionStart"
-  },
-  {
-   "name" : "_Unwind_GetTextRelBase"
-  },
-  {
-   "name" : "_Unwind_RaiseException"
-  },
-  {
-   "name" : "_Unwind_Resume"
-  },
-  {
-   "name" : "_Unwind_Resume_or_Rethrow"
-  },
-  {
-   "name" : "_Unwind_VRS_Get"
-  },
-  {
-   "name" : "_Unwind_VRS_Pop"
-  },
-  {
-   "name" : "_Unwind_VRS_Set"
-  },
-  {
-   "name" : "___Unwind_Backtrace"
-  },
-  {
-   "name" : "___Unwind_ForcedUnwind"
-  },
-  {
-   "name" : "___Unwind_RaiseException"
-  },
-  {
-   "name" : "___Unwind_Resume"
-  },
-  {
-   "name" : "___Unwind_Resume_or_Rethrow"
-  },
   {
    "name" : "__aeabi_d2lz"
   },
@@ -493,17 +433,6 @@
    "name" : "__aeabi_l2d"
   },
   {
-   "name" : "__aeabi_unwind_cpp_pr0"
-  },
-  {
-   "binding" : "weak",
-   "name" : "__aeabi_unwind_cpp_pr1"
-  },
-  {
-   "binding" : "weak",
-   "name" : "__aeabi_unwind_cpp_pr2"
-  },
-  {
    "name" : "__fixdfdi"
   },
   {
@@ -517,60 +446,6 @@
   },
   {
    "name" : "__floatdidf"
-  },
-  {
-   "name" : "__gnu_Unwind_Backtrace"
-  },
-  {
-   "name" : "__gnu_Unwind_ForcedUnwind"
-  },
-  {
-   "name" : "__gnu_Unwind_RaiseException"
-  },
-  {
-   "name" : "__gnu_Unwind_Restore_VFP"
-  },
-  {
-   "name" : "__gnu_Unwind_Restore_VFP_D"
-  },
-  {
-   "name" : "__gnu_Unwind_Restore_VFP_D_16_to_31"
-  },
-  {
-   "name" : "__gnu_Unwind_Restore_WMMXC"
-  },
-  {
-   "name" : "__gnu_Unwind_Restore_WMMXD"
-  },
-  {
-   "name" : "__gnu_Unwind_Resume"
-  },
-  {
-   "name" : "__gnu_Unwind_Resume_or_Rethrow"
-  },
-  {
-   "name" : "__gnu_Unwind_Save_VFP"
-  },
-  {
-   "name" : "__gnu_Unwind_Save_VFP_D"
-  },
-  {
-   "name" : "__gnu_Unwind_Save_VFP_D_16_to_31"
-  },
-  {
-   "name" : "__gnu_Unwind_Save_WMMXC"
-  },
-  {
-   "name" : "__gnu_Unwind_Save_WMMXD"
-  },
-  {
-   "name" : "__gnu_unwind_execute"
-  },
-  {
-   "name" : "__gnu_unwind_frame"
-  },
-  {
-   "name" : "__restore_core_regs"
   },
   {
    "name" : "__signbit"
@@ -1321,9 +1196,6 @@
    "name" : "remquol"
   },
   {
-   "name" : "restore_core_regs"
-  },
-  {
    "name" : "rint"
   },
   {
@@ -1491,10 +1363,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libm/signbit.cpp"
   },
   {
@@ -1503,10 +1375,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libm/signbit.cpp"
   },
   {
@@ -1515,10 +1387,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libm/signbit.cpp"
   },
   {
@@ -1527,10 +1399,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1539,10 +1411,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1551,10 +1423,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1563,10 +1435,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1575,10 +1447,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1587,10 +1459,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1599,10 +1471,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1611,10 +1483,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1623,10 +1495,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1635,13 +1507,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1650,13 +1522,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1665,10 +1537,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1677,10 +1549,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1689,10 +1561,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1701,10 +1573,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-299"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1713,10 +1585,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-300"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1725,10 +1597,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-485"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1737,10 +1609,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-73"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-72",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1749,10 +1621,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-74",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1761,10 +1633,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-77"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-76",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1773,10 +1645,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-78",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1785,10 +1657,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-141"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1797,10 +1669,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-142"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1809,10 +1681,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-143"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1821,10 +1693,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-80",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1833,10 +1705,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-83"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-82",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1845,10 +1717,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-85"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-84",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1857,10 +1729,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-87"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-86",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1869,10 +1741,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-89"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-88",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1881,10 +1753,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-91"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-90",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1893,10 +1765,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-93"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-92",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1905,10 +1777,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-95"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-94",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1917,10 +1789,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1929,10 +1801,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -1941,10 +1813,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-145"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-144",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1953,10 +1825,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-147"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-146",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1965,10 +1837,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-149"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-148",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1977,10 +1849,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-151"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-150",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -1989,10 +1861,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-487"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-486",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2001,10 +1873,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-489"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-488",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2013,10 +1885,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2025,10 +1897,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2037,10 +1909,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-153"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-152",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2049,10 +1921,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-155"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-154",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2061,10 +1933,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-491"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-490",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2073,10 +1945,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-156"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2085,10 +1957,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-157"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2097,10 +1969,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-158"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2109,10 +1981,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-160"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2121,10 +1993,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-162"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-161",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2133,10 +2005,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-164"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-163",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2145,10 +2017,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-166"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-165",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2157,10 +2029,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-168"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-167",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2169,13 +2041,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2184,13 +2056,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2199,13 +2071,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2214,10 +2086,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2226,10 +2098,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2238,10 +2110,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2250,10 +2122,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2262,13 +2134,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-170"
+     "referenced_type" : "_ZTICd"
     },
     {
-     "referenced_type" : "type-171"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-169",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2277,13 +2149,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-173"
+     "referenced_type" : "_ZTICf"
     },
     {
-     "referenced_type" : "type-174"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-172",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2292,13 +2164,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-176"
+     "referenced_type" : "_ZTICe"
     },
     {
-     "referenced_type" : "type-177"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-175",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2307,10 +2179,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-179"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-178",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2319,10 +2191,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-223"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-222",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2331,10 +2203,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-225"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-224",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2343,10 +2215,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-226"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2355,10 +2227,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-227"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2367,10 +2239,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-228"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2379,10 +2251,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-230"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-229",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2391,10 +2263,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-232"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-231",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2403,10 +2275,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-234"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-233",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2415,10 +2287,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-236"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-235",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2427,10 +2299,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-493"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-492",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2439,10 +2311,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-495"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-494",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2451,10 +2323,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-238"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-237",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2463,10 +2335,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-240"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-239",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2475,10 +2347,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-242"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-241",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2487,10 +2359,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-244"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-243",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2499,10 +2371,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-246"
+     "referenced_type" : "_ZTICd"
     }
    ],
-   "return_type" : "type-245",
+   "return_type" : "_ZTICd",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2511,10 +2383,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-248"
+     "referenced_type" : "_ZTICf"
     }
    ],
-   "return_type" : "type-247",
+   "return_type" : "_ZTICf",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2523,10 +2395,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-497"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-496",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2535,10 +2407,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-499"
+     "referenced_type" : "_ZTICe"
     }
    ],
-   "return_type" : "type-498",
+   "return_type" : "_ZTICe",
    "source_file" : "/bionic/libc/include/complex.h"
   },
   {
@@ -2547,13 +2419,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2562,13 +2434,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2577,10 +2449,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2589,10 +2461,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2601,10 +2473,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2613,10 +2485,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2625,10 +2497,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2637,10 +2509,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2649,10 +2521,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2661,10 +2533,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2673,10 +2545,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2685,10 +2557,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2697,10 +2569,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2709,10 +2581,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2721,10 +2593,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2733,10 +2605,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2745,10 +2617,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2757,13 +2629,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2772,13 +2644,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2787,13 +2659,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2802,10 +2674,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2814,10 +2686,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2826,10 +2698,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2838,16 +2710,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-260"
+     "referenced_type" : "_ZTIPj"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetexcept",
    "linker_set_key" : "fegetexcept",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2856,19 +2728,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-260"
+     "referenced_type" : "_ZTIPj"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetround",
    "linker_set_key" : "fegetround",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2877,10 +2749,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-260"
+     "referenced_type" : "_ZTIPj"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2889,10 +2761,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2901,10 +2773,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-636"
+     "referenced_type" : "_ZTIPKj"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2913,13 +2785,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-636"
+     "referenced_type" : "_ZTIPKj"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2928,10 +2800,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2940,10 +2812,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2952,10 +2824,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-636"
+     "referenced_type" : "_ZTIPKj"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
@@ -2964,10 +2836,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2976,10 +2848,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -2988,10 +2860,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3000,16 +2872,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3018,16 +2890,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3036,13 +2908,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3051,13 +2923,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3066,13 +2938,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3081,13 +2953,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3096,13 +2968,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3111,13 +2983,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3126,13 +2998,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3141,13 +3013,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3156,13 +3028,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3171,13 +3043,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3186,13 +3058,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3201,10 +3073,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3213,13 +3085,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3228,10 +3100,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3240,13 +3112,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3255,13 +3127,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3270,13 +3142,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3285,10 +3157,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3297,10 +3169,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3309,10 +3181,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3321,10 +3193,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3333,10 +3205,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3345,10 +3217,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3357,10 +3229,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3369,13 +3241,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3384,13 +3256,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3399,13 +3271,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3414,10 +3286,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3426,13 +3298,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3441,10 +3313,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3453,13 +3325,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3468,10 +3340,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3480,10 +3352,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3492,10 +3364,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3504,10 +3376,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3516,10 +3388,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3528,10 +3400,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-253",
+   "return_type" : "_ZTIx",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3540,10 +3412,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3552,10 +3424,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3564,10 +3436,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3576,10 +3448,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3588,10 +3460,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3600,10 +3472,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3612,10 +3484,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3624,10 +3496,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3636,10 +3508,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3648,10 +3520,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3660,10 +3532,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3672,10 +3544,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3684,10 +3556,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3696,10 +3568,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3708,10 +3580,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3720,10 +3592,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3732,10 +3604,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3744,10 +3616,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "_ZTIl",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3756,13 +3628,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-42"
+     "referenced_type" : "_ZTIPd"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3771,13 +3643,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-257"
+     "referenced_type" : "_ZTIPf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3786,13 +3658,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-445"
+     "referenced_type" : "_ZTIPe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3801,10 +3673,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-259"
+     "referenced_type" : "_ZTIPKc"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3813,10 +3685,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-259"
+     "referenced_type" : "_ZTIPKc"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3825,10 +3697,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3837,10 +3709,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3849,10 +3721,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3861,13 +3733,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3876,13 +3748,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3891,13 +3763,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3906,13 +3778,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3921,13 +3793,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3936,13 +3808,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3951,13 +3823,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3966,13 +3838,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3981,16 +3853,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -3999,16 +3871,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-27"
+     "referenced_type" : "_ZTIPi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4017,10 +3889,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4029,10 +3901,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4041,10 +3913,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4053,10 +3925,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4065,10 +3937,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4077,13 +3949,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4092,13 +3964,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4107,13 +3979,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-254"
+     "referenced_type" : "_ZTIl"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4122,13 +3994,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-254"
+     "referenced_type" : "_ZTIl"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4137,13 +4009,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-254"
+     "referenced_type" : "_ZTIl"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4152,13 +4024,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4167,13 +4039,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4182,10 +4054,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4194,10 +4066,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4206,10 +4078,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4218,10 +4090,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4230,16 +4102,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
-     "referenced_type" : "type-42"
+     "referenced_type" : "_ZTIPd"
     },
     {
-     "referenced_type" : "type-42"
+     "referenced_type" : "_ZTIPd"
     }
    ],
-   "return_type" : "type-21",
+   "return_type" : "_ZTIv",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4248,16 +4120,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
-     "referenced_type" : "type-257"
+     "referenced_type" : "_ZTIPf"
     },
     {
-     "referenced_type" : "type-257"
+     "referenced_type" : "_ZTIPf"
     }
    ],
-   "return_type" : "type-21",
+   "return_type" : "_ZTIv",
    "source_file" : "/external/arm-optimized-routines/math/sincosf.c"
   },
   {
@@ -4266,16 +4138,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
-     "referenced_type" : "type-445"
+     "referenced_type" : "_ZTIPe"
     },
     {
-     "referenced_type" : "type-445"
+     "referenced_type" : "_ZTIPe"
     }
    ],
-   "return_type" : "type-21",
+   "return_type" : "_ZTIv",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4284,10 +4156,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4296,10 +4168,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4308,10 +4180,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4320,10 +4192,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4332,10 +4204,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4344,10 +4216,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4356,10 +4228,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4368,10 +4240,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4380,10 +4252,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4392,10 +4264,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIe",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4404,10 +4276,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4416,10 +4288,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4428,10 +4300,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4440,10 +4312,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4452,10 +4324,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4464,10 +4336,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4476,13 +4348,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
-   "return_type" : "type-4",
+   "return_type" : "_ZTId",
    "source_file" : "/bionic/libc/include/math.h"
   },
   {
@@ -4491,13 +4363,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "_ZTIf",
    "source_file" : "/bionic/libc/include/math.h"
   }
  ],
@@ -4506,13 +4378,13 @@
   {
    "linker_set_key" : "__fe_dfl_env",
    "name" : "__fe_dfl_env",
-   "referenced_type" : "type-45",
+   "referenced_type" : "_ZTIKj",
    "source_file" : "/bionic/libc/include/fenv.h"
   },
   {
    "linker_set_key" : "signgam",
    "name" : "signgam",
-   "referenced_type" : "type-1",
+   "referenced_type" : "_ZTIi",
    "source_file" : "/bionic/libc/include/math.h"
   }
  ],
@@ -4523,8 +4395,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
-   "referenced_type" : "type-258",
-   "self_type" : "type-259",
+   "referenced_type" : "_ZTIKc",
+   "self_type" : "_ZTIPKc",
    "size" : 4,
    "source_file" : "/bionic/libc/include/math.h"
   },
@@ -4532,8 +4404,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKj",
    "name" : "const unsigned int *",
-   "referenced_type" : "type-45",
-   "self_type" : "type-636",
+   "referenced_type" : "_ZTIKj",
+   "self_type" : "_ZTIPKj",
    "size" : 4,
    "source_file" : "/bionic/libc/include/fenv.h"
   },
@@ -4541,8 +4413,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPd",
    "name" : "double *",
-   "referenced_type" : "type-4",
-   "self_type" : "type-42",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIPd",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -4550,8 +4422,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPe",
    "name" : "long double *",
-   "referenced_type" : "type-10",
-   "self_type" : "type-445",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIPe",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
   },
@@ -4559,8 +4431,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
-   "referenced_type" : "type-8",
-   "self_type" : "type-257",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIPf",
    "size" : 4,
    "source_file" : "/bionic/libc/include/math.h"
   },
@@ -4568,8 +4440,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
-   "referenced_type" : "type-1",
-   "self_type" : "type-27",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIPi",
    "size" : 4,
    "source_file" : "/bionic/libc/include/math.h"
   },
@@ -4577,8 +4449,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPj",
    "name" : "unsigned int *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-260",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIPj",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -4586,8 +4458,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
-   "referenced_type" : "type-21",
-   "self_type" : "type-20",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIPv",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   }
@@ -4599,8 +4471,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA10_Kc",
    "name" : "char const[10]",
-   "referenced_type" : "type-256",
-   "self_type" : "type-261",
+   "referenced_type" : "_ZTIA10_c",
+   "self_type" : "_ZTIA10_Kc",
    "size" : 10,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/w_cabsf.c"
   },
@@ -4609,8 +4481,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA11_Kd",
    "name" : "double const[11]",
-   "referenced_type" : "type-128",
-   "self_type" : "type-129",
+   "referenced_type" : "_ZTIA11_d",
+   "self_type" : "_ZTIA11_Kd",
    "size" : 88,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
@@ -4619,8 +4491,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA16_Kd",
    "name" : "double const[16]",
-   "referenced_type" : "type-52",
-   "self_type" : "type-53",
+   "referenced_type" : "_ZTIA16_d",
+   "self_type" : "_ZTIA16_Kd",
    "size" : 128,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
   },
@@ -4629,8 +4501,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA24_Kj",
    "name" : "unsigned int const[24]",
-   "referenced_type" : "type-906",
-   "self_type" : "type-907",
+   "referenced_type" : "_ZTIA24_j",
+   "self_type" : "_ZTIA24_Kj",
    "size" : 96,
    "source_file" : "/external/arm-optimized-routines/math/sincosf_data.c"
   },
@@ -4639,8 +4511,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA2_K8sincos_t",
    "name" : "sincos_t const[2]",
-   "referenced_type" : "type-674",
-   "self_type" : "type-675",
+   "referenced_type" : "_ZTIA2_8sincos_t",
+   "self_type" : "_ZTIA2_K8sincos_t",
    "size" : 224,
    "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
   },
@@ -4649,8 +4521,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA2_Kd",
    "name" : "double const[2]",
-   "referenced_type" : "type-19",
-   "self_type" : "type-18",
+   "referenced_type" : "_ZTIA2_d",
+   "self_type" : "_ZTIA2_Kd",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
   },
@@ -4659,8 +4531,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA2_Kf",
    "name" : "float const[2]",
-   "referenced_type" : "type-23",
-   "self_type" : "type-22",
+   "referenced_type" : "_ZTIA2_f",
+   "self_type" : "_ZTIA2_Kf",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
   },
@@ -4669,8 +4541,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA4_Kd",
    "name" : "double const[4]",
-   "referenced_type" : "type-126",
-   "self_type" : "type-127",
+   "referenced_type" : "_ZTIA4_d",
+   "self_type" : "_ZTIA4_Kd",
    "size" : 32,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
@@ -4679,8 +4551,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA4_Kf",
    "name" : "float const[4]",
-   "referenced_type" : "type-130",
-   "self_type" : "type-131",
+   "referenced_type" : "_ZTIA4_f",
+   "self_type" : "_ZTIA4_Kf",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
@@ -4689,8 +4561,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA4_Ki",
    "name" : "int const[4]",
-   "referenced_type" : "type-46",
-   "self_type" : "type-47",
+   "referenced_type" : "_ZTIA4_i",
+   "self_type" : "_ZTIA4_Ki",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -4699,8 +4571,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA5_Kd",
    "name" : "double const[5]",
-   "referenced_type" : "type-30",
-   "self_type" : "type-31",
+   "referenced_type" : "_ZTIA5_d",
+   "self_type" : "_ZTIA5_Kd",
    "size" : 40,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
@@ -4709,8 +4581,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA5_Kf",
    "name" : "float const[5]",
-   "referenced_type" : "type-35",
-   "self_type" : "type-36",
+   "referenced_type" : "_ZTIA5_f",
+   "self_type" : "_ZTIA5_Kf",
    "size" : 20,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
@@ -4719,8 +4591,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA66_Ki",
    "name" : "int const[66]",
-   "referenced_type" : "type-48",
-   "self_type" : "type-49",
+   "referenced_type" : "_ZTIA66_i",
+   "self_type" : "_ZTIA66_Ki",
    "size" : 264,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -4729,8 +4601,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA6_Kd",
    "name" : "double const[6]",
-   "referenced_type" : "type-28",
-   "self_type" : "type-29",
+   "referenced_type" : "_ZTIA6_d",
+   "self_type" : "_ZTIA6_Kd",
    "size" : 48,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
@@ -4739,8 +4611,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA6_Kf",
    "name" : "float const[6]",
-   "referenced_type" : "type-33",
-   "self_type" : "type-34",
+   "referenced_type" : "_ZTIA6_f",
+   "self_type" : "_ZTIA6_Kf",
    "size" : 24,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
@@ -4749,8 +4621,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA8_Kd",
    "name" : "double const[8]",
-   "referenced_type" : "type-50",
-   "self_type" : "type-51",
+   "referenced_type" : "_ZTIA8_d",
+   "self_type" : "_ZTIA8_Kd",
    "size" : 64,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
@@ -4758,8 +4630,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA_Kj",
    "name" : "unsigned int const[]",
-   "referenced_type" : "type-676",
-   "self_type" : "type-677",
+   "referenced_type" : "_ZTIA_j",
+   "self_type" : "_ZTIA_Kj",
    "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
   },
   {
@@ -4767,8 +4639,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK10exp2f_data",
    "name" : "const exp2f_data",
-   "referenced_type" : "type-659",
-   "self_type" : "type-678",
+   "referenced_type" : "_ZTI10exp2f_data",
+   "self_type" : "_ZTIK10exp2f_data",
    "size" : 328,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4777,8 +4649,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK10log2f_data",
    "name" : "const log2f_data",
-   "referenced_type" : "type-642",
-   "self_type" : "type-646",
+   "referenced_type" : "_ZTI10log2f_data",
+   "self_type" : "_ZTIK10log2f_data",
    "size" : 288,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4787,8 +4659,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK12pow_log_data",
    "name" : "const pow_log_data",
-   "referenced_type" : "type-668",
-   "self_type" : "type-672",
+   "referenced_type" : "_ZTI12pow_log_data",
+   "self_type" : "_ZTIK12pow_log_data",
    "size" : 4168,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4797,8 +4669,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK14powf_log2_data",
    "name" : "const powf_log2_data",
-   "referenced_type" : "type-647",
-   "self_type" : "type-651",
+   "referenced_type" : "_ZTI14powf_log2_data",
+   "self_type" : "_ZTIK14powf_log2_data",
    "size" : 296,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4807,8 +4679,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK8exp_data",
    "name" : "const exp_data",
-   "referenced_type" : "type-652",
-   "self_type" : "type-654",
+   "referenced_type" : "_ZTI8exp_data",
+   "self_type" : "_ZTIK8exp_data",
    "size" : 2160,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4817,8 +4689,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK8log_data",
    "name" : "const log_data",
-   "referenced_type" : "type-655",
-   "self_type" : "type-661",
+   "referenced_type" : "_ZTI8log_data",
+   "self_type" : "_ZTIK8log_data",
    "size" : 4240,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4827,8 +4699,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK9log2_data",
    "name" : "const log2_data",
-   "referenced_type" : "type-662",
-   "self_type" : "type-667",
+   "referenced_type" : "_ZTI9log2_data",
+   "self_type" : "_ZTIK9log2_data",
    "size" : 2192,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4837,8 +4709,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK9logf_data",
    "name" : "const logf_data",
-   "referenced_type" : "type-640",
-   "self_type" : "type-639",
+   "referenced_type" : "_ZTI9logf_data",
+   "self_type" : "_ZTIK9logf_data",
    "size" : 288,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -4847,8 +4719,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
-   "referenced_type" : "type-255",
-   "self_type" : "type-258",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "/bionic/libc/include/math.h"
   },
@@ -4857,8 +4729,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKd",
    "name" : "const double",
-   "referenced_type" : "type-4",
-   "self_type" : "type-38",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIKd",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_exp.c"
   },
@@ -4867,8 +4739,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKe",
    "name" : "const long double",
-   "referenced_type" : "type-10",
-   "self_type" : "type-446",
+   "referenced_type" : "_ZTIe",
+   "self_type" : "_ZTIKe",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.c"
   },
@@ -4877,8 +4749,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKf",
    "name" : "const float",
-   "referenced_type" : "type-8",
-   "self_type" : "type-66",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIKf",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrigf.c"
   },
@@ -4887,8 +4759,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKj",
    "name" : "const unsigned int",
-   "referenced_type" : "type-12",
-   "self_type" : "type-45",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIKj",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
   },
@@ -4898,8 +4770,8 @@
    "is_volatile" : true,
    "linker_set_key" : "_ZTIVKd",
    "name" : "const volatile double",
-   "referenced_type" : "type-4",
-   "self_type" : "type-63",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIVKd",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
   },
@@ -4909,8 +4781,8 @@
    "is_volatile" : true,
    "linker_set_key" : "_ZTIVKf",
    "name" : "const volatile float",
-   "referenced_type" : "type-8",
-   "self_type" : "type-64",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIVKf",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
   },
@@ -4919,8 +4791,8 @@
    "is_volatile" : true,
    "linker_set_key" : "_ZTIVd",
    "name" : "volatile double",
-   "referenced_type" : "type-4",
-   "self_type" : "type-3",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIVd",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acos.c"
   },
@@ -4929,8 +4801,8 @@
    "is_volatile" : true,
    "linker_set_key" : "_ZTIVf",
    "name" : "volatile float",
-   "referenced_type" : "type-8",
-   "self_type" : "type-7",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIVf",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
   }
@@ -4943,18 +4815,18 @@
    [
     {
      "field_name" : "d",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "bits",
-     "referenced_type" : "type-138"
+     "referenced_type" : "_ZTIN10IEEEd2bitsUt_E"
     }
    ],
    "linker_set_key" : "_ZTI10IEEEd2bits",
    "name" : "IEEEd2bits",
    "record_kind" : "union",
-   "referenced_type" : "type-137",
-   "self_type" : "type-137",
+   "referenced_type" : "_ZTI10IEEEd2bits",
+   "self_type" : "_ZTI10IEEEd2bits",
    "size" : 8,
    "source_file" : "/bionic/libm/fpmath.h"
   },
@@ -4964,18 +4836,18 @@
    [
     {
      "field_name" : "f",
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "bits",
-     "referenced_type" : "type-136"
+     "referenced_type" : "_ZTIN10IEEEf2bitsUt_E"
     }
    ],
    "linker_set_key" : "_ZTI10IEEEf2bits",
    "name" : "IEEEf2bits",
    "record_kind" : "union",
-   "referenced_type" : "type-135",
-   "self_type" : "type-135",
+   "referenced_type" : "_ZTI10IEEEf2bits",
+   "self_type" : "_ZTI10IEEEf2bits",
    "size" : 4,
    "source_file" : "/bionic/libm/fpmath.h"
   },
@@ -4985,38 +4857,38 @@
    [
     {
      "field_name" : "tab",
-     "referenced_type" : "type-660"
+     "referenced_type" : "_ZTIA32_y"
     },
     {
      "field_name" : "shift_scaled",
      "field_offset" : 2048,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 2112,
-     "referenced_type" : "type-641"
+     "referenced_type" : "_ZTIA3_d"
     },
     {
      "field_name" : "shift",
      "field_offset" : 2304,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "invln2_scaled",
      "field_offset" : 2368,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly_scaled",
      "field_offset" : 2432,
-     "referenced_type" : "type-641"
+     "referenced_type" : "_ZTIA3_d"
     }
    ],
    "linker_set_key" : "_ZTI10exp2f_data",
    "name" : "exp2f_data",
-   "referenced_type" : "type-659",
-   "self_type" : "type-659",
+   "referenced_type" : "_ZTI10exp2f_data",
+   "self_type" : "_ZTI10exp2f_data",
    "size" : 328,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5026,18 +4898,18 @@
    [
     {
      "field_name" : "tab",
-     "referenced_type" : "type-643"
+     "referenced_type" : "_ZTIA16_N10log2f_dataUt_E"
     },
     {
      "field_name" : "poly",
      "field_offset" : 2048,
-     "referenced_type" : "type-126"
+     "referenced_type" : "_ZTIA4_d"
     }
    ],
    "linker_set_key" : "_ZTI10log2f_data",
    "name" : "log2f_data",
-   "referenced_type" : "type-642",
-   "self_type" : "type-642",
+   "referenced_type" : "_ZTI10log2f_data",
+   "self_type" : "_ZTI10log2f_data",
    "size" : 288,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5047,20 +4919,20 @@
    [
     {
      "field_name" : "__clang_max_align_nonce1",
-     "referenced_type" : "type-253"
+     "referenced_type" : "_ZTIx"
     },
     {
      "field_name" : "__clang_max_align_nonce2",
      "field_offset" : 64,
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     }
    ],
    "linker_set_key" : "_ZTI11max_align_t",
    "name" : "max_align_t",
-   "referenced_type" : "type-635",
-   "self_type" : "type-635",
+   "referenced_type" : "_ZTI11max_align_t",
+   "self_type" : "_ZTI11max_align_t",
    "size" : 16,
-   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/9.0.7/include/__stddef_max_align_t.h"
+   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/10.0.1/include/__stddef_max_align_t.h"
   },
   {
    "alignment" : 8,
@@ -5068,28 +4940,28 @@
    [
     {
      "field_name" : "ln2hi",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "ln2lo",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 128,
-     "referenced_type" : "type-669"
+     "referenced_type" : "_ZTIA7_d"
     },
     {
      "field_name" : "tab",
      "field_offset" : 576,
-     "referenced_type" : "type-670"
+     "referenced_type" : "_ZTIA128_N12pow_log_dataUt_E"
     }
    ],
    "linker_set_key" : "_ZTI12pow_log_data",
    "name" : "pow_log_data",
-   "referenced_type" : "type-668",
-   "self_type" : "type-668",
+   "referenced_type" : "_ZTI12pow_log_data",
+   "self_type" : "_ZTI12pow_log_data",
    "size" : 4168,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5099,18 +4971,18 @@
    [
     {
      "field_name" : "f",
-     "referenced_type" : "type-55"
+     "referenced_type" : "_ZTICf"
     },
     {
      "field_name" : "a",
-     "referenced_type" : "type-23"
+     "referenced_type" : "_ZTIA2_f"
     }
    ],
    "linker_set_key" : "_ZTI13float_complex",
    "name" : "float_complex",
    "record_kind" : "union",
-   "referenced_type" : "type-54",
-   "self_type" : "type-54",
+   "referenced_type" : "_ZTI13float_complex",
+   "self_type" : "_ZTI13float_complex",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5120,18 +4992,18 @@
    [
     {
      "field_name" : "f",
-     "referenced_type" : "type-57"
+     "referenced_type" : "_ZTICd"
     },
     {
      "field_name" : "a",
-     "referenced_type" : "type-19"
+     "referenced_type" : "_ZTIA2_d"
     }
    ],
    "linker_set_key" : "_ZTI14double_complex",
    "name" : "double_complex",
    "record_kind" : "union",
-   "referenced_type" : "type-56",
-   "self_type" : "type-56",
+   "referenced_type" : "_ZTI14double_complex",
+   "self_type" : "_ZTI14double_complex",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5141,18 +5013,18 @@
    [
     {
      "field_name" : "tab",
-     "referenced_type" : "type-648"
+     "referenced_type" : "_ZTIA16_N14powf_log2_dataUt_E"
     },
     {
      "field_name" : "poly",
      "field_offset" : 2048,
-     "referenced_type" : "type-30"
+     "referenced_type" : "_ZTIA5_d"
     }
    ],
    "linker_set_key" : "_ZTI14powf_log2_data",
    "name" : "powf_log2_data",
-   "referenced_type" : "type-647",
-   "self_type" : "type-647",
+   "referenced_type" : "_ZTI14powf_log2_data",
+   "self_type" : "_ZTI14powf_log2_data",
    "size" : 296,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5162,38 +5034,38 @@
    [
     {
      "field_name" : "flags",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "stack_base",
      "field_offset" : 32,
-     "referenced_type" : "type-20"
+     "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "stack_size",
      "field_offset" : 64,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "guard_size",
      "field_offset" : 96,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "sched_policy",
      "field_offset" : 128,
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "sched_priority",
      "field_offset" : 160,
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
    "linker_set_key" : "_ZTI14pthread_attr_t",
    "name" : "pthread_attr_t",
-   "referenced_type" : "type-40",
-   "self_type" : "type-40",
+   "referenced_type" : "_ZTI14pthread_attr_t",
+   "self_type" : "_ZTI14pthread_attr_t",
    "size" : 24,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5203,13 +5075,13 @@
    [
     {
      "field_name" : "__private",
-     "referenced_type" : "type-62"
+     "referenced_type" : "_ZTIA1_i"
     }
    ],
    "linker_set_key" : "_ZTI14pthread_cond_t",
    "name" : "pthread_cond_t",
-   "referenced_type" : "type-61",
-   "self_type" : "type-61",
+   "referenced_type" : "_ZTI14pthread_cond_t",
+   "self_type" : "_ZTI14pthread_cond_t",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5219,13 +5091,13 @@
    [
     {
      "field_name" : "fds_bits",
-     "referenced_type" : "type-16"
+     "referenced_type" : "_ZTIA32_m"
     }
    ],
    "linker_set_key" : "_ZTI15__kernel_fd_set",
    "name" : "__kernel_fd_set",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
+   "referenced_type" : "_ZTI15__kernel_fd_set",
+   "self_type" : "_ZTI15__kernel_fd_set",
    "size" : 128,
    "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
   },
@@ -5235,13 +5107,13 @@
    [
     {
      "field_name" : "val",
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIA2_i"
     }
    ],
    "linker_set_key" : "_ZTI15__kernel_fsid_t",
    "name" : "__kernel_fsid_t",
-   "referenced_type" : "type-39",
-   "self_type" : "type-39",
+   "referenced_type" : "_ZTI15__kernel_fsid_t",
+   "self_type" : "_ZTI15__kernel_fsid_t",
    "size" : 8,
    "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
@@ -5251,13 +5123,13 @@
    [
     {
      "field_name" : "__private",
-     "referenced_type" : "type-62"
+     "referenced_type" : "_ZTIA1_i"
     }
    ],
    "linker_set_key" : "_ZTI15pthread_mutex_t",
    "name" : "pthread_mutex_t",
-   "referenced_type" : "type-65",
-   "self_type" : "type-65",
+   "referenced_type" : "_ZTI15pthread_mutex_t",
+   "self_type" : "_ZTI15pthread_mutex_t",
    "size" : 4,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5267,13 +5139,13 @@
    [
     {
      "field_name" : "__private",
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIA10_i"
     }
    ],
    "linker_set_key" : "_ZTI16pthread_rwlock_t",
    "name" : "pthread_rwlock_t",
-   "referenced_type" : "type-67",
-   "self_type" : "type-67",
+   "referenced_type" : "_ZTI16pthread_rwlock_t",
+   "self_type" : "_ZTI16pthread_rwlock_t",
    "size" : 40,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5283,13 +5155,13 @@
    [
     {
      "field_name" : "__private",
-     "referenced_type" : "type-44"
+     "referenced_type" : "_ZTIA8_i"
     }
    ],
    "linker_set_key" : "_ZTI17pthread_barrier_t",
    "name" : "pthread_barrier_t",
-   "referenced_type" : "type-43",
-   "self_type" : "type-43",
+   "referenced_type" : "_ZTI17pthread_barrier_t",
+   "self_type" : "_ZTI17pthread_barrier_t",
    "size" : 32,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5299,13 +5171,13 @@
    [
     {
      "field_name" : "__private",
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIA2_i"
     }
    ],
    "linker_set_key" : "_ZTI18pthread_spinlock_t",
    "name" : "pthread_spinlock_t",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "_ZTI18pthread_spinlock_t",
+   "self_type" : "_ZTI18pthread_spinlock_t",
    "size" : 8,
    "source_file" : "/bionic/libc/include/bits/pthread_types.h"
   },
@@ -5315,18 +5187,18 @@
    [
     {
      "field_name" : "f",
-     "referenced_type" : "type-59"
+     "referenced_type" : "_ZTICe"
     },
     {
      "field_name" : "a",
-     "referenced_type" : "type-60"
+     "referenced_type" : "_ZTIA2_e"
     }
    ],
    "linker_set_key" : "_ZTI19long_double_complex",
    "name" : "long_double_complex",
    "record_kind" : "union",
-   "referenced_type" : "type-58",
-   "self_type" : "type-58",
+   "referenced_type" : "_ZTI19long_double_complex",
+   "self_type" : "_ZTI19long_double_complex",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5336,22 +5208,22 @@
    [
     {
      "field_name" : "value",
-     "referenced_type" : "type-10"
+     "referenced_type" : "_ZTIe"
     },
     {
      "field_name" : "parts32",
-     "referenced_type" : "type-11"
+     "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E"
     },
     {
      "field_name" : "parts64",
-     "referenced_type" : "type-13"
+     "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E"
     }
    ],
    "linker_set_key" : "_ZTI20ieee_quad_shape_type",
    "name" : "ieee_quad_shape_type",
    "record_kind" : "union",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9",
+   "referenced_type" : "_ZTI20ieee_quad_shape_type",
+   "self_type" : "_ZTI20ieee_quad_shape_type",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5361,18 +5233,18 @@
    [
     {
      "field_name" : "value",
-     "referenced_type" : "type-8"
+     "referenced_type" : "_ZTIf"
     },
     {
      "field_name" : "word",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "linker_set_key" : "_ZTI21ieee_float_shape_type",
    "name" : "ieee_float_shape_type",
    "record_kind" : "union",
-   "referenced_type" : "type-32",
-   "self_type" : "type-32",
+   "referenced_type" : "_ZTI21ieee_float_shape_type",
+   "self_type" : "_ZTI21ieee_float_shape_type",
    "size" : 4,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5382,22 +5254,22 @@
    [
     {
      "field_name" : "value",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "parts",
-     "referenced_type" : "type-25"
+     "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E"
     },
     {
      "field_name" : "xparts",
-     "referenced_type" : "type-26"
+     "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E"
     }
    ],
    "linker_set_key" : "_ZTI22ieee_double_shape_type",
    "name" : "ieee_double_shape_type",
    "record_kind" : "union",
-   "referenced_type" : "type-24",
-   "self_type" : "type-24",
+   "referenced_type" : "_ZTI22ieee_double_shape_type",
+   "self_type" : "_ZTI22ieee_double_shape_type",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5407,18 +5279,18 @@
    [
     {
      "field_name" : "hi",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "lo",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "linker_set_key" : "_ZTI2dd",
    "name" : "dd",
-   "referenced_type" : "type-183",
-   "self_type" : "type-183",
+   "referenced_type" : "_ZTI2dd",
+   "self_type" : "_ZTI2dd",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
   },
@@ -5428,18 +5300,18 @@
    [
     {
      "field_name" : "a",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "b",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "linker_set_key" : "_ZTI6Double",
    "name" : "Double",
-   "referenced_type" : "type-37",
-   "self_type" : "type-37",
+   "referenced_type" : "_ZTI6Double",
+   "self_type" : "_ZTI6Double",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/mathimpl.h"
   },
@@ -5449,48 +5321,48 @@
    [
     {
      "field_name" : "invln2N",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "shift",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "negln2hiN",
      "field_offset" : 128,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "negln2loN",
      "field_offset" : 192,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 256,
-     "referenced_type" : "type-126"
+     "referenced_type" : "_ZTIA4_d"
     },
     {
      "field_name" : "exp2_shift",
      "field_offset" : 512,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "exp2_poly",
      "field_offset" : 576,
-     "referenced_type" : "type-30"
+     "referenced_type" : "_ZTIA5_d"
     },
     {
      "field_name" : "tab",
      "field_offset" : 896,
-     "referenced_type" : "type-653"
+     "referenced_type" : "_ZTIA256_y"
     }
    ],
    "linker_set_key" : "_ZTI8exp_data",
    "name" : "exp_data",
-   "referenced_type" : "type-652",
-   "self_type" : "type-652",
+   "referenced_type" : "_ZTI8exp_data",
+   "self_type" : "_ZTI8exp_data",
    "size" : 2160,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5500,38 +5372,38 @@
    [
     {
      "field_name" : "ln2hi",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "ln2lo",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 128,
-     "referenced_type" : "type-30"
+     "referenced_type" : "_ZTIA5_d"
     },
     {
      "field_name" : "poly1",
      "field_offset" : 448,
-     "referenced_type" : "type-128"
+     "referenced_type" : "_ZTIA11_d"
     },
     {
      "field_name" : "tab",
      "field_offset" : 1152,
-     "referenced_type" : "type-657"
+     "referenced_type" : "_ZTIA128_N8log_dataUt_E"
     },
     {
      "field_name" : "tab2",
      "field_offset" : 17536,
-     "referenced_type" : "type-657"
+     "referenced_type" : "_ZTIA128_N8log_dataUt_E"
     }
    ],
    "linker_set_key" : "_ZTI8log_data",
    "name" : "log_data",
-   "referenced_type" : "type-655",
-   "self_type" : "type-655",
+   "referenced_type" : "_ZTI8log_data",
+   "self_type" : "_ZTI8log_data",
    "size" : 4240,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5541,63 +5413,63 @@
    [
     {
      "field_name" : "sign",
-     "referenced_type" : "type-126"
+     "referenced_type" : "_ZTIA4_d"
     },
     {
      "field_name" : "hpi_inv",
      "field_offset" : 256,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "hpi",
      "field_offset" : 320,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "c0",
      "field_offset" : 384,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "c1",
      "field_offset" : 448,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "c2",
      "field_offset" : 512,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "c3",
      "field_offset" : 576,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "c4",
      "field_offset" : 640,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "s1",
      "field_offset" : 704,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "s2",
      "field_offset" : 768,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "s3",
      "field_offset" : 832,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "linker_set_key" : "_ZTI8sincos_t",
    "name" : "sincos_t",
-   "referenced_type" : "type-673",
-   "self_type" : "type-673",
+   "referenced_type" : "_ZTI8sincos_t",
+   "self_type" : "_ZTI8sincos_t",
    "size" : 112,
    "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
   },
@@ -5607,38 +5479,38 @@
    [
     {
      "field_name" : "invln2hi",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "invln2lo",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 128,
-     "referenced_type" : "type-28"
+     "referenced_type" : "_ZTIA6_d"
     },
     {
      "field_name" : "poly1",
      "field_offset" : 512,
-     "referenced_type" : "type-664"
+     "referenced_type" : "_ZTIA10_d"
     },
     {
      "field_name" : "tab",
      "field_offset" : 1152,
-     "referenced_type" : "type-665"
+     "referenced_type" : "_ZTIA64_N9log2_dataUt_E"
     },
     {
      "field_name" : "tab2",
      "field_offset" : 9344,
-     "referenced_type" : "type-665"
+     "referenced_type" : "_ZTIA64_N9log2_dataUt_E"
     }
    ],
    "linker_set_key" : "_ZTI9log2_data",
    "name" : "log2_data",
-   "referenced_type" : "type-662",
-   "self_type" : "type-662",
+   "referenced_type" : "_ZTI9log2_data",
+   "self_type" : "_ZTI9log2_data",
    "size" : 2192,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5648,23 +5520,23 @@
    [
     {
      "field_name" : "tab",
-     "referenced_type" : "type-638"
+     "referenced_type" : "_ZTIA16_N9logf_dataUt_E"
     },
     {
      "field_name" : "ln2",
      "field_offset" : 2048,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "poly",
      "field_offset" : 2112,
-     "referenced_type" : "type-641"
+     "referenced_type" : "_ZTIA3_d"
     }
    ],
    "linker_set_key" : "_ZTI9logf_data",
    "name" : "logf_data",
-   "referenced_type" : "type-640",
-   "self_type" : "type-640",
+   "referenced_type" : "_ZTI9logf_data",
+   "self_type" : "_ZTI9logf_data",
    "size" : 288,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5674,29 +5546,29 @@
    [
     {
      "field_name" : "manl",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "manh",
      "field_offset" : 32,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "exp",
      "field_offset" : 52,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "sign",
      "field_offset" : 63,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN10IEEEd2bitsUt_E",
    "name" : "IEEEd2bits::(anonymous struct at bionic/libm/fpmath.h:54:3)",
-   "referenced_type" : "type-138",
-   "self_type" : "type-138",
+   "referenced_type" : "_ZTIN10IEEEd2bitsUt_E",
+   "self_type" : "_ZTIN10IEEEd2bitsUt_E",
    "size" : 8,
    "source_file" : "/bionic/libm/fpmath.h"
   },
@@ -5706,24 +5578,24 @@
    [
     {
      "field_name" : "man",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "exp",
      "field_offset" : 23,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "sign",
      "field_offset" : 31,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN10IEEEf2bitsUt_E",
    "name" : "IEEEf2bits::(anonymous struct at bionic/libm/fpmath.h:42:3)",
-   "referenced_type" : "type-136",
-   "self_type" : "type-136",
+   "referenced_type" : "_ZTIN10IEEEf2bitsUt_E",
+   "self_type" : "_ZTIN10IEEEf2bitsUt_E",
    "size" : 4,
    "source_file" : "/bionic/libm/fpmath.h"
   },
@@ -5733,19 +5605,19 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN10log2f_dataUt_E",
-   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:317:3)",
-   "referenced_type" : "type-644",
-   "self_type" : "type-644",
+   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:326:3)",
+   "referenced_type" : "_ZTIN10log2f_dataUt_E",
+   "self_type" : "_ZTIN10log2f_dataUt_E",
    "size" : 16,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5755,29 +5627,29 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "pad",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 128,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logctail",
      "field_offset" : 192,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12pow_log_dataUt_E",
-   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:402:3)",
-   "referenced_type" : "type-671",
-   "self_type" : "type-671",
+   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:411:3)",
+   "referenced_type" : "_ZTIN12pow_log_dataUt_E",
+   "self_type" : "_ZTIN12pow_log_dataUt_E",
    "size" : 32,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5787,19 +5659,19 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN14powf_log2_dataUt_E",
-   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:334:3)",
-   "referenced_type" : "type-649",
-   "self_type" : "type-649",
+   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:343:3)",
+   "referenced_type" : "_ZTIN14powf_log2_dataUt_E",
+   "self_type" : "_ZTIN14powf_log2_dataUt_E",
    "size" : 16,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5809,51 +5681,29 @@
    [
     {
      "field_name" : "lswlo",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "lswhi",
      "field_offset" : 32,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "mswlo",
      "field_offset" : 64,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "mswhi",
      "field_offset" : 96,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "name" : "ieee_quad_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:78:3)",
-   "referenced_type" : "type-11",
-   "self_type" : "type-11",
-   "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "lsw",
-     "referenced_type" : "type-14"
-    },
-    {
-     "field_name" : "msw",
-     "field_offset" : 64,
-     "referenced_type" : "type-14"
-    }
-   ],
-   "is_anonymous" : true,
-   "linker_set_key" : "_ZTIN20ieee_quad_shape_typeUt_E",
-   "name" : "ieee_quad_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:84:3)",
-   "referenced_type" : "type-13",
-   "self_type" : "type-13",
+   "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
+   "self_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "size" : 16,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5863,36 +5713,19 @@
    [
     {
      "field_name" : "lsw",
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "msw",
      "field_offset" : 32,
-     "referenced_type" : "type-12"
+     "referenced_type" : "_ZTIj"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN22ieee_double_shape_typeUt_E",
    "name" : "ieee_double_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:115:3)",
-   "referenced_type" : "type-25",
-   "self_type" : "type-25",
-   "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "w",
-     "referenced_type" : "type-14"
-    }
-   ],
-   "is_anonymous" : true,
-   "linker_set_key" : "_ZTIN22ieee_double_shape_typeUt_E",
-   "name" : "ieee_double_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:120:3)",
-   "referenced_type" : "type-26",
-   "self_type" : "type-26",
+   "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E",
+   "self_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "size" : 8,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
@@ -5902,19 +5735,19 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN8log_dataUt_E",
-   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:373:3)",
-   "referenced_type" : "type-658",
-   "self_type" : "type-658",
+   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:382:3)",
+   "referenced_type" : "_ZTIN8log_dataUt_E",
+   "self_type" : "_ZTIN8log_dataUt_E",
    "size" : 16,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5924,19 +5757,19 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9log2_dataUt_E",
-   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:388:3)",
-   "referenced_type" : "type-666",
-   "self_type" : "type-666",
+   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:397:3)",
+   "referenced_type" : "_ZTIN9log2_dataUt_E",
+   "self_type" : "_ZTIN9log2_dataUt_E",
    "size" : 16,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   },
@@ -5946,19 +5779,19 @@
    [
     {
      "field_name" : "invc",
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     },
     {
      "field_name" : "logc",
      "field_offset" : 64,
-     "referenced_type" : "type-4"
+     "referenced_type" : "_ZTId"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9logf_dataUt_E",
-   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:305:3)",
-   "referenced_type" : "type-637",
-   "self_type" : "type-637",
+   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:314:3)",
+   "referenced_type" : "_ZTIN9logf_dataUt_E",
+   "self_type" : "_ZTIN9logf_dataUt_E",
    "size" : 16,
    "source_file" : "/external/arm-optimized-routines/math/math_config.h"
   }
