@@ -246,6 +246,9 @@
    "name" : "AParcel_fromJavaParcel"
   },
   {
+   "name" : "AParcel_getAllowFds"
+  },
+  {
    "name" : "AParcel_getDataPosition"
   },
   {
@@ -6313,6 +6316,18 @@
    ],
    "return_type" : "_ZTIP7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm64_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel_jni.sdump",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel_jni.h"
+  },
+  {
+   "function_name" : "AParcel_getAllowFds",
+   "linker_set_key" : "AParcel_getAllowFds",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/native/libs/binder/ndk/libbinder_ndk/android_arm64_armv8-a_shared/obj/frameworks/native/libs/binder/ndk/parcel.sdump"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_parcel_platform.h"
   },
   {
    "function_name" : "AParcel_getDataPosition",
