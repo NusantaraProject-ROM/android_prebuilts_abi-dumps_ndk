@@ -262,6 +262,15 @@
    "source_file" : "/bionic/libc/include/signal.h"
   },
   {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA84_c",
+   "name" : "char [84]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA84_c",
+   "size" : 84,
+   "source_file" : "/bionic/libc/include/bits/struct_file.h"
+  },
+  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIA8_6fp_reg",
    "name" : "fp_reg [8]",
@@ -314,6 +323,13 @@
    "self_type" : "_ZTIA92_c",
    "size" : 92,
    "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+  },
+  {
+   "linker_set_key" : "_ZTIA_7__sFILE",
+   "name" : "__sFILE []",
+   "referenced_type" : "_ZTI7__sFILE",
+   "self_type" : "_ZTIA_7__sFILE",
+   "source_file" : "/bionic/libc/include/stdio.h"
   },
   {
    "linker_set_key" : "_ZTIA_Pc",
@@ -508,7 +524,25 @@
    "name" : "_Unwind_DeleteException"
   },
   {
+   "name" : "_Unwind_FindEnclosingFunction"
+  },
+  {
+   "name" : "_Unwind_Find_FDE"
+  },
+  {
+   "name" : "_Unwind_GetCFA"
+  },
+  {
    "name" : "_Unwind_GetDataRelBase"
+  },
+  {
+   "name" : "_Unwind_GetGR"
+  },
+  {
+   "name" : "_Unwind_GetIP"
+  },
+  {
+   "name" : "_Unwind_GetIPInfo"
   },
   {
    "name" : "_Unwind_GetLanguageSpecificData"
@@ -529,7 +563,16 @@
    "name" : "_Unwind_Resume_or_Rethrow"
   },
   {
+   "name" : "_Unwind_SetGR"
+  },
+  {
+   "name" : "_Unwind_SetIP"
+  },
+  {
    "name" : "_Unwind_VRS_Get"
+  },
+  {
+   "name" : "_Unwind_VRS_Pop"
   },
   {
    "name" : "_Unwind_VRS_Set"
@@ -764,11 +807,12 @@
    "name" : "__aeabi_uldivmod"
   },
   {
-   "binding" : "weak",
+   "name" : "__aeabi_unwind_cpp_pr0"
+  },
+  {
    "name" : "__aeabi_unwind_cpp_pr1"
   },
   {
-   "binding" : "weak",
    "name" : "__aeabi_unwind_cpp_pr2"
   },
   {
@@ -1119,6 +1163,9 @@
   },
   {
    "name" : "__memrchr_chk"
+  },
+  {
+   "name" : "__memset_chk"
   },
   {
    "name" : "__mmap2"
@@ -1474,7 +1521,13 @@
    "name" : "__stpncpy_chk2"
   },
   {
+   "name" : "__strcat_chk"
+  },
+  {
    "name" : "__strchr_chk"
+  },
+  {
+   "name" : "__strcpy_chk"
   },
   {
    "name" : "__strlcat_chk"
@@ -1740,6 +1793,15 @@
    "name" : "android_fdsan_set_error_level"
   },
   {
+   "name" : "android_fdtrack_compare_exchange_hook"
+  },
+  {
+   "name" : "android_fdtrack_get_enabled"
+  },
+  {
+   "name" : "android_fdtrack_set_enabled"
+  },
+  {
    "name" : "android_get_device_api_level"
   },
   {
@@ -1778,6 +1840,9 @@
   {
    "binding" : "weak",
    "name" : "android_set_abort_message"
+  },
+  {
+   "name" : "android_unsafe_frame_pointer_chase"
   },
   {
    "name" : "arc4random"
@@ -3266,16 +3331,25 @@
    "name" : "memcmp"
   },
   {
+   "name" : "memcpy"
+  },
+  {
    "name" : "memfd_create"
   },
   {
    "name" : "memmem"
   },
   {
+   "name" : "memmove"
+  },
+  {
    "name" : "mempcpy"
   },
   {
    "name" : "memrchr"
+  },
+  {
+   "name" : "memset"
   },
   {
    "name" : "memswap"
@@ -4613,6 +4687,12 @@
    "name" : "statvfs64"
   },
   {
+   "name" : "statx"
+  },
+  {
+   "name" : "stpcpy"
+  },
+  {
    "name" : "stpncpy"
   },
   {
@@ -4625,16 +4705,25 @@
    "name" : "strcasestr"
   },
   {
+   "name" : "strcat"
+  },
+  {
    "name" : "strchr"
   },
   {
    "name" : "strchrnul"
   },
   {
+   "name" : "strcmp"
+  },
+  {
    "name" : "strcoll"
   },
   {
    "name" : "strcoll_l"
+  },
+  {
+   "name" : "strcpy"
   },
   {
    "name" : "strcspn"
@@ -4662,6 +4751,9 @@
   },
   {
    "name" : "strlcpy"
+  },
+  {
+   "name" : "strlen"
   },
   {
    "name" : "strncasecmp"
@@ -5798,6 +5890,43 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "PTHREAD_MUTEX_NORMAL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "PTHREAD_MUTEX_RECURSIVE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "PTHREAD_MUTEX_ERRORCHECK"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "PTHREAD_MUTEX_ERRORCHECK_NP"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "PTHREAD_MUTEX_RECURSIVE_NP"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "PTHREAD_MUTEX_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
+   "name" : "(anonymous enum at bionic/libc/include/pthread.h:41:1)",
+   "referenced_type" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
+   "self_type" : "_ZTI22$PTHREAD_MUTEX_DEFAULT",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/pthread.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "ANDROID_FDSAN_OWNER_TYPE_GENERIC_00"
     },
     {
@@ -5866,6 +5995,59 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS_HINT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_DLEXT_WRITE_RELRO"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_DLEXT_USE_RELRO"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "ANDROID_DLEXT_USE_LIBRARY_FD"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "ANDROID_DLEXT_USE_LIBRARY_FD_OFFSET"
+    },
+    {
+     "enum_field_value" : 64,
+     "name" : "ANDROID_DLEXT_FORCE_LOAD"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "ANDROID_DLEXT_USE_NAMESPACE"
+    },
+    {
+     "enum_field_value" : 1024,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS_RECURSIVE"
+    },
+    {
+     "enum_field_value" : 1663,
+     "name" : "ANDROID_DLEXT_VALID_FLAG_BITS"
+    }
+   ],
+   "linker_set_key" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "name" : "(anonymous enum at bionic/libc/include/android/dlext.h:41:1)",
+   "referenced_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "self_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/android/dlext.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "ANDROID_FDSAN_ERROR_LEVEL_DISABLED"
     },
@@ -5888,6 +6070,27 @@
    "self_type" : "_ZTI25android_fdsan_error_level",
    "size" : 4,
    "source_file" : "/bionic/libc/include/android/fdsan.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "PTHREAD_RWLOCK_PREFER_READER_NP"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP"
+    }
+   ],
+   "linker_set_key" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
+   "name" : "(anonymous enum at bionic/libc/include/pthread.h:63:1)",
+   "referenced_type" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
+   "self_type" : "_ZTI32$PTHREAD_RWLOCK_PREFER_READER_NP",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/pthread.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -5938,6 +6141,108 @@
    "self_type" : "_ZTI6ACTION",
    "size" : 4,
    "source_file" : "/bionic/libc/include/search.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "REG_R0"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "REG_R1"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "REG_R2"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "REG_R3"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "REG_R4"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "REG_R5"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "REG_R6"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "REG_R7"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "REG_R8"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "REG_R9"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "REG_R10"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "REG_R11"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "REG_R12"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "REG_R13"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "REG_R14"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "REG_R15"
+    }
+   ],
+   "linker_set_key" : "_ZTI7$REG_R0",
+   "name" : "(anonymous enum at bionic/libc/include/sys/ucontext.h:41:1)",
+   "referenced_type" : "_ZTI7$REG_R0",
+   "self_type" : "_ZTI7$REG_R0",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/sys/ucontext.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "SHUT_RD"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "SHUT_WR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "SHUT_RDWR"
+    }
+   ],
+   "linker_set_key" : "_ZTI8$SHUT_RD",
+   "name" : "(anonymous enum at bionic/libc/include/sys/socket.h:60:1)",
+   "referenced_type" : "_ZTI8$SHUT_RD",
+   "self_type" : "_ZTI8$SHUT_RD",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/sys/socket.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -6309,6 +6614,31 @@
    "self_type" : "_ZTI9__ns_type",
    "size" : 4,
    "source_file" : "/bionic/libc/include/arpa/nameser.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "r_debug::RT_CONSISTENT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "r_debug::RT_ADD"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "r_debug::RT_DELETE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7r_debug7$RT_ADDE",
+   "name" : "r_debug::(anonymous enum at bionic/libc/include/link.h:83:3)",
+   "referenced_type" : "_ZTIN7r_debug7$RT_ADDE",
+   "self_type" : "_ZTIN7r_debug7$RT_ADDE",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h",
    "underlying_type" : "_ZTIj"
   }
  ],
@@ -11280,21 +11610,6 @@
    "source_file" : "/bionic/libc/include/malloc.h"
   },
   {
-   "function_name" : "realpath",
-   "linker_set_key" : "realpath",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIPc"
-    }
-   ],
-   "return_type" : "_ZTIPc",
-   "source_file" : "/bionic/libc/include/stdlib.h"
-  },
-  {
    "function_name" : "regcomp",
    "linker_set_key" : "regcomp",
    "parameters" :
@@ -13143,10 +13458,16 @@
    "source_file" : "/bionic/libc/include/malloc.h"
   },
   {
+   "linker_set_key" : "__sF",
+   "name" : "__sF",
+   "referenced_type" : "_ZTIA_7__sFILE",
+   "source_file" : "/bionic/libc/include/stdio.h"
+  },
+  {
    "linker_set_key" : "_ctype_",
    "name" : "_ctype_",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "/bionic/libc/include/ctype.h"
+   "source_file" : "/bionic/libc/include/bits/ctype_inlines.h"
   },
   {
    "linker_set_key" : "daylight",
@@ -13911,6 +14232,33 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK10elf32_phdr",
    "name" : "const elf32_phdr *",
+   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/android_profiling_dynamic.sdump",
+   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/android_profiling_dynamic.sdump",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK10elf32_phdr",
+   "name" : "const elf32_phdr *",
+   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/gwp_asan_wrappers.sdump",
+   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/gwp_asan_wrappers.sdump",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK10elf32_phdr",
+   "name" : "const elf32_phdr *",
+   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/heap_tagging.sdump",
+   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/heap_tagging.sdump",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK10elf32_phdr",
+   "name" : "const elf32_phdr *",
    "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/malloc_common.sdump",
    "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_arm_armv8-a_shared/obj/shared_library/bionic/libc/bionic/malloc_common.sdump",
    "size" : 4,
@@ -14021,6 +14369,15 @@
    "name" : "const elf32_phdr *",
    "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_arm_armv8-a_static/obj/bionic/libc/bionic/__cxa_thread_atexit_impl.sdump",
    "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_arm_armv8-a_static/obj/bionic/libc/bionic/__cxa_thread_atexit_impl.sdump",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK10elf32_phdr",
+   "name" : "const elf32_phdr *",
+   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_arm_armv8-a_static/obj/bionic/libc/bionic/android_unsafe_frame_pointer_chase.sdump",
+   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_arm_armv8-a_static/obj/bionic/libc/bionic/android_unsafe_frame_pointer_chase.sdump",
    "size" : 4,
    "source_file" : "/bionic/libc/include/link.h"
   },
@@ -14210,6 +14567,15 @@
    "name" : "const elf32_phdr *",
    "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libdl/libdl_android/android_arm_armv8-a_static/obj/bionic/libdl/libdl_android.sdump",
    "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libdl/libdl_android/android_arm_armv8-a_static/obj/bionic/libdl/libdl_android.sdump",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK10elf32_phdr",
+   "name" : "const elf32_phdr *",
+   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/external/libunwind_llvm/libunwind_llvm/android_arm_armv8-a_static/obj/external/libunwind_llvm/src/libunwind.sdump",
+   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/external/libunwind_llvm/libunwind_llvm/android_arm_armv8-a_static/obj/external/libunwind_llvm/src/libunwind.sdump",
    "size" : 4,
    "source_file" : "/bionic/libc/include/link.h"
   },
@@ -14499,7 +14865,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/signal.h"
+   "source_file" : "/bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -14688,7 +15054,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -14761,6 +15127,16 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIA65_KPKc",
    "name" : "const char *const[65]",
+   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_arm_armv8-a_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
+   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_arm_armv8-a_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
+   "size" : 260,
+   "source_file" : "/bionic/libc/include/signal.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA65_KPKc",
+   "name" : "const char *const[65]",
    "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/nameser/ns_parse.sdump",
    "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/nameser/ns_parse.sdump",
    "size" : 260,
@@ -14813,6 +15189,36 @@
    "name" : "const char *const[65]",
    "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/resolv/res_state.sdump",
    "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/resolv/res_state.sdump",
+   "size" : 260,
+   "source_file" : "/bionic/libc/include/signal.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA65_KPKc",
+   "name" : "const char *const[65]",
+   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/resolv/res_stats.sdump",
+   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_arm_armv8-a_static/obj/bionic/libc/dns/resolv/res_stats.sdump",
+   "size" : 260,
+   "source_file" : "/bionic/libc/include/signal.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA65_KPKc",
+   "name" : "const char *const[65]",
+   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/external/libunwind_llvm/libunwind_llvm/android_arm_armv8-a_static/obj/external/libunwind_llvm/src/libunwind.sdump",
+   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/external/libunwind_llvm/libunwind_llvm/android_arm_armv8-a_static/obj/external/libunwind_llvm/src/libunwind.sdump",
+   "size" : 260,
+   "source_file" : "/bionic/libc/include/signal.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA65_KPKc",
+   "name" : "const char *const[65]",
+   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/external/scudo/libscudo/android_arm_armv8-a_static/obj/external/scudo/standalone/linux.sdump",
+   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/external/scudo/libscudo/android_arm_armv8-a_static/obj/external/scudo/standalone/linux.sdump",
    "size" : 260,
    "source_file" : "/bionic/libc/include/signal.h"
   },
@@ -15162,7 +15568,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/bionic/libc/include/signal.h"
+   "source_file" : "/bionic/libc/include/link.h"
   },
   {
    "alignment" : 1,
@@ -17034,6 +17440,42 @@
    "fields" :
    [
     {
+     "field_name" : "l_type",
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "field_name" : "l_whence",
+     "field_offset" : 16,
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "field_name" : "l_start",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "l_len",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "l_pid",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI5flock",
+   "name" : "flock",
+   "referenced_type" : "_ZTI5flock",
+   "self_type" : "_ZTI5flock",
+   "size" : 16,
+   "source_file" : "/bionic/libc/include/bits/flock.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "gr_name",
      "referenced_type" : "_ZTIPc"
     },
@@ -17867,6 +18309,22 @@
    "fields" :
    [
     {
+     "field_name" : "__private",
+     "referenced_type" : "_ZTIA84_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI7__sFILE",
+   "name" : "__sFILE",
+   "referenced_type" : "_ZTI7__sFILE",
+   "self_type" : "_ZTI7__sFILE",
+   "size" : 84,
+   "source_file" : "/bionic/libc/include/bits/struct_file.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "cmsg_len",
      "referenced_type" : "_ZTIj"
     },
@@ -17887,6 +18345,42 @@
    "self_type" : "_ZTI7cmsghdr",
    "size" : 12,
    "source_file" : "/bionic/libc/include/sys/socket.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "l_type",
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "field_name" : "l_whence",
+     "field_offset" : 16,
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "field_name" : "l_start",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "l_len",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIx"
+    },
+    {
+     "field_name" : "l_pid",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI7flock64",
+   "name" : "flock64",
+   "referenced_type" : "_ZTI7flock64",
+   "self_type" : "_ZTI7flock64",
+   "size" : 32,
+   "source_file" : "/bionic/libc/include/bits/flock.h"
   },
   {
    "alignment" : 4,
@@ -18070,7 +18564,7 @@
     {
      "field_name" : "r_state",
      "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIN7r_debug7$RT_ADDE"
     },
     {
      "field_name" : "r_ldbase",
@@ -18904,7 +19398,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN11sigaction64Ut_E",
-   "name" : "sigaction64::(anonymous union at bionic/libc/include/bits/signal_types.h:116:3)",
+   "name" : "sigaction64::(anonymous union at bionic/libc/include/bits/signal_types.h:100:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN11sigaction64Ut_E",
    "self_type" : "_ZTIN11sigaction64Ut_E",
@@ -18968,7 +19462,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12Elf32_auxv_tUt_E",
-   "name" : "Elf32_auxv_t::(anonymous union at bionic/libc/include/elf.h:49:3)",
+   "name" : "Elf32_auxv_t::(anonymous union at bionic/libc/include/elf.h:47:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN12Elf32_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf32_auxv_tUt_E",
@@ -18986,7 +19480,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12Elf64_auxv_tUt_E",
-   "name" : "Elf64_auxv_t::(anonymous union at bionic/libc/include/elf.h:56:3)",
+   "name" : "Elf64_auxv_t::(anonymous union at bionic/libc/include/elf.h:54:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN12Elf64_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf64_auxv_tUt_E",
@@ -19294,7 +19788,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9sigactionUt_E",
-   "name" : "sigaction::(anonymous union at bionic/libc/include/bits/signal_types.h:105:3)",
+   "name" : "sigaction::(anonymous union at bionic/libc/include/bits/signal_types.h:89:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN9sigactionUt_E",
    "self_type" : "_ZTIN9sigactionUt_E",

@@ -274,6 +274,84 @@
  "enum_types" :
  [
   {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS_HINT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_DLEXT_WRITE_RELRO"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_DLEXT_USE_RELRO"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "ANDROID_DLEXT_USE_LIBRARY_FD"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "ANDROID_DLEXT_USE_LIBRARY_FD_OFFSET"
+    },
+    {
+     "enum_field_value" : 64,
+     "name" : "ANDROID_DLEXT_FORCE_LOAD"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "ANDROID_DLEXT_USE_NAMESPACE"
+    },
+    {
+     "enum_field_value" : 1024,
+     "name" : "ANDROID_DLEXT_RESERVED_ADDRESS_RECURSIVE"
+    },
+    {
+     "enum_field_value" : 1663,
+     "name" : "ANDROID_DLEXT_VALID_FLAG_BITS"
+    }
+   ],
+   "linker_set_key" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "name" : "(anonymous enum at bionic/libc/include/android/dlext.h:41:1)",
+   "referenced_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "self_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/android/dlext.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "r_debug::RT_CONSISTENT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "r_debug::RT_ADD"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "r_debug::RT_DELETE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7r_debug7$RT_ADDE",
+   "name" : "r_debug::(anonymous enum at bionic/libc/include/link.h:83:3)",
+   "referenced_type" : "_ZTIN7r_debug7$RT_ADDE",
+   "self_type" : "_ZTIN7r_debug7$RT_ADDE",
+   "size" : 4,
+   "source_file" : "/bionic/libc/include/link.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
    "alignment" : 2,
    "enum_fields" :
    [
@@ -1336,7 +1414,7 @@
    "referenced_type" : "_ZTI11max_align_t",
    "self_type" : "_ZTI11max_align_t",
    "size" : 32,
-   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/10.0.1/include/__stddef_max_align_t.h"
+   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/10.0.5/include/__stddef_max_align_t.h"
   },
   {
    "alignment" : 4,
@@ -2170,7 +2248,7 @@
     {
      "field_name" : "r_state",
      "field_offset" : 192,
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIN7r_debug7$RT_ADDE"
     },
     {
      "field_name" : "r_ldbase",
@@ -2682,7 +2760,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12Elf32_auxv_tUt_E",
-   "name" : "Elf32_auxv_t::(anonymous union at bionic/libc/include/elf.h:49:3)",
+   "name" : "Elf32_auxv_t::(anonymous union at bionic/libc/include/elf.h:47:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN12Elf32_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf32_auxv_tUt_E",
@@ -2700,7 +2778,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12Elf64_auxv_tUt_E",
-   "name" : "Elf64_auxv_t::(anonymous union at bionic/libc/include/elf.h:56:3)",
+   "name" : "Elf64_auxv_t::(anonymous union at bionic/libc/include/elf.h:54:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN12Elf64_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf64_auxv_tUt_E",
