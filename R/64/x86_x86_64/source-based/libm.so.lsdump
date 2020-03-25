@@ -4640,7 +4640,7 @@
    "referenced_type" : "_ZTI11max_align_t",
    "self_type" : "_ZTI11max_align_t",
    "size" : 16,
-   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/10.0.1/include/__stddef_max_align_t.h"
+   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/10.0.5/include/__stddef_max_align_t.h"
   },
   {
    "alignment" : 4,
