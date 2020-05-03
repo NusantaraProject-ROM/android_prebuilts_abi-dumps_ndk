@@ -1326,7 +1326,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6logger#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP6logger"
     }
    ],
    "return_type" : "_ZTIi",
@@ -1350,7 +1350,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6logger#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP6logger"
     }
    ],
    "return_type" : "_ZTIl",
@@ -1362,7 +1362,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6logger#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP6logger"
     }
    ],
    "return_type" : "_ZTIl",
@@ -1374,7 +1374,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6logger#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP6logger"
     }
    ],
    "return_type" : "_ZTIi",
@@ -1386,7 +1386,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP11logger_list#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP11logger_list"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -1404,7 +1404,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP11logger_list#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP11logger_list"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -1521,7 +1521,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6logger#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP6logger"
     },
     {
      "referenced_type" : "_ZTIm"
@@ -1536,7 +1536,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP11logger_list#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump"
+     "referenced_type" : "_ZTIP11logger_list"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -1662,226 +1662,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:",
-   "self_type" : "_ZTIRK8timespec#ODR:",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_event_write.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_event_write.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_time.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_time.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_writer.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_writer.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_name.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_name.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_read.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_read.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_write.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_write.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logprint.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logprint.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_reader.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_reader.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_writer.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_writer.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/properties.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/properties.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_event_write.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_event_write.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_time.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/log_time.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_reader.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_writer.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logd_writer.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_write.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logger_write.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logprint.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/logprint.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_reader.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_reader.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_writer.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/pmsg_writer.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/properties.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/properties.sdump",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   }
@@ -2034,24 +1818,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK11EventTagMap",
-   "name" : "const EventTagMap *",
-   "referenced_type" : "_ZTIK11EventTagMap#ODR:",
-   "self_type" : "_ZTIPK11EventTagMap#ODR:",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK11EventTagMap",
-   "name" : "const EventTagMap *",
-   "referenced_type" : "_ZTIK11EventTagMap#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "self_type" : "_ZTIPK11EventTagMap#ODR:out/soong/.intermediates/system/core/liblog/liblog/android_x86_64_static/obj/system/core/liblog/event_tag_map.sdump",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK17AndroidLogEntry_t",
    "name" : "const AndroidLogEntry_t *",
    "referenced_type" : "_ZTIK17AndroidLogEntry_t",
@@ -2119,15 +1885,6 @@
    "name" : "android_log_context_internal **",
    "referenced_type" : "_ZTIP28android_log_context_internal",
    "self_type" : "_ZTIPP28android_log_context_internal",
-   "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP28android_log_context_internal",
-   "name" : "android_log_context_internal **",
-   "referenced_type" : "_ZTIP28android_log_context_internal#ODR:",
-   "self_type" : "_ZTIPP28android_log_context_internal#ODR:",
    "size" : 8,
    "source_file" : "/system/core/liblog/include/log/log_event_list.h"
   },
@@ -2329,11 +2086,6 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "msg",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -2842,7 +2594,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:81:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",
