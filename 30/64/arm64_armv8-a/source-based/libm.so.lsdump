@@ -224,7 +224,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA2_d",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
   },
   {
    "alignment" : 16,
@@ -242,7 +242,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA2_f",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
   },
   {
    "alignment" : 4,
@@ -5014,7 +5014,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIPe",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
+   "source_file" : "/bionic/libc/include/math.h"
   },
   {
    "alignment" : 8,
@@ -5183,7 +5183,7 @@
    "referenced_type" : "_ZTIA2_e",
    "self_type" : "_ZTIA2_Ke",
    "size" : 32,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodl.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_modfl.c"
   },
   {
    "alignment" : 4,
@@ -5429,7 +5429,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_exp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_cosh.c"
   },
   {
    "alignment" : 16,
@@ -5439,7 +5439,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIKe",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_asinhl.c"
   },
   {
    "alignment" : 4,
@@ -5449,7 +5449,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrigf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_atanhf.c"
   },
   {
    "alignment" : 4,
@@ -5470,7 +5470,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIVKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 16,
@@ -5492,7 +5492,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 8,
@@ -5502,7 +5502,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIVd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acos.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_atan2.c"
   },
   {
    "alignment" : 16,
@@ -5522,7 +5522,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_atan2f.c"
   }
  ],
  "record_types" :
@@ -6641,7 +6641,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN20ieee_quad_shape_typeUt_E",
-   "name" : "ieee_quad_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:78:3)",
+   "name" : "ieee_quad_shape_type::(anonymous struct at bionic/libm/upstream-freebsd/lib/msun/src/math_private.h:78:3)",
    "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "self_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "size" : 16,
@@ -6663,7 +6663,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN22ieee_double_shape_typeUt_E",
-   "name" : "ieee_double_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:115:3)",
+   "name" : "ieee_double_shape_type::(anonymous struct at bionic/libm/upstream-freebsd/lib/msun/src/math_private.h:115:3)",
    "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "self_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "size" : 8,

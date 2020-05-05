@@ -242,7 +242,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA5_f",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
   {
    "alignment" : 8,
@@ -4416,7 +4416,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIPd",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "/bionic/libc/include/math.h"
   },
   {
    "alignment" : 4,
@@ -4524,7 +4524,7 @@
    "referenced_type" : "_ZTIA2_d",
    "self_type" : "_ZTIA2_Kd",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_rint.c"
   },
   {
    "alignment" : 4,
@@ -4534,7 +4534,7 @@
    "referenced_type" : "_ZTIA2_f",
    "self_type" : "_ZTIA2_Kf",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_rintf.c"
   },
   {
    "alignment" : 8,
@@ -4584,7 +4584,7 @@
    "referenced_type" : "_ZTIA5_f",
    "self_type" : "_ZTIA5_Kf",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
   {
    "alignment" : 4,
@@ -4762,7 +4762,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_cexp.c"
   },
   {
    "alignment" : 8,

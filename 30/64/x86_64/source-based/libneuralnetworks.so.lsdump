@@ -2451,46 +2451,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "_ZTIK15AHardwareBuffer#ODR:",
-   "self_type" : "_ZTIPK15AHardwareBuffer#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "_ZTIK15AHardwareBuffer#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK15AHardwareBuffer#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK20ANeuralNetworksEvent",
    "name" : "const ANeuralNetworksEvent *",
    "referenced_type" : "_ZTIK20ANeuralNetworksEvent",
    "self_type" : "_ZTIPK20ANeuralNetworksEvent",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *",
-   "referenced_type" : "_ZTIK20ANeuralNetworksEvent#ODR:",
-   "self_type" : "_ZTIPK20ANeuralNetworksEvent#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *",
-   "referenced_type" : "_ZTIK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2505,46 +2469,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK20ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "_ZTIK20ANeuralNetworksModel#ODR:",
-   "self_type" : "_ZTIPK20ANeuralNetworksModel#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK20ANeuralNetworksModel",
-   "name" : "const ANeuralNetworksModel *",
-   "referenced_type" : "_ZTIK20ANeuralNetworksModel#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK20ANeuralNetworksModel#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK21ANeuralNetworksDevice",
    "name" : "const ANeuralNetworksDevice *",
    "referenced_type" : "_ZTIK21ANeuralNetworksDevice",
    "self_type" : "_ZTIPK21ANeuralNetworksDevice",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "_ZTIK21ANeuralNetworksDevice#ODR:",
-   "self_type" : "_ZTIPK21ANeuralNetworksDevice#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *",
-   "referenced_type" : "_ZTIK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2559,46 +2487,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK21ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "_ZTIK21ANeuralNetworksMemory#ODR:",
-   "self_type" : "_ZTIPK21ANeuralNetworksMemory#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK21ANeuralNetworksMemory",
-   "name" : "const ANeuralNetworksMemory *",
-   "referenced_type" : "_ZTIK21ANeuralNetworksMemory#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK21ANeuralNetworksMemory#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK24ANeuralNetworksExecution",
    "name" : "const ANeuralNetworksExecution *",
    "referenced_type" : "_ZTIK24ANeuralNetworksExecution",
    "self_type" : "_ZTIPK24ANeuralNetworksExecution",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK24ANeuralNetworksExecution",
-   "name" : "const ANeuralNetworksExecution *",
-   "referenced_type" : "_ZTIK24ANeuralNetworksExecution#ODR:",
-   "self_type" : "_ZTIPK24ANeuralNetworksExecution#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK24ANeuralNetworksExecution",
-   "name" : "const ANeuralNetworksExecution *",
-   "referenced_type" : "_ZTIK24ANeuralNetworksExecution#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK24ANeuralNetworksExecution#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2613,46 +2505,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK25ANeuralNetworksMemoryDesc",
-   "name" : "const ANeuralNetworksMemoryDesc *",
-   "referenced_type" : "_ZTIK25ANeuralNetworksMemoryDesc#ODR:",
-   "self_type" : "_ZTIPK25ANeuralNetworksMemoryDesc#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK25ANeuralNetworksMemoryDesc",
-   "name" : "const ANeuralNetworksMemoryDesc *",
-   "referenced_type" : "_ZTIK25ANeuralNetworksMemoryDesc#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK25ANeuralNetworksMemoryDesc#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK26ANeuralNetworksCompilation",
    "name" : "const ANeuralNetworksCompilation *",
    "referenced_type" : "_ZTIK26ANeuralNetworksCompilation",
    "self_type" : "_ZTIPK26ANeuralNetworksCompilation",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK26ANeuralNetworksCompilation",
-   "name" : "const ANeuralNetworksCompilation *",
-   "referenced_type" : "_ZTIK26ANeuralNetworksCompilation#ODR:",
-   "self_type" : "_ZTIPK26ANeuralNetworksCompilation#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK26ANeuralNetworksCompilation",
-   "name" : "const ANeuralNetworksCompilation *",
-   "referenced_type" : "_ZTIK26ANeuralNetworksCompilation#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPK26ANeuralNetworksCompilation#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2685,64 +2541,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const *",
-   "referenced_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:",
-   "self_type" : "_ZTIPKPK20ANeuralNetworksEvent#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const *",
-   "referenced_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const *",
-   "referenced_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "self_type" : "_ZTIPKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKPK21ANeuralNetworksDevice",
    "name" : "const ANeuralNetworksDevice *const *",
    "referenced_type" : "_ZTIKPK21ANeuralNetworksDevice",
    "self_type" : "_ZTIPKPK21ANeuralNetworksDevice",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:",
-   "self_type" : "_ZTIPKPK21ANeuralNetworksDevice#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const *",
-   "referenced_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "self_type" : "_ZTIPKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2802,46 +2604,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksBurst",
-   "name" : "ANeuralNetworksBurst **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksBurst#ODR:",
-   "self_type" : "_ZTIPP20ANeuralNetworksBurst#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksBurst",
-   "name" : "ANeuralNetworksBurst **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksBurst#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP20ANeuralNetworksBurst#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP20ANeuralNetworksEvent",
    "name" : "ANeuralNetworksEvent **",
    "referenced_type" : "_ZTIP20ANeuralNetworksEvent",
    "self_type" : "_ZTIPP20ANeuralNetworksEvent",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksEvent",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksEvent#ODR:",
-   "self_type" : "_ZTIPP20ANeuralNetworksEvent#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksEvent",
-   "name" : "ANeuralNetworksEvent **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2856,46 +2622,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksModel",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksModel#ODR:",
-   "self_type" : "_ZTIPP20ANeuralNetworksModel#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP20ANeuralNetworksModel",
-   "name" : "ANeuralNetworksModel **",
-   "referenced_type" : "_ZTIP20ANeuralNetworksModel#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP20ANeuralNetworksModel#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP21ANeuralNetworksDevice",
    "name" : "ANeuralNetworksDevice **",
    "referenced_type" : "_ZTIP21ANeuralNetworksDevice",
    "self_type" : "_ZTIPP21ANeuralNetworksDevice",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP21ANeuralNetworksDevice",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "_ZTIP21ANeuralNetworksDevice#ODR:",
-   "self_type" : "_ZTIPP21ANeuralNetworksDevice#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP21ANeuralNetworksDevice",
-   "name" : "ANeuralNetworksDevice **",
-   "referenced_type" : "_ZTIP21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2910,46 +2640,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP21ANeuralNetworksMemory",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "_ZTIP21ANeuralNetworksMemory#ODR:",
-   "self_type" : "_ZTIPP21ANeuralNetworksMemory#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP21ANeuralNetworksMemory",
-   "name" : "ANeuralNetworksMemory **",
-   "referenced_type" : "_ZTIP21ANeuralNetworksMemory#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP21ANeuralNetworksMemory#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP24ANeuralNetworksExecution",
    "name" : "ANeuralNetworksExecution **",
    "referenced_type" : "_ZTIP24ANeuralNetworksExecution",
    "self_type" : "_ZTIPP24ANeuralNetworksExecution",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP24ANeuralNetworksExecution",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "_ZTIP24ANeuralNetworksExecution#ODR:",
-   "self_type" : "_ZTIPP24ANeuralNetworksExecution#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP24ANeuralNetworksExecution",
-   "name" : "ANeuralNetworksExecution **",
-   "referenced_type" : "_ZTIP24ANeuralNetworksExecution#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP24ANeuralNetworksExecution#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -2964,46 +2658,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP25ANeuralNetworksMemoryDesc",
-   "name" : "ANeuralNetworksMemoryDesc **",
-   "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc#ODR:",
-   "self_type" : "_ZTIPP25ANeuralNetworksMemoryDesc#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP25ANeuralNetworksMemoryDesc",
-   "name" : "ANeuralNetworksMemoryDesc **",
-   "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP25ANeuralNetworksMemoryDesc#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP26ANeuralNetworksCompilation",
    "name" : "ANeuralNetworksCompilation **",
    "referenced_type" : "_ZTIP26ANeuralNetworksCompilation",
    "self_type" : "_ZTIPP26ANeuralNetworksCompilation",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP26ANeuralNetworksCompilation",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "_ZTIP26ANeuralNetworksCompilation#ODR:",
-   "self_type" : "_ZTIPP26ANeuralNetworksCompilation#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP26ANeuralNetworksCompilation",
-   "name" : "ANeuralNetworksCompilation **",
-   "referenced_type" : "_ZTIP26ANeuralNetworksCompilation#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIPP26ANeuralNetworksCompilation#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },
@@ -3172,68 +2830,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKPK20ANeuralNetworksEvent",
    "name" : "const ANeuralNetworksEvent *const",
-   "referenced_type" : "_ZTIPK20ANeuralNetworksEvent#ODR:",
-   "self_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const",
-   "referenced_type" : "_ZTIPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "self_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const",
-   "referenced_type" : "_ZTIPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIKPK20ANeuralNetworksEvent#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK20ANeuralNetworksEvent",
-   "name" : "const ANeuralNetworksEvent *const",
    "referenced_type" : "_ZTIPK20ANeuralNetworksEvent",
    "self_type" : "_ZTIKPK20ANeuralNetworksEvent",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "_ZTIPK21ANeuralNetworksDevice#ODR:",
-   "self_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "_ZTIPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "self_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump#ODR:",
-   "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPK21ANeuralNetworksDevice",
-   "name" : "const ANeuralNetworksDevice *const",
-   "referenced_type" : "_ZTIPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
-   "self_type" : "_ZTIKPK21ANeuralNetworksDevice#ODR:out/soong/.intermediates/frameworks/ml/nn/runtime/libneuralnetworks/android_x86_64_shared/obj/frameworks/ml/nn/runtime/NeuralNetworks.sdump",
    "size" : 8,
    "source_file" : "/frameworks/ml/nn/runtime/include/NeuralNetworks.h"
   },

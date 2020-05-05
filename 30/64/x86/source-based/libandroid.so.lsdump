@@ -1900,6 +1900,27 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
+    }
+   ],
+   "linker_set_key" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "name" : "ANativeWindow_FrameRateCompatibility",
+   "referenced_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "self_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 5,
      "name" : "AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM"
     },
@@ -1954,27 +1975,6 @@
    "self_type" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
-    }
-   ],
-   "linker_set_key" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/android/native_window.h:237:1)",
-   "referenced_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "self_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
    "underlying_type" : "_ZTIj"
   }
  ],
@@ -2286,7 +2286,7 @@
      "referenced_type" : "_ZTIPK15AHardwareBuffer"
     }
    ],
-   "return_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_x86_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
+   "return_type" : "_ZTIPK13native_handle",
    "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
@@ -2752,51 +2752,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:",
-   "self_type" : "_ZTIPK13native_handle#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_x86_shared/obj/frameworks/base/native/android/native_window_jni.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_x86_shared/obj/frameworks/base/native/android/native_window_jni.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_x86_shared/obj/frameworks/base/native/android/surface_control.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/base/native/android/libandroid/android_x86_shared/obj/frameworks/base/native/android/surface_control.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_x86_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_x86_static/obj/frameworks/native/libs/nativewindow/AHardwareBuffer.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_x86_static/obj/frameworks/native/libs/nativewindow/ANativeWindow.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/native/libs/nativewindow/libnativewindow/android_x86_static/obj/frameworks/native/libs/nativewindow/ANativeWindow.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPK15AHardwareBuffer",
    "name" : "const AHardwareBuffer *",
    "referenced_type" : "_ZTIK15AHardwareBuffer",
@@ -2989,7 +2944,7 @@
    "name" : "const android::GraphicBuffer",
    "referenced_type" : "_ZTIN7android13GraphicBufferE",
    "self_type" : "_ZTIKN7android13GraphicBufferE",
-   "size" : 156,
+   "size" : 148,
    "source_file" : "/frameworks/native/libs/nativewindow/include-private/private/android/AHardwareBufferHelpers.h"
   },
   {

@@ -2597,6 +2597,27 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
+    }
+   ],
+   "linker_set_key" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "name" : "ANativeWindow_FrameRateCompatibility",
+   "referenced_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "self_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "ACAMERA_EDGE_MODE_OFF"
     },
     {
@@ -3124,27 +3145,6 @@
    "size" : 4,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraMetadataTags.h",
    "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
-    }
-   ],
-   "linker_set_key" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/android/native_window.h:237:1)",
-   "referenced_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "self_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
-   "underlying_type" : "_ZTIj"
   },
   {
    "alignment" : 4,
@@ -4891,7 +4891,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -4903,7 +4903,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
      "referenced_type" : "_ZTIP38ACameraCaptureSession_captureCallbacks"
@@ -4912,7 +4912,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIPP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIPP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -4927,7 +4927,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     }
    ],
    "return_type" : "_ZTIv",
@@ -4939,10 +4939,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
-     "referenced_type" : "_ZTIPP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIPP13ACameraDevice"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -4954,7 +4954,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
      "referenced_type" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks"
@@ -4963,7 +4963,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIPP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIPP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -4978,7 +4978,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
      "referenced_type" : "_ZTIP52ACameraCaptureSession_logicalCamera_captureCallbacks"
@@ -4987,7 +4987,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIPP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIPP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -5002,7 +5002,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
      "referenced_type" : "_ZTIP38ACameraCaptureSession_captureCallbacks"
@@ -5011,7 +5011,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIPP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIPP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -5026,7 +5026,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -5038,10 +5038,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACameraCaptureSession"
     },
     {
-     "referenced_type" : "_ZTIP21ACaptureSessionOutput#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump"
+     "referenced_type" : "_ZTIP21ACaptureSessionOutput"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -5053,7 +5053,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ACameraDevice"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -5104,7 +5104,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ACameraDevice"
     },
     {
      "referenced_type" : "_ZTIPK30ACaptureSessionOutputContainer"
@@ -5125,13 +5125,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ACameraDevice"
     },
     {
      "referenced_type" : "_ZTIPK30ACaptureSessionOutputContainer"
     },
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPK36ACameraCaptureSession_stateCallbacks"
@@ -5320,10 +5320,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump"
+     "referenced_type" : "_ZTIPK15ACameraMetadata"
     }
    ],
-   "return_type" : "_ZTIP15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump",
+   "return_type" : "_ZTIP15ACameraMetadata",
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
   {
@@ -5332,7 +5332,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump"
+     "referenced_type" : "_ZTIP15ACameraMetadata"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5350,7 +5350,7 @@
      "referenced_type" : "_ZTIP8_jobject"
     }
    ],
-   "return_type" : "_ZTIP15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump",
+   "return_type" : "_ZTIP15ACameraMetadata",
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
   },
   {
@@ -5359,7 +5359,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump"
+     "referenced_type" : "_ZTIPK15ACameraMetadata"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -5377,7 +5377,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump"
+     "referenced_type" : "_ZTIPK15ACameraMetadata"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5395,7 +5395,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump"
+     "referenced_type" : "_ZTIPK15ACameraMetadata"
     },
     {
      "referenced_type" : "_ZTIPm"
@@ -5413,7 +5413,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
      "referenced_type" : "_ZTIPP19ACameraOutputTarget"
@@ -5440,7 +5440,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPK19ACameraOutputTarget"
@@ -5455,10 +5455,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     }
    ],
-   "return_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
+   "return_type" : "_ZTIP15ACaptureRequest",
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
   {
@@ -5467,7 +5467,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     }
    ],
    "return_type" : "_ZTIv",
@@ -5479,7 +5479,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPi"
@@ -5497,7 +5497,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5515,7 +5515,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5536,7 +5536,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIPK15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPPv"
@@ -5551,7 +5551,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPK19ACameraOutputTarget"
@@ -5566,7 +5566,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5587,7 +5587,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5608,7 +5608,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5629,7 +5629,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5650,7 +5650,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5674,7 +5674,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5698,7 +5698,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5722,7 +5722,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5746,7 +5746,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5770,7 +5770,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5794,7 +5794,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5815,7 +5815,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -5836,7 +5836,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump"
+     "referenced_type" : "_ZTIP15ACaptureRequest"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -5905,7 +5905,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
      "referenced_type" : "_ZTIPP21ACaptureSessionOutput"
@@ -5932,7 +5932,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -5953,7 +5953,7 @@
      "referenced_type" : "_ZTIP21ACaptureSessionOutput"
     },
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -5965,7 +5965,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     },
     {
      "referenced_type" : "_ZTIPP21ACaptureSessionOutput"
@@ -5983,7 +5983,7 @@
      "referenced_type" : "_ZTIP21ACaptureSessionOutput"
     },
     {
-     "referenced_type" : "_ZTIP13ANativeWindow#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump"
+     "referenced_type" : "_ZTIP13ANativeWindow"
     }
    ],
    "return_type" : "_ZTI15camera_status_t",
@@ -6392,15 +6392,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13ACameraDevice",
-   "name" : "const ACameraDevice *",
-   "referenced_type" : "_ZTIK13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK13ACameraIdList",
    "name" : "const ACameraIdList *",
    "referenced_type" : "_ZTIK13ACameraIdList",
@@ -6428,127 +6419,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK13native_handle",
-   "name" : "const native_handle *",
-   "referenced_type" : "_ZTIK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "self_type" : "_ZTIPK13native_handle#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/libs/nativebase/include/nativebase/nativebase.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK15ACameraMetadata",
    "name" : "const ACameraMetadata *",
    "referenced_type" : "_ZTIK15ACameraMetadata",
    "self_type" : "_ZTIPK15ACameraMetadata",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraMetadata.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraMetadata.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACameraMetadata",
-   "name" : "const ACameraMetadata *",
-   "referenced_type" : "_ZTIK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "self_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
@@ -6563,82 +6437,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15ACaptureRequest",
-   "name" : "const ACaptureRequest *",
-   "referenced_type" : "_ZTIK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "self_type" : "_ZTIPK15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK19ACameraOutputTarget",
    "name" : "const ACameraOutputTarget *",
    "referenced_type" : "_ZTIK19ACameraOutputTarget",
    "self_type" : "_ZTIPK19ACameraOutputTarget",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK19ACameraOutputTarget",
-   "name" : "const ACameraOutputTarget *",
-   "referenced_type" : "_ZTIK19ACameraOutputTarget#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
-   "self_type" : "_ZTIPK19ACameraOutputTarget#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -6662,15 +6464,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK21ACaptureSessionOutput",
-   "name" : "const ACaptureSessionOutput *",
-   "referenced_type" : "_ZTIK21ACaptureSessionOutput#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK21ACaptureSessionOutput#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK24ACameraMetadata_rational",
    "name" : "const ACameraMetadata_rational *",
    "referenced_type" : "_ZTIK24ACameraMetadata_rational",
@@ -6684,15 +6477,6 @@
    "name" : "const ACaptureSessionOutputContainer *",
    "referenced_type" : "_ZTIK30ACaptureSessionOutputContainer",
    "self_type" : "_ZTIPK30ACaptureSessionOutputContainer",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK30ACaptureSessionOutputContainer",
-   "name" : "const ACaptureSessionOutputContainer *",
-   "referenced_type" : "_ZTIK30ACaptureSessionOutputContainer#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPK30ACaptureSessionOutputContainer#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
   },
@@ -6815,24 +6599,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP13ACameraDevice",
-   "name" : "ACameraDevice **",
-   "referenced_type" : "_ZTIP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP13ACameraDevice",
-   "name" : "ACameraDevice **",
-   "referenced_type" : "_ZTIP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPP13ACameraDevice#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP13ACameraIdList",
    "name" : "ACameraIdList **",
    "referenced_type" : "_ZTIP13ACameraIdList",
@@ -6851,27 +6617,9 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP15ACameraMetadata",
-   "name" : "ACameraMetadata **",
-   "referenced_type" : "_ZTIP15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPP15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraManager.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP15ACaptureRequest",
    "name" : "ACaptureRequest **",
-   "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP15ACaptureRequest",
-   "name" : "ACaptureRequest **",
-   "referenced_type" : "_ZTIP15ACaptureRequest#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
+   "referenced_type" : "_ZTIP15ACaptureRequest",
    "self_type" : "_ZTIPP15ACaptureRequest",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
@@ -6882,15 +6630,6 @@
    "name" : "ACameraOutputTarget **",
    "referenced_type" : "_ZTIP19ACameraOutputTarget",
    "self_type" : "_ZTIPP19ACameraOutputTarget",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPP19ACameraOutputTarget",
-   "name" : "ACameraOutputTarget **",
-   "referenced_type" : "_ZTIP19ACameraOutputTarget#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
-   "self_type" : "_ZTIPP19ACameraOutputTarget#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCaptureRequest.sdump",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCaptureRequest.h"
   },
@@ -6907,7 +6646,7 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPP21ACameraCaptureSession",
    "name" : "ACameraCaptureSession **",
-   "referenced_type" : "_ZTIP21ACameraCaptureSession#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
+   "referenced_type" : "_ZTIP21ACameraCaptureSession",
    "self_type" : "_ZTIPP21ACameraCaptureSession",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
@@ -6923,15 +6662,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP21ACaptureSessionOutput",
-   "name" : "ACaptureSessionOutput **",
-   "referenced_type" : "_ZTIP21ACaptureSessionOutput#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPP21ACaptureSessionOutput#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP30ACaptureSessionOutputContainer",
    "name" : "ACaptureSessionOutputContainer **",
    "referenced_type" : "_ZTIP30ACaptureSessionOutputContainer",
@@ -6941,73 +6671,10 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP30ACaptureSessionOutputContainer",
-   "name" : "ACaptureSessionOutputContainer **",
-   "referenced_type" : "_ZTIP30ACaptureSessionOutputContainer#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPP30ACaptureSessionOutputContainer#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraDevice.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPPK15ACameraMetadata",
    "name" : "const ACameraMetadata **",
    "referenced_type" : "_ZTIPK15ACameraMetadata",
    "self_type" : "_ZTIPPK15ACameraMetadata",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/NdkCameraManager.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraCaptureSession.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraDevice.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPPK15ACameraMetadata",
-   "name" : "const ACameraMetadata **",
-   "referenced_type" : "_ZTIPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
-   "self_type" : "_ZTIPPK15ACameraMetadata#ODR:out/soong/.intermediates/frameworks/av/camera/ndk/libcamera2ndk/android_arm64_armv8-a_shared_cfi/obj/frameworks/av/camera/ndk/impl/ACameraManager.sdump",
    "size" : 8,
    "source_file" : "/frameworks/av/camera/ndk/include/camera/NdkCameraCaptureSession.h"
   },
