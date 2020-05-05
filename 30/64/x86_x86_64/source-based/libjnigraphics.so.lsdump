@@ -8870,7 +8870,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP6AAsset#ODR:out/soong/.intermediates/frameworks/base/native/graphics/jni/libjnigraphics/android_x86_x86_64_shared/obj/frameworks/base/native/graphics/jni/imagedecoder.sdump"
+     "referenced_type" : "_ZTIP6AAsset"
     },
     {
      "referenced_type" : "_ZTIPP13AImageDecoder"
@@ -9513,15 +9513,6 @@
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 4,
-   "source_file" : "/external/libcxx/include/stdexcept"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/frameworks/base/native/graphics/jni/libjnigraphics/android_x86_x86_64_shared/obj/frameworks/base/native/graphics/jni/imagedecoder.sdump",
-   "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE#ODR:out/soong/.intermediates/frameworks/base/native/graphics/jni/libjnigraphics/android_x86_x86_64_shared/obj/frameworks/base/native/graphics/jni/imagedecoder.sdump",
    "size" : 4,
    "source_file" : "/external/libcxx/include/stdexcept"
   },
@@ -10522,7 +10513,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIRP6AAsset",
    "name" : "AAsset *&",
-   "referenced_type" : "_ZTIP6AAsset#ODR:out/soong/.intermediates/frameworks/base/native/graphics/jni/libjnigraphics/android_x86_x86_64_shared/obj/frameworks/base/native/graphics/jni/imagedecoder.sdump",
+   "referenced_type" : "_ZTIP6AAsset",
    "self_type" : "_ZTIRP6AAsset",
    "size" : 4,
    "source_file" : "/external/libcxx/include/type_traits"
@@ -19059,11 +19050,6 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "msg",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -25578,7 +25564,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:81:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",

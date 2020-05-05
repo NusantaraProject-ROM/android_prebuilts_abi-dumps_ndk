@@ -332,7 +332,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA5_d",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
   },
   {
    "alignment" : 4,
@@ -377,7 +377,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA6_d",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
   },
   {
    "alignment" : 4,
@@ -4740,7 +4740,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIPf",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "/external/arm-optimized-routines/math/sincosf.c"
   },
   {
    "alignment" : 8,
@@ -4749,7 +4749,7 @@
    "referenced_type" : "_ZTIg",
    "self_type" : "_ZTIPg",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
+   "source_file" : "/bionic/libc/include/math.h"
   },
   {
    "alignment" : 8,
@@ -4889,7 +4889,7 @@
    "referenced_type" : "_ZTIA2_d",
    "self_type" : "_ZTIA2_Kd",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_remquo.c"
   },
   {
    "alignment" : 4,
@@ -4899,7 +4899,7 @@
    "referenced_type" : "_ZTIA2_f",
    "self_type" : "_ZTIA2_Kf",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_rintl.c"
   },
   {
    "alignment" : 16,
@@ -4909,7 +4909,7 @@
    "referenced_type" : "_ZTIA2_g",
    "self_type" : "_ZTIA2_Kg",
    "size" : 32,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodl.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_remquol.c"
   },
   {
    "alignment" : 4,
@@ -4949,7 +4949,7 @@
    "referenced_type" : "_ZTIA5_d",
    "self_type" : "_ZTIA5_Kd",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
   },
   {
    "alignment" : 4,
@@ -4989,7 +4989,7 @@
    "referenced_type" : "_ZTIA6_d",
    "self_type" : "_ZTIA6_Kd",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j1.c"
   },
   {
    "alignment" : 4,
@@ -5135,7 +5135,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_exp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_clog.c"
   },
   {
    "alignment" : 4,
@@ -5145,7 +5145,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrigf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_clogf.c"
   },
   {
    "alignment" : 16,
@@ -5155,7 +5155,7 @@
    "referenced_type" : "_ZTIg",
    "self_type" : "_ZTIKg",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_lround.c"
   },
   {
    "alignment" : 4,
@@ -5165,7 +5165,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_cexp.c"
   },
   {
    "alignment" : 8,
@@ -5176,7 +5176,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIVKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_tanhl.c"
   },
   {
    "alignment" : 4,
@@ -5187,7 +5187,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 16,
@@ -5208,7 +5208,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_log1pf.c"
   },
   {
    "alignment" : 16,
@@ -5218,7 +5218,7 @@
    "referenced_type" : "_ZTIg",
    "self_type" : "_ZTIVg",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_atan2l.c"
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/ld128/s_exp2l.c"
   }
  ],
  "record_types" :
@@ -5743,27 +5743,6 @@
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "hi",
-     "referenced_type" : "_ZTId"
-    },
-    {
-     "field_name" : "lo",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTId"
-    }
-   ],
-   "linker_set_key" : "_ZTI2dd",
-   "name" : "dd",
-   "referenced_type" : "_ZTI2dd",
-   "self_type" : "_ZTI2dd",
-   "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
-  },
-  {
    "alignment" : 16,
    "fields" :
    [
@@ -5779,10 +5758,31 @@
    ],
    "linker_set_key" : "_ZTI2dd",
    "name" : "dd",
-   "referenced_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.sdump",
-   "self_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.sdump",
+   "referenced_type" : "_ZTI2dd",
+   "self_type" : "_ZTI2dd",
    "size" : 32,
    "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fmal.c"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "hi",
+     "referenced_type" : "_ZTId"
+    },
+    {
+     "field_name" : "lo",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTId"
+    }
+   ],
+   "linker_set_key" : "_ZTI2dd",
+   "name" : "dd",
+   "referenced_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.sdump",
+   "self_type" : "_ZTI2dd#ODR:out/soong/.intermediates/bionic/libm/libm/android_x86_64_static/obj/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.sdump",
+   "size" : 16,
+   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
   },
   {
    "alignment" : 16,
@@ -6368,7 +6368,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN20ieee_quad_shape_typeUt_E",
-   "name" : "ieee_quad_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:78:3)",
+   "name" : "ieee_quad_shape_type::(anonymous struct at bionic/libm/upstream-freebsd/lib/msun/src/math_private.h:78:3)",
    "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "self_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "size" : 16,
@@ -6390,7 +6390,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN22ieee_double_shape_typeUt_E",
-   "name" : "ieee_double_shape_type::(anonymous struct at /bionic/libm/upstream-freebsd/lib/msun/bsdsrc/../src/math_private.h:115:3)",
+   "name" : "ieee_double_shape_type::(anonymous struct at bionic/libm/upstream-freebsd/lib/msun/src/math_private.h:115:3)",
    "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "self_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "size" : 8,

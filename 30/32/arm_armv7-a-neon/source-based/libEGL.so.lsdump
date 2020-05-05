@@ -2021,15 +2021,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "_ZTIK15AHardwareBuffer#ODR:",
-   "self_type" : "_ZTIPK15AHardwareBuffer#ODR:",
-   "size" : 4,
-   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",

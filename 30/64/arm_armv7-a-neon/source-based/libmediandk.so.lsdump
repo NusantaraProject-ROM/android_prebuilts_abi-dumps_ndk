@@ -347,8 +347,17 @@
    "name" : "android::Surface::BufferSlot [64]",
    "referenced_type" : "_ZTIN7android7Surface10BufferSlotE",
    "self_type" : "_ZTIA64_N7android7Surface10BufferSlotE",
-   "size" : 1536,
+   "size" : 5632,
    "source_file" : "/frameworks/native/libs/gui/include/gui/Surface.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA64_c",
+   "name" : "char [64]",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIA64_c",
+   "size" : 64,
+   "source_file" : "/frameworks/native/libs/ui/include/ui/FatVector.h"
   },
   {
    "alignment" : 1,
@@ -7028,6 +7037,27 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
+    }
+   ],
+   "linker_set_key" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "name" : "ANativeWindow_FrameRateCompatibility",
+   "referenced_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "self_type" : "_ZTI36ANativeWindow_FrameRateCompatibility",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 2,
      "name" : "AMEDIACODEC_BUFFER_FLAG_CODEC_CONFIG"
     },
@@ -7124,27 +7154,6 @@
    "self_type" : "_ZTI43$CAMERA_FRAME_CALLBACK_FLAG_BARCODE_SCANNER",
    "size" : 4,
    "source_file" : "/system/core/libsystem/include/system/camera.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_FIXED_SOURCE"
-    }
-   ],
-   "linker_set_key" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/android/native_window.h:237:1)",
-   "referenced_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "self_type" : "_ZTI47$ANATIVEWINDOW_FRAME_RATE_COMPATIBILITY_DEFAULT",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/nativewindow/include/android/native_window.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -7754,7 +7763,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
-   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:60:5)",
+   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:56:5)",
    "referenced_type" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
    "self_type" : "_ZTIN7android13GraphicBuffer13$USAGE_CURSORE",
    "size" : 4,
@@ -7809,7 +7818,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android13GraphicBuffer8$ownDataE",
-   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:236:5)",
+   "name" : "android::GraphicBuffer::(anonymous enum at frameworks/native/libs/ui/include/ui/GraphicBuffer.h:221:5)",
    "referenced_type" : "_ZTIN7android13GraphicBuffer8$ownDataE",
    "self_type" : "_ZTIN7android13GraphicBuffer8$ownDataE",
    "size" : 4,
@@ -19015,7 +19024,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIPP6AImage"
@@ -19030,7 +19039,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIPP6AImage"
@@ -19048,7 +19057,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIPP6AImage"
@@ -19063,7 +19072,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIPP6AImage"
@@ -19081,7 +19090,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     }
    ],
    "return_type" : "_ZTIv",
@@ -19153,7 +19162,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIPP13ANativeWindow"
@@ -19219,7 +19228,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIP34AImageReader_BufferRemovedListener"
@@ -19234,7 +19243,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP12AImageReader"
     },
     {
      "referenced_type" : "_ZTIP26AImageReader_ImageListener"
@@ -20050,7 +20059,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaCrypto#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump"
+     "referenced_type" : "_ZTIP12AMediaCrypto"
     }
    ],
    "return_type" : "_ZTIv",
@@ -20083,7 +20092,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIP12AMediaCrypto#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
+   "return_type" : "_ZTIP12AMediaCrypto",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
   },
   {
@@ -20776,7 +20785,7 @@
      "referenced_type" : "_ZTIP15AMediaExtractor"
     }
    ],
-   "return_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
+   "return_type" : "_ZTIP12AMediaFormat",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -20800,7 +20809,7 @@
      "referenced_type" : "_ZTIP15AMediaExtractor"
     }
    ],
-   "return_type" : "_ZTIP21AMediaCodecCryptoInfo#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
+   "return_type" : "_ZTIP21AMediaCodecCryptoInfo",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -20824,7 +20833,7 @@
      "referenced_type" : "_ZTIP15AMediaExtractor"
     },
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     }
    ],
    "return_type" : "_ZTI14media_status_t",
@@ -20890,7 +20899,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
+   "return_type" : "_ZTIP12AMediaFormat",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
   },
   {
@@ -20974,7 +20983,7 @@
      "referenced_type" : "_ZTIP15AMediaExtractor"
     },
     {
-     "referenced_type" : "_ZTIP16AMediaDataSource#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump"
+     "referenced_type" : "_ZTIP16AMediaDataSource"
     }
    ],
    "return_type" : "_ZTI14media_status_t",
@@ -21022,7 +21031,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     }
    ],
    "return_type" : "_ZTIv",
@@ -21034,10 +21043,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     }
    ],
    "return_type" : "_ZTI14media_status_t",
@@ -21049,7 +21058,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     }
    ],
    "return_type" : "_ZTI14media_status_t",
@@ -21061,7 +21070,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21082,7 +21091,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21100,7 +21109,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21118,7 +21127,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21136,7 +21145,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21154,7 +21163,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21181,7 +21190,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21199,7 +21208,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21214,7 +21223,7 @@
   {
    "function_name" : "AMediaFormat_new",
    "linker_set_key" : "AMediaFormat_new",
-   "return_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump",
+   "return_type" : "_ZTIP12AMediaFormat",
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
@@ -21223,7 +21232,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21244,7 +21253,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21262,7 +21271,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21280,7 +21289,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21298,7 +21307,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21316,7 +21325,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21343,7 +21352,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21361,7 +21370,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     },
     {
      "referenced_type" : "_ZTIPKc"
@@ -21379,7 +21388,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump"
+     "referenced_type" : "_ZTIP12AMediaFormat"
     }
    ],
    "return_type" : "_ZTIPKc",
@@ -21394,7 +21403,7 @@
      "referenced_type" : "_ZTIP11AMediaMuxer"
     },
     {
-     "referenced_type" : "_ZTIPK12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump"
+     "referenced_type" : "_ZTIPK12AMediaFormat"
     }
    ],
    "return_type" : "_ZTIi",
@@ -22386,96 +22395,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkJavaVMHelper.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkJavaVMHelper.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDataSource.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDataSource.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK8timespec",
-   "name" : "const timespec &",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "self_type" : "_ZTIRK8timespec#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN3ndk10SpAIBinderE",
    "name" : "const ndk::SpAIBinder &",
    "referenced_type" : "_ZTIKN3ndk10SpAIBinderE",
@@ -22516,42 +22435,6 @@
    "name" : "const android::GrallocMapper &",
    "referenced_type" : "_ZTIKN7android13GrallocMapperE",
    "self_type" : "_ZTIRKN7android13GrallocMapperE",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android13GrallocMapperE",
-   "name" : "const android::GrallocMapper &",
-   "referenced_type" : "_ZTIKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIRKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android13GrallocMapperE",
-   "name" : "const android::GrallocMapper &",
-   "referenced_type" : "_ZTIKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIRKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android13GrallocMapperE",
-   "name" : "const android::GrallocMapper &",
-   "referenced_type" : "_ZTIKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIRKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android13GrallocMapperE",
-   "name" : "const android::GrallocMapper &",
-   "referenced_type" : "_ZTIKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIRKN7android13GrallocMapperE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferMapper.h"
   },
@@ -22886,7 +22769,7 @@
    "referenced_type" : "_ZTIKN7android4RectE",
    "self_type" : "_ZTIRKN7android4RectE",
    "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
+   "source_file" : "/frameworks/native/libs/ui/include/ui/Rect.h"
   },
   {
    "alignment" : 4,
@@ -23103,41 +22986,6 @@
    "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
   },
   {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE",
-   "name" : "const iter<is_const> &",
-   "referenced_type" : "_ZTIKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIRKN7android8hardware8hidl_vec4iterIXTL0__EEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android8hardware8hidl_vecINS0_10hidl_arrayIiLj4EJEEEEE",
    "name" : "const android::hardware::hidl_vec<android::hardware::hidl_array<int, 4> > &",
@@ -23220,64 +23068,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
-   "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
-   "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
-   "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
-   "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
-   "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE",
    "name" : "const std::vector<unsigned char, std::allocator<unsigned char> > &",
    "referenced_type" : "_ZTIKNSt3__16vectorIhNS_9allocatorIhEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE",
-   "size" : 4,
-   "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE",
-   "name" : "const std::vector<unsigned char, std::allocator<unsigned char> > &",
-   "referenced_type" : "_ZTIKNSt3__16vectorIhNS_9allocatorIhEEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
    "size" : 4,
    "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
   },
@@ -23469,6 +23263,15 @@
    "self_type" : "_ZTIRN7android16key_value_pair_tIjjEE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "name" : "android::InlineStdAllocator<Rect, 4>::Allocation &",
+   "referenced_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "self_type" : "_ZTIRN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/ui/include/ui/FatVector.h"
   },
   {
    "alignment" : 4,
@@ -23915,7 +23718,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIRP6AImage",
    "name" : "AImage *&",
-   "referenced_type" : "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
+   "referenced_type" : "_ZTIP6AImage",
    "self_type" : "_ZTIRP6AImage",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
@@ -27282,24 +27085,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK12AMediaFormat",
-   "name" : "const AMediaFormat *",
-   "referenced_type" : "_ZTIK12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIPK12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK12AMediaFormat",
-   "name" : "const AMediaFormat *",
-   "referenced_type" : "_ZTIK12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "self_type" : "_ZTIPK12AMediaFormat#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPK13ANativeWindow",
    "name" : "const ANativeWindow *",
    "referenced_type" : "_ZTIK13ANativeWindow",
@@ -27520,42 +27305,6 @@
    "name" : "const AParcel *",
    "referenced_type" : "_ZTIK7AParcel",
    "self_type" : "_ZTIPK7AParcel",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_interface_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7AParcel",
-   "name" : "const AParcel *",
-   "referenced_type" : "_ZTIK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_interface_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7AParcel",
-   "name" : "const AParcel *",
-   "referenced_type" : "_ZTIK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_interface_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7AParcel",
-   "name" : "const AParcel *",
-   "referenced_type" : "_ZTIK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_interface_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7AParcel",
-   "name" : "const AParcel *",
-   "referenced_type" : "_ZTIK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIPK7AParcel#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_interface_utils.h"
   },
@@ -28394,7 +28143,7 @@
    "referenced_type" : "_ZTIKN7android4RectE",
    "self_type" : "_ZTIPKN7android4RectE",
    "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
+   "source_file" : "/frameworks/native/libs/ui/include/ui/Rect.h"
   },
   {
    "alignment" : 4,
@@ -28497,15 +28246,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android6VectorINS_4RectEEE",
-   "name" : "const android::Vector<android::Rect> *",
-   "referenced_type" : "_ZTIKN7android6VectorINS_4RectEEE",
-   "self_type" : "_ZTIPKN7android6VectorINS_4RectEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android6VectorIhEE",
    "name" : "const android::Vector<unsigned char> *",
    "referenced_type" : "_ZTIKN7android6VectorIhEE",
@@ -28537,24 +28277,6 @@
    "name" : "const android::AHandler *",
    "referenced_type" : "_ZTIKN7android8AHandlerE",
    "self_type" : "_ZTIPKN7android8AHandlerE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android8AHandlerE",
-   "name" : "const android::AHandler *",
-   "referenced_type" : "_ZTIKN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIPKN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android8AHandlerE",
-   "name" : "const android::AHandler *",
-   "referenced_type" : "_ZTIKN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIPKN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -31199,7 +30921,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP12AImageReader",
    "name" : "AImageReader **",
-   "referenced_type" : "_ZTIP12AImageReader#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
+   "referenced_type" : "_ZTIP12AImageReader",
    "self_type" : "_ZTIPP12AImageReader",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
@@ -31253,7 +30975,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPP6AImage",
    "name" : "AImage **",
-   "referenced_type" : "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
+   "referenced_type" : "_ZTIP6AImage",
    "self_type" : "_ZTIPP6AImage",
    "size" : 4,
    "source_file" : "/frameworks/av/media/ndk/include/media/NdkImageReader.h"
@@ -31282,42 +31004,6 @@
    "name" : "AIBinder **",
    "referenced_type" : "_ZTIP8AIBinder",
    "self_type" : "_ZTIPP8AIBinder",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPP8AIBinder",
-   "name" : "AIBinder **",
-   "referenced_type" : "_ZTIP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIPP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPP8AIBinder",
-   "name" : "AIBinder **",
-   "referenced_type" : "_ZTIP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIPP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPP8AIBinder",
-   "name" : "AIBinder **",
-   "referenced_type" : "_ZTIP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIPP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPP8AIBinder",
-   "name" : "AIBinder **",
-   "referenced_type" : "_ZTIP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIPP8AIBinder#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
   },
@@ -32112,7 +31798,7 @@
    "name" : "const android::BufferItem",
    "referenced_type" : "_ZTIN7android10BufferItemE",
    "self_type" : "_ZTIKN7android10BufferItemE",
-   "size" : 168,
+   "size" : 232,
    "source_file" : "/frameworks/native/libs/gui/include/gui/BufferItem.h"
   },
   {
@@ -32280,7 +31966,7 @@
    "name" : "const android::GraphicBuffer",
    "referenced_type" : "_ZTIN7android13GraphicBufferE",
    "self_type" : "_ZTIKN7android13GraphicBufferE",
-   "size" : 160,
+   "size" : 152,
    "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBuffer.h"
   },
   {
@@ -32370,7 +32056,7 @@
    "name" : "const android::IGraphicBufferProducer::QueueBufferInput",
    "referenced_type" : "_ZTIN7android22IGraphicBufferProducer16QueueBufferInputE",
    "self_type" : "_ZTIKN7android22IGraphicBufferProducer16QueueBufferInputE",
-   "size" : 136,
+   "size" : 200,
    "source_file" : "/frameworks/native/libs/gui/include/gui/IGraphicBufferProducer.h"
   },
   {
@@ -33021,7 +32707,7 @@
    "referenced_type" : "_ZTIN7android4RectE",
    "self_type" : "_ZTIKN7android4RectE",
    "size" : 16,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
+   "source_file" : "/frameworks/native/libs/ui/include/ui/Rect.h"
   },
   {
    "alignment" : 4,
@@ -33130,7 +32816,7 @@
    "name" : "const android::Region",
    "referenced_type" : "_ZTIN7android6RegionE",
    "self_type" : "_ZTIKN7android6RegionE",
-   "size" : 20,
+   "size" : 84,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -33150,16 +32836,6 @@
    "name" : "const android::Vector<android::sp<android::MediaCodecBuffer> >",
    "referenced_type" : "_ZTIN7android6VectorINS_2spINS_16MediaCodecBufferEEEEE",
    "self_type" : "_ZTIKN7android6VectorINS_2spINS_16MediaCodecBufferEEEEE",
-   "size" : 20,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android6VectorINS_4RectEEE",
-   "name" : "const android::Vector<android::Rect>",
-   "referenced_type" : "_ZTIN7android6VectorINS_4RectEEE",
-   "self_type" : "_ZTIKN7android6VectorINS_4RectEEE",
    "size" : 20,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -34136,50 +33812,10 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKP6AImage",
    "name" : "AImage *const",
-   "referenced_type" : "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
+   "referenced_type" : "_ZTIP6AImage",
    "self_type" : "_ZTIKP6AImage",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKP7AStatus",
-   "name" : "AStatus *const",
-   "referenced_type" : "_ZTIP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIKP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKP7AStatus",
-   "name" : "AStatus *const",
-   "referenced_type" : "_ZTIP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIKP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKP7AStatus",
-   "name" : "AStatus *const",
-   "referenced_type" : "_ZTIP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIKP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKP7AStatus",
-   "name" : "AStatus *const",
-   "referenced_type" : "_ZTIP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIKP7AStatus#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "size" : 4,
-   "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_auto_utils.h"
   },
   {
    "alignment" : 4,
@@ -34240,96 +33876,6 @@
    "self_type" : "_ZTIKPN7android7IBinderE",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImage.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCodec.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaCrypto.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDataSource.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDataSource.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaDrm.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaExtractor.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaFormat.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
-   "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "self_type" : "_ZTIKPN7android7RefBase12weakref_implE#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkMediaMuxer.sdump",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
   {
    "alignment" : 4,
@@ -35076,11 +34622,6 @@
      "field_name" : "uid",
      "field_offset" : 192,
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "msg",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA0_c"
     }
    ],
    "linker_set_key" : "_ZTI12logger_entry",
@@ -39769,38 +39310,6 @@
    "fields" :
    [
     {
-     "field_name" : "left",
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "top",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "right",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "bottom",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "linker_set_key" : "_ZTIN4aidl7android8hardware8graphics6common4RectE",
-   "name" : "aidl::android::hardware::graphics::common::Rect",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN4aidl7android8hardware8graphics6common4RectE",
-   "self_type" : "_ZTIN4aidl7android8hardware8graphics6common4RectE",
-   "size" : 16,
-   "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/Rect.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
      "field_name" : "x",
      "referenced_type" : "_ZTIf"
     },
@@ -39973,22 +39482,22 @@
     },
     {
      "field_name" : "mAutoRefresh",
-     "field_offset" : 1248,
+     "field_offset" : 1760,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "mQueuedBuffer",
-     "field_offset" : 1256,
+     "field_offset" : 1768,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "mIsStale",
-     "field_offset" : 1264,
+     "field_offset" : 1776,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "mApi",
-     "field_offset" : 1280,
+     "field_offset" : 1792,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -39997,7 +39506,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android10BufferItemE",
    "self_type" : "_ZTIN7android10BufferItemE",
-   "size" : 168,
+   "size" : 232,
    "source_file" : "/frameworks/native/libs/gui/include/gui/BufferItem.h"
   },
   {
@@ -45284,27 +44793,15 @@
     },
     {
      "access" : "private",
-     "field_name" : "mBufferId",
-     "field_offset" : 1088,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "access" : "private",
      "field_name" : "mGenerationNumber",
-     "field_offset" : 1120,
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
      "field_name" : "mDeathCallbacks",
-     "field_offset" : 1152,
+     "field_offset" : 1120,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEEE"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mBufferHubBuffer",
-     "field_offset" : 1248,
-     "referenced_type" : "_ZTINSt3__110unique_ptrIN7android15BufferHubBufferENS_14default_deleteIS2_EEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android13GraphicBufferE",
@@ -45312,7 +44809,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android13GraphicBufferE",
    "self_type" : "_ZTIN7android13GraphicBufferE",
-   "size" : 160,
+   "size" : 152,
    "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBuffer.h",
    "vtable_components" :
    [
@@ -48149,6 +47646,45 @@
    ]
   },
   {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "array",
+     "referenced_type" : "_ZTIA64_c"
+    },
+    {
+     "field_name" : "inUse",
+     "field_offset" : 512,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "name" : "android::InlineStdAllocator<Rect, 4>::Allocation",
+   "referenced_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "self_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE",
+   "size" : 65,
+   "source_file" : "/frameworks/native/libs/ui/include/ui/FatVector.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "mAllocation",
+     "referenced_type" : "_ZTIRN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EEE",
+   "name" : "android::InlineStdAllocator<android::Rect, 4>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EEE",
+   "self_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EEE",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/ui/include/ui/FatVector.h",
+   "template_args" : [ "_ZTIN7android4RectE" ]
+  },
+  {
    "alignment" : 4,
    "base_specifiers" :
    [
@@ -49948,12 +49484,12 @@
     },
     {
      "field_name" : "getFrameTimestamps",
-     "field_offset" : 544,
+     "field_offset" : 1056,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "hdrMetadata",
-     "field_offset" : 576,
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIN7android11HdrMetadataE"
     }
    ],
@@ -49961,7 +49497,7 @@
    "name" : "android::IGraphicBufferProducer::QueueBufferInput",
    "referenced_type" : "_ZTIN7android22IGraphicBufferProducer16QueueBufferInputE",
    "self_type" : "_ZTIN7android22IGraphicBufferProducer16QueueBufferInputE",
-   "size" : 136,
+   "size" : 200,
    "source_file" : "/frameworks/native/libs/gui/include/gui/IGraphicBufferProducer.h"
   },
   {
@@ -52977,10 +52513,7 @@
    "self_type" : "_ZTIN7android4ListIP6AImageE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h",
-   "template_args" :
-   [
-    "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
-   ]
+   "template_args" : [ "_ZTIP6AImage" ]
   },
   {
    "alignment" : 1,
@@ -52990,10 +52523,7 @@
    "self_type" : "_ZTIN7android4ListIP6AImageE18NON_CONST_ITERATORIS2_EE",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/List.h",
-   "template_args" :
-   [
-    "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
-   ]
+   "template_args" : [ "_ZTIP6AImage" ]
   },
   {
    "access" : "protected",
@@ -53003,7 +52533,7 @@
     {
      "access" : "private",
      "field_name" : "mVal",
-     "referenced_type" : "_ZTIP6AImage#ODR:out/soong/.intermediates/frameworks/av/media/ndk/libmediandk/android_arm_armv7-a-neon_shared/obj/frameworks/av/media/ndk/NdkImageReader.sdump"
+     "referenced_type" : "_ZTIP6AImage"
     },
     {
      "access" : "private",
@@ -53961,7 +53491,7 @@
     {
      "access" : "private",
      "field_name" : "mStorage",
-     "referenced_type" : "_ZTIN7android6VectorINS_4RectEEE"
+     "referenced_type" : "_ZTIN7android9FatVectorINS_4RectELj4EEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android6RegionE",
@@ -53969,7 +53499,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android6RegionE",
    "self_type" : "_ZTIN7android6RegionE",
-   "size" : 20,
+   "size" : 84,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -54446,60 +53976,6 @@
     },
     {
      "mangled_component_name" : "_ZNK7android6VectorINS_2spINS_16MediaCodecBufferEEEE16do_move_backwardEPvPKvj"
-    }
-   ]
-  },
-  {
-   "alignment" : 4,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "_ZTIN7android10VectorImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android6VectorINS_4RectEEE",
-   "name" : "android::Vector<android::Rect>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android6VectorINS_4RectEEE",
-   "self_type" : "_ZTIN7android6VectorINS_4RectEEE",
-   "size" : 20,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h",
-   "template_args" : [ "_ZTIN7android4RectE" ],
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android6VectorINS_4RectEEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_4RectEED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_4RectEED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE12do_constructEPvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE10do_destroyEPvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE7do_copyEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE8do_splatEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE15do_move_forwardEPvPKvj"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_4RectEE16do_move_backwardEPvPKvj"
     }
    ]
   },
@@ -55310,7 +54786,7 @@
    "name" : "android::Surface::BufferSlot",
    "referenced_type" : "_ZTIN7android7Surface10BufferSlotE",
    "self_type" : "_ZTIN7android7Surface10BufferSlotE",
-   "size" : 24,
+   "size" : 88,
    "source_file" : "/frameworks/native/libs/gui/include/gui/Surface.h"
   },
   {
@@ -55548,325 +55024,325 @@
     {
      "access" : "protected",
      "field_name" : "mReqWidth",
-     "field_offset" : 13248,
+     "field_offset" : 46016,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mReqHeight",
-     "field_offset" : 13280,
+     "field_offset" : 46048,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mReqFormat",
-     "field_offset" : 13312,
+     "field_offset" : 46080,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mReqUsage",
-     "field_offset" : 13376,
+     "field_offset" : 46144,
      "referenced_type" : "_ZTIy"
     },
     {
      "access" : "protected",
      "field_name" : "mTimestamp",
-     "field_offset" : 13440,
+     "field_offset" : 46208,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "protected",
      "field_name" : "mDataSpace",
-     "field_offset" : 13504,
+     "field_offset" : 46272,
      "referenced_type" : "_ZTIN7android8hardware8graphics6common4V1_29DataspaceE"
     },
     {
      "access" : "protected",
      "field_name" : "mHdrMetadata",
-     "field_offset" : 13536,
+     "field_offset" : 46304,
      "referenced_type" : "_ZTIN7android11HdrMetadataE"
     },
     {
      "access" : "protected",
      "field_name" : "mCrop",
-     "field_offset" : 14048,
+     "field_offset" : 46816,
      "referenced_type" : "_ZTIN7android4RectE"
     },
     {
      "access" : "protected",
      "field_name" : "mScalingMode",
-     "field_offset" : 14176,
+     "field_offset" : 46944,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mTransform",
-     "field_offset" : 14208,
+     "field_offset" : 46976,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mStickyTransform",
-     "field_offset" : 14240,
+     "field_offset" : 47008,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mDefaultWidth",
-     "field_offset" : 14272,
+     "field_offset" : 47040,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mDefaultHeight",
-     "field_offset" : 14304,
+     "field_offset" : 47072,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mUserWidth",
-     "field_offset" : 14336,
+     "field_offset" : 47104,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mUserHeight",
-     "field_offset" : 14368,
+     "field_offset" : 47136,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mTransformHint",
-     "field_offset" : 14400,
+     "field_offset" : 47168,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mProducerControlledByApp",
-     "field_offset" : 14432,
+     "field_offset" : 47200,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mSwapIntervalZero",
-     "field_offset" : 14440,
+     "field_offset" : 47208,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mConsumerRunningBehind",
-     "field_offset" : 14448,
+     "field_offset" : 47216,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mMutex",
-     "field_offset" : 14464,
+     "field_offset" : 47232,
      "referenced_type" : "_ZTIN7android5MutexE"
     },
     {
      "access" : "protected",
      "field_name" : "mInterceptorMutex",
-     "field_offset" : 14496,
+     "field_offset" : 47264,
      "referenced_type" : "_ZTINSt3__112shared_mutexE"
     },
     {
      "access" : "protected",
      "field_name" : "mCancelInterceptor",
-     "field_offset" : 14624,
+     "field_offset" : 47392,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
     },
     {
      "access" : "protected",
      "field_name" : "mCancelInterceptorData",
-     "field_offset" : 14656,
+     "field_offset" : 47424,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mDequeueInterceptor",
-     "field_offset" : 14688,
+     "field_offset" : 47456,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_PP19ANativeWindowBufferPiEPvS3_S4_E"
     },
     {
      "access" : "protected",
      "field_name" : "mDequeueInterceptorData",
-     "field_offset" : 14720,
+     "field_offset" : 47488,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mPerformInterceptor",
-     "field_offset" : 14752,
+     "field_offset" : 47520,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_iSt9__va_listEPviS1_E"
     },
     {
      "access" : "protected",
      "field_name" : "mPerformInterceptorData",
-     "field_offset" : 14784,
+     "field_offset" : 47552,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueInterceptor",
-     "field_offset" : 14816,
+     "field_offset" : 47584,
      "referenced_type" : "_ZTIPFiP13ANativeWindowPFiS0_P19ANativeWindowBufferiEPvS2_iE"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueInterceptorData",
-     "field_offset" : 14848,
+     "field_offset" : 47616,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "protected",
      "field_name" : "mLockedBuffer",
-     "field_offset" : 14880,
+     "field_offset" : 47648,
      "referenced_type" : "_ZTIN7android2spINS_13GraphicBufferEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mPostedBuffer",
-     "field_offset" : 14912,
+     "field_offset" : 47680,
      "referenced_type" : "_ZTIN7android2spINS_13GraphicBufferEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mConnectedToCpu",
-     "field_offset" : 14944,
+     "field_offset" : 47712,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mDirtyRegion",
-     "field_offset" : 14976,
+     "field_offset" : 47744,
      "referenced_type" : "_ZTIN7android6RegionE"
     },
     {
      "access" : "protected",
      "field_name" : "mBufferAge",
-     "field_offset" : 15168,
+     "field_offset" : 48448,
      "referenced_type" : "_ZTIy"
     },
     {
      "access" : "protected",
      "field_name" : "mGenerationNumber",
-     "field_offset" : 15232,
+     "field_offset" : 48512,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferMode",
-     "field_offset" : 15264,
+     "field_offset" : 48544,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mAutoRefresh",
-     "field_offset" : 15272,
+     "field_offset" : 48552,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mAutoPrerotation",
-     "field_offset" : 15280,
+     "field_offset" : 48560,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferSlot",
-     "field_offset" : 15296,
+     "field_offset" : 48576,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mSharedBufferHasBeenQueued",
-     "field_offset" : 15328,
+     "field_offset" : 48608,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mLastDequeueDuration",
-     "field_offset" : 15360,
+     "field_offset" : 48640,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "protected",
      "field_name" : "mLastQueueDuration",
-     "field_offset" : 15424,
+     "field_offset" : 48704,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "protected",
      "field_name" : "mLastDequeueStartTime",
-     "field_offset" : 15488,
+     "field_offset" : 48768,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "protected",
      "field_name" : "mQueueBufferCondition",
-     "field_offset" : 15552,
+     "field_offset" : 48832,
      "referenced_type" : "_ZTIN7android9ConditionE"
     },
     {
      "access" : "protected",
      "field_name" : "mNextFrameNumber",
-     "field_offset" : 15616,
+     "field_offset" : 48896,
      "referenced_type" : "_ZTIy"
     },
     {
      "access" : "protected",
      "field_name" : "mLastFrameNumber",
-     "field_offset" : 15680,
+     "field_offset" : 48960,
      "referenced_type" : "_ZTIy"
     },
     {
      "access" : "protected",
      "field_name" : "mQueriedSupportedTimestamps",
-     "field_offset" : 15744,
+     "field_offset" : 49024,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mFrameTimestampsSupportsPresent",
-     "field_offset" : 15752,
+     "field_offset" : 49032,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mEnableFrameTimestamps",
-     "field_offset" : 15760,
+     "field_offset" : 49040,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mFrameEventHistory",
-     "field_offset" : 15776,
+     "field_offset" : 49056,
      "referenced_type" : "_ZTINSt3__110unique_ptrIN7android25ProducerFrameEventHistoryENS_14default_deleteIS2_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mReportRemovedBuffers",
-     "field_offset" : 15808,
+     "field_offset" : 49088,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "protected",
      "field_name" : "mRemovedBuffers",
-     "field_offset" : 15840,
+     "field_offset" : 49120,
      "referenced_type" : "_ZTINSt3__16vectorIN7android2spINS1_13GraphicBufferEEENS_9allocatorIS4_EEEE"
     },
     {
      "access" : "protected",
      "field_name" : "mMaxBufferCount",
-     "field_offset" : 15936,
+     "field_offset" : 49216,
      "referenced_type" : "_ZTIi"
     },
     {
      "access" : "protected",
      "field_name" : "mListenerProxy",
-     "field_offset" : 15968,
+     "field_offset" : 49248,
      "referenced_type" : "_ZTIN7android2spINS_17IProducerListenerEEE"
     }
    ],
@@ -55875,7 +55351,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android7SurfaceE",
    "self_type" : "_ZTIN7android7SurfaceE",
-   "size" : 2000,
+   "size" : 6160,
    "source_file" : "/frameworks/native/libs/gui/include/gui/Surface.h",
    "vtable_components" :
    [
@@ -56787,7 +56263,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerI13native_handleEUt_E",
@@ -56827,7 +56303,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIK13native_handleEUt_E",
@@ -56867,7 +56343,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIKcEUt_E",
@@ -56907,7 +56383,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIiLj4EJEEEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIiLj4EJEEEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_10hidl_arrayIiLj4EJEEEEUt_E",
@@ -56947,7 +56423,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_17GrantorDescriptorEEUt_E",
@@ -56987,7 +56463,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup5ValueEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<Value>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<Value>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup5ValueEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup5ValueEEUt_E",
@@ -57027,7 +56503,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup6MetricEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<Metric>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<Metric>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup6MetricEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup6MetricEEUt_E",
@@ -57067,7 +56543,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup9AttributeEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<Attribute>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<Attribute>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup9AttributeEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_3drm4V1_114DrmMetricGroup9AttributeEEUt_E",
@@ -57107,7 +56583,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_5media4V1_04RectEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_5media4V1_04RectEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_5media4V1_04RectEEUt_E",
@@ -57150,7 +56626,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerINS0_8graphics11bufferqueue4V1_022IGraphicBufferProducer16FrameEventsDeltaEEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_8graphics11bufferqueue4V1_022IGraphicBufferProducer16FrameEventsDeltaEEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerINS0_8graphics11bufferqueue4V1_022IGraphicBufferProducer16FrameEventsDeltaEEUt_E",
@@ -57190,7 +56666,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
-   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5)",
+   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
    "self_type" : "_ZTIN7android8hardware7details12hidl_pointerIhEUt_E",
@@ -58876,6 +58352,32 @@
    "source_file" : "/system/core/libutils/include/utils/Condition.h"
   },
   {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__16vectorIN7android4RectENS1_18InlineStdAllocatorIS2_Lj4EEEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mAllocation",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIN7android18InlineStdAllocatorINS_4RectELj4EE10AllocationE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9FatVectorINS_4RectELj4EEE",
+   "name" : "android::FatVector<android::Rect, 4>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android9FatVectorINS_4RectELj4EEE",
+   "self_type" : "_ZTIN7android9FatVectorINS_4RectELj4EEE",
+   "size" : 84,
+   "source_file" : "/frameworks/native/libs/ui/include/ui/FatVector.h",
+   "template_args" : [ "_ZTIN7android4RectE" ]
+  },
+  {
    "alignment" : 8,
    "base_specifiers" :
    [
@@ -59010,7 +58512,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:81:3)",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",

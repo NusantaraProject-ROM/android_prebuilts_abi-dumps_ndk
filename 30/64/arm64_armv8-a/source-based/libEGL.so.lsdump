@@ -2022,15 +2022,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
-   "name" : "const AHardwareBuffer *",
-   "referenced_type" : "_ZTIK15AHardwareBuffer#ODR:out/soong/.intermediates/frameworks/native/opengl/libs/libEGL/android_arm64_armv8-a_shared/obj/frameworks/native/opengl/libs/EGL/eglApi.sdump",
-   "self_type" : "_ZTIPK15AHardwareBuffer#ODR:out/soong/.intermediates/frameworks/native/opengl/libs/libEGL/android_arm64_armv8-a_shared/obj/frameworks/native/opengl/libs/EGL/eglApi.sdump",
-   "size" : 8,
-   "source_file" : "/frameworks/native/opengl/include/EGL/eglext.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",

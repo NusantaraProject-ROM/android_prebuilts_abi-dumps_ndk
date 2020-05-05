@@ -205,7 +205,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIA4_h",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/mbstate_t.h"
+   "source_file" : "/bionic/libc/include/sys/stat.h"
   },
   {
    "alignment" : 4,
@@ -6665,7 +6665,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -6689,7 +6689,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -6713,7 +6713,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -7280,7 +7280,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIPK8timespec#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump"
+     "referenced_type" : "_ZTIPK8timespec"
     },
     {
      "referenced_type" : "_ZTIPK10sigset64_t"
@@ -7304,7 +7304,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIPK8timespec#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump"
+     "referenced_type" : "_ZTIPK8timespec"
     },
     {
      "referenced_type" : "_ZTIPKm"
@@ -8123,7 +8123,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fgetln.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIPj"
@@ -8138,7 +8138,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fgetwc.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIj",
@@ -8156,7 +8156,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fgetws.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIPi",
@@ -8192,7 +8192,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fpurge.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIi",
@@ -8207,7 +8207,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fputwc.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIj",
@@ -8222,7 +8222,7 @@
      "referenced_type" : "_ZTIPKi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fputws.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIi",
@@ -8273,7 +8273,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/fwide.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIi"
@@ -8342,7 +8342,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/getdelim.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIi",
@@ -9266,7 +9266,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_common.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIi",
@@ -9551,7 +9551,7 @@
      "referenced_type" : "_ZTIPj"
     }
    ],
-   "return_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/open_memstream.sdump",
+   "return_type" : "_ZTIP7__sFILE",
    "source_file" : "/bionic/libc/include/stdio.h"
   },
   {
@@ -9566,7 +9566,7 @@
      "referenced_type" : "_ZTIPj"
     }
    ],
-   "return_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/open_wmemstream.sdump",
+   "return_type" : "_ZTIP7__sFILE",
    "source_file" : "/bionic/libc/include/wchar.h"
   },
   {
@@ -11417,7 +11417,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/setvbuf.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     },
     {
      "referenced_type" : "_ZTIPc"
@@ -11654,7 +11654,7 @@
      "referenced_type" : "_ZTIP2tm"
     },
     {
-     "referenced_type" : "_ZTIP10__locale_t#ODR:out/soong/.intermediates/bionic/libc/libc_tzcode/android_x86_x86_64_static/obj/bionic/libc/tzcode/strptime.sdump"
+     "referenced_type" : "_ZTIP10__locale_t"
     }
    ],
    "return_type" : "_ZTIPc",
@@ -11915,7 +11915,7 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/ungetc.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIi",
@@ -11930,7 +11930,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP7__sFILE#ODR:out/soong/.intermediates/bionic/libc/libc_openbsd_ndk/android_x86_x86_64_static/obj/bionic/libc/upstream-openbsd/lib/libc/stdio/ungetwc.sdump"
+     "referenced_type" : "_ZTIP7__sFILE"
     }
    ],
    "return_type" : "_ZTIj",
@@ -13251,7 +13251,7 @@
    "referenced_type" : "_ZTI8sockaddr",
    "self_type" : "_ZTIP8sockaddr",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/netdb.h"
+   "source_file" : "/bionic/libc/include/bits/fortify/socket.h"
   },
   {
    "alignment" : 4,
@@ -13480,366 +13480,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/android_profiling_dynamic.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/android_profiling_dynamic.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/gwp_asan_wrappers.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/gwp_asan_wrappers.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/heap_tagging.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/heap_tagging.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_common.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_common.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_common_dynamic.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_common_dynamic.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_heapprofd.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_heapprofd.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_limit.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/malloc_limit.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/ndk_cruft.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc/android_x86_x86_64_shared/obj/shared_library/bionic/libc/bionic/ndk_cruft.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/android_set_abort_message.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/android_set_abort_message.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/setjmp_cookie.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/setjmp_cookie.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/vdso.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bionic/android_x86_x86_64_static/obj/bionic/libc/bionic/vdso.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/arch-x86/bionic/__libc_init_sysinfo.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/arch-x86/bionic/__libc_init_sysinfo.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/bionic_call_ifunc_resolver.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/bionic_call_ifunc_resolver.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/getauxval.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/getauxval.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_init_dynamic/android_x86_x86_64_static/obj/bionic/libc/bionic/libc_init_dynamic.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_init_dynamic/android_x86_x86_64_static/obj/bionic/libc/bionic/libc_init_dynamic.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/__cxa_thread_atexit_impl.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/__cxa_thread_atexit_impl.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/android_unsafe_frame_pointer_chase.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/android_unsafe_frame_pointer_chase.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/bionic_elf_tls.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/bionic_elf_tls.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/fork.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/fork.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_attr.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_attr.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_cond.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_cond.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_create.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_create.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_detach.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_detach.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_exit.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_exit.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_getcpuclockid.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_getcpuclockid.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_getschedparam.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_getschedparam.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_gettid_np.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_gettid_np.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_internal.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_internal.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_join.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_join.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_key.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_key.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_kill.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_kill.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_mutex.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_mutex.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_rwlock.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_rwlock.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_self.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_self.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_setname_np.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_setname_np.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_setschedparam.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_setschedparam.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_sigqueue.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libc/libc_pthread/android_x86_x86_64_static/obj/bionic/libc/bionic/pthread_sigqueue.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK10elf32_phdr",
-   "name" : "const elf32_phdr *",
-   "referenced_type" : "_ZTIK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libdl/libdl_android/android_x86_x86_64_static/obj/bionic/libdl/libdl_android.sdump",
-   "self_type" : "_ZTIPK10elf32_phdr#ODR:out/soong/.intermediates/bionic/libdl/libdl_android/android_x86_x86_64_static/obj/bionic/libdl/libdl_android.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPK10sigset64_t",
    "name" : "const sigset64_t *",
    "referenced_type" : "_ZTIK10sigset64_t",
@@ -13881,7 +13521,7 @@
    "referenced_type" : "_ZTIK2tm",
    "self_type" : "_ZTIPK2tm",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/wchar.h"
   },
   {
    "alignment" : 4,
@@ -13930,46 +13570,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7siginfo",
-   "name" : "const siginfo *",
-   "referenced_type" : "_ZTIK7siginfo#ODR:",
-   "self_type" : "_ZTIPK7siginfo#ODR:",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7siginfo",
-   "name" : "const siginfo *",
-   "referenced_type" : "_ZTIK7siginfo#ODR:out/soong/.intermediates/bionic/libc/libc_netbsd/android_x86_x86_64_static/obj/bionic/libc/upstream-netbsd/lib/libc/gen/psignal.sdump",
-   "self_type" : "_ZTIPK7siginfo#ODR:out/soong/.intermediates/bionic/libc/libc_netbsd/android_x86_x86_64_static/obj/bionic/libc/upstream-netbsd/lib/libc/gen/psignal.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPK7utimbuf",
    "name" : "const utimbuf *",
    "referenced_type" : "_ZTIK7utimbuf",
    "self_type" : "_ZTIPK7utimbuf",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/utime.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7utimbuf",
-   "name" : "const utimbuf *",
-   "referenced_type" : "_ZTIK7utimbuf#ODR:",
-   "self_type" : "_ZTIPK7utimbuf#ODR:",
-   "size" : 4,
-   "source_file" : "/bionic/libc/include/utime.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK7utimbuf",
-   "name" : "const utimbuf *",
-   "referenced_type" : "_ZTIK7utimbuf#ODR:out/soong/.intermediates/bionic/libc/libc_netbsd/android_x86_x86_64_static/obj/bionic/libc/upstream-netbsd/lib/libc/gen/utime.sdump",
-   "self_type" : "_ZTIPK7utimbuf#ODR:out/soong/.intermediates/bionic/libc/libc_netbsd/android_x86_x86_64_static/obj/bionic/libc/upstream-netbsd/lib/libc/gen/utime.sdump",
    "size" : 4,
    "source_file" : "/bionic/libc/include/utime.h"
   },
@@ -13998,7 +13602,7 @@
    "referenced_type" : "_ZTIK8sockaddr",
    "self_type" : "_ZTIPK8sockaddr",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/netdb.h"
+   "source_file" : "/bionic/libc/include/bits/fortify/socket.h"
   },
   {
    "alignment" : 4,
@@ -14007,25 +13611,7 @@
    "referenced_type" : "_ZTIK8timespec",
    "self_type" : "_ZTIPK8timespec",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK8timespec",
-   "name" : "const timespec *",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump",
-   "self_type" : "_ZTIPK8timespec#ODR:out/soong/.intermediates/bionic/libc/libc_fortify/android_x86_x86_64_static/obj/bionic/libc/bionic/fortify.sdump",
-   "size" : 4,
    "source_file" : "/bionic/libc/include/bits/fortify/poll.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK8timespec",
-   "name" : "const timespec *",
-   "referenced_type" : "_ZTIK8timespec#ODR:out/soong/.intermediates/bionic/libc/system_properties/libsystemproperties/android_x86_x86_64_static/obj/bionic/libc/system_properties/system_properties.sdump",
-   "self_type" : "_ZTIPK8timespec#ODR:out/soong/.intermediates/bionic/libc/system_properties/libsystemproperties/android_x86_x86_64_static/obj/bionic/libc/system_properties/system_properties.sdump",
-   "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -14115,7 +13701,7 @@
    "referenced_type" : "_ZTIKPc",
    "self_type" : "_ZTIPKPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/getopt.h"
+   "source_file" : "/bionic/libc/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -14133,7 +13719,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "/bionic/libc/include/signal.h"
   },
   {
    "alignment" : 4,
@@ -14169,7 +13755,7 @@
    "referenced_type" : "_ZTIKl",
    "self_type" : "_ZTIPKl",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/pthread.h"
   },
   {
    "alignment" : 4,
@@ -14295,7 +13881,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/stdlib.h"
+   "source_file" : "/bionic/libc/include/search.h"
   },
   {
    "alignment" : 4,
@@ -14322,7 +13908,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "/bionic/libc/include/bits/getopt.h"
   },
   {
    "alignment" : 4,
@@ -14358,7 +13944,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIPl",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/pthread.h"
   },
   {
    "alignment" : 4,
@@ -14389,96 +13975,6 @@
    "referenced_type" : "_ZTIA0_c",
    "self_type" : "_ZTIA0_Kc",
    "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_bootstrap/android_x86_x86_64_static/obj/bionic/libc/bionic/__libc_init_main_thread.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/nameser/ns_parse.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/nameser/ns_parse.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/gethnamaddr.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/gethnamaddr.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/getnameinfo.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/getnameinfo.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/sethostent.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/net/sethostent.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_mkquery.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_mkquery.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_state.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_state.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_stats.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/bionic/libc/libc_dns/android_x86_x86_64_static/obj/bionic/libc/dns/resolv/res_stats.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIA65_KPKc",
-   "name" : "const char *const[65]",
-   "referenced_type" : "_ZTIA65_PKc#ODR:out/soong/.intermediates/external/scudo/libscudo/android_x86_x86_64_static/obj/external/scudo/standalone/linux.sdump",
-   "self_type" : "_ZTIA65_KPKc#ODR:out/soong/.intermediates/external/scudo/libscudo/android_x86_x86_64_static/obj/external/scudo/standalone/linux.sdump",
-   "size" : 260,
-   "source_file" : "/bionic/libc/include/signal.h"
   },
   {
    "alignment" : 4,
@@ -14548,7 +14044,7 @@
    "referenced_type" : "_ZTI2tm",
    "self_type" : "_ZTIK2tm",
    "size" : 44,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/wchar.h"
   },
   {
    "alignment" : 4,
@@ -14668,7 +14164,7 @@
    "referenced_type" : "_ZTI8sockaddr",
    "self_type" : "_ZTIK8sockaddr",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/netdb.h"
+   "source_file" : "/bionic/libc/include/bits/fortify/socket.h"
   },
   {
    "alignment" : 4,
@@ -14678,7 +14174,7 @@
    "referenced_type" : "_ZTI8timespec",
    "self_type" : "_ZTIK8timespec",
    "size" : 8,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "/bionic/libc/include/bits/fortify/poll.h"
   },
   {
    "alignment" : 4,
@@ -14806,7 +14302,7 @@
    "referenced_type" : "_ZTIPc",
    "self_type" : "_ZTIKPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/string.h"
+   "source_file" : "/bionic/libc/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -14836,7 +14332,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "/bionic/libc/include/signal.h"
   },
   {
    "alignment" : 1,
@@ -14856,7 +14352,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/wchar.h"
+   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -14876,7 +14372,7 @@
    "referenced_type" : "_ZTIl",
    "self_type" : "_ZTIKl",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/time.h"
+   "source_file" : "/bionic/libc/include/pthread.h"
   },
   {
    "alignment" : 4,

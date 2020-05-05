@@ -2137,7 +2137,7 @@
    "referenced_type" : "_ZTI10z_stream_s",
    "self_type" : "_ZTIP10z_stream_s",
    "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
+   "source_file" : "/external/zlib/zlib.h"
   },
   {
    "alignment" : 8,
@@ -2146,7 +2146,7 @@
    "referenced_type" : "_ZTI11gz_header_s",
    "self_type" : "_ZTIP11gz_header_s",
    "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
+   "source_file" : "/external/zlib/inflate.h"
   },
   {
    "alignment" : 8,
@@ -2240,42 +2240,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPK18static_tree_desc_s",
-   "name" : "const static_tree_desc_s *",
-   "referenced_type" : "_ZTIK18static_tree_desc_s#ODR:",
-   "self_type" : "_ZTIPK18static_tree_desc_s#ODR:",
-   "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK18static_tree_desc_s",
-   "name" : "const static_tree_desc_s *",
-   "referenced_type" : "_ZTIK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/crc32.sdump",
-   "self_type" : "_ZTIPK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/crc32.sdump",
-   "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK18static_tree_desc_s",
-   "name" : "const static_tree_desc_s *",
-   "referenced_type" : "_ZTIK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/deflate.sdump",
-   "self_type" : "_ZTIPK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/deflate.sdump",
-   "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK18static_tree_desc_s",
-   "name" : "const static_tree_desc_s *",
-   "referenced_type" : "_ZTIK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/trees.sdump",
-   "self_type" : "_ZTIPK18static_tree_desc_s#ODR:out/soong/.intermediates/external/zlib/libz/android_arm64_armv8-a_static/obj/external/zlib/trees.sdump",
-   "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPK4code",
    "name" : "const code *",
    "referenced_type" : "_ZTIK4code",
@@ -2344,7 +2308,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 8,
-   "source_file" : "/external/zlib/gzguts.h"
+   "source_file" : "/external/zlib/zlib.h"
   },
   {
    "alignment" : 8,
@@ -2389,7 +2353,7 @@
    "referenced_type" : "_ZTIt",
    "self_type" : "_ZTIPt",
    "size" : 8,
-   "source_file" : "/external/zlib/deflate.h"
+   "source_file" : "/external/zlib/inftrees.h"
   },
   {
    "alignment" : 8,
@@ -2492,11 +2456,13 @@
    "source_file" : "/external/zlib/deflate.h"
   },
   {
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK18static_tree_desc_s",
    "name" : "const static_tree_desc_s",
    "referenced_type" : "_ZTI18static_tree_desc_s",
    "self_type" : "_ZTIK18static_tree_desc_s",
+   "size" : 32,
    "source_file" : "/external/zlib/deflate.h"
   },
   {
