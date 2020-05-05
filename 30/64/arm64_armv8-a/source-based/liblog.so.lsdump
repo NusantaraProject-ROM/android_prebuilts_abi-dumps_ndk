@@ -1806,7 +1806,7 @@
    "referenced_type" : "_ZTIK11EventTagMap",
    "self_type" : "_ZTIPK11EventTagMap",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 8,
@@ -1860,7 +1860,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 8,
@@ -1905,7 +1905,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIPm",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 8,
@@ -1928,12 +1928,14 @@
    "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK11EventTagMap",
    "name" : "const EventTagMap",
    "referenced_type" : "_ZTI11EventTagMap",
    "self_type" : "_ZTIK11EventTagMap",
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "size" : 208,
+   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 8,
@@ -2013,7 +2015,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 4,
